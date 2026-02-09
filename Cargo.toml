@@ -1,0 +1,11 @@
+[package]
+name = "lunar-calendar"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/lunar-calendar-algo.rs"
+
+[dependencies]
+chinese-lunisolar-calendar = "0.2.1"
+chrono = "0.4.43"

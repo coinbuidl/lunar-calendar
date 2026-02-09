@@ -1,0 +1,4 @@
+/target/
+**/*.rs.bk
+/scripts/venv/
+.DS_Store
