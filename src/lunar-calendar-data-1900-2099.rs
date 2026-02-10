@@ -20,30 +20,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1900-01-31",
         lichun_time: "1900-02-04 13:51:31",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1899-12-07 15:04:33" },
-            JieQiData { name: "冬至", time: "1899-12-22 08:56:12" },
-            JieQiData { name: "小寒", time: "1900-01-06 02:03:57" },
-            JieQiData { name: "大寒", time: "1900-01-20 19:32:25" },
-            JieQiData { name: "立春", time: "1900-02-04 13:51:31" },
-            JieQiData { name: "雨水", time: "1900-02-19 10:01:14" },
-            JieQiData { name: "惊蛰", time: "1900-03-06 08:21:52" },
-            JieQiData { name: "春分", time: "1900-03-21 09:39:01" },
-            JieQiData { name: "清明", time: "1900-04-05 13:52:41" },
-            JieQiData { name: "谷雨", time: "1900-04-20 21:27:06" },
-            JieQiData { name: "立夏", time: "1900-05-06 07:55:12" },
-            JieQiData { name: "小满", time: "1900-05-21 21:16:55" },
-            JieQiData { name: "芒种", time: "1900-06-06 12:38:55" },
-            JieQiData { name: "夏至", time: "1900-06-22 05:39:45" },
-            JieQiData { name: "小暑", time: "1900-07-07 23:10:08" },
-            JieQiData { name: "大暑", time: "1900-07-23 16:36:07" },
-            JieQiData { name: "立秋", time: "1900-08-08 08:50:34" },
-            JieQiData { name: "处暑", time: "1900-08-23 23:19:49" },
-            JieQiData { name: "白露", time: "1900-09-08 11:16:38" },
-            JieQiData { name: "秋分", time: "1900-09-23 20:20:11" },
-            JieQiData { name: "寒露", time: "1900-10-09 02:13:09" },
-            JieQiData { name: "霜降", time: "1900-10-24 04:55:16" },
-            JieQiData { name: "立冬", time: "1900-11-08 04:39:44" },
-            JieQiData { name: "小雪", time: "1900-11-23 01:47:50" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1899-12-07 15:04:33",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1899-12-22 08:56:12",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1900-01-06 02:03:57",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1900-01-20 19:32:25",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1900-02-04 13:51:31",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1900-02-19 10:01:14",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1900-03-06 08:21:52",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1900-03-21 09:39:01",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1900-04-05 13:52:41",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1900-04-20 21:27:06",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1900-05-06 07:55:12",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1900-05-21 21:16:55",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1900-06-06 12:38:55",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1900-06-22 05:39:45",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1900-07-07 23:10:08",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1900-07-23 16:36:07",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1900-08-08 08:50:34",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1900-08-23 23:19:49",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1900-09-08 11:16:38",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1900-09-23 20:20:11",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1900-10-09 02:13:09",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1900-10-24 04:55:16",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1900-11-08 04:39:44",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1900-11-23 01:47:50",
+            },
         ],
     },
     BaziYearData {
@@ -51,30 +123,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1901-02-19",
         lichun_time: "1901-02-04 19:39:52",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1900-12-07 20:55:50" },
-            JieQiData { name: "冬至", time: "1900-12-22 14:41:34" },
-            JieQiData { name: "小寒", time: "1901-01-06 07:53:23" },
-            JieQiData { name: "大寒", time: "1901-01-21 01:16:28" },
-            JieQiData { name: "立春", time: "1901-02-04 19:39:52" },
-            JieQiData { name: "雨水", time: "1901-02-19 15:44:54" },
-            JieQiData { name: "惊蛰", time: "1901-03-06 14:10:53" },
-            JieQiData { name: "春分", time: "1901-03-21 15:23:35" },
-            JieQiData { name: "清明", time: "1901-04-05 19:44:21" },
-            JieQiData { name: "谷雨", time: "1901-04-21 03:13:26" },
-            JieQiData { name: "立夏", time: "1901-05-06 13:50:24" },
-            JieQiData { name: "小满", time: "1901-05-22 03:04:39" },
-            JieQiData { name: "芒种", time: "1901-06-06 18:36:27" },
-            JieQiData { name: "夏至", time: "1901-06-22 11:27:46" },
-            JieQiData { name: "小暑", time: "1901-07-08 05:07:34" },
-            JieQiData { name: "大暑", time: "1901-07-23 22:23:45" },
-            JieQiData { name: "立秋", time: "1901-08-08 14:46:06" },
-            JieQiData { name: "处暑", time: "1901-08-24 05:07:29" },
-            JieQiData { name: "白露", time: "1901-09-08 17:10:15" },
-            JieQiData { name: "秋分", time: "1901-09-24 02:08:56" },
-            JieQiData { name: "寒露", time: "1901-10-09 08:06:28" },
-            JieQiData { name: "霜降", time: "1901-10-24 10:46:14" },
-            JieQiData { name: "立冬", time: "1901-11-08 10:34:29" },
-            JieQiData { name: "小雪", time: "1901-11-23 07:41:13" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1900-12-07 20:55:50",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1900-12-22 14:41:34",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1901-01-06 07:53:23",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1901-01-21 01:16:28",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1901-02-04 19:39:52",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1901-02-19 15:44:54",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1901-03-06 14:10:53",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1901-03-21 15:23:35",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1901-04-05 19:44:21",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1901-04-21 03:13:26",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1901-05-06 13:50:24",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1901-05-22 03:04:39",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1901-06-06 18:36:27",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1901-06-22 11:27:46",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1901-07-08 05:07:34",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1901-07-23 22:23:45",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1901-08-08 14:46:06",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1901-08-24 05:07:29",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1901-09-08 17:10:15",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1901-09-24 02:08:56",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1901-10-09 08:06:28",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1901-10-24 10:46:14",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1901-11-08 10:34:29",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1901-11-23 07:41:13",
+            },
         ],
     },
     BaziYearData {
@@ -82,30 +226,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1902-02-08",
         lichun_time: "1902-02-05 01:38:10",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1901-12-08 02:52:37" },
-            JieQiData { name: "冬至", time: "1901-12-22 20:36:35" },
-            JieQiData { name: "小寒", time: "1902-01-06 13:51:33" },
-            JieQiData { name: "大寒", time: "1902-01-21 07:11:56" },
-            JieQiData { name: "立春", time: "1902-02-05 01:38:10" },
-            JieQiData { name: "雨水", time: "1902-02-19 21:39:42" },
-            JieQiData { name: "惊蛰", time: "1902-03-06 20:07:32" },
-            JieQiData { name: "春分", time: "1902-03-21 21:16:33" },
-            JieQiData { name: "清明", time: "1902-04-06 01:37:26" },
-            JieQiData { name: "谷雨", time: "1902-04-21 09:04:08" },
-            JieQiData { name: "立夏", time: "1902-05-06 19:38:48" },
-            JieQiData { name: "小满", time: "1902-05-22 08:53:31" },
-            JieQiData { name: "芒种", time: "1902-06-07 00:19:47" },
-            JieQiData { name: "夏至", time: "1902-06-22 17:15:08" },
-            JieQiData { name: "小暑", time: "1902-07-08 10:46:19" },
-            JieQiData { name: "大暑", time: "1902-07-24 04:09:52" },
-            JieQiData { name: "立秋", time: "1902-08-08 20:22:16" },
-            JieQiData { name: "处暑", time: "1902-08-24 10:53:03" },
-            JieQiData { name: "白露", time: "1902-09-08 22:46:25" },
-            JieQiData { name: "秋分", time: "1902-09-24 07:55:20" },
-            JieQiData { name: "寒露", time: "1902-10-09 13:45:10" },
-            JieQiData { name: "霜降", time: "1902-10-24 16:35:38" },
-            JieQiData { name: "立冬", time: "1902-11-08 16:17:46" },
-            JieQiData { name: "小雪", time: "1902-11-23 13:35:23" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1901-12-08 02:52:37",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1901-12-22 20:36:35",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1902-01-06 13:51:33",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1902-01-21 07:11:56",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1902-02-05 01:38:10",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1902-02-19 21:39:42",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1902-03-06 20:07:32",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1902-03-21 21:16:33",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1902-04-06 01:37:26",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1902-04-21 09:04:08",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1902-05-06 19:38:48",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1902-05-22 08:53:31",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1902-06-07 00:19:47",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1902-06-22 17:15:08",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1902-07-08 10:46:19",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1902-07-24 04:09:52",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1902-08-08 20:22:16",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1902-08-24 10:53:03",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1902-09-08 22:46:25",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1902-09-24 07:55:20",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1902-10-09 13:45:10",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1902-10-24 16:35:38",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1902-11-08 16:17:46",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1902-11-23 13:35:23",
+            },
         ],
     },
     BaziYearData {
@@ -113,30 +329,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1903-01-29",
         lichun_time: "1903-02-05 07:31:17",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1902-12-08 08:41:01" },
-            JieQiData { name: "冬至", time: "1902-12-23 02:35:31" },
-            JieQiData { name: "小寒", time: "1903-01-06 19:43:43" },
-            JieQiData { name: "大寒", time: "1903-01-21 13:13:32" },
-            JieQiData { name: "立春", time: "1903-02-05 07:31:17" },
-            JieQiData { name: "雨水", time: "1903-02-20 03:40:48" },
-            JieQiData { name: "惊蛰", time: "1903-03-07 01:58:52" },
-            JieQiData { name: "春分", time: "1903-03-22 03:14:46" },
-            JieQiData { name: "清明", time: "1903-04-06 07:25:53" },
-            JieQiData { name: "谷雨", time: "1903-04-21 14:58:39" },
-            JieQiData { name: "立夏", time: "1903-05-07 01:25:22" },
-            JieQiData { name: "小满", time: "1903-05-22 14:45:01" },
-            JieQiData { name: "芒种", time: "1903-06-07 06:07:07" },
-            JieQiData { name: "夏至", time: "1903-06-22 23:04:55" },
-            JieQiData { name: "小暑", time: "1903-07-08 16:36:36" },
-            JieQiData { name: "大暑", time: "1903-07-24 09:58:45" },
-            JieQiData { name: "立秋", time: "1903-08-09 02:15:50" },
-            JieQiData { name: "处暑", time: "1903-08-24 16:41:35" },
-            JieQiData { name: "白露", time: "1903-09-09 04:42:21" },
-            JieQiData { name: "秋分", time: "1903-09-24 13:43:41" },
-            JieQiData { name: "寒露", time: "1903-10-09 19:41:44" },
-            JieQiData { name: "霜降", time: "1903-10-24 22:23:03" },
-            JieQiData { name: "立冬", time: "1903-11-08 22:13:23" },
-            JieQiData { name: "小雪", time: "1903-11-23 19:21:24" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1902-12-08 08:41:01",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1902-12-23 02:35:31",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1903-01-06 19:43:43",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1903-01-21 13:13:32",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1903-02-05 07:31:17",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1903-02-20 03:40:48",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1903-03-07 01:58:52",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1903-03-22 03:14:46",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1903-04-06 07:25:53",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1903-04-21 14:58:39",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1903-05-07 01:25:22",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1903-05-22 14:45:01",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1903-06-07 06:07:07",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1903-06-22 23:04:55",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1903-07-08 16:36:36",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1903-07-24 09:58:45",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1903-08-09 02:15:50",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1903-08-24 16:41:35",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1903-09-09 04:42:21",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1903-09-24 13:43:41",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1903-10-09 19:41:44",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1903-10-24 22:23:03",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1903-11-08 22:13:23",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1903-11-23 19:21:24",
+            },
         ],
     },
     BaziYearData {
@@ -144,30 +432,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1904-02-16",
         lichun_time: "1904-02-05 13:24:07",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1903-12-08 14:35:19" },
-            JieQiData { name: "冬至", time: "1903-12-23 08:20:25" },
-            JieQiData { name: "小寒", time: "1904-01-07 01:37:02" },
-            JieQiData { name: "大寒", time: "1904-01-21 18:57:51" },
-            JieQiData { name: "立春", time: "1904-02-05 13:24:07" },
-            JieQiData { name: "雨水", time: "1904-02-20 09:24:51" },
-            JieQiData { name: "惊蛰", time: "1904-03-06 07:51:39" },
-            JieQiData { name: "春分", time: "1904-03-21 08:58:34" },
-            JieQiData { name: "清明", time: "1904-04-05 13:18:51" },
-            JieQiData { name: "谷雨", time: "1904-04-20 20:42:08" },
-            JieQiData { name: "立夏", time: "1904-05-06 07:18:34" },
-            JieQiData { name: "小满", time: "1904-05-21 20:28:55" },
-            JieQiData { name: "芒种", time: "1904-06-06 12:00:58" },
-            JieQiData { name: "夏至", time: "1904-06-22 04:51:21" },
-            JieQiData { name: "小暑", time: "1904-07-07 22:31:41" },
-            JieQiData { name: "大暑", time: "1904-07-23 15:49:35" },
-            JieQiData { name: "立秋", time: "1904-08-08 08:11:51" },
-            JieQiData { name: "处暑", time: "1904-08-23 22:36:24" },
-            JieQiData { name: "白露", time: "1904-09-08 10:37:58" },
-            JieQiData { name: "秋分", time: "1904-09-23 19:40:12" },
-            JieQiData { name: "寒露", time: "1904-10-09 01:35:34" },
-            JieQiData { name: "霜降", time: "1904-10-24 04:19:02" },
-            JieQiData { name: "立冬", time: "1904-11-08 04:04:58" },
-            JieQiData { name: "小雪", time: "1904-11-23 01:15:53" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1903-12-08 14:35:19",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1903-12-23 08:20:25",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1904-01-07 01:37:02",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1904-01-21 18:57:51",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1904-02-05 13:24:07",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1904-02-20 09:24:51",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1904-03-06 07:51:39",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1904-03-21 08:58:34",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1904-04-05 13:18:51",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1904-04-20 20:42:08",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1904-05-06 07:18:34",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1904-05-21 20:28:55",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1904-06-06 12:00:58",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1904-06-22 04:51:21",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1904-07-07 22:31:41",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1904-07-23 15:49:35",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1904-08-08 08:11:51",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1904-08-23 22:36:24",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1904-09-08 10:37:58",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1904-09-23 19:40:12",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1904-10-09 01:35:34",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1904-10-24 04:19:02",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1904-11-08 04:04:58",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1904-11-23 01:15:53",
+            },
         ],
     },
     BaziYearData {
@@ -175,30 +535,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1905-02-04",
         lichun_time: "1905-02-04 19:15:49",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1904-12-07 20:25:20" },
-            JieQiData { name: "冬至", time: "1904-12-22 14:13:56" },
-            JieQiData { name: "小寒", time: "1905-01-06 07:27:06" },
-            JieQiData { name: "大寒", time: "1905-01-21 00:51:56" },
-            JieQiData { name: "立春", time: "1905-02-04 19:15:49" },
-            JieQiData { name: "雨水", time: "1905-02-19 15:20:58" },
-            JieQiData { name: "惊蛰", time: "1905-03-06 13:45:36" },
-            JieQiData { name: "春分", time: "1905-03-21 14:57:31" },
-            JieQiData { name: "清明", time: "1905-04-05 19:14:28" },
-            JieQiData { name: "谷雨", time: "1905-04-21 02:43:45" },
-            JieQiData { name: "立夏", time: "1905-05-06 13:14:04" },
-            JieQiData { name: "小满", time: "1905-05-22 02:31:16" },
-            JieQiData { name: "芒种", time: "1905-06-06 17:53:33" },
-            JieQiData { name: "夏至", time: "1905-06-22 10:51:22" },
-            JieQiData { name: "小暑", time: "1905-07-08 04:19:59" },
-            JieQiData { name: "大暑", time: "1905-07-23 21:45:37" },
-            JieQiData { name: "立秋", time: "1905-08-08 13:56:57" },
-            JieQiData { name: "处暑", time: "1905-08-24 04:28:36" },
-            JieQiData { name: "白露", time: "1905-09-08 16:21:46" },
-            JieQiData { name: "秋分", time: "1905-09-24 01:29:56" },
-            JieQiData { name: "寒露", time: "1905-10-09 07:19:36" },
-            JieQiData { name: "霜降", time: "1905-10-24 10:07:55" },
-            JieQiData { name: "立冬", time: "1905-11-08 09:49:46" },
-            JieQiData { name: "小雪", time: "1905-11-23 07:04:53" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1904-12-07 20:25:20",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1904-12-22 14:13:56",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1905-01-06 07:27:06",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1905-01-21 00:51:56",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1905-02-04 19:15:49",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1905-02-19 15:20:58",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1905-03-06 13:45:36",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1905-03-21 14:57:31",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1905-04-05 19:14:28",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1905-04-21 02:43:45",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1905-05-06 13:14:04",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1905-05-22 02:31:16",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1905-06-06 17:53:33",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1905-06-22 10:51:22",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1905-07-08 04:19:59",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1905-07-23 21:45:37",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1905-08-08 13:56:57",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1905-08-24 04:28:36",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1905-09-08 16:21:46",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1905-09-24 01:29:56",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1905-10-09 07:19:36",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1905-10-24 10:07:55",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1905-11-08 09:49:46",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1905-11-23 07:04:53",
+            },
         ],
     },
     BaziYearData {
@@ -206,30 +638,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1906-01-25",
         lichun_time: "1906-02-05 01:03:54",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1905-12-08 02:10:47" },
-            JieQiData { name: "冬至", time: "1905-12-22 20:03:41" },
-            JieQiData { name: "小寒", time: "1906-01-06 13:13:27" },
-            JieQiData { name: "大寒", time: "1906-01-21 06:43:14" },
-            JieQiData { name: "立春", time: "1906-02-05 01:03:54" },
-            JieQiData { name: "雨水", time: "1906-02-19 21:14:27" },
-            JieQiData { name: "惊蛰", time: "1906-03-06 19:36:06" },
-            JieQiData { name: "春分", time: "1906-03-21 20:52:47" },
-            JieQiData { name: "清明", time: "1906-04-06 01:07:16" },
-            JieQiData { name: "谷雨", time: "1906-04-21 08:39:10" },
-            JieQiData { name: "立夏", time: "1906-05-06 19:08:29" },
-            JieQiData { name: "小满", time: "1906-05-22 08:24:55" },
-            JieQiData { name: "芒种", time: "1906-06-06 23:48:54" },
-            JieQiData { name: "夏至", time: "1906-06-22 16:41:48" },
-            JieQiData { name: "小暑", time: "1906-07-08 10:15:16" },
-            JieQiData { name: "大暑", time: "1906-07-24 03:32:32" },
-            JieQiData { name: "立秋", time: "1906-08-08 19:51:34" },
-            JieQiData { name: "处暑", time: "1906-08-24 10:13:32" },
-            JieQiData { name: "白露", time: "1906-09-08 22:16:12" },
-            JieQiData { name: "秋分", time: "1906-09-24 07:14:59" },
-            JieQiData { name: "寒露", time: "1906-10-09 13:14:53" },
-            JieQiData { name: "霜降", time: "1906-10-24 15:54:43" },
-            JieQiData { name: "立冬", time: "1906-11-08 15:46:54" },
-            JieQiData { name: "小雪", time: "1906-11-23 12:53:51" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1905-12-08 02:10:47",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1905-12-22 20:03:41",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1906-01-06 13:13:27",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1906-01-21 06:43:14",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1906-02-05 01:03:54",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1906-02-19 21:14:27",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1906-03-06 19:36:06",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1906-03-21 20:52:47",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1906-04-06 01:07:16",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1906-04-21 08:39:10",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1906-05-06 19:08:29",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1906-05-22 08:24:55",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1906-06-06 23:48:54",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1906-06-22 16:41:48",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1906-07-08 10:15:16",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1906-07-24 03:32:32",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1906-08-08 19:51:34",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1906-08-24 10:13:32",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1906-09-08 22:16:12",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1906-09-24 07:14:59",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1906-10-09 13:14:53",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1906-10-24 15:54:43",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1906-11-08 15:46:54",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1906-11-23 12:53:51",
+            },
         ],
     },
     BaziYearData {
@@ -237,30 +741,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1907-02-13",
         lichun_time: "1907-02-05 06:58:49",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1906-12-08 08:09:25" },
-            JieQiData { name: "冬至", time: "1906-12-23 01:53:16" },
-            JieQiData { name: "小寒", time: "1907-01-06 19:11:25" },
-            JieQiData { name: "大寒", time: "1907-01-21 12:30:47" },
-            JieQiData { name: "立春", time: "1907-02-05 06:58:49" },
-            JieQiData { name: "雨水", time: "1907-02-20 02:58:18" },
-            JieQiData { name: "惊蛰", time: "1907-03-07 01:27:05" },
-            JieQiData { name: "春分", time: "1907-03-22 02:32:59" },
-            JieQiData { name: "清明", time: "1907-04-06 06:54:47" },
-            JieQiData { name: "谷雨", time: "1907-04-21 14:17:13" },
-            JieQiData { name: "立夏", time: "1907-05-07 00:53:35" },
-            JieQiData { name: "小满", time: "1907-05-22 14:03:14" },
-            JieQiData { name: "芒种", time: "1907-06-07 05:32:56" },
-            JieQiData { name: "夏至", time: "1907-06-22 22:22:59" },
-            JieQiData { name: "小暑", time: "1907-07-08 15:59:10" },
-            JieQiData { name: "大暑", time: "1907-07-24 09:17:56" },
-            JieQiData { name: "立秋", time: "1907-08-09 01:35:58" },
-            JieQiData { name: "处暑", time: "1907-08-24 16:03:23" },
-            JieQiData { name: "白露", time: "1907-09-09 04:02:02" },
-            JieQiData { name: "秋分", time: "1907-09-24 13:08:52" },
-            JieQiData { name: "寒露", time: "1907-10-09 19:02:42" },
-            JieQiData { name: "霜降", time: "1907-10-24 21:51:30" },
-            JieQiData { name: "立冬", time: "1907-11-08 21:36:17" },
-            JieQiData { name: "小雪", time: "1907-11-23 18:52:03" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1906-12-08 08:09:25",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1906-12-23 01:53:16",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1907-01-06 19:11:25",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1907-01-21 12:30:47",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1907-02-05 06:58:49",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1907-02-20 02:58:18",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1907-03-07 01:27:05",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1907-03-22 02:32:59",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1907-04-06 06:54:47",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1907-04-21 14:17:13",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1907-05-07 00:53:35",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1907-05-22 14:03:14",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1907-06-07 05:32:56",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1907-06-22 22:22:59",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1907-07-08 15:59:10",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1907-07-24 09:17:56",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1907-08-09 01:35:58",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1907-08-24 16:03:23",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1907-09-09 04:02:02",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1907-09-24 13:08:52",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1907-10-09 19:02:42",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1907-10-24 21:51:30",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1907-11-08 21:36:17",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1907-11-23 18:52:03",
+            },
         ],
     },
     BaziYearData {
@@ -268,30 +844,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1908-02-02",
         lichun_time: "1908-02-05 12:47:13",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1907-12-08 13:59:26" },
-            JieQiData { name: "冬至", time: "1907-12-23 07:51:32" },
-            JieQiData { name: "小寒", time: "1908-01-07 01:01:07" },
-            JieQiData { name: "大寒", time: "1908-01-21 18:28:04" },
-            JieQiData { name: "立春", time: "1908-02-05 12:47:13" },
-            JieQiData { name: "雨水", time: "1908-02-20 08:53:54" },
-            JieQiData { name: "惊蛰", time: "1908-03-06 07:13:34" },
-            JieQiData { name: "春分", time: "1908-03-21 08:27:14" },
-            JieQiData { name: "清明", time: "1908-04-05 12:39:46" },
-            JieQiData { name: "谷雨", time: "1908-04-20 20:11:15" },
-            JieQiData { name: "立夏", time: "1908-05-06 06:38:20" },
-            JieQiData { name: "小满", time: "1908-05-21 19:58:06" },
-            JieQiData { name: "芒种", time: "1908-06-06 11:19:03" },
-            JieQiData { name: "夏至", time: "1908-06-22 04:19:01" },
-            JieQiData { name: "小暑", time: "1908-07-07 21:48:00" },
-            JieQiData { name: "大暑", time: "1908-07-23 15:14:05" },
-            JieQiData { name: "立秋", time: "1908-08-08 07:26:42" },
-            JieQiData { name: "处暑", time: "1908-08-23 21:56:59" },
-            JieQiData { name: "白露", time: "1908-09-08 09:52:16" },
-            JieQiData { name: "秋分", time: "1908-09-23 18:58:15" },
-            JieQiData { name: "寒露", time: "1908-10-09 00:50:51" },
-            JieQiData { name: "霜降", time: "1908-10-24 03:36:47" },
-            JieQiData { name: "立冬", time: "1908-11-08 03:22:01" },
-            JieQiData { name: "小雪", time: "1908-11-23 00:34:37" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1907-12-08 13:59:26",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1907-12-23 07:51:32",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1908-01-07 01:01:07",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1908-01-21 18:28:04",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1908-02-05 12:47:13",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1908-02-20 08:53:54",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1908-03-06 07:13:34",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1908-03-21 08:27:14",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1908-04-05 12:39:46",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1908-04-20 20:11:15",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1908-05-06 06:38:20",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1908-05-21 19:58:06",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1908-06-06 11:19:03",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1908-06-22 04:19:01",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1908-07-07 21:48:00",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1908-07-23 15:14:05",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1908-08-08 07:26:42",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1908-08-23 21:56:59",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1908-09-08 09:52:16",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1908-09-23 18:58:15",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1908-10-09 00:50:51",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1908-10-24 03:36:47",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1908-11-08 03:22:01",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1908-11-23 00:34:37",
+            },
         ],
     },
     BaziYearData {
@@ -299,30 +947,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1909-01-22",
         lichun_time: "1909-02-04 18:32:31",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1908-12-07 19:43:37" },
-            JieQiData { name: "冬至", time: "1908-12-22 13:33:24" },
-            JieQiData { name: "小寒", time: "1909-01-06 06:45:13" },
-            JieQiData { name: "大寒", time: "1909-01-21 00:10:55" },
-            JieQiData { name: "立春", time: "1909-02-04 18:32:31" },
-            JieQiData { name: "雨水", time: "1909-02-19 14:38:19" },
-            JieQiData { name: "惊蛰", time: "1909-03-06 13:00:47" },
-            JieQiData { name: "春分", time: "1909-03-21 14:12:56" },
-            JieQiData { name: "清明", time: "1909-04-05 18:29:25" },
-            JieQiData { name: "谷雨", time: "1909-04-21 01:57:44" },
-            JieQiData { name: "立夏", time: "1909-05-06 12:30:50" },
-            JieQiData { name: "小满", time: "1909-05-22 01:44:52" },
-            JieQiData { name: "芒种", time: "1909-06-06 17:13:56" },
-            JieQiData { name: "夏至", time: "1909-06-22 10:05:31" },
-            JieQiData { name: "小暑", time: "1909-07-08 03:43:57" },
-            JieQiData { name: "大暑", time: "1909-07-23 21:00:26" },
-            JieQiData { name: "立秋", time: "1909-08-08 13:22:28" },
-            JieQiData { name: "处暑", time: "1909-08-24 03:43:30" },
-            JieQiData { name: "白露", time: "1909-09-08 15:46:35" },
-            JieQiData { name: "秋分", time: "1909-09-24 00:44:29" },
-            JieQiData { name: "寒露", time: "1909-10-09 06:43:08" },
-            JieQiData { name: "霜降", time: "1909-10-24 09:22:30" },
-            JieQiData { name: "立冬", time: "1909-11-08 09:13:03" },
-            JieQiData { name: "小雪", time: "1909-11-23 06:20:15" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1908-12-07 19:43:37",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1908-12-22 13:33:24",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1909-01-06 06:45:13",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1909-01-21 00:10:55",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1909-02-04 18:32:31",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1909-02-19 14:38:19",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1909-03-06 13:00:47",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1909-03-21 14:12:56",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1909-04-05 18:29:25",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1909-04-21 01:57:44",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1909-05-06 12:30:50",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1909-05-22 01:44:52",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1909-06-06 17:13:56",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1909-06-22 10:05:31",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1909-07-08 03:43:57",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1909-07-23 21:00:26",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1909-08-08 13:22:28",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1909-08-24 03:43:30",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1909-09-08 15:46:35",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1909-09-24 00:44:29",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1909-10-09 06:43:08",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1909-10-24 09:22:30",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1909-11-08 09:13:03",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1909-11-23 06:20:15",
+            },
         ],
     },
     BaziYearData {
@@ -330,30 +1050,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1910-02-10",
         lichun_time: "1910-02-05 00:27:22",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1909-12-08 01:34:49" },
-            JieQiData { name: "冬至", time: "1909-12-22 19:19:47" },
-            JieQiData { name: "小寒", time: "1910-01-06 12:37:57" },
-            JieQiData { name: "大寒", time: "1910-01-21 05:58:56" },
-            JieQiData { name: "立春", time: "1910-02-05 00:27:22" },
-            JieQiData { name: "雨水", time: "1910-02-19 20:28:07" },
-            JieQiData { name: "惊蛰", time: "1910-03-06 18:56:30" },
-            JieQiData { name: "春分", time: "1910-03-21 20:02:52" },
-            JieQiData { name: "清明", time: "1910-04-06 00:22:55" },
-            JieQiData { name: "谷雨", time: "1910-04-21 07:45:42" },
-            JieQiData { name: "立夏", time: "1910-05-06 18:19:20" },
-            JieQiData { name: "小满", time: "1910-05-22 07:30:08" },
-            JieQiData { name: "芒种", time: "1910-06-06 22:56:20" },
-            JieQiData { name: "夏至", time: "1910-06-22 15:48:41" },
-            JieQiData { name: "小暑", time: "1910-07-08 09:21:02" },
-            JieQiData { name: "大暑", time: "1910-07-24 02:42:56" },
-            JieQiData { name: "立秋", time: "1910-08-08 18:57:08" },
-            JieQiData { name: "处暑", time: "1910-08-24 09:27:20" },
-            JieQiData { name: "白露", time: "1910-09-08 21:22:10" },
-            JieQiData { name: "秋分", time: "1910-09-24 06:30:44" },
-            JieQiData { name: "寒露", time: "1910-10-09 12:21:05" },
-            JieQiData { name: "霜降", time: "1910-10-24 15:11:08" },
-            JieQiData { name: "立冬", time: "1910-11-08 14:53:23" },
-            JieQiData { name: "小雪", time: "1910-11-23 12:10:50" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1909-12-08 01:34:49",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1909-12-22 19:19:47",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1910-01-06 12:37:57",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1910-01-21 05:58:56",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1910-02-05 00:27:22",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1910-02-19 20:28:07",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1910-03-06 18:56:30",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1910-03-21 20:02:52",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1910-04-06 00:22:55",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1910-04-21 07:45:42",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1910-05-06 18:19:20",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1910-05-22 07:30:08",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1910-06-06 22:56:20",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1910-06-22 15:48:41",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1910-07-08 09:21:02",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1910-07-24 02:42:56",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1910-08-08 18:57:08",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1910-08-24 09:27:20",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1910-09-08 21:22:10",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1910-09-24 06:30:44",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1910-10-09 12:21:05",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1910-10-24 15:11:08",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1910-11-08 14:53:23",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1910-11-23 12:10:50",
+            },
         ],
     },
     BaziYearData {
@@ -361,30 +1153,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1911-01-30",
         lichun_time: "1911-02-05 06:10:16",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1910-12-08 07:16:53" },
-            JieQiData { name: "冬至", time: "1910-12-23 01:11:43" },
-            JieQiData { name: "小寒", time: "1911-01-06 18:20:52" },
-            JieQiData { name: "大寒", time: "1911-01-21 11:51:23" },
-            JieQiData { name: "立春", time: "1911-02-05 06:10:16" },
-            JieQiData { name: "雨水", time: "1911-02-20 02:20:16" },
-            JieQiData { name: "惊蛰", time: "1911-03-07 00:38:50" },
-            JieQiData { name: "春分", time: "1911-03-22 01:54:20" },
-            JieQiData { name: "清明", time: "1911-04-06 06:04:32" },
-            JieQiData { name: "谷雨", time: "1911-04-21 13:35:55" },
-            JieQiData { name: "立夏", time: "1911-05-07 00:00:18" },
-            JieQiData { name: "小满", time: "1911-05-22 13:18:33" },
-            JieQiData { name: "芒种", time: "1911-06-07 04:37:52" },
-            JieQiData { name: "夏至", time: "1911-06-22 21:35:30" },
-            JieQiData { name: "小暑", time: "1911-07-08 15:04:55" },
-            JieQiData { name: "大暑", time: "1911-07-24 08:28:36" },
-            JieQiData { name: "立秋", time: "1911-08-09 00:44:25" },
-            JieQiData { name: "处暑", time: "1911-08-24 15:12:57" },
-            JieQiData { name: "白露", time: "1911-09-09 03:13:16" },
-            JieQiData { name: "秋分", time: "1911-09-24 12:17:30" },
-            JieQiData { name: "寒露", time: "1911-10-09 18:14:56" },
-            JieQiData { name: "霜降", time: "1911-10-24 20:58:11" },
-            JieQiData { name: "立冬", time: "1911-11-08 20:47:00" },
-            JieQiData { name: "小雪", time: "1911-11-23 17:55:53" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1910-12-08 07:16:53",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1910-12-23 01:11:43",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1911-01-06 18:20:52",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1911-01-21 11:51:23",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1911-02-05 06:10:16",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1911-02-20 02:20:16",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1911-03-07 00:38:50",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1911-03-22 01:54:20",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1911-04-06 06:04:32",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1911-04-21 13:35:55",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1911-05-07 00:00:18",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1911-05-22 13:18:33",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1911-06-07 04:37:52",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1911-06-22 21:35:30",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1911-07-08 15:04:55",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1911-07-24 08:28:36",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1911-08-09 00:44:25",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1911-08-24 15:12:57",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1911-09-09 03:13:16",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1911-09-24 12:17:30",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1911-10-09 18:14:56",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1911-10-24 20:58:11",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1911-11-08 20:47:00",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1911-11-23 17:55:53",
+            },
         ],
     },
     BaziYearData {
@@ -392,30 +1256,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1912-02-18",
         lichun_time: "1912-02-05 11:53:31",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1911-12-08 13:07:34" },
-            JieQiData { name: "冬至", time: "1911-12-23 06:53:09" },
-            JieQiData { name: "小寒", time: "1912-01-07 00:07:29" },
-            JieQiData { name: "大寒", time: "1912-01-21 17:29:06" },
-            JieQiData { name: "立春", time: "1912-02-05 11:53:31" },
-            JieQiData { name: "雨水", time: "1912-02-20 07:55:34" },
-            JieQiData { name: "惊蛰", time: "1912-03-06 06:20:59" },
-            JieQiData { name: "春分", time: "1912-03-21 07:29:19" },
-            JieQiData { name: "清明", time: "1912-04-05 11:48:15" },
-            JieQiData { name: "谷雨", time: "1912-04-20 19:12:21" },
-            JieQiData { name: "立夏", time: "1912-05-06 05:47:03" },
-            JieQiData { name: "小满", time: "1912-05-21 18:57:06" },
-            JieQiData { name: "芒种", time: "1912-06-06 10:27:29" },
-            JieQiData { name: "夏至", time: "1912-06-22 03:16:51" },
-            JieQiData { name: "小暑", time: "1912-07-07 20:56:42" },
-            JieQiData { name: "大暑", time: "1912-07-23 14:13:40" },
-            JieQiData { name: "立秋", time: "1912-08-08 06:37:10" },
-            JieQiData { name: "处暑", time: "1912-08-23 21:01:19" },
-            JieQiData { name: "白露", time: "1912-09-08 09:05:39" },
-            JieQiData { name: "秋分", time: "1912-09-23 18:07:59" },
-            JieQiData { name: "寒露", time: "1912-10-09 00:06:42" },
-            JieQiData { name: "霜降", time: "1912-10-24 02:50:00" },
-            JieQiData { name: "立冬", time: "1912-11-08 02:38:38" },
-            JieQiData { name: "小雪", time: "1912-11-22 23:48:08" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1911-12-08 13:07:34",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1911-12-23 06:53:09",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1912-01-07 00:07:29",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1912-01-21 17:29:06",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1912-02-05 11:53:31",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1912-02-20 07:55:34",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1912-03-06 06:20:59",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1912-03-21 07:29:19",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1912-04-05 11:48:15",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1912-04-20 19:12:21",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1912-05-06 05:47:03",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1912-05-21 18:57:06",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1912-06-06 10:27:29",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1912-06-22 03:16:51",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1912-07-07 20:56:42",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1912-07-23 14:13:40",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1912-08-08 06:37:10",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1912-08-23 21:01:19",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1912-09-08 09:05:39",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1912-09-23 18:07:59",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1912-10-09 00:06:42",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1912-10-24 02:50:00",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1912-11-08 02:38:38",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1912-11-22 23:48:08",
+            },
         ],
     },
     BaziYearData {
@@ -423,30 +1359,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1913-02-06",
         lichun_time: "1913-02-04 17:42:38",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1912-12-07 18:58:53" },
-            JieQiData { name: "冬至", time: "1912-12-22 12:44:39" },
-            JieQiData { name: "小寒", time: "1913-01-06 05:57:54" },
-            JieQiData { name: "大寒", time: "1913-01-20 23:19:04" },
-            JieQiData { name: "立春", time: "1913-02-04 17:42:38" },
-            JieQiData { name: "雨水", time: "1913-02-19 13:44:12" },
-            JieQiData { name: "惊蛰", time: "1913-03-06 12:08:58" },
-            JieQiData { name: "春分", time: "1913-03-21 13:17:55" },
-            JieQiData { name: "清明", time: "1913-04-05 17:35:51" },
-            JieQiData { name: "谷雨", time: "1913-04-21 01:02:51" },
-            JieQiData { name: "立夏", time: "1913-05-06 11:34:39" },
-            JieQiData { name: "小满", time: "1913-05-22 00:49:51" },
-            JieQiData { name: "芒种", time: "1913-06-06 16:13:24" },
-            JieQiData { name: "夏至", time: "1913-06-22 09:09:26" },
-            JieQiData { name: "小暑", time: "1913-07-08 02:38:52" },
-            JieQiData { name: "大暑", time: "1913-07-23 20:03:41" },
-            JieQiData { name: "立秋", time: "1913-08-08 12:15:47" },
-            JieQiData { name: "处暑", time: "1913-08-24 02:48:09" },
-            JieQiData { name: "白露", time: "1913-09-08 14:42:24" },
-            JieQiData { name: "秋分", time: "1913-09-23 23:52:41" },
-            JieQiData { name: "寒露", time: "1913-10-09 05:43:40" },
-            JieQiData { name: "霜降", time: "1913-10-24 08:34:49" },
-            JieQiData { name: "立冬", time: "1913-11-08 08:17:42" },
-            JieQiData { name: "小雪", time: "1913-11-23 05:35:12" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1912-12-07 18:58:53",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1912-12-22 12:44:39",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1913-01-06 05:57:54",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1913-01-20 23:19:04",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1913-02-04 17:42:38",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1913-02-19 13:44:12",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1913-03-06 12:08:58",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1913-03-21 13:17:55",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1913-04-05 17:35:51",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1913-04-21 01:02:51",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1913-05-06 11:34:39",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1913-05-22 00:49:51",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1913-06-06 16:13:24",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1913-06-22 09:09:26",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1913-07-08 02:38:52",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1913-07-23 20:03:41",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1913-08-08 12:15:47",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1913-08-24 02:48:09",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1913-09-08 14:42:24",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1913-09-23 23:52:41",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1913-10-09 05:43:40",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1913-10-24 08:34:49",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1913-11-08 08:17:42",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1913-11-23 05:35:12",
+            },
         ],
     },
     BaziYearData {
@@ -454,30 +1462,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1914-01-26",
         lichun_time: "1914-02-04 23:29:16",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1913-12-08 00:41:01" },
-            JieQiData { name: "冬至", time: "1913-12-22 18:34:51" },
-            JieQiData { name: "小寒", time: "1914-01-06 11:42:51" },
-            JieQiData { name: "大寒", time: "1914-01-21 05:11:49" },
-            JieQiData { name: "立春", time: "1914-02-04 23:29:16" },
-            JieQiData { name: "雨水", time: "1914-02-19 19:37:54" },
-            JieQiData { name: "惊蛰", time: "1914-03-06 17:55:48" },
-            JieQiData { name: "春分", time: "1914-03-21 19:10:42" },
-            JieQiData { name: "清明", time: "1914-04-05 23:21:50" },
-            JieQiData { name: "谷雨", time: "1914-04-21 06:53:12" },
-            JieQiData { name: "立夏", time: "1914-05-06 17:20:03" },
-            JieQiData { name: "小满", time: "1914-05-22 06:37:38" },
-            JieQiData { name: "芒种", time: "1914-06-06 21:59:56" },
-            JieQiData { name: "夏至", time: "1914-06-22 14:55:00" },
-            JieQiData { name: "小暑", time: "1914-07-08 08:27:12" },
-            JieQiData { name: "大暑", time: "1914-07-24 01:46:52" },
-            JieQiData { name: "立秋", time: "1914-08-08 18:05:11" },
-            JieQiData { name: "处暑", time: "1914-08-24 08:29:34" },
-            JieQiData { name: "白露", time: "1914-09-08 20:32:26" },
-            JieQiData { name: "秋分", time: "1914-09-24 05:33:47" },
-            JieQiData { name: "寒露", time: "1914-10-09 11:34:47" },
-            JieQiData { name: "霜降", time: "1914-10-24 14:17:16" },
-            JieQiData { name: "立冬", time: "1914-11-08 14:11:01" },
-            JieQiData { name: "小雪", time: "1914-11-23 11:20:21" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1913-12-08 00:41:01",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1913-12-22 18:34:51",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1914-01-06 11:42:51",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1914-01-21 05:11:49",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1914-02-04 23:29:16",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1914-02-19 19:37:54",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1914-03-06 17:55:48",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1914-03-21 19:10:42",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1914-04-05 23:21:50",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1914-04-21 06:53:12",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1914-05-06 17:20:03",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1914-05-22 06:37:38",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1914-06-06 21:59:56",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1914-06-22 14:55:00",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1914-07-08 08:27:12",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1914-07-24 01:46:52",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1914-08-08 18:05:11",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1914-08-24 08:29:34",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1914-09-08 20:32:26",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1914-09-24 05:33:47",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1914-10-09 11:34:47",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1914-10-24 14:17:16",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1914-11-08 14:11:01",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1914-11-23 11:20:21",
+            },
         ],
     },
     BaziYearData {
@@ -485,30 +1565,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1915-02-14",
         lichun_time: "1915-02-05 05:25:26",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1914-12-08 06:37:05" },
-            JieQiData { name: "冬至", time: "1914-12-23 00:22:22" },
-            JieQiData { name: "小寒", time: "1915-01-06 17:40:16" },
-            JieQiData { name: "大寒", time: "1915-01-21 10:59:30" },
-            JieQiData { name: "立春", time: "1915-02-05 05:25:26" },
-            JieQiData { name: "雨水", time: "1915-02-20 01:23:03" },
-            JieQiData { name: "惊蛰", time: "1915-03-06 23:48:16" },
-            JieQiData { name: "春分", time: "1915-03-22 00:51:14" },
-            JieQiData { name: "清明", time: "1915-04-06 05:09:15" },
-            JieQiData { name: "谷雨", time: "1915-04-21 12:28:46" },
-            JieQiData { name: "立夏", time: "1915-05-06 23:02:44" },
-            JieQiData { name: "小满", time: "1915-05-22 12:10:23" },
-            JieQiData { name: "芒种", time: "1915-06-07 03:40:07" },
-            JieQiData { name: "夏至", time: "1915-06-22 20:29:20" },
-            JieQiData { name: "小暑", time: "1915-07-08 14:07:45" },
-            JieQiData { name: "大暑", time: "1915-07-24 07:26:21" },
-            JieQiData { name: "立秋", time: "1915-08-08 23:47:41" },
-            JieQiData { name: "处暑", time: "1915-08-24 14:14:58" },
-            JieQiData { name: "白露", time: "1915-09-09 02:17:05" },
-            JieQiData { name: "秋分", time: "1915-09-24 11:23:45" },
-            JieQiData { name: "寒露", time: "1915-10-09 17:20:52" },
-            JieQiData { name: "霜降", time: "1915-10-24 20:09:39" },
-            JieQiData { name: "立冬", time: "1915-11-08 19:57:38" },
-            JieQiData { name: "小雪", time: "1915-11-23 17:13:26" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1914-12-08 06:37:05",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1914-12-23 00:22:22",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1915-01-06 17:40:16",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1915-01-21 10:59:30",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1915-02-05 05:25:26",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1915-02-20 01:23:03",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1915-03-06 23:48:16",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1915-03-22 00:51:14",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1915-04-06 05:09:15",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1915-04-21 12:28:46",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1915-05-06 23:02:44",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1915-05-22 12:10:23",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1915-06-07 03:40:07",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1915-06-22 20:29:20",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1915-07-08 14:07:45",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1915-07-24 07:26:21",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1915-08-08 23:47:41",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1915-08-24 14:14:58",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1915-09-09 02:17:05",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1915-09-24 11:23:45",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1915-10-09 17:20:52",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1915-10-24 20:09:39",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1915-11-08 19:57:38",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1915-11-23 17:13:26",
+            },
         ],
     },
     BaziYearData {
@@ -516,30 +1668,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1916-02-03",
         lichun_time: "1916-02-05 11:13:58",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1915-12-08 12:23:53" },
-            JieQiData { name: "冬至", time: "1915-12-23 06:15:44" },
-            JieQiData { name: "小寒", time: "1916-01-06 23:27:47" },
-            JieQiData { name: "大寒", time: "1916-01-21 16:53:33" },
-            JieQiData { name: "立春", time: "1916-02-05 11:13:58" },
-            JieQiData { name: "雨水", time: "1916-02-20 07:17:59" },
-            JieQiData { name: "惊蛰", time: "1916-03-06 05:37:21" },
-            JieQiData { name: "春分", time: "1916-03-21 06:46:50" },
-            JieQiData { name: "清明", time: "1916-04-05 10:57:49" },
-            JieQiData { name: "谷雨", time: "1916-04-20 18:24:35" },
-            JieQiData { name: "立夏", time: "1916-05-06 04:49:45" },
-            JieQiData { name: "小满", time: "1916-05-21 18:05:50" },
-            JieQiData { name: "芒种", time: "1916-06-06 09:25:39" },
-            JieQiData { name: "夏至", time: "1916-06-22 02:24:21" },
-            JieQiData { name: "小暑", time: "1916-07-07 19:53:33" },
-            JieQiData { name: "大暑", time: "1916-07-23 13:21:08" },
-            JieQiData { name: "立秋", time: "1916-08-08 05:34:55" },
-            JieQiData { name: "处暑", time: "1916-08-23 20:08:31" },
-            JieQiData { name: "白露", time: "1916-09-08 08:04:59" },
-            JieQiData { name: "秋分", time: "1916-09-23 17:14:43" },
-            JieQiData { name: "寒露", time: "1916-10-08 23:07:51" },
-            JieQiData { name: "霜降", time: "1916-10-24 01:57:11" },
-            JieQiData { name: "立冬", time: "1916-11-08 01:42:15" },
-            JieQiData { name: "小雪", time: "1916-11-22 22:57:44" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1915-12-08 12:23:53",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1915-12-23 06:15:44",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1916-01-06 23:27:47",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1916-01-21 16:53:33",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1916-02-05 11:13:58",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1916-02-20 07:17:59",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1916-03-06 05:37:21",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1916-03-21 06:46:50",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1916-04-05 10:57:49",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1916-04-20 18:24:35",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1916-05-06 04:49:45",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1916-05-21 18:05:50",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1916-06-06 09:25:39",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1916-06-22 02:24:21",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1916-07-07 19:53:33",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1916-07-23 13:21:08",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1916-08-08 05:34:55",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1916-08-23 20:08:31",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1916-09-08 08:04:59",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1916-09-23 17:14:43",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1916-10-08 23:07:51",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1916-10-24 01:57:11",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1916-11-08 01:42:15",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1916-11-22 22:57:44",
+            },
         ],
     },
     BaziYearData {
@@ -547,30 +1771,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1917-01-23",
         lichun_time: "1917-02-04 16:57:32",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1916-12-07 18:06:09" },
-            JieQiData { name: "冬至", time: "1916-12-22 11:58:29" },
-            JieQiData { name: "小寒", time: "1917-01-06 05:09:27" },
-            JieQiData { name: "大寒", time: "1917-01-20 22:37:18" },
-            JieQiData { name: "立春", time: "1917-02-04 16:57:32" },
-            JieQiData { name: "雨水", time: "1917-02-19 13:04:44" },
-            JieQiData { name: "惊蛰", time: "1917-03-06 11:24:48" },
-            JieQiData { name: "春分", time: "1917-03-21 12:37:11" },
-            JieQiData { name: "清明", time: "1917-04-05 16:49:54" },
-            JieQiData { name: "谷雨", time: "1917-04-21 00:17:22" },
-            JieQiData { name: "立夏", time: "1917-05-06 10:45:42" },
-            JieQiData { name: "小满", time: "1917-05-21 23:58:31" },
-            JieQiData { name: "芒种", time: "1917-06-06 15:23:10" },
-            JieQiData { name: "夏至", time: "1917-06-22 08:14:16" },
-            JieQiData { name: "小暑", time: "1917-07-08 01:50:13" },
-            JieQiData { name: "大暑", time: "1917-07-23 19:07:45" },
-            JieQiData { name: "立秋", time: "1917-08-08 11:30:07" },
-            JieQiData { name: "处暑", time: "1917-08-24 01:53:38" },
-            JieQiData { name: "白露", time: "1917-09-08 13:59:21" },
-            JieQiData { name: "秋分", time: "1917-09-23 23:00:06" },
-            JieQiData { name: "寒露", time: "1917-10-09 05:02:08" },
-            JieQiData { name: "霜降", time: "1917-10-24 07:43:37" },
-            JieQiData { name: "立冬", time: "1917-11-08 07:36:54" },
-            JieQiData { name: "小雪", time: "1917-11-23 04:44:52" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1916-12-07 18:06:09",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1916-12-22 11:58:29",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1917-01-06 05:09:27",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1917-01-20 22:37:18",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1917-02-04 16:57:32",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1917-02-19 13:04:44",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1917-03-06 11:24:48",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1917-03-21 12:37:11",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1917-04-05 16:49:54",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1917-04-21 00:17:22",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1917-05-06 10:45:42",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1917-05-21 23:58:31",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1917-06-06 15:23:10",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1917-06-22 08:14:16",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1917-07-08 01:50:13",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1917-07-23 19:07:45",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1917-08-08 11:30:07",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1917-08-24 01:53:38",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1917-09-08 13:59:21",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1917-09-23 23:00:06",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1917-10-09 05:02:08",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1917-10-24 07:43:37",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1917-11-08 07:36:54",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1917-11-23 04:44:52",
+            },
         ],
     },
     BaziYearData {
@@ -578,30 +1874,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1918-02-11",
         lichun_time: "1918-02-04 22:53:05",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1917-12-08 00:00:59" },
-            JieQiData { name: "冬至", time: "1917-12-22 17:45:37" },
-            JieQiData { name: "小寒", time: "1918-01-06 11:04:23" },
-            JieQiData { name: "大寒", time: "1918-01-21 04:24:32" },
-            JieQiData { name: "立春", time: "1918-02-04 22:53:05" },
-            JieQiData { name: "雨水", time: "1918-02-19 18:52:41" },
-            JieQiData { name: "惊蛰", time: "1918-03-06 17:20:55" },
-            JieQiData { name: "春分", time: "1918-03-21 18:25:37" },
-            JieQiData { name: "清明", time: "1918-04-05 22:45:12" },
-            JieQiData { name: "谷雨", time: "1918-04-21 06:05:23" },
-            JieQiData { name: "立夏", time: "1918-05-06 16:38:11" },
-            JieQiData { name: "小满", time: "1918-05-22 05:45:27" },
-            JieQiData { name: "芒种", time: "1918-06-06 21:10:57" },
-            JieQiData { name: "夏至", time: "1918-06-22 13:59:34" },
-            JieQiData { name: "小暑", time: "1918-07-08 07:32:07" },
-            JieQiData { name: "大暑", time: "1918-07-24 00:51:23" },
-            JieQiData { name: "立秋", time: "1918-08-08 17:07:24" },
-            JieQiData { name: "处暑", time: "1918-08-24 07:37:07" },
-            JieQiData { name: "白露", time: "1918-09-08 19:35:26" },
-            JieQiData { name: "秋分", time: "1918-09-24 04:45:37" },
-            JieQiData { name: "寒露", time: "1918-10-09 10:40:17" },
-            JieQiData { name: "霜降", time: "1918-10-24 13:32:47" },
-            JieQiData { name: "立冬", time: "1918-11-08 13:18:52" },
-            JieQiData { name: "小雪", time: "1918-11-23 10:38:02" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1917-12-08 00:00:59",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1917-12-22 17:45:37",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1918-01-06 11:04:23",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1918-01-21 04:24:32",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1918-02-04 22:53:05",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1918-02-19 18:52:41",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1918-03-06 17:20:55",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1918-03-21 18:25:37",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1918-04-05 22:45:12",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1918-04-21 06:05:23",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1918-05-06 16:38:11",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1918-05-22 05:45:27",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1918-06-06 21:10:57",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1918-06-22 13:59:34",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1918-07-08 07:32:07",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1918-07-24 00:51:23",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1918-08-08 17:07:24",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1918-08-24 07:37:07",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1918-09-08 19:35:26",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1918-09-24 04:45:37",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1918-10-09 10:40:17",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1918-10-24 13:32:47",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1918-11-08 13:18:52",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1918-11-23 10:38:02",
+            },
         ],
     },
     BaziYearData {
@@ -609,30 +1977,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1919-02-01",
         lichun_time: "1919-02-05 04:39:23",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1918-12-08 05:46:29" },
-            JieQiData { name: "冬至", time: "1918-12-22 23:41:27" },
-            JieQiData { name: "小寒", time: "1919-01-06 16:51:28" },
-            JieQiData { name: "大寒", time: "1919-01-21 10:20:40" },
-            JieQiData { name: "立春", time: "1919-02-05 04:39:23" },
-            JieQiData { name: "雨水", time: "1919-02-20 00:47:25" },
-            JieQiData { name: "惊蛰", time: "1919-03-06 23:05:29" },
-            JieQiData { name: "春分", time: "1919-03-22 00:19:05" },
-            JieQiData { name: "清明", time: "1919-04-06 04:28:44" },
-            JieQiData { name: "谷雨", time: "1919-04-21 11:58:35" },
-            JieQiData { name: "立夏", time: "1919-05-06 22:22:00" },
-            JieQiData { name: "小满", time: "1919-05-22 11:39:04" },
-            JieQiData { name: "芒种", time: "1919-06-07 02:56:36" },
-            JieQiData { name: "夏至", time: "1919-06-22 19:53:30" },
-            JieQiData { name: "小暑", time: "1919-07-08 13:20:30" },
-            JieQiData { name: "大暑", time: "1919-07-24 06:44:26" },
-            JieQiData { name: "立秋", time: "1919-08-08 22:58:01" },
-            JieQiData { name: "处暑", time: "1919-08-24 13:28:16" },
-            JieQiData { name: "白露", time: "1919-09-09 01:27:37" },
-            JieQiData { name: "秋分", time: "1919-09-24 10:35:18" },
-            JieQiData { name: "寒露", time: "1919-10-09 16:33:20" },
-            JieQiData { name: "霜降", time: "1919-10-24 19:21:14" },
-            JieQiData { name: "立冬", time: "1919-11-08 19:11:30" },
-            JieQiData { name: "小雪", time: "1919-11-23 16:25:07" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1918-12-08 05:46:29",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1918-12-22 23:41:27",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1919-01-06 16:51:28",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1919-01-21 10:20:40",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1919-02-05 04:39:23",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1919-02-20 00:47:25",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1919-03-06 23:05:29",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1919-03-22 00:19:05",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1919-04-06 04:28:44",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1919-04-21 11:58:35",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1919-05-06 22:22:00",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1919-05-22 11:39:04",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1919-06-07 02:56:36",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1919-06-22 19:53:30",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1919-07-08 13:20:30",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1919-07-24 06:44:26",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1919-08-08 22:58:01",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1919-08-24 13:28:16",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1919-09-09 01:27:37",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1919-09-24 10:35:18",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1919-10-09 16:33:20",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1919-10-24 19:21:14",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1919-11-08 19:11:30",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1919-11-23 16:25:07",
+            },
         ],
     },
     BaziYearData {
@@ -640,30 +2080,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1920-02-20",
         lichun_time: "1920-02-05 10:26:26",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1919-12-08 11:37:47" },
-            JieQiData { name: "冬至", time: "1919-12-23 05:27:01" },
-            JieQiData { name: "小寒", time: "1920-01-06 22:40:47" },
-            JieQiData { name: "大寒", time: "1920-01-21 16:04:20" },
-            JieQiData { name: "立春", time: "1920-02-05 10:26:26" },
-            JieQiData { name: "雨水", time: "1920-02-20 06:28:57" },
-            JieQiData { name: "惊蛰", time: "1920-03-06 04:51:02" },
-            JieQiData { name: "春分", time: "1920-03-21 05:59:15" },
-            JieQiData { name: "清明", time: "1920-04-05 10:14:54" },
-            JieQiData { name: "谷雨", time: "1920-04-20 17:39:07" },
-            JieQiData { name: "立夏", time: "1920-05-06 04:11:17" },
-            JieQiData { name: "小满", time: "1920-05-21 17:21:43" },
-            JieQiData { name: "芒种", time: "1920-06-06 08:50:22" },
-            JieQiData { name: "夏至", time: "1920-06-22 01:39:45" },
-            JieQiData { name: "小暑", time: "1920-07-07 19:18:36" },
-            JieQiData { name: "大暑", time: "1920-07-23 12:34:53" },
-            JieQiData { name: "立秋", time: "1920-08-08 04:58:14" },
-            JieQiData { name: "处暑", time: "1920-08-23 19:21:15" },
-            JieQiData { name: "白露", time: "1920-09-08 07:26:32" },
-            JieQiData { name: "秋分", time: "1920-09-23 16:28:05" },
-            JieQiData { name: "寒露", time: "1920-10-08 22:29:08" },
-            JieQiData { name: "霜降", time: "1920-10-24 01:12:39" },
-            JieQiData { name: "立冬", time: "1920-11-08 01:04:54" },
-            JieQiData { name: "小雪", time: "1920-11-22 22:15:23" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1919-12-08 11:37:47",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1919-12-23 05:27:01",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1920-01-06 22:40:47",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1920-01-21 16:04:20",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1920-02-05 10:26:26",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1920-02-20 06:28:57",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1920-03-06 04:51:02",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1920-03-21 05:59:15",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1920-04-05 10:14:54",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1920-04-20 17:39:07",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1920-05-06 04:11:17",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1920-05-21 17:21:43",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1920-06-06 08:50:22",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1920-06-22 01:39:45",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1920-07-07 19:18:36",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1920-07-23 12:34:53",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1920-08-08 04:58:14",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1920-08-23 19:21:15",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1920-09-08 07:26:32",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1920-09-23 16:28:05",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1920-10-08 22:29:08",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1920-10-24 01:12:39",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1920-11-08 01:04:54",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1920-11-22 22:15:23",
+            },
         ],
     },
     BaziYearData {
@@ -671,30 +2183,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1921-02-08",
         lichun_time: "1921-02-04 16:20:12",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1920-12-07 17:30:16" },
-            JieQiData { name: "冬至", time: "1920-12-22 11:16:56" },
-            JieQiData { name: "小寒", time: "1921-01-06 04:33:40" },
-            JieQiData { name: "大寒", time: "1921-01-20 21:54:39" },
-            JieQiData { name: "立春", time: "1921-02-04 16:20:12" },
-            JieQiData { name: "雨水", time: "1921-02-19 12:19:56" },
-            JieQiData { name: "惊蛰", time: "1921-03-06 10:45:09" },
-            JieQiData { name: "春分", time: "1921-03-21 11:50:58" },
-            JieQiData { name: "清明", time: "1921-04-05 16:08:41" },
-            JieQiData { name: "谷雨", time: "1921-04-20 23:32:14" },
-            JieQiData { name: "立夏", time: "1921-05-06 10:04:17" },
-            JieQiData { name: "小满", time: "1921-05-21 23:16:40" },
-            JieQiData { name: "芒种", time: "1921-06-06 14:41:25" },
-            JieQiData { name: "夏至", time: "1921-06-22 07:35:35" },
-            JieQiData { name: "小暑", time: "1921-07-08 01:06:34" },
-            JieQiData { name: "大暑", time: "1921-07-23 18:30:15" },
-            JieQiData { name: "立秋", time: "1921-08-08 10:43:25" },
-            JieQiData { name: "处暑", time: "1921-08-24 01:15:07" },
-            JieQiData { name: "白露", time: "1921-09-08 13:09:39" },
-            JieQiData { name: "秋分", time: "1921-09-23 22:19:42" },
-            JieQiData { name: "寒露", time: "1921-10-09 04:10:36" },
-            JieQiData { name: "霜降", time: "1921-10-24 07:02:15" },
-            JieQiData { name: "立冬", time: "1921-11-08 06:45:30" },
-            JieQiData { name: "小雪", time: "1921-11-23 04:04:27" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1920-12-07 17:30:16",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1920-12-22 11:16:56",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1921-01-06 04:33:40",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1921-01-20 21:54:39",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1921-02-04 16:20:12",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1921-02-19 12:19:56",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1921-03-06 10:45:09",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1921-03-21 11:50:58",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1921-04-05 16:08:41",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1921-04-20 23:32:14",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1921-05-06 10:04:17",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1921-05-21 23:16:40",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1921-06-06 14:41:25",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1921-06-22 07:35:35",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1921-07-08 01:06:34",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1921-07-23 18:30:15",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1921-08-08 10:43:25",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1921-08-24 01:15:07",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1921-09-08 13:09:39",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1921-09-23 22:19:42",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1921-10-09 04:10:36",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1921-10-24 07:02:15",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1921-11-08 06:45:30",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1921-11-23 04:04:27",
+            },
         ],
     },
     BaziYearData {
@@ -702,30 +2286,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1922-01-28",
         lichun_time: "1922-02-04 22:06:24",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1921-12-07 23:11:25" },
-            JieQiData { name: "冬至", time: "1921-12-22 17:07:23" },
-            JieQiData { name: "小寒", time: "1922-01-06 10:16:55" },
-            JieQiData { name: "大寒", time: "1922-01-21 03:47:54" },
-            JieQiData { name: "立春", time: "1922-02-04 22:06:24" },
-            JieQiData { name: "雨水", time: "1922-02-19 18:16:09" },
-            JieQiData { name: "惊蛰", time: "1922-03-06 16:33:49" },
-            JieQiData { name: "春分", time: "1922-03-21 17:48:33" },
-            JieQiData { name: "清明", time: "1922-04-05 21:58:00" },
-            JieQiData { name: "谷雨", time: "1922-04-21 05:28:32" },
-            JieQiData { name: "立夏", time: "1922-05-06 15:52:50" },
-            JieQiData { name: "小满", time: "1922-05-22 05:10:13" },
-            JieQiData { name: "芒种", time: "1922-06-06 20:30:15" },
-            JieQiData { name: "夏至", time: "1922-06-22 13:26:39" },
-            JieQiData { name: "小暑", time: "1922-07-08 06:57:25" },
-            JieQiData { name: "大暑", time: "1922-07-24 00:19:38" },
-            JieQiData { name: "立秋", time: "1922-08-08 16:37:08" },
-            JieQiData { name: "处暑", time: "1922-08-24 07:04:09" },
-            JieQiData { name: "白露", time: "1922-09-08 19:06:19" },
-            JieQiData { name: "秋分", time: "1922-09-24 04:09:32" },
-            JieQiData { name: "寒露", time: "1922-10-09 10:09:25" },
-            JieQiData { name: "霜降", time: "1922-10-24 12:52:52" },
-            JieQiData { name: "立冬", time: "1922-11-08 12:45:12" },
-            JieQiData { name: "小雪", time: "1922-11-23 09:55:09" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1921-12-07 23:11:25",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1921-12-22 17:07:23",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1922-01-06 10:16:55",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1922-01-21 03:47:54",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1922-02-04 22:06:24",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1922-02-19 18:16:09",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1922-03-06 16:33:49",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1922-03-21 17:48:33",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1922-04-05 21:58:00",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1922-04-21 05:28:32",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1922-05-06 15:52:50",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1922-05-22 05:10:13",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1922-06-06 20:30:15",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1922-06-22 13:26:39",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1922-07-08 06:57:25",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1922-07-24 00:19:38",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1922-08-08 16:37:08",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1922-08-24 07:04:09",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1922-09-08 19:06:19",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1922-09-24 04:09:32",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1922-10-09 10:09:25",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1922-10-24 12:52:52",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1922-11-08 12:45:12",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1922-11-23 09:55:09",
+            },
         ],
     },
     BaziYearData {
@@ -733,30 +2389,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1923-02-16",
         lichun_time: "1923-02-05 04:00:17",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1922-12-08 05:10:38" },
-            JieQiData { name: "冬至", time: "1922-12-22 22:56:52" },
-            JieQiData { name: "小寒", time: "1923-01-06 16:14:00" },
-            JieQiData { name: "大寒", time: "1923-01-21 09:34:45" },
-            JieQiData { name: "立春", time: "1923-02-05 04:00:17" },
-            JieQiData { name: "雨水", time: "1923-02-19 23:59:40" },
-            JieQiData { name: "惊蛰", time: "1923-03-06 22:24:26" },
-            JieQiData { name: "春分", time: "1923-03-21 23:28:42" },
-            JieQiData { name: "清明", time: "1923-04-06 03:45:47" },
-            JieQiData { name: "谷雨", time: "1923-04-21 11:05:33" },
-            JieQiData { name: "立夏", time: "1923-05-06 21:38:14" },
-            JieQiData { name: "小满", time: "1923-05-22 10:45:13" },
-            JieQiData { name: "芒种", time: "1923-06-07 02:14:18" },
-            JieQiData { name: "夏至", time: "1923-06-22 19:02:42" },
-            JieQiData { name: "小暑", time: "1923-07-08 12:42:11" },
-            JieQiData { name: "大暑", time: "1923-07-24 06:00:29" },
-            JieQiData { name: "立秋", time: "1923-08-08 22:24:29" },
-            JieQiData { name: "处暑", time: "1923-08-24 12:51:45" },
-            JieQiData { name: "白露", time: "1923-09-09 00:57:09" },
-            JieQiData { name: "秋分", time: "1923-09-24 10:03:30" },
-            JieQiData { name: "寒露", time: "1923-10-09 16:03:22" },
-            JieQiData { name: "霜降", time: "1923-10-24 18:50:49" },
-            JieQiData { name: "立冬", time: "1923-11-08 18:40:20" },
-            JieQiData { name: "小雪", time: "1923-11-23 15:53:36" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1922-12-08 05:10:38",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1922-12-22 22:56:52",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1923-01-06 16:14:00",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1923-01-21 09:34:45",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1923-02-05 04:00:17",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1923-02-19 23:59:40",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1923-03-06 22:24:26",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1923-03-21 23:28:42",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1923-04-06 03:45:47",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1923-04-21 11:05:33",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1923-05-06 21:38:14",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1923-05-22 10:45:13",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1923-06-07 02:14:18",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1923-06-22 19:02:42",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1923-07-08 12:42:11",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1923-07-24 06:00:29",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1923-08-08 22:24:29",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1923-08-24 12:51:45",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1923-09-09 00:57:09",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1923-09-24 10:03:30",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1923-10-09 16:03:22",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1923-10-24 18:50:49",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1923-11-08 18:40:20",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1923-11-23 15:53:36",
+            },
         ],
     },
     BaziYearData {
@@ -764,30 +2492,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1924-02-05",
         lichun_time: "1924-02-05 09:49:32",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1923-12-08 11:04:33" },
-            JieQiData { name: "冬至", time: "1923-12-23 04:53:13" },
-            JieQiData { name: "小寒", time: "1924-01-06 22:05:33" },
-            JieQiData { name: "大寒", time: "1924-01-21 15:28:21" },
-            JieQiData { name: "立春", time: "1924-02-05 09:49:32" },
-            JieQiData { name: "雨水", time: "1924-02-20 05:51:16" },
-            JieQiData { name: "惊蛰", time: "1924-03-06 04:12:12" },
-            JieQiData { name: "春分", time: "1924-03-21 05:20:05" },
-            JieQiData { name: "清明", time: "1924-04-05 09:33:07" },
-            JieQiData { name: "谷雨", time: "1924-04-20 16:58:33" },
-            JieQiData { name: "立夏", time: "1924-05-06 03:25:39" },
-            JieQiData { name: "小满", time: "1924-05-21 16:40:25" },
-            JieQiData { name: "芒种", time: "1924-06-06 08:01:31" },
-            JieQiData { name: "夏至", time: "1924-06-22 00:59:18" },
-            JieQiData { name: "小暑", time: "1924-07-07 18:29:24" },
-            JieQiData { name: "大暑", time: "1924-07-23 11:57:27" },
-            JieQiData { name: "立秋", time: "1924-08-08 04:12:14" },
-            JieQiData { name: "处暑", time: "1924-08-23 18:47:53" },
-            JieQiData { name: "白露", time: "1924-09-08 06:45:30" },
-            JieQiData { name: "秋分", time: "1924-09-23 15:58:13" },
-            JieQiData { name: "寒露", time: "1924-10-08 21:52:09" },
-            JieQiData { name: "霜降", time: "1924-10-24 00:44:22" },
-            JieQiData { name: "立冬", time: "1924-11-08 00:29:11" },
-            JieQiData { name: "小雪", time: "1924-11-22 21:46:22" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1923-12-08 11:04:33",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1923-12-23 04:53:13",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1924-01-06 22:05:33",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1924-01-21 15:28:21",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1924-02-05 09:49:32",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1924-02-20 05:51:16",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1924-03-06 04:12:12",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1924-03-21 05:20:05",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1924-04-05 09:33:07",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1924-04-20 16:58:33",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1924-05-06 03:25:39",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1924-05-21 16:40:25",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1924-06-06 08:01:31",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1924-06-22 00:59:18",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1924-07-07 18:29:24",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1924-07-23 11:57:27",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1924-08-08 04:12:14",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1924-08-23 18:47:53",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1924-09-08 06:45:30",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1924-09-23 15:58:13",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1924-10-08 21:52:09",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1924-10-24 00:44:22",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1924-11-08 00:29:11",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1924-11-22 21:46:22",
+            },
         ],
     },
     BaziYearData {
@@ -795,30 +2595,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1925-01-24",
         lichun_time: "1925-02-04 15:36:45",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1924-12-07 16:52:59" },
-            JieQiData { name: "冬至", time: "1924-12-22 10:45:24" },
-            JieQiData { name: "小寒", time: "1925-01-06 03:53:14" },
-            JieQiData { name: "大寒", time: "1925-01-20 21:20:08" },
-            JieQiData { name: "立春", time: "1925-02-04 15:36:45" },
-            JieQiData { name: "雨水", time: "1925-02-19 11:42:59" },
-            JieQiData { name: "惊蛰", time: "1925-03-06 09:59:50" },
-            JieQiData { name: "春分", time: "1925-03-21 11:12:06" },
-            JieQiData { name: "清明", time: "1925-04-05 15:22:27" },
-            JieQiData { name: "谷雨", time: "1925-04-20 22:51:05" },
-            JieQiData { name: "立夏", time: "1925-05-06 09:17:51" },
-            JieQiData { name: "小满", time: "1925-05-21 22:32:53" },
-            JieQiData { name: "芒种", time: "1925-06-06 13:56:22" },
-            JieQiData { name: "夏至", time: "1925-06-22 06:49:54" },
-            JieQiData { name: "小暑", time: "1925-07-08 00:24:54" },
-            JieQiData { name: "大暑", time: "1925-07-23 17:44:47" },
-            JieQiData { name: "立秋", time: "1925-08-08 10:07:05" },
-            JieQiData { name: "处暑", time: "1925-08-24 00:33:05" },
-            JieQiData { name: "白露", time: "1925-09-08 12:40:01" },
-            JieQiData { name: "秋分", time: "1925-09-23 21:43:19" },
-            JieQiData { name: "寒露", time: "1925-10-09 03:47:22" },
-            JieQiData { name: "霜降", time: "1925-10-24 06:31:02" },
-            JieQiData { name: "立冬", time: "1925-11-08 06:26:13" },
-            JieQiData { name: "小雪", time: "1925-11-23 03:35:24" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1924-12-07 16:52:59",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1924-12-22 10:45:24",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1925-01-06 03:53:14",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1925-01-20 21:20:08",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1925-02-04 15:36:45",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1925-02-19 11:42:59",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1925-03-06 09:59:50",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1925-03-21 11:12:06",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1925-04-05 15:22:27",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1925-04-20 22:51:05",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1925-05-06 09:17:51",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1925-05-21 22:32:53",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1925-06-06 13:56:22",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1925-06-22 06:49:54",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1925-07-08 00:24:54",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1925-07-23 17:44:47",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1925-08-08 10:07:05",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1925-08-24 00:33:05",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1925-09-08 12:40:01",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1925-09-23 21:43:19",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1925-10-09 03:47:22",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1925-10-24 06:31:02",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1925-11-08 06:26:13",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1925-11-23 03:35:24",
+            },
         ],
     },
     BaziYearData {
@@ -826,30 +2698,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1926-02-13",
         lichun_time: "1926-02-04 21:38:16",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1925-12-07 22:52:17" },
-            JieQiData { name: "冬至", time: "1925-12-22 16:36:35" },
-            JieQiData { name: "小寒", time: "1926-01-06 09:54:17" },
-            JieQiData { name: "大寒", time: "1926-01-21 03:12:25" },
-            JieQiData { name: "立春", time: "1926-02-04 21:38:16" },
-            JieQiData { name: "雨水", time: "1926-02-19 17:34:43" },
-            JieQiData { name: "惊蛰", time: "1926-03-06 15:59:41" },
-            JieQiData { name: "春分", time: "1926-03-21 17:01:08" },
-            JieQiData { name: "清明", time: "1926-04-05 21:18:17" },
-            JieQiData { name: "谷雨", time: "1926-04-21 04:36:03" },
-            JieQiData { name: "立夏", time: "1926-05-06 15:08:20" },
-            JieQiData { name: "小满", time: "1926-05-22 04:14:26" },
-            JieQiData { name: "芒种", time: "1926-06-06 19:41:37" },
-            JieQiData { name: "夏至", time: "1926-06-22 12:29:58" },
-            JieQiData { name: "小暑", time: "1926-07-08 06:05:36" },
-            JieQiData { name: "大暑", time: "1926-07-23 23:24:44" },
-            JieQiData { name: "立秋", time: "1926-08-08 15:44:12" },
-            JieQiData { name: "处暑", time: "1926-08-24 06:13:54" },
-            JieQiData { name: "白露", time: "1926-09-08 18:15:51" },
-            JieQiData { name: "秋分", time: "1926-09-24 03:26:32" },
-            JieQiData { name: "寒露", time: "1926-10-09 09:24:51" },
-            JieQiData { name: "霜降", time: "1926-10-24 12:18:14" },
-            JieQiData { name: "立冬", time: "1926-11-08 12:07:42" },
-            JieQiData { name: "小雪", time: "1926-11-23 09:27:33" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1925-12-07 22:52:17",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1925-12-22 16:36:35",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1926-01-06 09:54:17",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1926-01-21 03:12:25",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1926-02-04 21:38:16",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1926-02-19 17:34:43",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1926-03-06 15:59:41",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1926-03-21 17:01:08",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1926-04-05 21:18:17",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1926-04-21 04:36:03",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1926-05-06 15:08:20",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1926-05-22 04:14:26",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1926-06-06 19:41:37",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1926-06-22 12:29:58",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1926-07-08 06:05:36",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1926-07-23 23:24:44",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1926-08-08 15:44:12",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1926-08-24 06:13:54",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1926-09-08 18:15:51",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1926-09-24 03:26:32",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1926-10-09 09:24:51",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1926-10-24 12:18:14",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1926-11-08 12:07:42",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1926-11-23 09:27:33",
+            },
         ],
     },
     BaziYearData {
@@ -857,30 +2801,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1927-02-02",
         lichun_time: "1927-02-05 03:30:02",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1926-12-08 04:38:39" },
-            JieQiData { name: "冬至", time: "1926-12-22 22:33:18" },
-            JieQiData { name: "小寒", time: "1927-01-06 15:44:37" },
-            JieQiData { name: "大寒", time: "1927-01-21 09:11:48" },
-            JieQiData { name: "立春", time: "1927-02-05 03:30:02" },
-            JieQiData { name: "雨水", time: "1927-02-19 23:34:13" },
-            JieQiData { name: "惊蛰", time: "1927-03-06 21:50:16" },
-            JieQiData { name: "春分", time: "1927-03-21 22:59:02" },
-            JieQiData { name: "清明", time: "1927-04-06 03:06:06" },
-            JieQiData { name: "谷雨", time: "1927-04-21 10:31:38" },
-            JieQiData { name: "立夏", time: "1927-05-06 20:53:04" },
-            JieQiData { name: "小满", time: "1927-05-22 10:07:47" },
-            JieQiData { name: "芒种", time: "1927-06-07 01:24:45" },
-            JieQiData { name: "夏至", time: "1927-06-22 18:22:07" },
-            JieQiData { name: "小暑", time: "1927-07-08 11:49:55" },
-            JieQiData { name: "大暑", time: "1927-07-24 05:16:41" },
-            JieQiData { name: "立秋", time: "1927-08-08 21:31:23" },
-            JieQiData { name: "处暑", time: "1927-08-24 12:05:23" },
-            JieQiData { name: "白露", time: "1927-09-09 00:05:25" },
-            JieQiData { name: "秋分", time: "1927-09-24 09:16:52" },
-            JieQiData { name: "寒露", time: "1927-10-09 15:15:05" },
-            JieQiData { name: "霜降", time: "1927-10-24 18:06:37" },
-            JieQiData { name: "立冬", time: "1927-11-08 17:56:54" },
-            JieQiData { name: "小雪", time: "1927-11-23 15:13:55" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1926-12-08 04:38:39",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1926-12-22 22:33:18",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1927-01-06 15:44:37",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1927-01-21 09:11:48",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1927-02-05 03:30:02",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1927-02-19 23:34:13",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1927-03-06 21:50:16",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1927-03-21 22:59:02",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1927-04-06 03:06:06",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1927-04-21 10:31:38",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1927-05-06 20:53:04",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1927-05-22 10:07:47",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1927-06-07 01:24:45",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1927-06-22 18:22:07",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1927-07-08 11:49:55",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1927-07-24 05:16:41",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1927-08-08 21:31:23",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1927-08-24 12:05:23",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1927-09-09 00:05:25",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1927-09-24 09:16:52",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1927-10-09 15:15:05",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1927-10-24 18:06:37",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1927-11-08 17:56:54",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1927-11-23 15:13:55",
+            },
         ],
     },
     BaziYearData {
@@ -888,30 +2904,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1928-01-23",
         lichun_time: "1928-02-05 09:16:22",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1927-12-08 10:26:18" },
-            JieQiData { name: "冬至", time: "1927-12-23 04:18:26" },
-            JieQiData { name: "小寒", time: "1928-01-06 21:31:11" },
-            JieQiData { name: "大寒", time: "1928-01-21 14:56:36" },
-            JieQiData { name: "立春", time: "1928-02-05 09:16:22" },
-            JieQiData { name: "雨水", time: "1928-02-20 05:19:12" },
-            JieQiData { name: "惊蛰", time: "1928-03-06 03:37:14" },
-            JieQiData { name: "春分", time: "1928-03-21 04:44:11" },
-            JieQiData { name: "清明", time: "1928-04-05 08:54:31" },
-            JieQiData { name: "谷雨", time: "1928-04-20 16:16:40" },
-            JieQiData { name: "立夏", time: "1928-05-06 02:43:29" },
-            JieQiData { name: "小满", time: "1928-05-21 15:52:19" },
-            JieQiData { name: "芒种", time: "1928-06-06 07:17:09" },
-            JieQiData { name: "夏至", time: "1928-06-22 00:06:23" },
-            JieQiData { name: "小暑", time: "1928-07-07 17:44:15" },
-            JieQiData { name: "大暑", time: "1928-07-23 11:02:13" },
-            JieQiData { name: "立秋", time: "1928-08-08 03:27:30" },
-            JieQiData { name: "处暑", time: "1928-08-23 17:53:05" },
-            JieQiData { name: "白露", time: "1928-09-08 06:01:45" },
-            JieQiData { name: "秋分", time: "1928-09-23 15:05:26" },
-            JieQiData { name: "寒露", time: "1928-10-08 21:09:51" },
-            JieQiData { name: "霜降", time: "1928-10-23 23:54:28" },
-            JieQiData { name: "立冬", time: "1928-11-07 23:49:30" },
-            JieQiData { name: "小雪", time: "1928-11-22 21:00:12" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1927-12-08 10:26:18",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1927-12-23 04:18:26",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1928-01-06 21:31:11",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1928-01-21 14:56:36",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1928-02-05 09:16:22",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1928-02-20 05:19:12",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1928-03-06 03:37:14",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1928-03-21 04:44:11",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1928-04-05 08:54:31",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1928-04-20 16:16:40",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1928-05-06 02:43:29",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1928-05-21 15:52:19",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1928-06-06 07:17:09",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1928-06-22 00:06:23",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1928-07-07 17:44:15",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1928-07-23 11:02:13",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1928-08-08 03:27:30",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1928-08-23 17:53:05",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1928-09-08 06:01:45",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1928-09-23 15:05:26",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1928-10-08 21:09:51",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1928-10-23 23:54:28",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1928-11-07 23:49:30",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1928-11-22 21:00:12",
+            },
         ],
     },
     BaziYearData {
@@ -919,30 +3007,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1929-02-10",
         lichun_time: "1929-02-04 15:08:43",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1928-12-07 16:17:16" },
-            JieQiData { name: "冬至", time: "1928-12-22 10:03:36" },
-            JieQiData { name: "小寒", time: "1929-01-06 03:22:01" },
-            JieQiData { name: "大寒", time: "1929-01-20 20:42:10" },
-            JieQiData { name: "立春", time: "1929-02-04 15:08:43" },
-            JieQiData { name: "雨水", time: "1929-02-19 11:06:48" },
-            JieQiData { name: "惊蛰", time: "1929-03-06 09:31:57" },
-            JieQiData { name: "春分", time: "1929-03-21 10:34:45" },
-            JieQiData { name: "清明", time: "1929-04-05 14:51:13" },
-            JieQiData { name: "谷雨", time: "1929-04-20 22:10:15" },
-            JieQiData { name: "立夏", time: "1929-05-06 08:40:20" },
-            JieQiData { name: "小满", time: "1929-05-21 21:47:33" },
-            JieQiData { name: "芒种", time: "1929-06-06 13:10:47" },
-            JieQiData { name: "夏至", time: "1929-06-22 06:00:33" },
-            JieQiData { name: "小暑", time: "1929-07-07 23:31:38" },
-            JieQiData { name: "大暑", time: "1929-07-23 16:53:14" },
-            JieQiData { name: "立秋", time: "1929-08-08 09:08:41" },
-            JieQiData { name: "处暑", time: "1929-08-23 23:41:12" },
-            JieQiData { name: "白露", time: "1929-09-08 11:39:34" },
-            JieQiData { name: "秋分", time: "1929-09-23 20:52:15" },
-            JieQiData { name: "寒露", time: "1929-10-09 02:47:02" },
-            JieQiData { name: "霜降", time: "1929-10-24 05:41:24" },
-            JieQiData { name: "立冬", time: "1929-11-08 05:27:27" },
-            JieQiData { name: "小雪", time: "1929-11-23 02:48:03" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1928-12-07 16:17:16",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1928-12-22 10:03:36",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1929-01-06 03:22:01",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1929-01-20 20:42:10",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1929-02-04 15:08:43",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1929-02-19 11:06:48",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1929-03-06 09:31:57",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1929-03-21 10:34:45",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1929-04-05 14:51:13",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1929-04-20 22:10:15",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1929-05-06 08:40:20",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1929-05-21 21:47:33",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1929-06-06 13:10:47",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1929-06-22 06:00:33",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1929-07-07 23:31:38",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1929-07-23 16:53:14",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1929-08-08 09:08:41",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1929-08-23 23:41:12",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1929-09-08 11:39:34",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1929-09-23 20:52:15",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1929-10-09 02:47:02",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1929-10-24 05:41:24",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1929-11-08 05:27:27",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1929-11-23 02:48:03",
+            },
         ],
     },
     BaziYearData {
@@ -950,30 +3110,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1930-01-30",
         lichun_time: "1930-02-04 20:51:07",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1929-12-07 21:56:24" },
-            JieQiData { name: "冬至", time: "1929-12-22 15:52:41" },
-            JieQiData { name: "小寒", time: "1930-01-06 09:02:32" },
-            JieQiData { name: "大寒", time: "1930-01-21 02:32:56" },
-            JieQiData { name: "立春", time: "1930-02-04 20:51:07" },
-            JieQiData { name: "雨水", time: "1930-02-19 16:59:45" },
-            JieQiData { name: "惊蛰", time: "1930-03-06 15:16:33" },
-            JieQiData { name: "春分", time: "1930-03-21 16:29:42" },
-            JieQiData { name: "清明", time: "1930-04-05 20:37:22" },
-            JieQiData { name: "谷雨", time: "1930-04-21 04:05:45" },
-            JieQiData { name: "立夏", time: "1930-05-06 14:26:59" },
-            JieQiData { name: "小满", time: "1930-05-22 03:41:59" },
-            JieQiData { name: "芒种", time: "1930-06-06 18:58:02" },
-            JieQiData { name: "夏至", time: "1930-06-22 11:52:45" },
-            JieQiData { name: "小暑", time: "1930-07-08 05:19:40" },
-            JieQiData { name: "大暑", time: "1930-07-23 22:41:53" },
-            JieQiData { name: "立秋", time: "1930-08-08 14:56:58" },
-            JieQiData { name: "处暑", time: "1930-08-24 05:26:17" },
-            JieQiData { name: "白露", time: "1930-09-08 17:28:22" },
-            JieQiData { name: "秋分", time: "1930-09-24 02:35:52" },
-            JieQiData { name: "寒露", time: "1930-10-09 08:37:28" },
-            JieQiData { name: "霜降", time: "1930-10-24 11:25:57" },
-            JieQiData { name: "立冬", time: "1930-11-08 11:20:12" },
-            JieQiData { name: "小雪", time: "1930-11-23 08:34:25" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1929-12-07 21:56:24",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1929-12-22 15:52:41",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1930-01-06 09:02:32",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1930-01-21 02:32:56",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1930-02-04 20:51:07",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1930-02-19 16:59:45",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1930-03-06 15:16:33",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1930-03-21 16:29:42",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1930-04-05 20:37:22",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1930-04-21 04:05:45",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1930-05-06 14:26:59",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1930-05-22 03:41:59",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1930-06-06 18:58:02",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1930-06-22 11:52:45",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1930-07-08 05:19:40",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1930-07-23 22:41:53",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1930-08-08 14:56:58",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1930-08-24 05:26:17",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1930-09-08 17:28:22",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1930-09-24 02:35:52",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1930-10-09 08:37:28",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1930-10-24 11:25:57",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1930-11-08 11:20:12",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1930-11-23 08:34:25",
+            },
         ],
     },
     BaziYearData {
@@ -981,30 +3213,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1931-02-17",
         lichun_time: "1931-02-05 02:40:38",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1930-12-08 03:50:37" },
-            JieQiData { name: "冬至", time: "1930-12-22 21:39:29" },
-            JieQiData { name: "小寒", time: "1931-01-06 14:55:35" },
-            JieQiData { name: "大寒", time: "1931-01-21 08:17:27" },
-            JieQiData { name: "立春", time: "1931-02-05 02:40:38" },
-            JieQiData { name: "雨水", time: "1931-02-19 22:40:14" },
-            JieQiData { name: "惊蛰", time: "1931-03-06 21:02:06" },
-            JieQiData { name: "春分", time: "1931-03-21 22:06:14" },
-            JieQiData { name: "清明", time: "1931-04-06 02:20:26" },
-            JieQiData { name: "谷雨", time: "1931-04-21 09:39:45" },
-            JieQiData { name: "立夏", time: "1931-05-06 20:09:35" },
-            JieQiData { name: "小满", time: "1931-05-22 09:15:21" },
-            JieQiData { name: "芒种", time: "1931-06-07 00:41:45" },
-            JieQiData { name: "夏至", time: "1931-06-22 17:28:00" },
-            JieQiData { name: "小暑", time: "1931-07-08 11:05:34" },
-            JieQiData { name: "大暑", time: "1931-07-24 04:21:20" },
-            JieQiData { name: "立秋", time: "1931-08-08 20:44:52" },
-            JieQiData { name: "处暑", time: "1931-08-24 11:10:13" },
-            JieQiData { name: "白露", time: "1931-09-08 23:17:15" },
-            JieQiData { name: "秋分", time: "1931-09-24 08:23:15" },
-            JieQiData { name: "寒露", time: "1931-10-09 14:26:51" },
-            JieQiData { name: "霜降", time: "1931-10-24 17:15:26" },
-            JieQiData { name: "立冬", time: "1931-11-08 17:09:51" },
-            JieQiData { name: "小雪", time: "1931-11-23 14:24:38" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1930-12-08 03:50:37",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1930-12-22 21:39:29",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1931-01-06 14:55:35",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1931-01-21 08:17:27",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1931-02-05 02:40:38",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1931-02-19 22:40:14",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1931-03-06 21:02:06",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1931-03-21 22:06:14",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1931-04-06 02:20:26",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1931-04-21 09:39:45",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1931-05-06 20:09:35",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1931-05-22 09:15:21",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1931-06-07 00:41:45",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1931-06-22 17:28:00",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1931-07-08 11:05:34",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1931-07-24 04:21:20",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1931-08-08 20:44:52",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1931-08-24 11:10:13",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1931-09-08 23:17:15",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1931-09-24 08:23:15",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1931-10-09 14:26:51",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1931-10-24 17:15:26",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1931-11-08 17:09:51",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1931-11-23 14:24:38",
+            },
         ],
     },
     BaziYearData {
@@ -1012,30 +3316,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1932-02-06",
         lichun_time: "1932-02-05 08:29:20",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1931-12-08 09:40:15" },
-            JieQiData { name: "冬至", time: "1931-12-23 03:29:31" },
-            JieQiData { name: "小寒", time: "1932-01-06 20:45:03" },
-            JieQiData { name: "大寒", time: "1932-01-21 14:06:45" },
-            JieQiData { name: "立春", time: "1932-02-05 08:29:20" },
-            JieQiData { name: "雨水", time: "1932-02-20 04:28:19" },
-            JieQiData { name: "惊蛰", time: "1932-03-06 02:49:19" },
-            JieQiData { name: "春分", time: "1932-03-21 03:53:32" },
-            JieQiData { name: "清明", time: "1932-04-05 08:06:19" },
-            JieQiData { name: "谷雨", time: "1932-04-20 15:28:01" },
-            JieQiData { name: "立夏", time: "1932-05-06 01:55:08" },
-            JieQiData { name: "小满", time: "1932-05-21 15:06:33" },
-            JieQiData { name: "芒种", time: "1932-06-06 06:27:43" },
-            JieQiData { name: "夏至", time: "1932-06-21 23:22:34" },
-            JieQiData { name: "小暑", time: "1932-07-07 16:52:15" },
-            JieQiData { name: "大暑", time: "1932-07-23 10:17:59" },
-            JieQiData { name: "立秋", time: "1932-08-08 02:31:48" },
-            JieQiData { name: "处暑", time: "1932-08-23 17:06:10" },
-            JieQiData { name: "白露", time: "1932-09-08 05:02:52" },
-            JieQiData { name: "秋分", time: "1932-09-23 14:15:49" },
-            JieQiData { name: "寒露", time: "1932-10-08 20:09:38" },
-            JieQiData { name: "霜降", time: "1932-10-23 23:03:50" },
-            JieQiData { name: "立冬", time: "1932-11-07 22:49:40" },
-            JieQiData { name: "小雪", time: "1932-11-22 20:10:05" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1931-12-08 09:40:15",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1931-12-23 03:29:31",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1932-01-06 20:45:03",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1932-01-21 14:06:45",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1932-02-05 08:29:20",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1932-02-20 04:28:19",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1932-03-06 02:49:19",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1932-03-21 03:53:32",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1932-04-05 08:06:19",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1932-04-20 15:28:01",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1932-05-06 01:55:08",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1932-05-21 15:06:33",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1932-06-06 06:27:43",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1932-06-21 23:22:34",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1932-07-07 16:52:15",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1932-07-23 10:17:59",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1932-08-08 02:31:48",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1932-08-23 17:06:10",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1932-09-08 05:02:52",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1932-09-23 14:15:49",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1932-10-08 20:09:38",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1932-10-23 23:03:50",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1932-11-07 22:49:40",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1932-11-22 20:10:05",
+            },
         ],
     },
     BaziYearData {
@@ -1043,30 +3419,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1933-01-26",
         lichun_time: "1933-02-04 14:09:16",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1932-12-07 15:18:22" },
-            JieQiData { name: "冬至", time: "1932-12-22 09:14:12" },
-            JieQiData { name: "小寒", time: "1933-01-06 02:23:20" },
-            JieQiData { name: "大寒", time: "1933-01-20 19:52:39" },
-            JieQiData { name: "立春", time: "1933-02-04 14:09:16" },
-            JieQiData { name: "雨水", time: "1933-02-19 10:16:15" },
-            JieQiData { name: "惊蛰", time: "1933-03-06 08:31:24" },
-            JieQiData { name: "春分", time: "1933-03-21 09:43:03" },
-            JieQiData { name: "清明", time: "1933-04-05 13:50:29" },
-            JieQiData { name: "谷雨", time: "1933-04-20 21:18:14" },
-            JieQiData { name: "立夏", time: "1933-05-06 07:41:45" },
-            JieQiData { name: "小满", time: "1933-05-21 20:56:45" },
-            JieQiData { name: "芒种", time: "1933-06-06 12:17:19" },
-            JieQiData { name: "夏至", time: "1933-06-22 05:11:45" },
-            JieQiData { name: "小暑", time: "1933-07-07 22:44:17" },
-            JieQiData { name: "大暑", time: "1933-07-23 16:05:22" },
-            JieQiData { name: "立秋", time: "1933-08-08 08:25:30" },
-            JieQiData { name: "处暑", time: "1933-08-23 22:52:19" },
-            JieQiData { name: "白露", time: "1933-09-08 10:57:26" },
-            JieQiData { name: "秋分", time: "1933-09-23 20:01:06" },
-            JieQiData { name: "寒露", time: "1933-10-09 02:03:53" },
-            JieQiData { name: "霜降", time: "1933-10-24 04:48:03" },
-            JieQiData { name: "立冬", time: "1933-11-08 04:42:58" },
-            JieQiData { name: "小雪", time: "1933-11-23 01:53:24" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1932-12-07 15:18:22",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1932-12-22 09:14:12",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1933-01-06 02:23:20",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1933-01-20 19:52:39",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1933-02-04 14:09:16",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1933-02-19 10:16:15",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1933-03-06 08:31:24",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1933-03-21 09:43:03",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1933-04-05 13:50:29",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1933-04-20 21:18:14",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1933-05-06 07:41:45",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1933-05-21 20:56:45",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1933-06-06 12:17:19",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1933-06-22 05:11:45",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1933-07-07 22:44:17",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1933-07-23 16:05:22",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1933-08-08 08:25:30",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1933-08-23 22:52:19",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1933-09-08 10:57:26",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1933-09-23 20:01:06",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1933-10-09 02:03:53",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1933-10-24 04:48:03",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1933-11-08 04:42:58",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1933-11-23 01:53:24",
+            },
         ],
     },
     BaziYearData {
@@ -1074,30 +3522,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1934-02-14",
         lichun_time: "1934-02-04 20:03:37",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1933-12-07 21:11:05" },
-            JieQiData { name: "冬至", time: "1933-12-22 14:57:26" },
-            JieQiData { name: "小寒", time: "1934-01-06 08:16:27" },
-            JieQiData { name: "大寒", time: "1934-01-21 01:36:51" },
-            JieQiData { name: "立春", time: "1934-02-04 20:03:37" },
-            JieQiData { name: "雨水", time: "1934-02-19 16:01:37" },
-            JieQiData { name: "惊蛰", time: "1934-03-06 14:26:20" },
-            JieQiData { name: "春分", time: "1934-03-21 15:27:53" },
-            JieQiData { name: "清明", time: "1934-04-05 19:43:39" },
-            JieQiData { name: "谷雨", time: "1934-04-21 03:00:07" },
-            JieQiData { name: "立夏", time: "1934-05-06 13:30:44" },
-            JieQiData { name: "小满", time: "1934-05-22 02:34:51" },
-            JieQiData { name: "芒种", time: "1934-06-06 18:01:21" },
-            JieQiData { name: "夏至", time: "1934-06-22 10:47:51" },
-            JieQiData { name: "小暑", time: "1934-07-08 04:24:25" },
-            JieQiData { name: "大暑", time: "1934-07-23 21:42:07" },
-            JieQiData { name: "立秋", time: "1934-08-08 14:03:38" },
-            JieQiData { name: "处暑", time: "1934-08-24 04:32:00" },
-            JieQiData { name: "白露", time: "1934-09-08 16:36:08" },
-            JieQiData { name: "秋分", time: "1934-09-24 01:45:08" },
-            JieQiData { name: "寒露", time: "1934-10-09 07:44:59" },
-            JieQiData { name: "霜降", time: "1934-10-24 10:36:15" },
-            JieQiData { name: "立冬", time: "1934-11-08 10:26:41" },
-            JieQiData { name: "小雪", time: "1934-11-23 07:44:20" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1933-12-07 21:11:05",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1933-12-22 14:57:26",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1934-01-06 08:16:27",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1934-01-21 01:36:51",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1934-02-04 20:03:37",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1934-02-19 16:01:37",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1934-03-06 14:26:20",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1934-03-21 15:27:53",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1934-04-05 19:43:39",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1934-04-21 03:00:07",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1934-05-06 13:30:44",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1934-05-22 02:34:51",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1934-06-06 18:01:21",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1934-06-22 10:47:51",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1934-07-08 04:24:25",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1934-07-23 21:42:07",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1934-08-08 14:03:38",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1934-08-24 04:32:00",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1934-09-08 16:36:08",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1934-09-24 01:45:08",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1934-10-09 07:44:59",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1934-10-24 10:36:15",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1934-11-08 10:26:41",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1934-11-23 07:44:20",
+            },
         ],
     },
     BaziYearData {
@@ -1105,30 +3625,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1935-02-04",
         lichun_time: "1935-02-05 01:48:41",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1934-12-08 02:56:31" },
-            JieQiData { name: "冬至", time: "1934-12-22 20:49:22" },
-            JieQiData { name: "小寒", time: "1935-01-06 14:02:19" },
-            JieQiData { name: "大寒", time: "1935-01-21 07:28:17" },
-            JieQiData { name: "立春", time: "1935-02-05 01:48:41" },
-            JieQiData { name: "雨水", time: "1935-02-19 21:51:56" },
-            JieQiData { name: "惊蛰", time: "1935-03-06 20:10:10" },
-            JieQiData { name: "春分", time: "1935-03-21 21:17:43" },
-            JieQiData { name: "清明", time: "1935-04-06 01:26:21" },
-            JieQiData { name: "谷雨", time: "1935-04-21 08:50:04" },
-            JieQiData { name: "立夏", time: "1935-05-06 19:12:02" },
-            JieQiData { name: "小满", time: "1935-05-22 08:24:47" },
-            JieQiData { name: "芒种", time: "1935-06-06 23:41:35" },
-            JieQiData { name: "夏至", time: "1935-06-22 16:37:51" },
-            JieQiData { name: "小暑", time: "1935-07-08 10:05:32" },
-            JieQiData { name: "大暑", time: "1935-07-24 03:32:54" },
-            JieQiData { name: "立秋", time: "1935-08-08 19:47:48" },
-            JieQiData { name: "处暑", time: "1935-08-24 10:23:56" },
-            JieQiData { name: "白露", time: "1935-09-08 22:24:04" },
-            JieQiData { name: "秋分", time: "1935-09-24 07:38:07" },
-            JieQiData { name: "寒露", time: "1935-10-09 13:35:40" },
-            JieQiData { name: "霜降", time: "1935-10-24 16:29:09" },
-            JieQiData { name: "立冬", time: "1935-11-08 16:17:31" },
-            JieQiData { name: "小雪", time: "1935-11-23 13:35:22" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1934-12-08 02:56:31",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1934-12-22 20:49:22",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1935-01-06 14:02:19",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1935-01-21 07:28:17",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1935-02-05 01:48:41",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1935-02-19 21:51:56",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1935-03-06 20:10:10",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1935-03-21 21:17:43",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1935-04-06 01:26:21",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1935-04-21 08:50:04",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1935-05-06 19:12:02",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1935-05-22 08:24:47",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1935-06-06 23:41:35",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1935-06-22 16:37:51",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1935-07-08 10:05:32",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1935-07-24 03:32:54",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1935-08-08 19:47:48",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1935-08-24 10:23:56",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1935-09-08 22:24:04",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1935-09-24 07:38:07",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1935-10-09 13:35:40",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1935-10-24 16:29:09",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1935-11-08 16:17:31",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1935-11-23 13:35:22",
+            },
         ],
     },
     BaziYearData {
@@ -1136,30 +3728,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1936-01-24",
         lichun_time: "1936-02-05 07:29:16",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1935-12-08 08:44:50" },
-            JieQiData { name: "冬至", time: "1935-12-23 02:37:03" },
-            JieQiData { name: "小寒", time: "1936-01-06 19:46:37" },
-            JieQiData { name: "大寒", time: "1936-01-21 13:12:13" },
-            JieQiData { name: "立春", time: "1936-02-05 07:29:16" },
-            JieQiData { name: "雨水", time: "1936-02-20 03:33:00" },
-            JieQiData { name: "惊蛰", time: "1936-03-06 01:49:06" },
-            JieQiData { name: "春分", time: "1936-03-21 02:57:48" },
-            JieQiData { name: "清明", time: "1936-04-05 07:06:44" },
-            JieQiData { name: "谷雨", time: "1936-04-20 14:31:04" },
-            JieQiData { name: "立夏", time: "1936-05-06 00:56:30" },
-            JieQiData { name: "小满", time: "1936-05-21 14:07:24" },
-            JieQiData { name: "芒种", time: "1936-06-06 05:30:40" },
-            JieQiData { name: "夏至", time: "1936-06-21 22:21:34" },
-            JieQiData { name: "小暑", time: "1936-07-07 15:58:18" },
-            JieQiData { name: "大暑", time: "1936-07-23 09:17:50" },
-            JieQiData { name: "立秋", time: "1936-08-08 01:43:10" },
-            JieQiData { name: "处暑", time: "1936-08-23 16:10:28" },
-            JieQiData { name: "白露", time: "1936-09-08 04:20:35" },
-            JieQiData { name: "秋分", time: "1936-09-23 13:25:54" },
-            JieQiData { name: "寒露", time: "1936-10-08 19:32:25" },
-            JieQiData { name: "霜降", time: "1936-10-23 22:18:02" },
-            JieQiData { name: "立冬", time: "1936-11-07 22:14:38" },
-            JieQiData { name: "小雪", time: "1936-11-22 19:25:00" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1935-12-08 08:44:50",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1935-12-23 02:37:03",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1936-01-06 19:46:37",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1936-01-21 13:12:13",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1936-02-05 07:29:16",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1936-02-20 03:33:00",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1936-03-06 01:49:06",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1936-03-21 02:57:48",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1936-04-05 07:06:44",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1936-04-20 14:31:04",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1936-05-06 00:56:30",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1936-05-21 14:07:24",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1936-06-06 05:30:40",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1936-06-21 22:21:34",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1936-07-07 15:58:18",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1936-07-23 09:17:50",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1936-08-08 01:43:10",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1936-08-23 16:10:28",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1936-09-08 04:20:35",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1936-09-23 13:25:54",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1936-10-08 19:32:25",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1936-10-23 22:18:02",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1936-11-07 22:14:38",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1936-11-22 19:25:00",
+            },
         ],
     },
     BaziYearData {
@@ -1167,30 +3831,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1937-02-11",
         lichun_time: "1937-02-04 13:25:33",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1936-12-07 14:42:13" },
-            JieQiData { name: "冬至", time: "1936-12-22 08:26:37" },
-            JieQiData { name: "小寒", time: "1937-01-06 01:43:44" },
-            JieQiData { name: "大寒", time: "1937-01-20 19:00:57" },
-            JieQiData { name: "立春", time: "1937-02-04 13:25:33" },
-            JieQiData { name: "雨水", time: "1937-02-19 09:20:41" },
-            JieQiData { name: "惊蛰", time: "1937-03-06 07:44:24" },
-            JieQiData { name: "春分", time: "1937-03-21 08:45:01" },
-            JieQiData { name: "清明", time: "1937-04-05 13:01:22" },
-            JieQiData { name: "谷雨", time: "1937-04-20 20:19:08" },
-            JieQiData { name: "立夏", time: "1937-05-06 06:50:35" },
-            JieQiData { name: "小满", time: "1937-05-21 19:57:07" },
-            JieQiData { name: "芒种", time: "1937-06-06 11:22:48" },
-            JieQiData { name: "夏至", time: "1937-06-22 04:11:56" },
-            JieQiData { name: "小暑", time: "1937-07-07 21:45:55" },
-            JieQiData { name: "大暑", time: "1937-07-23 15:06:53" },
-            JieQiData { name: "立秋", time: "1937-08-08 07:25:20" },
-            JieQiData { name: "处暑", time: "1937-08-23 21:57:49" },
-            JieQiData { name: "白露", time: "1937-09-08 09:59:23" },
-            JieQiData { name: "秋分", time: "1937-09-23 19:12:54" },
-            JieQiData { name: "寒露", time: "1937-10-09 01:10:54" },
-            JieQiData { name: "霜降", time: "1937-10-24 04:06:30" },
-            JieQiData { name: "立冬", time: "1937-11-08 03:55:15" },
-            JieQiData { name: "小雪", time: "1937-11-23 01:16:27" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1936-12-07 14:42:13",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1936-12-22 08:26:37",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1937-01-06 01:43:44",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1937-01-20 19:00:57",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1937-02-04 13:25:33",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1937-02-19 09:20:41",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1937-03-06 07:44:24",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1937-03-21 08:45:01",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1937-04-05 13:01:22",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1937-04-20 20:19:08",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1937-05-06 06:50:35",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1937-05-21 19:57:07",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1937-06-06 11:22:48",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1937-06-22 04:11:56",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1937-07-07 21:45:55",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1937-07-23 15:06:53",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1937-08-08 07:25:20",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1937-08-23 21:57:49",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1937-09-08 09:59:23",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1937-09-23 19:12:54",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1937-10-09 01:10:54",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1937-10-24 04:06:30",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1937-11-08 03:55:15",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1937-11-23 01:16:27",
+            },
         ],
     },
     BaziYearData {
@@ -1198,30 +3934,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1938-01-31",
         lichun_time: "1938-02-04 19:14:58",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1937-12-07 20:26:16" },
-            JieQiData { name: "冬至", time: "1937-12-22 14:21:36" },
-            JieQiData { name: "小寒", time: "1938-01-06 07:31:08" },
-            JieQiData { name: "大寒", time: "1938-01-21 00:58:42" },
-            JieQiData { name: "立春", time: "1938-02-04 19:14:58" },
-            JieQiData { name: "雨水", time: "1938-02-19 15:19:33" },
-            JieQiData { name: "惊蛰", time: "1938-03-06 13:33:46" },
-            JieQiData { name: "春分", time: "1938-03-21 14:43:02" },
-            JieQiData { name: "清明", time: "1938-04-05 18:48:39" },
-            JieQiData { name: "谷雨", time: "1938-04-21 02:14:41" },
-            JieQiData { name: "立夏", time: "1938-05-06 12:35:09" },
-            JieQiData { name: "小满", time: "1938-05-22 01:50:08" },
-            JieQiData { name: "芒种", time: "1938-06-06 17:06:37" },
-            JieQiData { name: "夏至", time: "1938-06-22 10:03:32" },
-            JieQiData { name: "小暑", time: "1938-07-08 03:31:21" },
-            JieQiData { name: "大暑", time: "1938-07-23 20:57:02" },
-            JieQiData { name: "立秋", time: "1938-08-08 13:12:41" },
-            JieQiData { name: "处暑", time: "1938-08-24 03:45:46" },
-            JieQiData { name: "白露", time: "1938-09-08 15:48:08" },
-            JieQiData { name: "秋分", time: "1938-09-24 00:59:27" },
-            JieQiData { name: "寒露", time: "1938-10-09 07:01:24" },
-            JieQiData { name: "霜降", time: "1938-10-24 09:53:44" },
-            JieQiData { name: "立冬", time: "1938-11-08 09:48:19" },
-            JieQiData { name: "小雪", time: "1938-11-23 07:06:02" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1937-12-07 20:26:16",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1937-12-22 14:21:36",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1938-01-06 07:31:08",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1938-01-21 00:58:42",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1938-02-04 19:14:58",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1938-02-19 15:19:33",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1938-03-06 13:33:46",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1938-03-21 14:43:02",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1938-04-05 18:48:39",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1938-04-21 02:14:41",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1938-05-06 12:35:09",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1938-05-22 01:50:08",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1938-06-06 17:06:37",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1938-06-22 10:03:32",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1938-07-08 03:31:21",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1938-07-23 20:57:02",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1938-08-08 13:12:41",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1938-08-24 03:45:46",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1938-09-08 15:48:08",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1938-09-24 00:59:27",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1938-10-09 07:01:24",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1938-10-24 09:53:44",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1938-11-08 09:48:19",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1938-11-23 07:06:02",
+            },
         ],
     },
     BaziYearData {
@@ -1229,30 +4037,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1939-02-19",
         lichun_time: "1939-02-05 01:10:26",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1938-12-08 02:21:58" },
-            JieQiData { name: "冬至", time: "1938-12-22 20:13:21" },
-            JieQiData { name: "小寒", time: "1939-01-06 13:27:51" },
-            JieQiData { name: "大寒", time: "1939-01-21 06:50:40" },
-            JieQiData { name: "立春", time: "1939-02-05 01:10:26" },
-            JieQiData { name: "雨水", time: "1939-02-19 21:09:15" },
-            JieQiData { name: "惊蛰", time: "1939-03-06 19:26:11" },
-            JieQiData { name: "春分", time: "1939-03-21 20:28:26" },
-            JieQiData { name: "清明", time: "1939-04-06 00:37:24" },
-            JieQiData { name: "谷雨", time: "1939-04-21 07:55:05" },
-            JieQiData { name: "立夏", time: "1939-05-06 18:21:02" },
-            JieQiData { name: "小满", time: "1939-05-22 07:26:38" },
-            JieQiData { name: "芒种", time: "1939-06-06 22:51:38" },
-            JieQiData { name: "夏至", time: "1939-06-22 15:39:22" },
-            JieQiData { name: "小暑", time: "1939-07-08 09:18:20" },
-            JieQiData { name: "大暑", time: "1939-07-24 02:36:36" },
-            JieQiData { name: "立秋", time: "1939-08-08 19:03:27" },
-            JieQiData { name: "处暑", time: "1939-08-24 09:31:08" },
-            JieQiData { name: "白露", time: "1939-09-08 21:42:01" },
-            JieQiData { name: "秋分", time: "1939-09-24 06:49:25" },
-            JieQiData { name: "寒露", time: "1939-10-09 12:56:36" },
-            JieQiData { name: "霜降", time: "1939-10-24 15:45:49" },
-            JieQiData { name: "立冬", time: "1939-11-08 15:43:30" },
-            JieQiData { name: "小雪", time: "1939-11-23 12:58:28" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1938-12-08 02:21:58",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1938-12-22 20:13:21",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1939-01-06 13:27:51",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1939-01-21 06:50:40",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1939-02-05 01:10:26",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1939-02-19 21:09:15",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1939-03-06 19:26:11",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1939-03-21 20:28:26",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1939-04-06 00:37:24",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1939-04-21 07:55:05",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1939-05-06 18:21:02",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1939-05-22 07:26:38",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1939-06-06 22:51:38",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1939-06-22 15:39:22",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1939-07-08 09:18:20",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1939-07-24 02:36:36",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1939-08-08 19:03:27",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1939-08-24 09:31:08",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1939-09-08 21:42:01",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1939-09-24 06:49:25",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1939-10-09 12:56:36",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1939-10-24 15:45:49",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1939-11-08 15:43:30",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1939-11-23 12:58:28",
+            },
         ],
     },
     BaziYearData {
@@ -1260,30 +4140,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1940-02-08",
         lichun_time: "1940-02-05 07:07:32",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1939-12-08 08:17:00" },
-            JieQiData { name: "冬至", time: "1939-12-23 02:05:55" },
-            JieQiData { name: "小寒", time: "1940-01-06 19:23:40" },
-            JieQiData { name: "大寒", time: "1940-01-21 12:44:03" },
-            JieQiData { name: "立春", time: "1940-02-05 07:07:32" },
-            JieQiData { name: "雨水", time: "1940-02-20 03:03:42" },
-            JieQiData { name: "惊蛰", time: "1940-03-06 01:23:58" },
-            JieQiData { name: "春分", time: "1940-03-21 02:23:41" },
-            JieQiData { name: "清明", time: "1940-04-05 06:34:34" },
-            JieQiData { name: "谷雨", time: "1940-04-20 13:50:52" },
-            JieQiData { name: "立夏", time: "1940-05-06 00:16:16" },
-            JieQiData { name: "小满", time: "1940-05-21 13:23:00" },
-            JieQiData { name: "芒种", time: "1940-06-06 04:44:02" },
-            JieQiData { name: "夏至", time: "1940-06-21 21:36:22" },
-            JieQiData { name: "小暑", time: "1940-07-07 15:08:01" },
-            JieQiData { name: "大暑", time: "1940-07-23 08:34:03" },
-            JieQiData { name: "立秋", time: "1940-08-08 00:51:29" },
-            JieQiData { name: "处暑", time: "1940-08-23 15:28:30" },
-            JieQiData { name: "白露", time: "1940-09-08 03:29:14" },
-            JieQiData { name: "秋分", time: "1940-09-23 12:45:32" },
-            JieQiData { name: "寒露", time: "1940-10-08 18:42:23" },
-            JieQiData { name: "霜降", time: "1940-10-23 21:39:18" },
-            JieQiData { name: "立冬", time: "1940-11-07 21:26:46" },
-            JieQiData { name: "小雪", time: "1940-11-22 18:48:55" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1939-12-08 08:17:00",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1939-12-23 02:05:55",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1940-01-06 19:23:40",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1940-01-21 12:44:03",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1940-02-05 07:07:32",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1940-02-20 03:03:42",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1940-03-06 01:23:58",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1940-03-21 02:23:41",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1940-04-05 06:34:34",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1940-04-20 13:50:52",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1940-05-06 00:16:16",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1940-05-21 13:23:00",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1940-06-06 04:44:02",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1940-06-21 21:36:22",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1940-07-07 15:08:01",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1940-07-23 08:34:03",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1940-08-08 00:51:29",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1940-08-23 15:28:30",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1940-09-08 03:29:14",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1940-09-23 12:45:32",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1940-10-08 18:42:23",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1940-10-23 21:39:18",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1940-11-07 21:26:46",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1940-11-22 18:48:55",
+            },
         ],
     },
     BaziYearData {
@@ -1291,30 +4243,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1941-01-27",
         lichun_time: "1941-02-04 12:49:44",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1940-12-07 13:57:51" },
-            JieQiData { name: "冬至", time: "1940-12-22 07:54:41" },
-            JieQiData { name: "小寒", time: "1941-01-06 01:03:54" },
-            JieQiData { name: "大寒", time: "1941-01-20 18:33:37" },
-            JieQiData { name: "立春", time: "1941-02-04 12:49:44" },
-            JieQiData { name: "雨水", time: "1941-02-19 08:56:21" },
-            JieQiData { name: "惊蛰", time: "1941-03-06 07:10:04" },
-            JieQiData { name: "春分", time: "1941-03-21 08:20:19" },
-            JieQiData { name: "清明", time: "1941-04-05 12:24:55" },
-            JieQiData { name: "谷雨", time: "1941-04-20 19:50:24" },
-            JieQiData { name: "立夏", time: "1941-05-06 06:09:50" },
-            JieQiData { name: "小满", time: "1941-05-21 19:22:47" },
-            JieQiData { name: "芒种", time: "1941-06-06 10:39:12" },
-            JieQiData { name: "夏至", time: "1941-06-22 03:33:15" },
-            JieQiData { name: "小暑", time: "1941-07-07 21:03:04" },
-            JieQiData { name: "大暑", time: "1941-07-23 14:26:08" },
-            JieQiData { name: "立秋", time: "1941-08-08 06:45:52" },
-            JieQiData { name: "处暑", time: "1941-08-23 21:16:51" },
-            JieQiData { name: "白露", time: "1941-09-08 09:23:48" },
-            JieQiData { name: "秋分", time: "1941-09-23 18:32:42" },
-            JieQiData { name: "寒露", time: "1941-10-09 00:38:12" },
-            JieQiData { name: "霜降", time: "1941-10-24 03:27:09" },
-            JieQiData { name: "立冬", time: "1941-11-08 03:24:03" },
-            JieQiData { name: "小雪", time: "1941-11-23 00:37:47" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1940-12-07 13:57:51",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1940-12-22 07:54:41",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1941-01-06 01:03:54",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1941-01-20 18:33:37",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1941-02-04 12:49:44",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1941-02-19 08:56:21",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1941-03-06 07:10:04",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1941-03-21 08:20:19",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1941-04-05 12:24:55",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1941-04-20 19:50:24",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1941-05-06 06:09:50",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1941-05-21 19:22:47",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1941-06-06 10:39:12",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1941-06-22 03:33:15",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1941-07-07 21:03:04",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1941-07-23 14:26:08",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1941-08-08 06:45:52",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1941-08-23 21:16:51",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1941-09-08 09:23:48",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1941-09-23 18:32:42",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1941-10-09 00:38:12",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1941-10-24 03:27:09",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1941-11-08 03:24:03",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1941-11-23 00:37:47",
+            },
         ],
     },
     BaziYearData {
@@ -1322,30 +4346,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1942-02-15",
         lichun_time: "1942-02-04 18:48:34",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1941-12-07 19:55:58" },
-            JieQiData { name: "冬至", time: "1941-12-22 13:44:06" },
-            JieQiData { name: "小寒", time: "1942-01-06 07:02:18" },
-            JieQiData { name: "大寒", time: "1942-01-21 00:23:28" },
-            JieQiData { name: "立春", time: "1942-02-04 18:48:34" },
-            JieQiData { name: "雨水", time: "1942-02-19 14:46:46" },
-            JieQiData { name: "惊蛰", time: "1942-03-06 13:09:20" },
-            JieQiData { name: "春分", time: "1942-03-21 14:10:34" },
-            JieQiData { name: "清明", time: "1942-04-05 18:23:50" },
-            JieQiData { name: "谷雨", time: "1942-04-21 01:39:05" },
-            JieQiData { name: "立夏", time: "1942-05-06 12:06:50" },
-            JieQiData { name: "小满", time: "1942-05-22 01:08:38" },
-            JieQiData { name: "芒种", time: "1942-06-06 16:32:31" },
-            JieQiData { name: "夏至", time: "1942-06-22 09:16:13" },
-            JieQiData { name: "小暑", time: "1942-07-08 02:51:46" },
-            JieQiData { name: "大暑", time: "1942-07-23 20:07:23" },
-            JieQiData { name: "立秋", time: "1942-08-08 12:30:18" },
-            JieQiData { name: "处暑", time: "1942-08-24 02:58:10" },
-            JieQiData { name: "白露", time: "1942-09-08 15:06:07" },
-            JieQiData { name: "秋分", time: "1942-09-24 00:16:24" },
-            JieQiData { name: "寒露", time: "1942-10-09 06:21:42" },
-            JieQiData { name: "霜降", time: "1942-10-24 09:15:08" },
-            JieQiData { name: "立冬", time: "1942-11-08 09:11:07" },
-            JieQiData { name: "小雪", time: "1942-11-23 06:30:21" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1941-12-07 19:55:58",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1941-12-22 13:44:06",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1942-01-06 07:02:18",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1942-01-21 00:23:28",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1942-02-04 18:48:34",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1942-02-19 14:46:46",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1942-03-06 13:09:20",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1942-03-21 14:10:34",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1942-04-05 18:23:50",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1942-04-21 01:39:05",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1942-05-06 12:06:50",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1942-05-22 01:08:38",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1942-06-06 16:32:31",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1942-06-22 09:16:13",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1942-07-08 02:51:46",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1942-07-23 20:07:23",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1942-08-08 12:30:18",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1942-08-24 02:58:10",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1942-09-08 15:06:07",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1942-09-24 00:16:24",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1942-10-09 06:21:42",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1942-10-24 09:15:08",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1942-11-08 09:11:07",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1942-11-23 06:30:21",
+            },
         ],
     },
     BaziYearData {
@@ -1353,30 +4449,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1943-02-05",
         lichun_time: "1943-02-05 00:40:04",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1942-12-08 01:46:47" },
-            JieQiData { name: "冬至", time: "1942-12-22 19:39:31" },
-            JieQiData { name: "小寒", time: "1943-01-06 12:54:50" },
-            JieQiData { name: "大寒", time: "1943-01-21 06:18:52" },
-            JieQiData { name: "立春", time: "1943-02-05 00:40:04" },
-            JieQiData { name: "雨水", time: "1943-02-19 20:40:13" },
-            JieQiData { name: "惊蛰", time: "1943-03-06 18:58:30" },
-            JieQiData { name: "春分", time: "1943-03-21 20:02:34" },
-            JieQiData { name: "清明", time: "1943-04-06 00:11:10" },
-            JieQiData { name: "谷雨", time: "1943-04-21 07:31:29" },
-            JieQiData { name: "立夏", time: "1943-05-06 17:53:21" },
-            JieQiData { name: "小满", time: "1943-05-22 07:02:49" },
-            JieQiData { name: "芒种", time: "1943-06-06 22:18:57" },
-            JieQiData { name: "夏至", time: "1943-06-22 15:12:17" },
-            JieQiData { name: "小暑", time: "1943-07-08 08:38:50" },
-            JieQiData { name: "大暑", time: "1943-07-24 02:04:30" },
-            JieQiData { name: "立秋", time: "1943-08-08 18:18:30" },
-            JieQiData { name: "处暑", time: "1943-08-24 08:54:59" },
-            JieQiData { name: "白露", time: "1943-09-08 20:55:08" },
-            JieQiData { name: "秋分", time: "1943-09-24 06:11:41" },
-            JieQiData { name: "寒露", time: "1943-10-09 12:10:29" },
-            JieQiData { name: "霜降", time: "1943-10-24 15:08:15" },
-            JieQiData { name: "立冬", time: "1943-11-08 14:58:43" },
-            JieQiData { name: "小雪", time: "1943-11-23 12:21:26" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1942-12-08 01:46:47",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1942-12-22 19:39:31",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1943-01-06 12:54:50",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1943-01-21 06:18:52",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1943-02-05 00:40:04",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1943-02-19 20:40:13",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1943-03-06 18:58:30",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1943-03-21 20:02:34",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1943-04-06 00:11:10",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1943-04-21 07:31:29",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1943-05-06 17:53:21",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1943-05-22 07:02:49",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1943-06-06 22:18:57",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1943-06-22 15:12:17",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1943-07-08 08:38:50",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1943-07-24 02:04:30",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1943-08-08 18:18:30",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1943-08-24 08:54:59",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1943-09-08 20:55:08",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1943-09-24 06:11:41",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1943-10-09 12:10:29",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1943-10-24 15:08:15",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1943-11-08 14:58:43",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1943-11-23 12:21:26",
+            },
         ],
     },
     BaziYearData {
@@ -1384,30 +4552,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1944-01-25",
         lichun_time: "1944-02-05 06:22:55",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1943-12-08 07:32:50" },
-            JieQiData { name: "冬至", time: "1943-12-23 01:29:04" },
-            JieQiData { name: "小寒", time: "1944-01-06 18:39:15" },
-            JieQiData { name: "大寒", time: "1944-01-21 12:07:04" },
-            JieQiData { name: "立春", time: "1944-02-05 06:22:55" },
-            JieQiData { name: "雨水", time: "1944-02-20 02:27:05" },
-            JieQiData { name: "惊蛰", time: "1944-03-06 00:40:26" },
-            JieQiData { name: "春分", time: "1944-03-21 01:48:32" },
-            JieQiData { name: "清明", time: "1944-04-05 05:53:58" },
-            JieQiData { name: "谷雨", time: "1944-04-20 13:17:45" },
-            JieQiData { name: "立夏", time: "1944-05-05 23:39:43" },
-            JieQiData { name: "小满", time: "1944-05-21 12:50:46" },
-            JieQiData { name: "芒种", time: "1944-06-06 04:10:53" },
-            JieQiData { name: "夏至", time: "1944-06-21 21:02:14" },
-            JieQiData { name: "小暑", time: "1944-07-07 14:36:02" },
-            JieQiData { name: "大暑", time: "1944-07-23 07:55:49" },
-            JieQiData { name: "立秋", time: "1944-08-08 00:18:51" },
-            JieQiData { name: "处暑", time: "1944-08-23 14:46:26" },
-            JieQiData { name: "白露", time: "1944-09-08 02:55:32" },
-            JieQiData { name: "秋分", time: "1944-09-23 12:01:35" },
-            JieQiData { name: "寒露", time: "1944-10-08 18:08:43" },
-            JieQiData { name: "霜降", time: "1944-10-23 20:55:56" },
-            JieQiData { name: "立冬", time: "1944-11-07 20:54:39" },
-            JieQiData { name: "小雪", time: "1944-11-22 18:07:30" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1943-12-08 07:32:50",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1943-12-23 01:29:04",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1944-01-06 18:39:15",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1944-01-21 12:07:04",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1944-02-05 06:22:55",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1944-02-20 02:27:05",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1944-03-06 00:40:26",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1944-03-21 01:48:32",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1944-04-05 05:53:58",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1944-04-20 13:17:45",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1944-05-05 23:39:43",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1944-05-21 12:50:46",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1944-06-06 04:10:53",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1944-06-21 21:02:14",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1944-07-07 14:36:02",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1944-07-23 07:55:49",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1944-08-08 00:18:51",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1944-08-23 14:46:26",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1944-09-08 02:55:32",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1944-09-23 12:01:35",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1944-10-08 18:08:43",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1944-10-23 20:55:56",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1944-11-07 20:54:39",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1944-11-22 18:07:30",
+            },
         ],
     },
     BaziYearData {
@@ -1415,30 +4655,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1945-02-13",
         lichun_time: "1945-02-04 12:19:22",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1944-12-07 13:27:38" },
-            JieQiData { name: "冬至", time: "1944-12-22 07:14:45" },
-            JieQiData { name: "小寒", time: "1945-01-06 00:34:26" },
-            JieQiData { name: "大寒", time: "1945-01-20 17:53:36" },
-            JieQiData { name: "立春", time: "1945-02-04 12:19:22" },
-            JieQiData { name: "雨水", time: "1945-02-19 08:14:51" },
-            JieQiData { name: "惊蛰", time: "1945-03-06 06:37:59" },
-            JieQiData { name: "春分", time: "1945-03-21 07:37:10" },
-            JieQiData { name: "清明", time: "1945-04-05 11:51:46" },
-            JieQiData { name: "谷雨", time: "1945-04-20 19:06:51" },
-            JieQiData { name: "立夏", time: "1945-05-06 05:36:35" },
-            JieQiData { name: "小满", time: "1945-05-21 18:40:12" },
-            JieQiData { name: "芒种", time: "1945-06-06 10:05:24" },
-            JieQiData { name: "夏至", time: "1945-06-22 02:52:00" },
-            JieQiData { name: "小暑", time: "1945-07-07 20:26:46" },
-            JieQiData { name: "大暑", time: "1945-07-23 13:45:23" },
-            JieQiData { name: "立秋", time: "1945-08-08 06:05:03" },
-            JieQiData { name: "处暑", time: "1945-08-23 20:35:16" },
-            JieQiData { name: "白露", time: "1945-09-08 08:38:07" },
-            JieQiData { name: "秋分", time: "1945-09-23 17:49:44" },
-            JieQiData { name: "寒露", time: "1945-10-08 23:49:07" },
-            JieQiData { name: "霜降", time: "1945-10-24 02:43:34" },
-            JieQiData { name: "立冬", time: "1945-11-08 02:34:11" },
-            JieQiData { name: "小雪", time: "1945-11-22 23:55:11" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1944-12-07 13:27:38",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1944-12-22 07:14:45",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1945-01-06 00:34:26",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1945-01-20 17:53:36",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1945-02-04 12:19:22",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1945-02-19 08:14:51",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1945-03-06 06:37:59",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1945-03-21 07:37:10",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1945-04-05 11:51:46",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1945-04-20 19:06:51",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1945-05-06 05:36:35",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1945-05-21 18:40:12",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1945-06-06 10:05:24",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1945-06-22 02:52:00",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1945-07-07 20:26:46",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1945-07-23 13:45:23",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1945-08-08 06:05:03",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1945-08-23 20:35:16",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1945-09-08 08:38:07",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1945-09-23 17:49:44",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1945-10-08 23:49:07",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1945-10-24 02:43:34",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1945-11-08 02:34:11",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1945-11-22 23:55:11",
+            },
         ],
     },
     BaziYearData {
@@ -1446,30 +4758,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1946-02-02",
         lichun_time: "1946-02-04 18:03:53",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1945-12-07 19:07:39" },
-            JieQiData { name: "冬至", time: "1945-12-22 13:03:32" },
-            JieQiData { name: "小寒", time: "1946-01-06 06:16:19" },
-            JieQiData { name: "大寒", time: "1946-01-20 23:44:35" },
-            JieQiData { name: "立春", time: "1946-02-04 18:03:53" },
-            JieQiData { name: "雨水", time: "1946-02-19 14:08:30" },
-            JieQiData { name: "惊蛰", time: "1946-03-06 12:24:38" },
-            JieQiData { name: "春分", time: "1946-03-21 13:32:37" },
-            JieQiData { name: "清明", time: "1946-04-05 17:38:32" },
-            JieQiData { name: "谷雨", time: "1946-04-21 01:02:08" },
-            JieQiData { name: "立夏", time: "1946-05-06 11:21:29" },
-            JieQiData { name: "小满", time: "1946-05-22 00:33:53" },
-            JieQiData { name: "芒种", time: "1946-06-06 15:48:42" },
-            JieQiData { name: "夏至", time: "1946-06-22 08:44:17" },
-            JieQiData { name: "小暑", time: "1946-07-08 02:10:48" },
-            JieQiData { name: "大暑", time: "1946-07-23 19:37:00" },
-            JieQiData { name: "立秋", time: "1946-08-08 11:51:35" },
-            JieQiData { name: "处暑", time: "1946-08-24 02:26:19" },
-            JieQiData { name: "白露", time: "1946-09-08 14:27:25" },
-            JieQiData { name: "秋分", time: "1946-09-23 23:40:34" },
-            JieQiData { name: "寒露", time: "1946-10-09 05:40:47" },
-            JieQiData { name: "霜降", time: "1946-10-24 08:34:39" },
-            JieQiData { name: "立冬", time: "1946-11-08 08:27:09" },
-            JieQiData { name: "小雪", time: "1946-11-23 05:46:15" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1945-12-07 19:07:39",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1945-12-22 13:03:32",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1946-01-06 06:16:19",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1946-01-20 23:44:35",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1946-02-04 18:03:53",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1946-02-19 14:08:30",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1946-03-06 12:24:38",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1946-03-21 13:32:37",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1946-04-05 17:38:32",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1946-04-21 01:02:08",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1946-05-06 11:21:29",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1946-05-22 00:33:53",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1946-06-06 15:48:42",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1946-06-22 08:44:17",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1946-07-08 02:10:48",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1946-07-23 19:37:00",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1946-08-08 11:51:35",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1946-08-24 02:26:19",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1946-09-08 14:27:25",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1946-09-23 23:40:34",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1946-10-09 05:40:47",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1946-10-24 08:34:39",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1946-11-08 08:27:09",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1946-11-23 05:46:15",
+            },
         ],
     },
     BaziYearData {
@@ -1477,30 +4861,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1947-01-22",
         lichun_time: "1947-02-04 23:50:21",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1946-12-08 01:00:11" },
-            JieQiData { name: "冬至", time: "1946-12-22 18:53:17" },
-            JieQiData { name: "小寒", time: "1947-01-06 12:06:20" },
-            JieQiData { name: "大寒", time: "1947-01-21 05:31:30" },
-            JieQiData { name: "立春", time: "1947-02-04 23:50:21" },
-            JieQiData { name: "雨水", time: "1947-02-19 19:51:53" },
-            JieQiData { name: "惊蛰", time: "1947-03-06 18:07:56" },
-            JieQiData { name: "春分", time: "1947-03-21 19:12:38" },
-            JieQiData { name: "清明", time: "1947-04-05 23:20:08" },
-            JieQiData { name: "谷雨", time: "1947-04-21 06:39:22" },
-            JieQiData { name: "立夏", time: "1947-05-06 17:02:57" },
-            JieQiData { name: "小满", time: "1947-05-22 06:09:00" },
-            JieQiData { name: "芒种", time: "1947-06-06 21:31:12" },
-            JieQiData { name: "夏至", time: "1947-06-22 14:18:47" },
-            JieQiData { name: "小暑", time: "1947-07-08 07:55:48" },
-            JieQiData { name: "大暑", time: "1947-07-24 01:14:09" },
-            JieQiData { name: "立秋", time: "1947-08-08 17:40:51" },
-            JieQiData { name: "处暑", time: "1947-08-24 08:08:56" },
-            JieQiData { name: "白露", time: "1947-09-08 20:21:03" },
-            JieQiData { name: "秋分", time: "1947-09-24 05:28:35" },
-            JieQiData { name: "寒露", time: "1947-10-09 11:37:17" },
-            JieQiData { name: "霜降", time: "1947-10-24 14:25:50" },
-            JieQiData { name: "立冬", time: "1947-11-08 14:24:22" },
-            JieQiData { name: "小雪", time: "1947-11-23 11:37:36" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1946-12-08 01:00:11",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1946-12-22 18:53:17",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1947-01-06 12:06:20",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1947-01-21 05:31:30",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1947-02-04 23:50:21",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1947-02-19 19:51:53",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1947-03-06 18:07:56",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1947-03-21 19:12:38",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1947-04-05 23:20:08",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1947-04-21 06:39:22",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1947-05-06 17:02:57",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1947-05-22 06:09:00",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1947-06-06 21:31:12",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1947-06-22 14:18:47",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1947-07-08 07:55:48",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1947-07-24 01:14:09",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1947-08-08 17:40:51",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1947-08-24 08:08:56",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1947-09-08 20:21:03",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1947-09-24 05:28:35",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1947-10-09 11:37:17",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1947-10-24 14:25:50",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1947-11-08 14:24:22",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1947-11-23 11:37:36",
+            },
         ],
     },
     BaziYearData {
@@ -1508,30 +4964,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1948-02-10",
         lichun_time: "1948-02-05 05:42:00",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1947-12-08 06:56:11" },
-            JieQiData { name: "冬至", time: "1947-12-23 00:42:43" },
-            JieQiData { name: "小寒", time: "1948-01-06 18:00:13" },
-            JieQiData { name: "大寒", time: "1948-01-21 11:18:22" },
-            JieQiData { name: "立春", time: "1948-02-05 05:42:00" },
-            JieQiData { name: "雨水", time: "1948-02-20 01:36:38" },
-            JieQiData { name: "惊蛰", time: "1948-03-05 23:57:53" },
-            JieQiData { name: "春分", time: "1948-03-21 00:56:43" },
-            JieQiData { name: "清明", time: "1948-04-05 05:09:20" },
-            JieQiData { name: "谷雨", time: "1948-04-20 12:24:50" },
-            JieQiData { name: "立夏", time: "1948-05-05 22:52:13" },
-            JieQiData { name: "小满", time: "1948-05-21 11:57:35" },
-            JieQiData { name: "芒种", time: "1948-06-06 03:20:19" },
-            JieQiData { name: "夏至", time: "1948-06-21 20:10:32" },
-            JieQiData { name: "小暑", time: "1948-07-07 13:43:28" },
-            JieQiData { name: "大暑", time: "1948-07-23 07:07:29" },
-            JieQiData { name: "立秋", time: "1948-08-07 23:26:17" },
-            JieQiData { name: "处暑", time: "1948-08-23 14:02:30" },
-            JieQiData { name: "白露", time: "1948-09-08 02:04:59" },
-            JieQiData { name: "秋分", time: "1948-09-23 11:21:39" },
-            JieQiData { name: "寒露", time: "1948-10-08 17:20:16" },
-            JieQiData { name: "霜降", time: "1948-10-23 20:17:57" },
-            JieQiData { name: "立冬", time: "1948-11-07 20:06:32" },
-            JieQiData { name: "小雪", time: "1948-11-22 17:28:47" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1947-12-08 06:56:11",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1947-12-23 00:42:43",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1948-01-06 18:00:13",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1948-01-21 11:18:22",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1948-02-05 05:42:00",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1948-02-20 01:36:38",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1948-03-05 23:57:53",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1948-03-21 00:56:43",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1948-04-05 05:09:20",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1948-04-20 12:24:50",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1948-05-05 22:52:13",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1948-05-21 11:57:35",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1948-06-06 03:20:19",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1948-06-21 20:10:32",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1948-07-07 13:43:28",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1948-07-23 07:07:29",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1948-08-07 23:26:17",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1948-08-23 14:02:30",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1948-09-08 02:04:59",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1948-09-23 11:21:39",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1948-10-08 17:20:16",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1948-10-23 20:17:57",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1948-11-07 20:06:32",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1948-11-22 17:28:47",
+            },
         ],
     },
     BaziYearData {
@@ -1539,30 +5067,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1949-01-29",
         lichun_time: "1949-02-04 11:22:49",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1948-12-07 12:37:37" },
-            JieQiData { name: "冬至", time: "1948-12-22 06:33:13" },
-            JieQiData { name: "小寒", time: "1949-01-05 23:41:08" },
-            JieQiData { name: "大寒", time: "1949-01-20 17:08:32" },
-            JieQiData { name: "立春", time: "1949-02-04 11:22:49" },
-            JieQiData { name: "雨水", time: "1949-02-19 07:27:03" },
-            JieQiData { name: "惊蛰", time: "1949-03-06 05:39:16" },
-            JieQiData { name: "春分", time: "1949-03-21 06:48:01" },
-            JieQiData { name: "清明", time: "1949-04-05 10:51:56" },
-            JieQiData { name: "谷雨", time: "1949-04-20 18:17:15" },
-            JieQiData { name: "立夏", time: "1949-05-06 04:36:34" },
-            JieQiData { name: "小满", time: "1949-05-21 17:50:38" },
-            JieQiData { name: "芒种", time: "1949-06-06 09:06:49" },
-            JieQiData { name: "夏至", time: "1949-06-22 02:02:43" },
-            JieQiData { name: "小暑", time: "1949-07-07 19:31:35" },
-            JieQiData { name: "大暑", time: "1949-07-23 12:56:39" },
-            JieQiData { name: "立秋", time: "1949-08-08 05:14:56" },
-            JieQiData { name: "处暑", time: "1949-08-23 19:48:11" },
-            JieQiData { name: "白露", time: "1949-09-08 07:54:09" },
-            JieQiData { name: "秋分", time: "1949-09-23 17:05:48" },
-            JieQiData { name: "寒露", time: "1949-10-08 23:11:02" },
-            JieQiData { name: "霜降", time: "1949-10-24 02:02:57" },
-            JieQiData { name: "立冬", time: "1949-11-08 01:59:46" },
-            JieQiData { name: "小雪", time: "1949-11-22 23:16:02" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1948-12-07 12:37:37",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1948-12-22 06:33:13",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1949-01-05 23:41:08",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1949-01-20 17:08:32",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1949-02-04 11:22:49",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1949-02-19 07:27:03",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1949-03-06 05:39:16",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1949-03-21 06:48:01",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1949-04-05 10:51:56",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1949-04-20 18:17:15",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1949-05-06 04:36:34",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1949-05-21 17:50:38",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1949-06-06 09:06:49",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1949-06-22 02:02:43",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1949-07-07 19:31:35",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1949-07-23 12:56:39",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1949-08-08 05:14:56",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1949-08-23 19:48:11",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1949-09-08 07:54:09",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1949-09-23 17:05:48",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1949-10-08 23:11:02",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1949-10-24 02:02:57",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1949-11-08 01:59:46",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1949-11-22 23:16:02",
+            },
         ],
     },
     BaziYearData {
@@ -1570,30 +5170,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1950-02-17",
         lichun_time: "1950-02-04 17:20:46",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1949-12-07 18:33:24" },
-            JieQiData { name: "冬至", time: "1949-12-22 12:22:51" },
-            JieQiData { name: "小寒", time: "1950-01-06 05:38:43" },
-            JieQiData { name: "大寒", time: "1950-01-20 22:59:35" },
-            JieQiData { name: "立春", time: "1950-02-04 17:20:46" },
-            JieQiData { name: "雨水", time: "1950-02-19 13:17:29" },
-            JieQiData { name: "惊蛰", time: "1950-03-06 11:35:26" },
-            JieQiData { name: "春分", time: "1950-03-21 12:35:06" },
-            JieQiData { name: "清明", time: "1950-04-05 16:44:27" },
-            JieQiData { name: "谷雨", time: "1950-04-20 23:59:06" },
-            JieQiData { name: "立夏", time: "1950-05-06 10:24:41" },
-            JieQiData { name: "小满", time: "1950-05-21 23:27:07" },
-            JieQiData { name: "芒种", time: "1950-06-06 14:51:00" },
-            JieQiData { name: "夏至", time: "1950-06-22 07:36:00" },
-            JieQiData { name: "小暑", time: "1950-07-08 01:13:17" },
-            JieQiData { name: "大暑", time: "1950-07-23 18:29:53" },
-            JieQiData { name: "立秋", time: "1950-08-08 10:55:11" },
-            JieQiData { name: "处暑", time: "1950-08-24 01:23:09" },
-            JieQiData { name: "白露", time: "1950-09-08 13:33:39" },
-            JieQiData { name: "秋分", time: "1950-09-23 22:43:32" },
-            JieQiData { name: "寒露", time: "1950-10-09 04:51:39" },
-            JieQiData { name: "霜降", time: "1950-10-24 07:44:43" },
-            JieQiData { name: "立冬", time: "1950-11-08 07:43:43" },
-            JieQiData { name: "小雪", time: "1950-11-23 05:02:29" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1949-12-07 18:33:24",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1949-12-22 12:22:51",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1950-01-06 05:38:43",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1950-01-20 22:59:35",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1950-02-04 17:20:46",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1950-02-19 13:17:29",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1950-03-06 11:35:26",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1950-03-21 12:35:06",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1950-04-05 16:44:27",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1950-04-20 23:59:06",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1950-05-06 10:24:41",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1950-05-21 23:27:07",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1950-06-06 14:51:00",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1950-06-22 07:36:00",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1950-07-08 01:13:17",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1950-07-23 18:29:53",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1950-08-08 10:55:11",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1950-08-24 01:23:09",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1950-09-08 13:33:39",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1950-09-23 22:43:32",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1950-10-09 04:51:39",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1950-10-24 07:44:43",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1950-11-08 07:43:43",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1950-11-23 05:02:29",
+            },
         ],
     },
     BaziYearData {
@@ -1601,30 +5273,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1951-02-06",
         lichun_time: "1951-02-04 23:13:26",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1950-12-08 00:21:40" },
-            JieQiData { name: "冬至", time: "1950-12-22 18:13:18" },
-            JieQiData { name: "小寒", time: "1951-01-06 11:30:22" },
-            JieQiData { name: "大寒", time: "1951-01-21 04:52:02" },
-            JieQiData { name: "立春", time: "1951-02-04 23:13:26" },
-            JieQiData { name: "雨水", time: "1951-02-19 19:09:38" },
-            JieQiData { name: "惊蛰", time: "1951-03-06 17:26:40" },
-            JieQiData { name: "春分", time: "1951-03-21 18:25:41" },
-            JieQiData { name: "清明", time: "1951-04-05 22:32:38" },
-            JieQiData { name: "谷雨", time: "1951-04-21 05:48:03" },
-            JieQiData { name: "立夏", time: "1951-05-06 16:09:15" },
-            JieQiData { name: "小满", time: "1951-05-22 05:15:22" },
-            JieQiData { name: "芒种", time: "1951-06-06 20:32:32" },
-            JieQiData { name: "夏至", time: "1951-06-22 13:24:48" },
-            JieQiData { name: "小暑", time: "1951-07-08 06:53:51" },
-            JieQiData { name: "大暑", time: "1951-07-24 00:20:37" },
-            JieQiData { name: "立秋", time: "1951-08-08 16:37:26" },
-            JieQiData { name: "处暑", time: "1951-08-24 07:16:05" },
-            JieQiData { name: "白露", time: "1951-09-08 19:18:10" },
-            JieQiData { name: "秋分", time: "1951-09-24 04:36:50" },
-            JieQiData { name: "寒露", time: "1951-10-09 10:36:23" },
-            JieQiData { name: "霜降", time: "1951-10-24 13:36:00" },
-            JieQiData { name: "立冬", time: "1951-11-08 13:26:36" },
-            JieQiData { name: "小雪", time: "1951-11-23 10:51:03" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1950-12-08 00:21:40",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1950-12-22 18:13:18",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1951-01-06 11:30:22",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1951-01-21 04:52:02",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1951-02-04 23:13:26",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1951-02-19 19:09:38",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1951-03-06 17:26:40",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1951-03-21 18:25:41",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1951-04-05 22:32:38",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1951-04-21 05:48:03",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1951-05-06 16:09:15",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1951-05-22 05:15:22",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1951-06-06 20:32:32",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1951-06-22 13:24:48",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1951-07-08 06:53:51",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1951-07-24 00:20:37",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1951-08-08 16:37:26",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1951-08-24 07:16:05",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1951-09-08 19:18:10",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1951-09-24 04:36:50",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1951-10-09 10:36:23",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1951-10-24 13:36:00",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1951-11-08 13:26:36",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1951-11-23 10:51:03",
+            },
         ],
     },
     BaziYearData {
@@ -1632,30 +5376,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1952-01-27",
         lichun_time: "1952-02-05 04:52:54",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1951-12-08 06:02:18" },
-            JieQiData { name: "冬至", time: "1951-12-23 00:00:01" },
-            JieQiData { name: "小寒", time: "1952-01-06 17:09:45" },
-            JieQiData { name: "大寒", time: "1952-01-21 10:38:22" },
-            JieQiData { name: "立春", time: "1952-02-05 04:52:54" },
-            JieQiData { name: "雨水", time: "1952-02-20 00:56:40" },
-            JieQiData { name: "惊蛰", time: "1952-03-05 23:07:18" },
-            JieQiData { name: "春分", time: "1952-03-21 00:13:42" },
-            JieQiData { name: "清明", time: "1952-04-05 04:15:02" },
-            JieQiData { name: "谷雨", time: "1952-04-20 11:36:37" },
-            JieQiData { name: "立夏", time: "1952-05-05 21:54:01" },
-            JieQiData { name: "小满", time: "1952-05-21 11:03:49" },
-            JieQiData { name: "芒种", time: "1952-06-06 02:20:18" },
-            JieQiData { name: "夏至", time: "1952-06-21 19:12:30" },
-            JieQiData { name: "小暑", time: "1952-07-07 12:44:38" },
-            JieQiData { name: "大暑", time: "1952-07-23 06:07:25" },
-            JieQiData { name: "立秋", time: "1952-08-07 22:30:57" },
-            JieQiData { name: "处暑", time: "1952-08-23 13:02:47" },
-            JieQiData { name: "白露", time: "1952-09-08 01:13:42" },
-            JieQiData { name: "秋分", time: "1952-09-23 10:23:39" },
-            JieQiData { name: "寒露", time: "1952-10-08 16:32:25" },
-            JieQiData { name: "霜降", time: "1952-10-23 19:22:10" },
-            JieQiData { name: "立冬", time: "1952-11-07 19:21:34" },
-            JieQiData { name: "小雪", time: "1952-11-22 16:35:36" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1951-12-08 06:02:18",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1951-12-23 00:00:01",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1952-01-06 17:09:45",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1952-01-21 10:38:22",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1952-02-05 04:52:54",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1952-02-20 00:56:40",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1952-03-05 23:07:18",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1952-03-21 00:13:42",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1952-04-05 04:15:02",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1952-04-20 11:36:37",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1952-05-05 21:54:01",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1952-05-21 11:03:49",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1952-06-06 02:20:18",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1952-06-21 19:12:30",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1952-07-07 12:44:38",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1952-07-23 06:07:25",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1952-08-07 22:30:57",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1952-08-23 13:02:47",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1952-09-08 01:13:42",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1952-09-23 10:23:39",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1952-10-08 16:32:25",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1952-10-23 19:22:10",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1952-11-07 19:21:34",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1952-11-22 16:35:36",
+            },
         ],
     },
     BaziYearData {
@@ -1663,30 +5479,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1953-02-14",
         lichun_time: "1953-02-04 10:45:53",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1952-12-07 11:55:33" },
-            JieQiData { name: "冬至", time: "1952-12-22 05:43:06" },
-            JieQiData { name: "小寒", time: "1953-01-05 23:02:02" },
-            JieQiData { name: "大寒", time: "1953-01-20 16:21:18" },
-            JieQiData { name: "立春", time: "1953-02-04 10:45:53" },
-            JieQiData { name: "雨水", time: "1953-02-19 06:41:05" },
-            JieQiData { name: "惊蛰", time: "1953-03-06 05:02:26" },
-            JieQiData { name: "春分", time: "1953-03-21 06:00:30" },
-            JieQiData { name: "清明", time: "1953-04-05 10:12:36" },
-            JieQiData { name: "谷雨", time: "1953-04-20 17:25:21" },
-            JieQiData { name: "立夏", time: "1953-05-06 03:52:18" },
-            JieQiData { name: "小满", time: "1953-05-21 16:52:47" },
-            JieQiData { name: "芒种", time: "1953-06-06 08:16:04" },
-            JieQiData { name: "夏至", time: "1953-06-22 00:59:53" },
-            JieQiData { name: "小暑", time: "1953-07-07 18:34:54" },
-            JieQiData { name: "大暑", time: "1953-07-23 11:52:06" },
-            JieQiData { name: "立秋", time: "1953-08-08 04:14:35" },
-            JieQiData { name: "处暑", time: "1953-08-23 18:45:09" },
-            JieQiData { name: "白露", time: "1953-09-08 06:52:43" },
-            JieQiData { name: "秋分", time: "1953-09-23 16:05:52" },
-            JieQiData { name: "寒露", time: "1953-10-08 22:10:25" },
-            JieQiData { name: "霜降", time: "1953-10-24 01:06:14" },
-            JieQiData { name: "立冬", time: "1953-11-08 01:00:57" },
-            JieQiData { name: "小雪", time: "1953-11-22 22:22:03" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1952-12-07 11:55:33",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1952-12-22 05:43:06",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1953-01-05 23:02:02",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1953-01-20 16:21:18",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1953-02-04 10:45:53",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1953-02-19 06:41:05",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1953-03-06 05:02:26",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1953-03-21 06:00:30",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1953-04-05 10:12:36",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1953-04-20 17:25:21",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1953-05-06 03:52:18",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1953-05-21 16:52:47",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1953-06-06 08:16:04",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1953-06-22 00:59:53",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1953-07-07 18:34:54",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1953-07-23 11:52:06",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1953-08-08 04:14:35",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1953-08-23 18:45:09",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1953-09-08 06:52:43",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1953-09-23 16:05:52",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1953-10-08 22:10:25",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1953-10-24 01:06:14",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1953-11-08 01:00:57",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1953-11-22 22:22:03",
+            },
         ],
     },
     BaziYearData {
@@ -1694,30 +5582,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1954-02-03",
         lichun_time: "1954-02-04 16:30:41",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1953-12-07 17:36:59" },
-            JieQiData { name: "冬至", time: "1953-12-22 11:31:25" },
-            JieQiData { name: "小寒", time: "1954-01-06 04:45:17" },
-            JieQiData { name: "大寒", time: "1954-01-20 22:11:01" },
-            JieQiData { name: "立春", time: "1954-02-04 16:30:41" },
-            JieQiData { name: "雨水", time: "1954-02-19 12:32:18" },
-            JieQiData { name: "惊蛰", time: "1954-03-06 10:48:32" },
-            JieQiData { name: "春分", time: "1954-03-21 11:53:23" },
-            JieQiData { name: "清明", time: "1954-04-05 15:59:10" },
-            JieQiData { name: "谷雨", time: "1954-04-20 23:19:32" },
-            JieQiData { name: "立夏", time: "1954-05-06 09:38:10" },
-            JieQiData { name: "小满", time: "1954-05-21 22:47:22" },
-            JieQiData { name: "芒种", time: "1954-06-06 14:00:49" },
-            JieQiData { name: "夏至", time: "1954-06-22 06:54:00" },
-            JieQiData { name: "小暑", time: "1954-07-08 00:19:10" },
-            JieQiData { name: "大暑", time: "1954-07-23 17:44:54" },
-            JieQiData { name: "立秋", time: "1954-08-08 09:59:04" },
-            JieQiData { name: "处暑", time: "1954-08-24 00:35:52" },
-            JieQiData { name: "白露", time: "1954-09-08 12:37:51" },
-            JieQiData { name: "秋分", time: "1954-09-23 21:55:13" },
-            JieQiData { name: "寒露", time: "1954-10-09 03:57:18" },
-            JieQiData { name: "霜降", time: "1954-10-24 06:56:19" },
-            JieQiData { name: "立冬", time: "1954-11-08 06:50:34" },
-            JieQiData { name: "小雪", time: "1954-11-23 04:14:10" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1953-12-07 17:36:59",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1953-12-22 11:31:25",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1954-01-06 04:45:17",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1954-01-20 22:11:01",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1954-02-04 16:30:41",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1954-02-19 12:32:18",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1954-03-06 10:48:32",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1954-03-21 11:53:23",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1954-04-05 15:59:10",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1954-04-20 23:19:32",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1954-05-06 09:38:10",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1954-05-21 22:47:22",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1954-06-06 14:00:49",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1954-06-22 06:54:00",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1954-07-08 00:19:10",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1954-07-23 17:44:54",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1954-08-08 09:59:04",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1954-08-24 00:35:52",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1954-09-08 12:37:51",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1954-09-23 21:55:13",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1954-10-09 03:57:18",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1954-10-24 06:56:19",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1954-11-08 06:50:34",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1954-11-23 04:14:10",
+            },
         ],
     },
     BaziYearData {
@@ -1725,30 +5685,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1955-01-24",
         lichun_time: "1955-02-04 22:17:36",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1954-12-07 23:28:29" },
-            JieQiData { name: "冬至", time: "1954-12-22 17:24:19" },
-            JieQiData { name: "小寒", time: "1955-01-06 10:35:52" },
-            JieQiData { name: "大寒", time: "1955-01-21 04:01:50" },
-            JieQiData { name: "立春", time: "1955-02-04 22:17:36" },
-            JieQiData { name: "雨水", time: "1955-02-19 18:18:45" },
-            JieQiData { name: "惊蛰", time: "1955-03-06 16:30:57" },
-            JieQiData { name: "春分", time: "1955-03-21 17:35:04" },
-            JieQiData { name: "清明", time: "1955-04-05 21:38:44" },
-            JieQiData { name: "谷雨", time: "1955-04-21 04:57:50" },
-            JieQiData { name: "立夏", time: "1955-05-06 15:17:58" },
-            JieQiData { name: "小满", time: "1955-05-22 04:24:19" },
-            JieQiData { name: "芒种", time: "1955-06-06 19:43:25" },
-            JieQiData { name: "夏至", time: "1955-06-22 12:31:19" },
-            JieQiData { name: "小暑", time: "1955-07-08 06:05:52" },
-            JieQiData { name: "大暑", time: "1955-07-23 23:24:30" },
-            JieQiData { name: "立秋", time: "1955-08-08 15:50:02" },
-            JieQiData { name: "处暑", time: "1955-08-24 06:18:53" },
-            JieQiData { name: "白露", time: "1955-09-08 18:31:46" },
-            JieQiData { name: "秋分", time: "1955-09-24 03:40:50" },
-            JieQiData { name: "寒露", time: "1955-10-09 09:52:08" },
-            JieQiData { name: "霜降", time: "1955-10-24 12:43:01" },
-            JieQiData { name: "立冬", time: "1955-11-08 12:45:09" },
-            JieQiData { name: "小雪", time: "1955-11-23 10:00:51" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1954-12-07 23:28:29",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1954-12-22 17:24:19",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1955-01-06 10:35:52",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1955-01-21 04:01:50",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1955-02-04 22:17:36",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1955-02-19 18:18:45",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1955-03-06 16:30:57",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1955-03-21 17:35:04",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1955-04-05 21:38:44",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1955-04-21 04:57:50",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1955-05-06 15:17:58",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1955-05-22 04:24:19",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1955-06-06 19:43:25",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1955-06-22 12:31:19",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1955-07-08 06:05:52",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1955-07-23 23:24:30",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1955-08-08 15:50:02",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1955-08-24 06:18:53",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1955-09-08 18:31:46",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1955-09-24 03:40:50",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1955-10-09 09:52:08",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1955-10-24 12:43:01",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1955-11-08 12:45:09",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1955-11-23 10:00:51",
+            },
         ],
     },
     BaziYearData {
@@ -1756,30 +5788,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1956-02-12",
         lichun_time: "1956-02-05 04:11:55",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1955-12-08 05:22:46" },
-            JieQiData { name: "冬至", time: "1955-12-22 23:10:52" },
-            JieQiData { name: "小寒", time: "1956-01-06 16:30:17" },
-            JieQiData { name: "大寒", time: "1956-01-21 09:48:16" },
-            JieQiData { name: "立春", time: "1956-02-05 04:11:55" },
-            JieQiData { name: "雨水", time: "1956-02-20 00:04:37" },
-            JieQiData { name: "惊蛰", time: "1956-03-05 22:24:27" },
-            JieQiData { name: "春分", time: "1956-03-20 23:20:15" },
-            JieQiData { name: "清明", time: "1956-04-05 03:31:09" },
-            JieQiData { name: "谷雨", time: "1956-04-20 10:43:25" },
-            JieQiData { name: "立夏", time: "1956-05-05 21:09:58" },
-            JieQiData { name: "小满", time: "1956-05-21 10:12:32" },
-            JieQiData { name: "芒种", time: "1956-06-06 01:35:47" },
-            JieQiData { name: "夏至", time: "1956-06-21 18:23:41" },
-            JieQiData { name: "小暑", time: "1956-07-07 11:57:59" },
-            JieQiData { name: "大暑", time: "1956-07-23 05:19:52" },
-            JieQiData { name: "立秋", time: "1956-08-07 21:40:12" },
-            JieQiData { name: "处暑", time: "1956-08-23 12:14:46" },
-            JieQiData { name: "白露", time: "1956-09-08 00:18:56" },
-            JieQiData { name: "秋分", time: "1956-09-23 09:35:02" },
-            JieQiData { name: "寒露", time: "1956-10-08 15:35:53" },
-            JieQiData { name: "霜降", time: "1956-10-23 18:34:19" },
-            JieQiData { name: "立冬", time: "1956-11-07 18:25:54" },
-            JieQiData { name: "小雪", time: "1956-11-22 15:49:50" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1955-12-08 05:22:46",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1955-12-22 23:10:52",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1956-01-06 16:30:17",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1956-01-21 09:48:16",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1956-02-05 04:11:55",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1956-02-20 00:04:37",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1956-03-05 22:24:27",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1956-03-20 23:20:15",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1956-04-05 03:31:09",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1956-04-20 10:43:25",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1956-05-05 21:09:58",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1956-05-21 10:12:32",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1956-06-06 01:35:47",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1956-06-21 18:23:41",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1956-07-07 11:57:59",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1956-07-23 05:19:52",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1956-08-07 21:40:12",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1956-08-23 12:14:46",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1956-09-08 00:18:56",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1956-09-23 09:35:02",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1956-10-08 15:35:53",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1956-10-23 18:34:19",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1956-11-07 18:25:54",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1956-11-22 15:49:50",
+            },
         ],
     },
     BaziYearData {
@@ -1787,30 +5891,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1957-01-31",
         lichun_time: "1957-02-04 09:54:37",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1956-12-07 11:02:06" },
-            JieQiData { name: "冬至", time: "1956-12-22 04:59:27" },
-            JieQiData { name: "小寒", time: "1957-01-05 22:10:25" },
-            JieQiData { name: "大寒", time: "1957-01-20 15:38:35" },
-            JieQiData { name: "立春", time: "1957-02-04 09:54:37" },
-            JieQiData { name: "雨水", time: "1957-02-19 05:57:58" },
-            JieQiData { name: "惊蛰", time: "1957-03-06 04:10:07" },
-            JieQiData { name: "春分", time: "1957-03-21 05:16:27" },
-            JieQiData { name: "清明", time: "1957-04-05 09:18:49" },
-            JieQiData { name: "谷雨", time: "1957-04-20 16:41:12" },
-            JieQiData { name: "立夏", time: "1957-05-06 02:58:22" },
-            JieQiData { name: "小满", time: "1957-05-21 16:10:23" },
-            JieQiData { name: "芒种", time: "1957-06-06 07:24:43" },
-            JieQiData { name: "夏至", time: "1957-06-22 00:20:28" },
-            JieQiData { name: "小暑", time: "1957-07-07 17:48:09" },
-            JieQiData { name: "大暑", time: "1957-07-23 11:14:48" },
-            JieQiData { name: "立秋", time: "1957-08-08 03:32:03" },
-            JieQiData { name: "处暑", time: "1957-08-23 18:07:31" },
-            JieQiData { name: "白露", time: "1957-09-08 06:12:11" },
-            JieQiData { name: "秋分", time: "1957-09-23 15:26:02" },
-            JieQiData { name: "寒露", time: "1957-10-08 21:29:58" },
-            JieQiData { name: "霜降", time: "1957-10-24 00:24:10" },
-            JieQiData { name: "立冬", time: "1957-11-08 00:20:01" },
-            JieQiData { name: "小雪", time: "1957-11-22 21:39:00" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1956-12-07 11:02:06",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1956-12-22 04:59:27",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1957-01-05 22:10:25",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1957-01-20 15:38:35",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1957-02-04 09:54:37",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1957-02-19 05:57:58",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1957-03-06 04:10:07",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1957-03-21 05:16:27",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1957-04-05 09:18:49",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1957-04-20 16:41:12",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1957-05-06 02:58:22",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1957-05-21 16:10:23",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1957-06-06 07:24:43",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1957-06-22 00:20:28",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1957-07-07 17:48:09",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1957-07-23 11:14:48",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1957-08-08 03:32:03",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1957-08-23 18:07:31",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1957-09-08 06:12:11",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1957-09-23 15:26:02",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1957-10-08 21:29:58",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1957-10-24 00:24:10",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1957-11-08 00:20:01",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1957-11-22 21:39:00",
+            },
         ],
     },
     BaziYearData {
@@ -1818,30 +5994,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1958-02-18",
         lichun_time: "1958-02-04 15:49:11",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1957-12-07 16:55:56" },
-            JieQiData { name: "冬至", time: "1957-12-22 10:48:34" },
-            JieQiData { name: "小寒", time: "1958-01-06 04:04:20" },
-            JieQiData { name: "大寒", time: "1958-01-20 21:28:27" },
-            JieQiData { name: "立春", time: "1958-02-04 15:49:11" },
-            JieQiData { name: "雨水", time: "1958-02-19 11:48:26" },
-            JieQiData { name: "惊蛰", time: "1958-03-06 10:04:52" },
-            JieQiData { name: "春分", time: "1958-03-21 11:05:47" },
-            JieQiData { name: "清明", time: "1958-04-05 15:12:21" },
-            JieQiData { name: "谷雨", time: "1958-04-20 22:26:58" },
-            JieQiData { name: "立夏", time: "1958-05-06 08:49:10" },
-            JieQiData { name: "小满", time: "1958-05-21 21:51:00" },
-            JieQiData { name: "芒种", time: "1958-06-06 13:12:11" },
-            JieQiData { name: "夏至", time: "1958-06-22 05:56:51" },
-            JieQiData { name: "小暑", time: "1958-07-07 23:33:25" },
-            JieQiData { name: "大暑", time: "1958-07-23 16:50:26" },
-            JieQiData { name: "立秋", time: "1958-08-08 09:17:10" },
-            JieQiData { name: "处暑", time: "1958-08-23 23:45:53" },
-            JieQiData { name: "白露", time: "1958-09-08 11:58:49" },
-            JieQiData { name: "秋分", time: "1958-09-23 21:08:49" },
-            JieQiData { name: "寒露", time: "1958-10-09 03:19:08" },
-            JieQiData { name: "霜降", time: "1958-10-24 06:11:18" },
-            JieQiData { name: "立冬", time: "1958-11-08 06:11:53" },
-            JieQiData { name: "小雪", time: "1958-11-23 03:29:06" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1957-12-07 16:55:56",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1957-12-22 10:48:34",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1958-01-06 04:04:20",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1958-01-20 21:28:27",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1958-02-04 15:49:11",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1958-02-19 11:48:26",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1958-03-06 10:04:52",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1958-03-21 11:05:47",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1958-04-05 15:12:21",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1958-04-20 22:26:58",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1958-05-06 08:49:10",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1958-05-21 21:51:00",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1958-06-06 13:12:11",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1958-06-22 05:56:51",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1958-07-07 23:33:25",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1958-07-23 16:50:26",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1958-08-08 09:17:10",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1958-08-23 23:45:53",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1958-09-08 11:58:49",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1958-09-23 21:08:49",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1958-10-09 03:19:08",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1958-10-24 06:11:18",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1958-11-08 06:11:53",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1958-11-23 03:29:06",
+            },
         ],
     },
     BaziYearData {
@@ -1849,30 +6097,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1959-02-08",
         lichun_time: "1959-02-04 21:42:10",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1958-12-07 22:49:35" },
-            JieQiData { name: "冬至", time: "1958-12-22 16:39:40" },
-            JieQiData { name: "小寒", time: "1959-01-06 09:58:18" },
-            JieQiData { name: "大寒", time: "1959-01-21 03:18:50" },
-            JieQiData { name: "立春", time: "1959-02-04 21:42:10" },
-            JieQiData { name: "雨水", time: "1959-02-19 17:37:33" },
-            JieQiData { name: "惊蛰", time: "1959-03-06 15:56:35" },
-            JieQiData { name: "春分", time: "1959-03-21 16:54:29" },
-            JieQiData { name: "清明", time: "1959-04-05 21:03:02" },
-            JieQiData { name: "谷雨", time: "1959-04-21 04:16:27" },
-            JieQiData { name: "立夏", time: "1959-05-06 14:38:42" },
-            JieQiData { name: "小满", time: "1959-05-22 03:42:05" },
-            JieQiData { name: "芒种", time: "1959-06-06 19:00:03" },
-            JieQiData { name: "夏至", time: "1959-06-22 11:49:44" },
-            JieQiData { name: "小暑", time: "1959-07-08 05:19:52" },
-            JieQiData { name: "大暑", time: "1959-07-23 22:45:25" },
-            JieQiData { name: "立秋", time: "1959-08-08 15:04:04" },
-            JieQiData { name: "处暑", time: "1959-08-24 05:43:29" },
-            JieQiData { name: "白露", time: "1959-09-08 17:47:54" },
-            JieQiData { name: "秋分", time: "1959-09-24 03:08:24" },
-            JieQiData { name: "寒露", time: "1959-10-09 09:09:48" },
-            JieQiData { name: "霜降", time: "1959-10-24 12:10:58" },
-            JieQiData { name: "立冬", time: "1959-11-08 12:02:03" },
-            JieQiData { name: "小雪", time: "1959-11-23 09:26:53" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1958-12-07 22:49:35",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1958-12-22 16:39:40",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1959-01-06 09:58:18",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1959-01-21 03:18:50",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1959-02-04 21:42:10",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1959-02-19 17:37:33",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1959-03-06 15:56:35",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1959-03-21 16:54:29",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1959-04-05 21:03:02",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1959-04-21 04:16:27",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1959-05-06 14:38:42",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1959-05-22 03:42:05",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1959-06-06 19:00:03",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1959-06-22 11:49:44",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1959-07-08 05:19:52",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1959-07-23 22:45:25",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1959-08-08 15:04:04",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1959-08-24 05:43:29",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1959-09-08 17:47:54",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1959-09-24 03:08:24",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1959-10-09 09:09:48",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1959-10-24 12:10:58",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1959-11-08 12:02:03",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1959-11-23 09:26:53",
+            },
         ],
     },
     BaziYearData {
@@ -1880,30 +6200,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1960-01-28",
         lichun_time: "1960-02-05 03:23:09",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1959-12-08 04:37:16" },
-            JieQiData { name: "冬至", time: "1959-12-22 22:34:18" },
-            JieQiData { name: "小寒", time: "1960-01-06 15:42:27" },
-            JieQiData { name: "大寒", time: "1960-01-21 09:10:02" },
-            JieQiData { name: "立春", time: "1960-02-05 03:23:09" },
-            JieQiData { name: "雨水", time: "1960-02-19 23:26:17" },
-            JieQiData { name: "惊蛰", time: "1960-03-05 21:36:06" },
-            JieQiData { name: "春分", time: "1960-03-20 22:42:38" },
-            JieQiData { name: "清明", time: "1960-04-05 02:43:33" },
-            JieQiData { name: "谷雨", time: "1960-04-20 10:05:51" },
-            JieQiData { name: "立夏", time: "1960-05-05 20:22:33" },
-            JieQiData { name: "小满", time: "1960-05-21 09:33:28" },
-            JieQiData { name: "芒种", time: "1960-06-06 00:48:34" },
-            JieQiData { name: "夏至", time: "1960-06-21 17:42:15" },
-            JieQiData { name: "小暑", time: "1960-07-07 11:12:39" },
-            JieQiData { name: "大暑", time: "1960-07-23 04:37:25" },
-            JieQiData { name: "立秋", time: "1960-08-07 20:59:44" },
-            JieQiData { name: "处暑", time: "1960-08-23 11:34:22" },
-            JieQiData { name: "白露", time: "1960-09-07 23:45:22" },
-            JieQiData { name: "秋分", time: "1960-09-23 08:58:50" },
-            JieQiData { name: "寒露", time: "1960-10-08 15:08:39" },
-            JieQiData { name: "霜降", time: "1960-10-23 18:01:49" },
-            JieQiData { name: "立冬", time: "1960-11-07 18:02:01" },
-            JieQiData { name: "小雪", time: "1960-11-22 15:18:20" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1959-12-08 04:37:16",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1959-12-22 22:34:18",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1960-01-06 15:42:27",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1960-01-21 09:10:02",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1960-02-05 03:23:09",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1960-02-19 23:26:17",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1960-03-05 21:36:06",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1960-03-20 22:42:38",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1960-04-05 02:43:33",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1960-04-20 10:05:51",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1960-05-05 20:22:33",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1960-05-21 09:33:28",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1960-06-06 00:48:34",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1960-06-21 17:42:15",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1960-07-07 11:12:39",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1960-07-23 04:37:25",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1960-08-07 20:59:44",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1960-08-23 11:34:22",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1960-09-07 23:45:22",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1960-09-23 08:58:50",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1960-10-08 15:08:39",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1960-10-23 18:01:49",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1960-11-07 18:02:01",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1960-11-22 15:18:20",
+            },
         ],
     },
     BaziYearData {
@@ -1911,30 +6303,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1961-02-15",
         lichun_time: "1961-02-04 09:22:26",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1960-12-07 10:37:44" },
-            JieQiData { name: "冬至", time: "1960-12-22 04:25:53" },
-            JieQiData { name: "小寒", time: "1961-01-05 21:42:36" },
-            JieQiData { name: "大寒", time: "1961-01-20 15:01:06" },
-            JieQiData { name: "立春", time: "1961-02-04 09:22:26" },
-            JieQiData { name: "雨水", time: "1961-02-19 05:16:27" },
-            JieQiData { name: "惊蛰", time: "1961-03-06 03:34:39" },
-            JieQiData { name: "春分", time: "1961-03-21 04:32:04" },
-            JieQiData { name: "清明", time: "1961-04-05 08:42:07" },
-            JieQiData { name: "谷雨", time: "1961-04-20 15:55:02" },
-            JieQiData { name: "立夏", time: "1961-05-06 02:21:16" },
-            JieQiData { name: "小满", time: "1961-05-21 15:22:14" },
-            JieQiData { name: "芒种", time: "1961-06-06 06:46:00" },
-            JieQiData { name: "夏至", time: "1961-06-21 23:30:04" },
-            JieQiData { name: "小暑", time: "1961-07-07 17:06:35" },
-            JieQiData { name: "大暑", time: "1961-07-23 10:23:34" },
-            JieQiData { name: "立秋", time: "1961-08-08 02:48:19" },
-            JieQiData { name: "处暑", time: "1961-08-23 17:18:30" },
-            JieQiData { name: "白露", time: "1961-09-08 05:29:12" },
-            JieQiData { name: "秋分", time: "1961-09-23 14:42:25" },
-            JieQiData { name: "寒露", time: "1961-10-08 20:50:56" },
-            JieQiData { name: "霜降", time: "1961-10-23 23:47:21" },
-            JieQiData { name: "立冬", time: "1961-11-07 23:46:11" },
-            JieQiData { name: "小雪", time: "1961-11-22 21:07:40" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1960-12-07 10:37:44",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1960-12-22 04:25:53",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1961-01-05 21:42:36",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1961-01-20 15:01:06",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1961-02-04 09:22:26",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1961-02-19 05:16:27",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1961-03-06 03:34:39",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1961-03-21 04:32:04",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1961-04-05 08:42:07",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1961-04-20 15:55:02",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1961-05-06 02:21:16",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1961-05-21 15:22:14",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1961-06-06 06:46:00",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1961-06-21 23:30:04",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1961-07-07 17:06:35",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1961-07-23 10:23:34",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1961-08-08 02:48:19",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1961-08-23 17:18:30",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1961-09-08 05:29:12",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1961-09-23 14:42:25",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1961-10-08 20:50:56",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1961-10-23 23:47:21",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1961-11-07 23:46:11",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1961-11-22 21:07:40",
+            },
         ],
     },
     BaziYearData {
@@ -1942,30 +6406,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1962-02-05",
         lichun_time: "1962-02-04 15:17:20",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1961-12-07 16:25:54" },
-            JieQiData { name: "冬至", time: "1961-12-22 10:19:26" },
-            JieQiData { name: "小寒", time: "1962-01-06 03:34:56" },
-            JieQiData { name: "大寒", time: "1962-01-20 20:57:53" },
-            JieQiData { name: "立春", time: "1962-02-04 15:17:20" },
-            JieQiData { name: "雨水", time: "1962-02-19 11:14:34" },
-            JieQiData { name: "惊蛰", time: "1962-03-06 09:29:29" },
-            JieQiData { name: "春分", time: "1962-03-21 10:29:31" },
-            JieQiData { name: "清明", time: "1962-04-05 14:34:14" },
-            JieQiData { name: "谷雨", time: "1962-04-20 21:50:40" },
-            JieQiData { name: "立夏", time: "1962-05-06 08:09:28" },
-            JieQiData { name: "小满", time: "1962-05-21 21:16:30" },
-            JieQiData { name: "芒种", time: "1962-06-06 12:31:15" },
-            JieQiData { name: "夏至", time: "1962-06-22 05:24:05" },
-            JieQiData { name: "小暑", time: "1962-07-07 22:51:05" },
-            JieQiData { name: "大暑", time: "1962-07-23 16:17:56" },
-            JieQiData { name: "立秋", time: "1962-08-08 08:33:40" },
-            JieQiData { name: "处暑", time: "1962-08-23 23:12:27" },
-            JieQiData { name: "白露", time: "1962-09-08 11:15:20" },
-            JieQiData { name: "秋分", time: "1962-09-23 20:35:11" },
-            JieQiData { name: "寒露", time: "1962-10-09 02:37:53" },
-            JieQiData { name: "霜降", time: "1962-10-24 05:39:59" },
-            JieQiData { name: "立冬", time: "1962-11-08 05:34:54" },
-            JieQiData { name: "小雪", time: "1962-11-23 03:01:50" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1961-12-07 16:25:54",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1961-12-22 10:19:26",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1962-01-06 03:34:56",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1962-01-20 20:57:53",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1962-02-04 15:17:20",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1962-02-19 11:14:34",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1962-03-06 09:29:29",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1962-03-21 10:29:31",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1962-04-05 14:34:14",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1962-04-20 21:50:40",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1962-05-06 08:09:28",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1962-05-21 21:16:30",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1962-06-06 12:31:15",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1962-06-22 05:24:05",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1962-07-07 22:51:05",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1962-07-23 16:17:56",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1962-08-08 08:33:40",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1962-08-23 23:12:27",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1962-09-08 11:15:20",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1962-09-23 20:35:11",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1962-10-09 02:37:53",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1962-10-24 05:39:59",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1962-11-08 05:34:54",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1962-11-23 03:01:50",
+            },
         ],
     },
     BaziYearData {
@@ -1973,30 +6509,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1963-01-25",
         lichun_time: "1963-02-04 21:07:44",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1962-12-07 22:16:39" },
-            JieQiData { name: "冬至", time: "1962-12-22 16:15:14" },
-            JieQiData { name: "小寒", time: "1963-01-06 09:26:26" },
-            JieQiData { name: "大寒", time: "1963-01-21 02:53:51" },
-            JieQiData { name: "立春", time: "1963-02-04 21:07:44" },
-            JieQiData { name: "雨水", time: "1963-02-19 17:08:34" },
-            JieQiData { name: "惊蛰", time: "1963-03-06 15:17:09" },
-            JieQiData { name: "春分", time: "1963-03-21 16:19:39" },
-            JieQiData { name: "清明", time: "1963-04-05 20:18:39" },
-            JieQiData { name: "谷雨", time: "1963-04-21 03:36:07" },
-            JieQiData { name: "立夏", time: "1963-05-06 13:51:57" },
-            JieQiData { name: "小满", time: "1963-05-22 02:58:07" },
-            JieQiData { name: "芒种", time: "1963-06-06 18:14:26" },
-            JieQiData { name: "夏至", time: "1963-06-22 11:04:00" },
-            JieQiData { name: "小暑", time: "1963-07-08 04:37:37" },
-            JieQiData { name: "大暑", time: "1963-07-23 21:59:11" },
-            JieQiData { name: "立秋", time: "1963-08-08 14:25:24" },
-            JieQiData { name: "处暑", time: "1963-08-24 04:57:29" },
-            JieQiData { name: "白露", time: "1963-09-08 17:11:50" },
-            JieQiData { name: "秋分", time: "1963-09-24 02:23:27" },
-            JieQiData { name: "寒露", time: "1963-10-09 08:36:14" },
-            JieQiData { name: "霜降", time: "1963-10-24 11:28:48" },
-            JieQiData { name: "立冬", time: "1963-11-08 11:32:19" },
-            JieQiData { name: "小雪", time: "1963-11-23 08:49:20" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1962-12-07 22:16:39",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1962-12-22 16:15:14",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1963-01-06 09:26:26",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1963-01-21 02:53:51",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1963-02-04 21:07:44",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1963-02-19 17:08:34",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1963-03-06 15:17:09",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1963-03-21 16:19:39",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1963-04-05 20:18:39",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1963-04-21 03:36:07",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1963-05-06 13:51:57",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1963-05-22 02:58:07",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1963-06-06 18:14:26",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1963-06-22 11:04:00",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1963-07-08 04:37:37",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1963-07-23 21:59:11",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1963-08-08 14:25:24",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1963-08-24 04:57:29",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1963-09-08 17:11:50",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1963-09-24 02:23:27",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1963-10-09 08:36:14",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1963-10-24 11:28:48",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1963-11-08 11:32:19",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1963-11-23 08:49:20",
+            },
         ],
     },
     BaziYearData {
@@ -2004,30 +6612,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1964-02-13",
         lichun_time: "1964-02-05 03:04:55",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1963-12-08 04:12:36" },
-            JieQiData { name: "冬至", time: "1963-12-22 22:01:52" },
-            JieQiData { name: "小寒", time: "1964-01-06 15:22:20" },
-            JieQiData { name: "大寒", time: "1964-01-21 08:41:03" },
-            JieQiData { name: "立春", time: "1964-02-05 03:04:55" },
-            JieQiData { name: "雨水", time: "1964-02-19 22:57:17" },
-            JieQiData { name: "惊蛰", time: "1964-03-05 21:15:59" },
-            JieQiData { name: "春分", time: "1964-03-20 22:09:50" },
-            JieQiData { name: "清明", time: "1964-04-05 02:18:20" },
-            JieQiData { name: "谷雨", time: "1964-04-20 09:27:08" },
-            JieQiData { name: "立夏", time: "1964-05-05 19:51:01" },
-            JieQiData { name: "小满", time: "1964-05-21 08:49:45" },
-            JieQiData { name: "芒种", time: "1964-06-06 00:11:43" },
-            JieQiData { name: "夏至", time: "1964-06-21 16:56:47" },
-            JieQiData { name: "小暑", time: "1964-07-07 10:32:07" },
-            JieQiData { name: "大暑", time: "1964-07-23 03:52:43" },
-            JieQiData { name: "立秋", time: "1964-08-07 20:16:09" },
-            JieQiData { name: "处暑", time: "1964-08-23 10:51:01" },
-            JieQiData { name: "白露", time: "1964-09-07 22:59:26" },
-            JieQiData { name: "秋分", time: "1964-09-23 08:16:38" },
-            JieQiData { name: "寒露", time: "1964-10-08 14:21:30" },
-            JieQiData { name: "霜降", time: "1964-10-23 17:20:40" },
-            JieQiData { name: "立冬", time: "1964-11-07 17:15:06" },
-            JieQiData { name: "小雪", time: "1964-11-22 14:38:53" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1963-12-08 04:12:36",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1963-12-22 22:01:52",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1964-01-06 15:22:20",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1964-01-21 08:41:03",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1964-02-05 03:04:55",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1964-02-19 22:57:17",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1964-03-05 21:15:59",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1964-03-20 22:09:50",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1964-04-05 02:18:20",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1964-04-20 09:27:08",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1964-05-05 19:51:01",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1964-05-21 08:49:45",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1964-06-06 00:11:43",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1964-06-21 16:56:47",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1964-07-07 10:32:07",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1964-07-23 03:52:43",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1964-08-07 20:16:09",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1964-08-23 10:51:01",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1964-09-07 22:59:26",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1964-09-23 08:16:38",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1964-10-08 14:21:30",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1964-10-23 17:20:40",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1964-11-07 17:15:06",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1964-11-22 14:38:53",
+            },
         ],
     },
     BaziYearData {
@@ -2035,30 +6715,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1965-02-02",
         lichun_time: "1965-02-04 08:46:06",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1964-12-07 09:53:03" },
-            JieQiData { name: "冬至", time: "1964-12-22 03:49:31" },
-            JieQiData { name: "小寒", time: "1965-01-05 21:01:57" },
-            JieQiData { name: "大寒", time: "1965-01-20 14:28:51" },
-            JieQiData { name: "立春", time: "1965-02-04 08:46:06" },
-            JieQiData { name: "雨水", time: "1965-02-19 04:47:48" },
-            JieQiData { name: "惊蛰", time: "1965-03-06 03:00:38" },
-            JieQiData { name: "春分", time: "1965-03-21 04:04:44" },
-            JieQiData { name: "清明", time: "1965-04-05 08:06:43" },
-            JieQiData { name: "谷雨", time: "1965-04-20 15:26:03" },
-            JieQiData { name: "立夏", time: "1965-05-06 01:41:32" },
-            JieQiData { name: "小满", time: "1965-05-21 14:50:13" },
-            JieQiData { name: "芒种", time: "1965-06-06 06:02:06" },
-            JieQiData { name: "夏至", time: "1965-06-21 22:55:40" },
-            JieQiData { name: "小暑", time: "1965-07-07 16:21:22" },
-            JieQiData { name: "大暑", time: "1965-07-23 09:48:09" },
-            JieQiData { name: "立秋", time: "1965-08-08 02:04:36" },
-            JieQiData { name: "处暑", time: "1965-08-23 16:42:40" },
-            JieQiData { name: "白露", time: "1965-09-08 04:47:50" },
-            JieQiData { name: "秋分", time: "1965-09-23 14:05:57" },
-            JieQiData { name: "寒露", time: "1965-10-08 20:11:07" },
-            JieQiData { name: "霜降", time: "1965-10-23 23:09:55" },
-            JieQiData { name: "立冬", time: "1965-11-07 23:06:32" },
-            JieQiData { name: "小雪", time: "1965-11-22 20:29:08" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1964-12-07 09:53:03",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1964-12-22 03:49:31",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1965-01-05 21:01:57",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1965-01-20 14:28:51",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1965-02-04 08:46:06",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1965-02-19 04:47:48",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1965-03-06 03:00:38",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1965-03-21 04:04:44",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1965-04-05 08:06:43",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1965-04-20 15:26:03",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1965-05-06 01:41:32",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1965-05-21 14:50:13",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1965-06-06 06:02:06",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1965-06-21 22:55:40",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1965-07-07 16:21:22",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1965-07-23 09:48:09",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1965-08-08 02:04:36",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1965-08-23 16:42:40",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1965-09-08 04:47:50",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1965-09-23 14:05:57",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1965-10-08 20:11:07",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1965-10-23 23:09:55",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1965-11-07 23:06:32",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1965-11-22 20:29:08",
+            },
         ],
     },
     BaziYearData {
@@ -2066,30 +6818,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1966-01-21",
         lichun_time: "1966-02-04 14:37:48",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1965-12-07 15:45:32" },
-            JieQiData { name: "冬至", time: "1965-12-22 09:40:23" },
-            JieQiData { name: "小寒", time: "1966-01-06 02:54:20" },
-            JieQiData { name: "大寒", time: "1966-01-20 20:19:39" },
-            JieQiData { name: "立春", time: "1966-02-04 14:37:48" },
-            JieQiData { name: "雨水", time: "1966-02-19 10:37:47" },
-            JieQiData { name: "惊蛰", time: "1966-03-06 08:51:21" },
-            JieQiData { name: "春分", time: "1966-03-21 09:52:54" },
-            JieQiData { name: "清明", time: "1966-04-05 13:56:29" },
-            JieQiData { name: "谷雨", time: "1966-04-20 21:11:30" },
-            JieQiData { name: "立夏", time: "1966-05-06 07:30:26" },
-            JieQiData { name: "小满", time: "1966-05-21 20:32:01" },
-            JieQiData { name: "芒种", time: "1966-06-06 11:49:37" },
-            JieQiData { name: "夏至", time: "1966-06-22 04:33:21" },
-            JieQiData { name: "小暑", time: "1966-07-07 22:06:59" },
-            JieQiData { name: "大暑", time: "1966-07-23 15:23:10" },
-            JieQiData { name: "立秋", time: "1966-08-08 07:48:56" },
-            JieQiData { name: "处暑", time: "1966-08-23 22:17:42" },
-            JieQiData { name: "白露", time: "1966-09-08 10:32:01" },
-            JieQiData { name: "秋分", time: "1966-09-23 19:43:08" },
-            JieQiData { name: "寒露", time: "1966-10-09 01:56:43" },
-            JieQiData { name: "霜降", time: "1966-10-24 04:50:45" },
-            JieQiData { name: "立冬", time: "1966-11-08 04:55:15" },
-            JieQiData { name: "小雪", time: "1966-11-23 02:14:05" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1965-12-07 15:45:32",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1965-12-22 09:40:23",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1966-01-06 02:54:20",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1966-01-20 20:19:39",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1966-02-04 14:37:48",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1966-02-19 10:37:47",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1966-03-06 08:51:21",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1966-03-21 09:52:54",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1966-04-05 13:56:29",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1966-04-20 21:11:30",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1966-05-06 07:30:26",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1966-05-21 20:32:01",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1966-06-06 11:49:37",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1966-06-22 04:33:21",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1966-07-07 22:06:59",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1966-07-23 15:23:10",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1966-08-08 07:48:56",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1966-08-23 22:17:42",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1966-09-08 10:32:01",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1966-09-23 19:43:08",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1966-10-09 01:56:43",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1966-10-24 04:50:45",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1966-11-08 04:55:15",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1966-11-23 02:14:05",
+            },
         ],
     },
     BaziYearData {
@@ -2097,30 +6921,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1967-02-09",
         lichun_time: "1967-02-04 20:30:49",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1966-12-07 21:37:45" },
-            JieQiData { name: "冬至", time: "1966-12-22 15:28:08" },
-            JieQiData { name: "小寒", time: "1967-01-06 08:48:19" },
-            JieQiData { name: "大寒", time: "1967-01-21 02:07:30" },
-            JieQiData { name: "立春", time: "1967-02-04 20:30:49" },
-            JieQiData { name: "雨水", time: "1967-02-19 16:23:38" },
-            JieQiData { name: "惊蛰", time: "1967-03-06 14:41:53" },
-            JieQiData { name: "春分", time: "1967-03-21 15:36:46" },
-            JieQiData { name: "清明", time: "1967-04-05 19:44:41" },
-            JieQiData { name: "谷雨", time: "1967-04-21 02:55:07" },
-            JieQiData { name: "立夏", time: "1967-05-06 13:17:26" },
-            JieQiData { name: "小满", time: "1967-05-22 02:17:52" },
-            JieQiData { name: "芒种", time: "1967-06-06 17:36:18" },
-            JieQiData { name: "夏至", time: "1967-06-22 10:22:49" },
-            JieQiData { name: "小暑", time: "1967-07-08 03:53:19" },
-            JieQiData { name: "大暑", time: "1967-07-23 21:15:49" },
-            JieQiData { name: "立秋", time: "1967-08-08 13:34:51" },
-            JieQiData { name: "处暑", time: "1967-08-24 04:12:24" },
-            JieQiData { name: "白露", time: "1967-09-08 16:17:42" },
-            JieQiData { name: "秋分", time: "1967-09-24 01:38:01" },
-            JieQiData { name: "寒露", time: "1967-10-09 07:41:11" },
-            JieQiData { name: "霜降", time: "1967-10-24 10:43:44" },
-            JieQiData { name: "立冬", time: "1967-11-08 10:37:23" },
-            JieQiData { name: "小雪", time: "1967-11-23 08:04:26" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1966-12-07 21:37:45",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1966-12-22 15:28:08",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1967-01-06 08:48:19",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1967-01-21 02:07:30",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1967-02-04 20:30:49",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1967-02-19 16:23:38",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1967-03-06 14:41:53",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1967-03-21 15:36:46",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1967-04-05 19:44:41",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1967-04-21 02:55:07",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1967-05-06 13:17:26",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1967-05-22 02:17:52",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1967-06-06 17:36:18",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1967-06-22 10:22:49",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1967-07-08 03:53:19",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1967-07-23 21:15:49",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1967-08-08 13:34:51",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1967-08-24 04:12:24",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1967-09-08 16:17:42",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1967-09-24 01:38:01",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1967-10-09 07:41:11",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1967-10-24 10:43:44",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1967-11-08 10:37:23",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1967-11-23 08:04:26",
+            },
         ],
     },
     BaziYearData {
@@ -2128,30 +7024,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1968-01-30",
         lichun_time: "1968-02-05 02:07:23",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1967-12-08 03:17:28" },
-            JieQiData { name: "冬至", time: "1967-12-22 21:16:17" },
-            JieQiData { name: "小寒", time: "1968-01-06 14:26:10" },
-            JieQiData { name: "大寒", time: "1968-01-21 07:54:06" },
-            JieQiData { name: "立春", time: "1968-02-05 02:07:23" },
-            JieQiData { name: "雨水", time: "1968-02-19 22:09:13" },
-            JieQiData { name: "惊蛰", time: "1968-03-05 20:17:45" },
-            JieQiData { name: "春分", time: "1968-03-20 21:22:01" },
-            JieQiData { name: "清明", time: "1968-04-05 01:20:53" },
-            JieQiData { name: "谷雨", time: "1968-04-20 08:41:07" },
-            JieQiData { name: "立夏", time: "1968-05-05 18:55:47" },
-            JieQiData { name: "小满", time: "1968-05-21 08:05:50" },
-            JieQiData { name: "芒种", time: "1968-06-05 23:19:05" },
-            JieQiData { name: "夏至", time: "1968-06-21 16:13:16" },
-            JieQiData { name: "小暑", time: "1968-07-07 09:41:37" },
-            JieQiData { name: "大暑", time: "1968-07-23 03:07:23" },
-            JieQiData { name: "立秋", time: "1968-08-07 19:27:11" },
-            JieQiData { name: "处暑", time: "1968-08-23 10:02:51" },
-            JieQiData { name: "白露", time: "1968-09-07 22:11:24" },
-            JieQiData { name: "秋分", time: "1968-09-23 07:26:10" },
-            JieQiData { name: "寒露", time: "1968-10-08 13:34:23" },
-            JieQiData { name: "霜降", time: "1968-10-23 16:29:34" },
-            JieQiData { name: "立冬", time: "1968-11-07 16:29:17" },
-            JieQiData { name: "小雪", time: "1968-11-22 13:48:31" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1967-12-08 03:17:28",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1967-12-22 21:16:17",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1968-01-06 14:26:10",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1968-01-21 07:54:06",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1968-02-05 02:07:23",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1968-02-19 22:09:13",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1968-03-05 20:17:45",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1968-03-20 21:22:01",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1968-04-05 01:20:53",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1968-04-20 08:41:07",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1968-05-05 18:55:47",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1968-05-21 08:05:50",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1968-06-05 23:19:05",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1968-06-21 16:13:16",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1968-07-07 09:41:37",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1968-07-23 03:07:23",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1968-08-07 19:27:11",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1968-08-23 10:02:51",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1968-09-07 22:11:24",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1968-09-23 07:26:10",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1968-10-08 13:34:23",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1968-10-23 16:29:34",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1968-11-07 16:29:17",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1968-11-22 13:48:31",
+            },
         ],
     },
     BaziYearData {
@@ -2159,30 +7127,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1969-02-17",
         lichun_time: "1969-02-04 07:58:52",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1968-12-07 09:08:15" },
-            JieQiData { name: "冬至", time: "1968-12-22 02:59:45" },
-            JieQiData { name: "小寒", time: "1969-01-05 20:16:48" },
-            JieQiData { name: "大寒", time: "1969-01-20 13:38:10" },
-            JieQiData { name: "立春", time: "1969-02-04 07:58:52" },
-            JieQiData { name: "雨水", time: "1969-02-19 03:54:28" },
-            JieQiData { name: "惊蛰", time: "1969-03-06 02:10:34" },
-            JieQiData { name: "春分", time: "1969-03-21 03:08:04" },
-            JieQiData { name: "清明", time: "1969-04-05 07:14:51" },
-            JieQiData { name: "谷雨", time: "1969-04-20 14:26:51" },
-            JieQiData { name: "立夏", time: "1969-05-06 00:49:47" },
-            JieQiData { name: "小满", time: "1969-05-21 13:49:42" },
-            JieQiData { name: "芒种", time: "1969-06-06 05:11:29" },
-            JieQiData { name: "夏至", time: "1969-06-21 21:55:01" },
-            JieQiData { name: "小暑", time: "1969-07-07 15:31:31" },
-            JieQiData { name: "大暑", time: "1969-07-23 08:48:08" },
-            JieQiData { name: "立秋", time: "1969-08-08 01:14:06" },
-            JieQiData { name: "处暑", time: "1969-08-23 15:43:20" },
-            JieQiData { name: "白露", time: "1969-09-08 03:55:25" },
-            JieQiData { name: "秋分", time: "1969-09-23 13:06:53" },
-            JieQiData { name: "寒露", time: "1969-10-08 19:16:40" },
-            JieQiData { name: "霜降", time: "1969-10-23 22:11:02" },
-            JieQiData { name: "立冬", time: "1969-11-07 22:11:20" },
-            JieQiData { name: "小雪", time: "1969-11-22 19:31:04" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1968-12-07 09:08:15",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1968-12-22 02:59:45",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1969-01-05 20:16:48",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1969-01-20 13:38:10",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1969-02-04 07:58:52",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1969-02-19 03:54:28",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1969-03-06 02:10:34",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1969-03-21 03:08:04",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1969-04-05 07:14:51",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1969-04-20 14:26:51",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1969-05-06 00:49:47",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1969-05-21 13:49:42",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1969-06-06 05:11:29",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1969-06-21 21:55:01",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1969-07-07 15:31:31",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1969-07-23 08:48:08",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1969-08-08 01:14:06",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1969-08-23 15:43:20",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1969-09-08 03:55:25",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1969-09-23 13:06:53",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1969-10-08 19:16:40",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1969-10-23 22:11:02",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1969-11-07 22:11:20",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1969-11-22 19:31:04",
+            },
         ],
     },
     BaziYearData {
@@ -2190,30 +7230,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1970-02-06",
         lichun_time: "1970-02-04 13:45:42",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1969-12-07 14:51:18" },
-            JieQiData { name: "冬至", time: "1969-12-22 08:43:41" },
-            JieQiData { name: "小寒", time: "1970-01-06 02:01:39" },
-            JieQiData { name: "大寒", time: "1970-01-20 19:23:47" },
-            JieQiData { name: "立春", time: "1970-02-04 13:45:42" },
-            JieQiData { name: "雨水", time: "1970-02-19 09:41:46" },
-            JieQiData { name: "惊蛰", time: "1970-03-06 07:58:27" },
-            JieQiData { name: "春分", time: "1970-03-21 08:56:19" },
-            JieQiData { name: "清明", time: "1970-04-05 13:01:44" },
-            JieQiData { name: "谷雨", time: "1970-04-20 20:14:56" },
-            JieQiData { name: "立夏", time: "1970-05-06 06:33:47" },
-            JieQiData { name: "小满", time: "1970-05-21 19:37:19" },
-            JieQiData { name: "芒种", time: "1970-06-06 10:52:13" },
-            JieQiData { name: "夏至", time: "1970-06-22 03:42:38" },
-            JieQiData { name: "小暑", time: "1970-07-07 21:10:31" },
-            JieQiData { name: "大暑", time: "1970-07-23 14:36:52" },
-            JieQiData { name: "立秋", time: "1970-08-08 06:54:06" },
-            JieQiData { name: "处暑", time: "1970-08-23 21:33:53" },
-            JieQiData { name: "白露", time: "1970-09-08 09:37:53" },
-            JieQiData { name: "秋分", time: "1970-09-23 18:58:59" },
-            JieQiData { name: "寒露", time: "1970-10-09 01:01:32" },
-            JieQiData { name: "霜降", time: "1970-10-24 04:04:14" },
-            JieQiData { name: "立冬", time: "1970-11-08 03:57:43" },
-            JieQiData { name: "小雪", time: "1970-11-23 01:24:32" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1969-12-07 14:51:18",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1969-12-22 08:43:41",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1970-01-06 02:01:39",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1970-01-20 19:23:47",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1970-02-04 13:45:42",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1970-02-19 09:41:46",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1970-03-06 07:58:27",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1970-03-21 08:56:19",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1970-04-05 13:01:44",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1970-04-20 20:14:56",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1970-05-06 06:33:47",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1970-05-21 19:37:19",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1970-06-06 10:52:13",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1970-06-22 03:42:38",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1970-07-07 21:10:31",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1970-07-23 14:36:52",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1970-08-08 06:54:06",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1970-08-23 21:33:53",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1970-09-08 09:37:53",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1970-09-23 18:58:59",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1970-10-09 01:01:32",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1970-10-24 04:04:14",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1970-11-08 03:57:43",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1970-11-23 01:24:32",
+            },
         ],
     },
     BaziYearData {
@@ -2221,30 +7333,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1971-01-27",
         lichun_time: "1971-02-04 19:25:25",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1970-12-07 20:37:19" },
-            JieQiData { name: "冬至", time: "1970-12-22 14:35:40" },
-            JieQiData { name: "小寒", time: "1971-01-06 07:45:06" },
-            JieQiData { name: "大寒", time: "1971-01-21 01:12:39" },
-            JieQiData { name: "立春", time: "1971-02-04 19:25:25" },
-            JieQiData { name: "雨水", time: "1971-02-19 15:26:55" },
-            JieQiData { name: "惊蛰", time: "1971-03-06 13:34:44" },
-            JieQiData { name: "春分", time: "1971-03-21 14:38:06" },
-            JieQiData { name: "清明", time: "1971-04-05 18:36:00" },
-            JieQiData { name: "谷雨", time: "1971-04-21 01:54:13" },
-            JieQiData { name: "立夏", time: "1971-05-06 12:08:08" },
-            JieQiData { name: "小满", time: "1971-05-22 01:14:59" },
-            JieQiData { name: "芒种", time: "1971-06-06 16:28:51" },
-            JieQiData { name: "夏至", time: "1971-06-22 09:19:34" },
-            JieQiData { name: "小暑", time: "1971-07-08 02:51:07" },
-            JieQiData { name: "大暑", time: "1971-07-23 20:14:43" },
-            JieQiData { name: "立秋", time: "1971-08-08 12:40:12" },
-            JieQiData { name: "处暑", time: "1971-08-24 03:15:14" },
-            JieQiData { name: "白露", time: "1971-09-08 15:30:12" },
-            JieQiData { name: "秋分", time: "1971-09-24 00:44:52" },
-            JieQiData { name: "寒露", time: "1971-10-09 06:58:34" },
-            JieQiData { name: "霜降", time: "1971-10-24 09:53:08" },
-            JieQiData { name: "立冬", time: "1971-11-08 09:56:37" },
-            JieQiData { name: "小雪", time: "1971-11-23 07:13:56" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1970-12-07 20:37:19",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1970-12-22 14:35:40",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1971-01-06 07:45:06",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1971-01-21 01:12:39",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1971-02-04 19:25:25",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1971-02-19 15:26:55",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1971-03-06 13:34:44",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1971-03-21 14:38:06",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1971-04-05 18:36:00",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1971-04-21 01:54:13",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1971-05-06 12:08:08",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1971-05-22 01:14:59",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1971-06-06 16:28:51",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1971-06-22 09:19:34",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1971-07-08 02:51:07",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1971-07-23 20:14:43",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1971-08-08 12:40:12",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1971-08-24 03:15:14",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1971-09-08 15:30:12",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1971-09-24 00:44:52",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1971-10-09 06:58:34",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1971-10-24 09:53:08",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1971-11-08 09:56:37",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1971-11-23 07:13:56",
+            },
         ],
     },
     BaziYearData {
@@ -2252,30 +7436,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1972-02-15",
         lichun_time: "1972-02-05 01:20:13",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1971-12-08 02:35:42" },
-            JieQiData { name: "冬至", time: "1971-12-22 20:23:53" },
-            JieQiData { name: "小寒", time: "1972-01-06 13:41:50" },
-            JieQiData { name: "大寒", time: "1972-01-21 06:58:59" },
-            JieQiData { name: "立春", time: "1972-02-05 01:20:13" },
-            JieQiData { name: "雨水", time: "1972-02-19 21:11:23" },
-            JieQiData { name: "惊蛰", time: "1972-03-05 19:28:04" },
-            JieQiData { name: "春分", time: "1972-03-20 20:21:25" },
-            JieQiData { name: "清明", time: "1972-04-05 00:28:50" },
-            JieQiData { name: "谷雨", time: "1972-04-20 07:37:29" },
-            JieQiData { name: "立夏", time: "1972-05-05 18:01:10" },
-            JieQiData { name: "小满", time: "1972-05-21 06:59:29" },
-            JieQiData { name: "芒种", time: "1972-06-05 22:21:59" },
-            JieQiData { name: "夏至", time: "1972-06-21 15:06:10" },
-            JieQiData { name: "小暑", time: "1972-07-07 08:42:53" },
-            JieQiData { name: "大暑", time: "1972-07-23 02:02:30" },
-            JieQiData { name: "立秋", time: "1972-08-07 18:28:29" },
-            JieQiData { name: "处暑", time: "1972-08-23 09:03:01" },
-            JieQiData { name: "白露", time: "1972-09-07 21:15:06" },
-            JieQiData { name: "秋分", time: "1972-09-23 06:32:45" },
-            JieQiData { name: "寒露", time: "1972-10-08 12:41:45" },
-            JieQiData { name: "霜降", time: "1972-10-23 15:41:27" },
-            JieQiData { name: "立冬", time: "1972-11-07 15:39:23" },
-            JieQiData { name: "小雪", time: "1972-11-22 13:02:41" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1971-12-08 02:35:42",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1971-12-22 20:23:53",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1972-01-06 13:41:50",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1972-01-21 06:58:59",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1972-02-05 01:20:13",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1972-02-19 21:11:23",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1972-03-05 19:28:04",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1972-03-20 20:21:25",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1972-04-05 00:28:50",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1972-04-20 07:37:29",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1972-05-05 18:01:10",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1972-05-21 06:59:29",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1972-06-05 22:21:59",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1972-06-21 15:06:10",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1972-07-07 08:42:53",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1972-07-23 02:02:30",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1972-08-07 18:28:29",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1972-08-23 09:03:01",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1972-09-07 21:15:06",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1972-09-23 06:32:45",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1972-10-08 12:41:45",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1972-10-23 15:41:27",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1972-11-07 15:39:23",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1972-11-22 13:02:41",
+            },
         ],
     },
     BaziYearData {
@@ -2283,30 +7539,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1973-02-03",
         lichun_time: "1973-02-04 07:04:12",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1972-12-07 08:18:42" },
-            JieQiData { name: "冬至", time: "1972-12-22 02:12:53" },
-            JieQiData { name: "小寒", time: "1973-01-05 19:25:19" },
-            JieQiData { name: "大寒", time: "1973-01-20 12:48:12" },
-            JieQiData { name: "立春", time: "1973-02-04 07:04:12" },
-            JieQiData { name: "雨水", time: "1973-02-19 03:01:09" },
-            JieQiData { name: "惊蛰", time: "1973-03-06 01:12:36" },
-            JieQiData { name: "春分", time: "1973-03-21 02:12:26" },
-            JieQiData { name: "清明", time: "1973-04-05 06:13:53" },
-            JieQiData { name: "谷雨", time: "1973-04-20 13:30:21" },
-            JieQiData { name: "立夏", time: "1973-05-05 23:46:23" },
-            JieQiData { name: "小满", time: "1973-05-21 12:53:49" },
-            JieQiData { name: "芒种", time: "1973-06-06 04:06:50" },
-            JieQiData { name: "夏至", time: "1973-06-21 21:00:34" },
-            JieQiData { name: "小暑", time: "1973-07-07 14:27:21" },
-            JieQiData { name: "大暑", time: "1973-07-23 07:55:32" },
-            JieQiData { name: "立秋", time: "1973-08-08 00:12:48" },
-            JieQiData { name: "处暑", time: "1973-08-23 14:53:27" },
-            JieQiData { name: "白露", time: "1973-09-08 02:59:24" },
-            JieQiData { name: "秋分", time: "1973-09-23 12:21:06" },
-            JieQiData { name: "寒露", time: "1973-10-08 18:27:15" },
-            JieQiData { name: "霜降", time: "1973-10-23 21:30:09" },
-            JieQiData { name: "立冬", time: "1973-11-07 21:27:38" },
-            JieQiData { name: "小雪", time: "1973-11-22 18:54:00" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1972-12-07 08:18:42",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1972-12-22 02:12:53",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1973-01-05 19:25:19",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1973-01-20 12:48:12",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1973-02-04 07:04:12",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1973-02-19 03:01:09",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1973-03-06 01:12:36",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1973-03-21 02:12:26",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1973-04-05 06:13:53",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1973-04-20 13:30:21",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1973-05-05 23:46:23",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1973-05-21 12:53:49",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1973-06-06 04:06:50",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1973-06-21 21:00:34",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1973-07-07 14:27:21",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1973-07-23 07:55:32",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1973-08-08 00:12:48",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1973-08-23 14:53:27",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1973-09-08 02:59:24",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1973-09-23 12:21:06",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1973-10-08 18:27:15",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1973-10-23 21:30:09",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1973-11-07 21:27:38",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1973-11-22 18:54:00",
+            },
         ],
     },
     BaziYearData {
@@ -2314,30 +7642,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1974-01-23",
         lichun_time: "1974-02-04 13:00:05",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1973-12-07 14:10:23" },
-            JieQiData { name: "冬至", time: "1973-12-22 08:07:41" },
-            JieQiData { name: "小寒", time: "1974-01-06 01:19:55" },
-            JieQiData { name: "大寒", time: "1974-01-20 18:45:40" },
-            JieQiData { name: "立春", time: "1974-02-04 13:00:05" },
-            JieQiData { name: "雨水", time: "1974-02-19 08:58:41" },
-            JieQiData { name: "惊蛰", time: "1974-03-06 07:07:06" },
-            JieQiData { name: "春分", time: "1974-03-21 08:06:38" },
-            JieQiData { name: "清明", time: "1974-04-05 12:05:00" },
-            JieQiData { name: "谷雨", time: "1974-04-20 19:18:51" },
-            JieQiData { name: "立夏", time: "1974-05-06 05:33:52" },
-            JieQiData { name: "小满", time: "1974-05-21 18:36:02" },
-            JieQiData { name: "芒种", time: "1974-06-06 09:51:39" },
-            JieQiData { name: "夏至", time: "1974-06-22 02:37:36" },
-            JieQiData { name: "小暑", time: "1974-07-07 20:11:06" },
-            JieQiData { name: "大暑", time: "1974-07-23 13:30:10" },
-            JieQiData { name: "立秋", time: "1974-08-08 05:57:10" },
-            JieQiData { name: "处暑", time: "1974-08-23 20:28:40" },
-            JieQiData { name: "白露", time: "1974-09-08 08:45:04" },
-            JieQiData { name: "秋分", time: "1974-09-23 17:58:26" },
-            JieQiData { name: "寒露", time: "1974-10-09 00:14:39" },
-            JieQiData { name: "霜降", time: "1974-10-24 03:10:36" },
-            JieQiData { name: "立冬", time: "1974-11-08 03:17:58" },
-            JieQiData { name: "小雪", time: "1974-11-23 00:38:27" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1973-12-07 14:10:23",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1973-12-22 08:07:41",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1974-01-06 01:19:55",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1974-01-20 18:45:40",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1974-02-04 13:00:05",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1974-02-19 08:58:41",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1974-03-06 07:07:06",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1974-03-21 08:06:38",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1974-04-05 12:05:00",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1974-04-20 19:18:51",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1974-05-06 05:33:52",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1974-05-21 18:36:02",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1974-06-06 09:51:39",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1974-06-22 02:37:36",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1974-07-07 20:11:06",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1974-07-23 13:30:10",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1974-08-08 05:57:10",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1974-08-23 20:28:40",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1974-09-08 08:45:04",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1974-09-23 17:58:26",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1974-10-09 00:14:39",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1974-10-24 03:10:36",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1974-11-08 03:17:58",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1974-11-23 00:38:27",
+            },
         ],
     },
     BaziYearData {
@@ -2345,30 +7745,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1975-02-11",
         lichun_time: "1975-02-04 18:59:12",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1974-12-07 20:04:37" },
-            JieQiData { name: "冬至", time: "1974-12-22 13:55:56" },
-            JieQiData { name: "小寒", time: "1975-01-06 07:17:30" },
-            JieQiData { name: "大寒", time: "1975-01-21 00:36:14" },
-            JieQiData { name: "立春", time: "1975-02-04 18:59:12" },
-            JieQiData { name: "雨水", time: "1975-02-19 14:49:41" },
-            JieQiData { name: "惊蛰", time: "1975-03-06 13:05:47" },
-            JieQiData { name: "春分", time: "1975-03-21 13:56:39" },
-            JieQiData { name: "清明", time: "1975-04-05 18:01:30" },
-            JieQiData { name: "谷雨", time: "1975-04-21 01:07:12" },
-            JieQiData { name: "立夏", time: "1975-05-06 11:27:11" },
-            JieQiData { name: "小满", time: "1975-05-22 00:23:40" },
-            JieQiData { name: "芒种", time: "1975-06-06 15:42:01" },
-            JieQiData { name: "夏至", time: "1975-06-22 08:26:25" },
-            JieQiData { name: "小暑", time: "1975-07-08 01:59:24" },
-            JieQiData { name: "大暑", time: "1975-07-23 19:21:44" },
-            JieQiData { name: "立秋", time: "1975-08-08 11:44:53" },
-            JieQiData { name: "处暑", time: "1975-08-24 02:23:37" },
-            JieQiData { name: "白露", time: "1975-09-08 14:33:17" },
-            JieQiData { name: "秋分", time: "1975-09-23 23:55:12" },
-            JieQiData { name: "寒露", time: "1975-10-09 06:02:04" },
-            JieQiData { name: "霜降", time: "1975-10-24 09:06:01" },
-            JieQiData { name: "立冬", time: "1975-11-08 09:02:36" },
-            JieQiData { name: "小雪", time: "1975-11-23 06:30:42" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1974-12-07 20:04:37",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1974-12-22 13:55:56",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1975-01-06 07:17:30",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1975-01-21 00:36:14",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1975-02-04 18:59:12",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1975-02-19 14:49:41",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1975-03-06 13:05:47",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1975-03-21 13:56:39",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1975-04-05 18:01:30",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1975-04-21 01:07:12",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1975-05-06 11:27:11",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1975-05-22 00:23:40",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1975-06-06 15:42:01",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1975-06-22 08:26:25",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1975-07-08 01:59:24",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1975-07-23 19:21:44",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1975-08-08 11:44:53",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1975-08-24 02:23:37",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1975-09-08 14:33:17",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1975-09-23 23:55:12",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1975-10-09 06:02:04",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1975-10-24 09:06:01",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1975-11-08 09:02:36",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1975-11-23 06:30:42",
+            },
         ],
     },
     BaziYearData {
@@ -2376,30 +7848,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1976-01-31",
         lichun_time: "1976-02-05 00:39:28",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1975-12-08 01:46:09" },
-            JieQiData { name: "冬至", time: "1975-12-22 19:45:33" },
-            JieQiData { name: "小寒", time: "1976-01-06 12:57:22" },
-            JieQiData { name: "大寒", time: "1976-01-21 06:25:06" },
-            JieQiData { name: "立春", time: "1976-02-05 00:39:28" },
-            JieQiData { name: "雨水", time: "1976-02-19 20:39:55" },
-            JieQiData { name: "惊蛰", time: "1976-03-05 18:48:06" },
-            JieQiData { name: "春分", time: "1976-03-20 19:49:36" },
-            JieQiData { name: "清明", time: "1976-04-04 23:46:27" },
-            JieQiData { name: "谷雨", time: "1976-04-20 07:02:56" },
-            JieQiData { name: "立夏", time: "1976-05-05 17:14:24" },
-            JieQiData { name: "小满", time: "1976-05-21 06:21:04" },
-            JieQiData { name: "芒种", time: "1976-06-05 21:31:13" },
-            JieQiData { name: "夏至", time: "1976-06-21 14:24:11" },
-            JieQiData { name: "小暑", time: "1976-07-07 07:50:50" },
-            JieQiData { name: "大暑", time: "1976-07-23 01:18:26" },
-            JieQiData { name: "立秋", time: "1976-08-07 17:38:21" },
-            JieQiData { name: "处暑", time: "1976-08-23 08:18:15" },
-            JieQiData { name: "白露", time: "1976-09-07 20:28:12" },
-            JieQiData { name: "秋分", time: "1976-09-23 05:48:11" },
-            JieQiData { name: "寒露", time: "1976-10-08 11:58:03" },
-            JieQiData { name: "霜降", time: "1976-10-23 14:58:01" },
-            JieQiData { name: "立冬", time: "1976-11-07 14:58:34" },
-            JieQiData { name: "小雪", time: "1976-11-22 12:21:28" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1975-12-08 01:46:09",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1975-12-22 19:45:33",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1976-01-06 12:57:22",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1976-01-21 06:25:06",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1976-02-05 00:39:28",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1976-02-19 20:39:55",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1976-03-05 18:48:06",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1976-03-20 19:49:36",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1976-04-04 23:46:27",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1976-04-20 07:02:56",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1976-05-05 17:14:24",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1976-05-21 06:21:04",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1976-06-05 21:31:13",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1976-06-21 14:24:11",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1976-07-07 07:50:50",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1976-07-23 01:18:26",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1976-08-07 17:38:21",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1976-08-23 08:18:15",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1976-09-07 20:28:12",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1976-09-23 05:48:11",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1976-10-08 11:58:03",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1976-10-23 14:58:01",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1976-11-07 14:58:34",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1976-11-22 12:21:28",
+            },
         ],
     },
     BaziYearData {
@@ -2407,30 +7951,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1977-02-18",
         lichun_time: "1977-02-04 06:33:25",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1976-12-07 07:40:56" },
-            JieQiData { name: "冬至", time: "1976-12-22 01:35:06" },
-            JieQiData { name: "小寒", time: "1977-01-05 18:51:03" },
-            JieQiData { name: "大寒", time: "1977-01-20 12:14:25" },
-            JieQiData { name: "立春", time: "1977-02-04 06:33:25" },
-            JieQiData { name: "雨水", time: "1977-02-19 02:30:25" },
-            JieQiData { name: "惊蛰", time: "1977-03-06 00:44:09" },
-            JieQiData { name: "春分", time: "1977-03-21 01:42:15" },
-            JieQiData { name: "清明", time: "1977-04-05 05:45:44" },
-            JieQiData { name: "谷雨", time: "1977-04-20 12:57:12" },
-            JieQiData { name: "立夏", time: "1977-05-05 23:16:00" },
-            JieQiData { name: "小满", time: "1977-05-21 12:14:20" },
-            JieQiData { name: "芒种", time: "1977-06-06 03:32:01" },
-            JieQiData { name: "夏至", time: "1977-06-21 20:13:44" },
-            JieQiData { name: "小暑", time: "1977-07-07 13:47:52" },
-            JieQiData { name: "大暑", time: "1977-07-23 07:03:38" },
-            JieQiData { name: "立秋", time: "1977-08-07 23:30:14" },
-            JieQiData { name: "处暑", time: "1977-08-23 14:00:14" },
-            JieQiData { name: "白露", time: "1977-09-08 02:15:41" },
-            JieQiData { name: "秋分", time: "1977-09-23 11:29:13" },
-            JieQiData { name: "寒露", time: "1977-10-08 17:43:56" },
-            JieQiData { name: "霜降", time: "1977-10-23 20:40:39" },
-            JieQiData { name: "立冬", time: "1977-11-07 20:45:49" },
-            JieQiData { name: "小雪", time: "1977-11-22 18:06:59" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1976-12-07 07:40:56",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1976-12-22 01:35:06",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1977-01-05 18:51:03",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1977-01-20 12:14:25",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1977-02-04 06:33:25",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1977-02-19 02:30:25",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1977-03-06 00:44:09",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1977-03-21 01:42:15",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1977-04-05 05:45:44",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1977-04-20 12:57:12",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1977-05-05 23:16:00",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1977-05-21 12:14:20",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1977-06-06 03:32:01",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1977-06-21 20:13:44",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1977-07-07 13:47:52",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1977-07-23 07:03:38",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1977-08-07 23:30:14",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1977-08-23 14:00:14",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1977-09-08 02:15:41",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1977-09-23 11:29:13",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1977-10-08 17:43:56",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1977-10-23 20:40:39",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1977-11-07 20:45:49",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1977-11-22 18:06:59",
+            },
         ],
     },
     BaziYearData {
@@ -2438,30 +8054,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1978-02-07",
         lichun_time: "1978-02-04 12:26:57",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1977-12-07 13:30:49" },
-            JieQiData { name: "冬至", time: "1977-12-22 07:23:08" },
-            JieQiData { name: "小寒", time: "1978-01-06 00:43:12" },
-            JieQiData { name: "大寒", time: "1978-01-20 18:03:59" },
-            JieQiData { name: "立春", time: "1978-02-04 12:26:57" },
-            JieQiData { name: "雨水", time: "1978-02-19 08:20:57" },
-            JieQiData { name: "惊蛰", time: "1978-03-06 06:38:11" },
-            JieQiData { name: "春分", time: "1978-03-21 07:33:34" },
-            JieQiData { name: "清明", time: "1978-04-05 11:39:20" },
-            JieQiData { name: "谷雨", time: "1978-04-20 18:49:32" },
-            JieQiData { name: "立夏", time: "1978-05-06 05:08:32" },
-            JieQiData { name: "小满", time: "1978-05-21 18:08:26" },
-            JieQiData { name: "芒种", time: "1978-06-06 09:23:05" },
-            JieQiData { name: "夏至", time: "1978-06-22 02:09:33" },
-            JieQiData { name: "小暑", time: "1978-07-07 19:36:57" },
-            JieQiData { name: "大暑", time: "1978-07-23 13:00:14" },
-            JieQiData { name: "立秋", time: "1978-08-08 05:17:40" },
-            JieQiData { name: "处暑", time: "1978-08-23 19:56:46" },
-            JieQiData { name: "白露", time: "1978-09-08 08:02:24" },
-            JieQiData { name: "秋分", time: "1978-09-23 17:25:24" },
-            JieQiData { name: "寒露", time: "1978-10-08 23:30:54" },
-            JieQiData { name: "霜降", time: "1978-10-24 02:37:09" },
-            JieQiData { name: "立冬", time: "1978-11-08 02:34:01" },
-            JieQiData { name: "小雪", time: "1978-11-23 00:04:36" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1977-12-07 13:30:49",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1977-12-22 07:23:08",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1978-01-06 00:43:12",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1978-01-20 18:03:59",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1978-02-04 12:26:57",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1978-02-19 08:20:57",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1978-03-06 06:38:11",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1978-03-21 07:33:34",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1978-04-05 11:39:20",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1978-04-20 18:49:32",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1978-05-06 05:08:32",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1978-05-21 18:08:26",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1978-06-06 09:23:05",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1978-06-22 02:09:33",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1978-07-07 19:36:57",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1978-07-23 13:00:14",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1978-08-08 05:17:40",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1978-08-23 19:56:46",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1978-09-08 08:02:24",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1978-09-23 17:25:24",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1978-10-08 23:30:54",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1978-10-24 02:37:09",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1978-11-08 02:34:01",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1978-11-23 00:04:36",
+            },
         ],
     },
     BaziYearData {
@@ -2469,30 +8157,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1979-01-28",
         lichun_time: "1979-02-04 18:12:18",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1978-12-07 19:20:01" },
-            JieQiData { name: "冬至", time: "1978-12-22 13:20:57" },
-            JieQiData { name: "小寒", time: "1979-01-06 06:31:33" },
-            JieQiData { name: "大寒", time: "1979-01-20 23:59:56" },
-            JieQiData { name: "立春", time: "1979-02-04 18:12:18" },
-            JieQiData { name: "雨水", time: "1979-02-19 14:13:13" },
-            JieQiData { name: "惊蛰", time: "1979-03-06 12:19:38" },
-            JieQiData { name: "春分", time: "1979-03-21 13:21:55" },
-            JieQiData { name: "清明", time: "1979-04-05 17:17:57" },
-            JieQiData { name: "谷雨", time: "1979-04-21 00:35:21" },
-            JieQiData { name: "立夏", time: "1979-05-06 10:47:10" },
-            JieQiData { name: "小满", time: "1979-05-21 23:53:50" },
-            JieQiData { name: "芒种", time: "1979-06-06 15:05:11" },
-            JieQiData { name: "夏至", time: "1979-06-22 07:56:09" },
-            JieQiData { name: "小暑", time: "1979-07-08 01:24:37" },
-            JieQiData { name: "大暑", time: "1979-07-23 18:48:32" },
-            JieQiData { name: "立秋", time: "1979-08-08 11:10:53" },
-            JieQiData { name: "处暑", time: "1979-08-24 01:46:43" },
-            JieQiData { name: "白露", time: "1979-09-08 13:59:45" },
-            JieQiData { name: "秋分", time: "1979-09-23 23:16:22" },
-            JieQiData { name: "寒露", time: "1979-10-09 05:30:02" },
-            JieQiData { name: "霜降", time: "1979-10-24 08:27:50" },
-            JieQiData { name: "立冬", time: "1979-11-08 08:32:47" },
-            JieQiData { name: "小雪", time: "1979-11-23 05:54:06" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1978-12-07 19:20:01",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1978-12-22 13:20:57",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1979-01-06 06:31:33",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1979-01-20 23:59:56",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1979-02-04 18:12:18",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1979-02-19 14:13:13",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1979-03-06 12:19:38",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1979-03-21 13:21:55",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1979-04-05 17:17:57",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1979-04-21 00:35:21",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1979-05-06 10:47:10",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1979-05-21 23:53:50",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1979-06-06 15:05:11",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1979-06-22 07:56:09",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1979-07-08 01:24:37",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1979-07-23 18:48:32",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1979-08-08 11:10:53",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1979-08-24 01:46:43",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1979-09-08 13:59:45",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1979-09-23 23:16:22",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1979-10-09 05:30:02",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1979-10-24 08:27:50",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1979-11-08 08:32:47",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1979-11-23 05:54:06",
+            },
         ],
     },
     BaziYearData {
@@ -2500,30 +8260,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1980-02-16",
         lichun_time: "1980-02-05 00:09:28",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1979-12-08 01:17:48" },
-            JieQiData { name: "冬至", time: "1979-12-22 19:09:45" },
-            JieQiData { name: "小寒", time: "1980-01-06 12:28:53" },
-            JieQiData { name: "大寒", time: "1980-01-21 05:48:37" },
-            JieQiData { name: "立春", time: "1980-02-05 00:09:28" },
-            JieQiData { name: "雨水", time: "1980-02-19 20:01:38" },
-            JieQiData { name: "惊蛰", time: "1980-03-05 18:16:29" },
-            JieQiData { name: "春分", time: "1980-03-20 19:09:40" },
-            JieQiData { name: "清明", time: "1980-04-04 23:14:42" },
-            JieQiData { name: "谷雨", time: "1980-04-20 06:22:41" },
-            JieQiData { name: "立夏", time: "1980-05-05 16:44:28" },
-            JieQiData { name: "小满", time: "1980-05-21 05:42:02" },
-            JieQiData { name: "芒种", time: "1980-06-05 21:03:44" },
-            JieQiData { name: "夏至", time: "1980-06-21 13:47:00" },
-            JieQiData { name: "小暑", time: "1980-07-07 07:23:56" },
-            JieQiData { name: "大暑", time: "1980-07-23 00:41:59" },
-            JieQiData { name: "立秋", time: "1980-08-07 17:08:30" },
-            JieQiData { name: "处暑", time: "1980-08-23 07:40:38" },
-            JieQiData { name: "白露", time: "1980-09-07 19:53:27" },
-            JieQiData { name: "秋分", time: "1980-09-23 05:08:40" },
-            JieQiData { name: "寒露", time: "1980-10-08 11:19:14" },
-            JieQiData { name: "霜降", time: "1980-10-23 14:17:30" },
-            JieQiData { name: "立冬", time: "1980-11-07 14:18:13" },
-            JieQiData { name: "小雪", time: "1980-11-22 11:41:23" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1979-12-08 01:17:48",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1979-12-22 19:09:45",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1980-01-06 12:28:53",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1980-01-21 05:48:37",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1980-02-05 00:09:28",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1980-02-19 20:01:38",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1980-03-05 18:16:29",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1980-03-20 19:09:40",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1980-04-04 23:14:42",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1980-04-20 06:22:41",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1980-05-05 16:44:28",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1980-05-21 05:42:02",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1980-06-05 21:03:44",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1980-06-21 13:47:00",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1980-07-07 07:23:56",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1980-07-23 00:41:59",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1980-08-07 17:08:30",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1980-08-23 07:40:38",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1980-09-07 19:53:27",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1980-09-23 05:08:40",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1980-10-08 11:19:14",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1980-10-23 14:17:30",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1980-11-07 14:18:13",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1980-11-22 11:41:23",
+            },
         ],
     },
     BaziYearData {
@@ -2531,30 +8363,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1981-02-05",
         lichun_time: "1981-02-04 05:55:23",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1980-12-07 07:01:15" },
-            JieQiData { name: "冬至", time: "1980-12-22 00:56:04" },
-            JieQiData { name: "小寒", time: "1981-01-05 18:12:38" },
-            JieQiData { name: "大寒", time: "1981-01-20 11:35:58" },
-            JieQiData { name: "立春", time: "1981-02-04 05:55:23" },
-            JieQiData { name: "雨水", time: "1981-02-19 01:51:38" },
-            JieQiData { name: "惊蛰", time: "1981-03-06 00:05:07" },
-            JieQiData { name: "春分", time: "1981-03-21 01:02:49" },
-            JieQiData { name: "清明", time: "1981-04-05 05:05:02" },
-            JieQiData { name: "谷雨", time: "1981-04-20 12:18:31" },
-            JieQiData { name: "立夏", time: "1981-05-05 22:34:47" },
-            JieQiData { name: "小满", time: "1981-05-21 11:39:25" },
-            JieQiData { name: "芒种", time: "1981-06-06 02:52:39" },
-            JieQiData { name: "夏至", time: "1981-06-21 19:44:40" },
-            JieQiData { name: "小暑", time: "1981-07-07 13:11:52" },
-            JieQiData { name: "大暑", time: "1981-07-23 06:39:43" },
-            JieQiData { name: "立秋", time: "1981-08-07 22:57:09" },
-            JieQiData { name: "处暑", time: "1981-08-23 13:38:10" },
-            JieQiData { name: "白露", time: "1981-09-08 01:43:13" },
-            JieQiData { name: "秋分", time: "1981-09-23 11:05:11" },
-            JieQiData { name: "寒露", time: "1981-10-08 17:09:32" },
-            JieQiData { name: "霜降", time: "1981-10-23 20:12:49" },
-            JieQiData { name: "立冬", time: "1981-11-07 20:08:29" },
-            JieQiData { name: "小雪", time: "1981-11-22 17:35:56" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1980-12-07 07:01:15",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1980-12-22 00:56:04",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1981-01-05 18:12:38",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1981-01-20 11:35:58",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1981-02-04 05:55:23",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1981-02-19 01:51:38",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1981-03-06 00:05:07",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1981-03-21 01:02:49",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1981-04-05 05:05:02",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1981-04-20 12:18:31",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1981-05-05 22:34:47",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1981-05-21 11:39:25",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1981-06-06 02:52:39",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1981-06-21 19:44:40",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1981-07-07 13:11:52",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1981-07-23 06:39:43",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1981-08-07 22:57:09",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1981-08-23 13:38:10",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1981-09-08 01:43:13",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1981-09-23 11:05:11",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1981-10-08 17:09:32",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1981-10-23 20:12:49",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1981-11-07 20:08:29",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1981-11-22 17:35:56",
+            },
         ],
     },
     BaziYearData {
@@ -2562,30 +8466,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1982-01-25",
         lichun_time: "1982-02-04 11:45:28",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1981-12-07 12:51:15" },
-            JieQiData { name: "冬至", time: "1981-12-22 06:50:31" },
-            JieQiData { name: "小寒", time: "1982-01-06 00:02:35" },
-            JieQiData { name: "大寒", time: "1982-01-20 17:30:53" },
-            JieQiData { name: "立春", time: "1982-02-04 11:45:28" },
-            JieQiData { name: "雨水", time: "1982-02-19 07:46:31" },
-            JieQiData { name: "惊蛰", time: "1982-03-06 05:54:34" },
-            JieQiData { name: "春分", time: "1982-03-21 06:55:50" },
-            JieQiData { name: "清明", time: "1982-04-05 10:52:41" },
-            JieQiData { name: "谷雨", time: "1982-04-20 18:07:27" },
-            JieQiData { name: "立夏", time: "1982-05-06 04:19:59" },
-            JieQiData { name: "小满", time: "1982-05-21 17:22:53" },
-            JieQiData { name: "芒种", time: "1982-06-06 08:35:53" },
-            JieQiData { name: "夏至", time: "1982-06-22 01:22:59" },
-            JieQiData { name: "小暑", time: "1982-07-07 18:54:35" },
-            JieQiData { name: "大暑", time: "1982-07-23 12:15:23" },
-            JieQiData { name: "立秋", time: "1982-08-08 04:41:45" },
-            JieQiData { name: "处暑", time: "1982-08-23 19:15:13" },
-            JieQiData { name: "白露", time: "1982-09-08 07:31:43" },
-            JieQiData { name: "秋分", time: "1982-09-23 16:46:11" },
-            JieQiData { name: "寒露", time: "1982-10-08 23:02:09" },
-            JieQiData { name: "霜降", time: "1982-10-24 01:57:47" },
-            JieQiData { name: "立冬", time: "1982-11-08 02:04:06" },
-            JieQiData { name: "小雪", time: "1982-11-22 23:23:18" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1981-12-07 12:51:15",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1981-12-22 06:50:31",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1982-01-06 00:02:35",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1982-01-20 17:30:53",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1982-02-04 11:45:28",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1982-02-19 07:46:31",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1982-03-06 05:54:34",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1982-03-21 06:55:50",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1982-04-05 10:52:41",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1982-04-20 18:07:27",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1982-05-06 04:19:59",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1982-05-21 17:22:53",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1982-06-06 08:35:53",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1982-06-22 01:22:59",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1982-07-07 18:54:35",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1982-07-23 12:15:23",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1982-08-08 04:41:45",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1982-08-23 19:15:13",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1982-09-08 07:31:43",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1982-09-23 16:46:11",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1982-10-08 23:02:09",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1982-10-24 01:57:47",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1982-11-08 02:04:06",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1982-11-22 23:23:18",
+            },
         ],
     },
     BaziYearData {
@@ -2593,30 +8569,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1983-02-13",
         lichun_time: "1983-02-04 17:39:42",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1982-12-07 18:48:05" },
-            JieQiData { name: "冬至", time: "1982-12-22 12:38:09" },
-            JieQiData { name: "小寒", time: "1983-01-06 05:58:42" },
-            JieQiData { name: "大寒", time: "1983-01-20 23:16:56" },
-            JieQiData { name: "立春", time: "1983-02-04 17:39:42" },
-            JieQiData { name: "雨水", time: "1983-02-19 13:30:34" },
-            JieQiData { name: "惊蛰", time: "1983-03-06 11:47:12" },
-            JieQiData { name: "春分", time: "1983-03-21 12:38:44" },
-            JieQiData { name: "清明", time: "1983-04-05 16:44:23" },
-            JieQiData { name: "谷雨", time: "1983-04-20 23:50:09" },
-            JieQiData { name: "立夏", time: "1983-05-06 10:10:51" },
-            JieQiData { name: "小满", time: "1983-05-21 23:06:26" },
-            JieQiData { name: "芒种", time: "1983-06-06 14:25:42" },
-            JieQiData { name: "夏至", time: "1983-06-22 07:08:41" },
-            JieQiData { name: "小暑", time: "1983-07-08 00:43:13" },
-            JieQiData { name: "大暑", time: "1983-07-23 18:04:07" },
-            JieQiData { name: "立秋", time: "1983-08-08 10:29:37" },
-            JieQiData { name: "处暑", time: "1983-08-24 01:07:29" },
-            JieQiData { name: "白露", time: "1983-09-08 13:20:03" },
-            JieQiData { name: "秋分", time: "1983-09-23 22:41:37" },
-            JieQiData { name: "寒露", time: "1983-10-09 04:51:04" },
-            JieQiData { name: "霜降", time: "1983-10-24 07:54:17" },
-            JieQiData { name: "立冬", time: "1983-11-08 07:52:12" },
-            JieQiData { name: "小雪", time: "1983-11-23 05:18:20" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1982-12-07 18:48:05",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1982-12-22 12:38:09",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1983-01-06 05:58:42",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1983-01-20 23:16:56",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1983-02-04 17:39:42",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1983-02-19 13:30:34",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1983-03-06 11:47:12",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1983-03-21 12:38:44",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1983-04-05 16:44:23",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1983-04-20 23:50:09",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1983-05-06 10:10:51",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1983-05-21 23:06:26",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1983-06-06 14:25:42",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1983-06-22 07:08:41",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1983-07-08 00:43:13",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1983-07-23 18:04:07",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1983-08-08 10:29:37",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1983-08-24 01:07:29",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1983-09-08 13:20:03",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1983-09-23 22:41:37",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1983-10-09 04:51:04",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1983-10-24 07:54:17",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1983-11-08 07:52:12",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1983-11-23 05:18:20",
+            },
         ],
     },
     BaziYearData {
@@ -2624,30 +8672,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1984-02-02",
         lichun_time: "1984-02-04 23:18:44",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1983-12-08 00:33:40" },
-            JieQiData { name: "冬至", time: "1983-12-22 18:29:55" },
-            JieQiData { name: "小寒", time: "1984-01-06 11:40:51" },
-            JieQiData { name: "大寒", time: "1984-01-21 05:05:02" },
-            JieQiData { name: "立春", time: "1984-02-04 23:18:44" },
-            JieQiData { name: "雨水", time: "1984-02-19 19:16:13" },
-            JieQiData { name: "惊蛰", time: "1984-03-05 17:24:39" },
-            JieQiData { name: "春分", time: "1984-03-20 18:24:19" },
-            JieQiData { name: "清明", time: "1984-04-04 22:22:20" },
-            JieQiData { name: "谷雨", time: "1984-04-20 05:38:06" },
-            JieQiData { name: "立夏", time: "1984-05-05 15:50:57" },
-            JieQiData { name: "小满", time: "1984-05-21 04:57:36" },
-            JieQiData { name: "芒种", time: "1984-06-05 20:08:37" },
-            JieQiData { name: "夏至", time: "1984-06-21 13:02:14" },
-            JieQiData { name: "小暑", time: "1984-07-07 06:29:06" },
-            JieQiData { name: "大暑", time: "1984-07-22 23:58:12" },
-            JieQiData { name: "立秋", time: "1984-08-07 16:17:53" },
-            JieQiData { name: "处暑", time: "1984-08-23 07:00:10" },
-            JieQiData { name: "白露", time: "1984-09-07 19:09:50" },
-            JieQiData { name: "秋分", time: "1984-09-23 04:32:53" },
-            JieQiData { name: "寒露", time: "1984-10-08 10:42:35" },
-            JieQiData { name: "霜降", time: "1984-10-23 13:45:39" },
-            JieQiData { name: "立冬", time: "1984-11-07 13:45:32" },
-            JieQiData { name: "小雪", time: "1984-11-22 11:10:38" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1983-12-08 00:33:40",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1983-12-22 18:29:55",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1984-01-06 11:40:51",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1984-01-21 05:05:02",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1984-02-04 23:18:44",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1984-02-19 19:16:13",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1984-03-05 17:24:39",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1984-03-20 18:24:19",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1984-04-04 22:22:20",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1984-04-20 05:38:06",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1984-05-05 15:50:57",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1984-05-21 04:57:36",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1984-06-05 20:08:37",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1984-06-21 13:02:14",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1984-07-07 06:29:06",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1984-07-22 23:58:12",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1984-08-07 16:17:53",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1984-08-23 07:00:10",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1984-09-07 19:09:50",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1984-09-23 04:32:53",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1984-10-08 10:42:35",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1984-10-23 13:45:39",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1984-11-07 13:45:32",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1984-11-22 11:10:38",
+            },
         ],
     },
     BaziYearData {
@@ -2655,30 +8775,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1985-02-20",
         lichun_time: "1985-02-04 05:11:47",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1984-12-07 06:28:03" },
-            JieQiData { name: "冬至", time: "1984-12-22 00:22:48" },
-            JieQiData { name: "小寒", time: "1985-01-05 17:35:05" },
-            JieQiData { name: "大寒", time: "1985-01-20 10:57:33" },
-            JieQiData { name: "立春", time: "1985-02-04 05:11:47" },
-            JieQiData { name: "雨水", time: "1985-02-19 01:07:21" },
-            JieQiData { name: "惊蛰", time: "1985-03-05 23:16:21" },
-            JieQiData { name: "春分", time: "1985-03-21 00:13:43" },
-            JieQiData { name: "清明", time: "1985-04-05 04:13:35" },
-            JieQiData { name: "谷雨", time: "1985-04-20 11:25:46" },
-            JieQiData { name: "立夏", time: "1985-05-05 21:42:32" },
-            JieQiData { name: "小满", time: "1985-05-21 10:42:55" },
-            JieQiData { name: "芒种", time: "1985-06-06 01:59:56" },
-            JieQiData { name: "夏至", time: "1985-06-21 18:44:07" },
-            JieQiData { name: "小暑", time: "1985-07-07 12:18:35" },
-            JieQiData { name: "大暑", time: "1985-07-23 05:36:26" },
-            JieQiData { name: "立秋", time: "1985-08-07 22:04:16" },
-            JieQiData { name: "处暑", time: "1985-08-23 12:35:41" },
-            JieQiData { name: "白露", time: "1985-09-08 00:53:01" },
-            JieQiData { name: "秋分", time: "1985-09-23 10:07:27" },
-            JieQiData { name: "寒露", time: "1985-10-08 16:24:33" },
-            JieQiData { name: "霜降", time: "1985-10-23 19:21:52" },
-            JieQiData { name: "立冬", time: "1985-11-07 19:29:29" },
-            JieQiData { name: "小雪", time: "1985-11-22 16:50:46" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1984-12-07 06:28:03",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1984-12-22 00:22:48",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1985-01-05 17:35:05",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1985-01-20 10:57:33",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1985-02-04 05:11:47",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1985-02-19 01:07:21",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1985-03-05 23:16:21",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1985-03-21 00:13:43",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1985-04-05 04:13:35",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1985-04-20 11:25:46",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1985-05-05 21:42:32",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1985-05-21 10:42:55",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1985-06-06 01:59:56",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1985-06-21 18:44:07",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1985-07-07 12:18:35",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1985-07-23 05:36:26",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1985-08-07 22:04:16",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1985-08-23 12:35:41",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1985-09-08 00:53:01",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1985-09-23 10:07:27",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1985-10-08 16:24:33",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1985-10-23 19:21:52",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1985-11-07 19:29:29",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1985-11-22 16:50:46",
+            },
         ],
     },
     BaziYearData {
@@ -2686,30 +8878,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1986-02-09",
         lichun_time: "1986-02-04 11:07:42",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1985-12-07 12:16:21" },
-            JieQiData { name: "冬至", time: "1985-12-22 06:07:40" },
-            JieQiData { name: "小寒", time: "1986-01-05 23:28:02" },
-            JieQiData { name: "大寒", time: "1986-01-20 16:46:12" },
-            JieQiData { name: "立春", time: "1986-02-04 11:07:42" },
-            JieQiData { name: "雨水", time: "1986-02-19 06:57:31" },
-            JieQiData { name: "惊蛰", time: "1986-03-06 05:12:08" },
-            JieQiData { name: "春分", time: "1986-03-21 06:02:41" },
-            JieQiData { name: "清明", time: "1986-04-05 10:06:07" },
-            JieQiData { name: "谷雨", time: "1986-04-20 17:12:08" },
-            JieQiData { name: "立夏", time: "1986-05-06 03:30:36" },
-            JieQiData { name: "小满", time: "1986-05-21 16:27:55" },
-            JieQiData { name: "芒种", time: "1986-06-06 07:44:23" },
-            JieQiData { name: "夏至", time: "1986-06-22 00:29:57" },
-            JieQiData { name: "小暑", time: "1986-07-07 18:00:45" },
-            JieQiData { name: "大暑", time: "1986-07-23 11:24:23" },
-            JieQiData { name: "立秋", time: "1986-08-08 03:45:36" },
-            JieQiData { name: "处暑", time: "1986-08-23 18:25:47" },
-            JieQiData { name: "白露", time: "1986-09-08 06:34:37" },
-            JieQiData { name: "秋分", time: "1986-09-23 15:58:52" },
-            JieQiData { name: "寒露", time: "1986-10-08 22:06:45" },
-            JieQiData { name: "霜降", time: "1986-10-24 01:14:11" },
-            JieQiData { name: "立冬", time: "1986-11-08 01:12:49" },
-            JieQiData { name: "小雪", time: "1986-11-22 22:44:20" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1985-12-07 12:16:21",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1985-12-22 06:07:40",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1986-01-05 23:28:02",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1986-01-20 16:46:12",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1986-02-04 11:07:42",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1986-02-19 06:57:31",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1986-03-06 05:12:08",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1986-03-21 06:02:41",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1986-04-05 10:06:07",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1986-04-20 17:12:08",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1986-05-06 03:30:36",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1986-05-21 16:27:55",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1986-06-06 07:44:23",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1986-06-22 00:29:57",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1986-07-07 18:00:45",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1986-07-23 11:24:23",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1986-08-08 03:45:36",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1986-08-23 18:25:47",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1986-09-08 06:34:37",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1986-09-23 15:58:52",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1986-10-08 22:06:45",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1986-10-24 01:14:11",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1986-11-08 01:12:49",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1986-11-22 22:44:20",
+            },
         ],
     },
     BaziYearData {
@@ -2717,30 +8981,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1987-01-29",
         lichun_time: "1987-02-04 16:51:40",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1986-12-07 18:00:56" },
-            JieQiData { name: "冬至", time: "1986-12-22 12:02:07" },
-            JieQiData { name: "小寒", time: "1987-01-06 05:13:00" },
-            JieQiData { name: "大寒", time: "1987-01-20 22:40:23" },
-            JieQiData { name: "立春", time: "1987-02-04 16:51:40" },
-            JieQiData { name: "雨水", time: "1987-02-19 12:49:57" },
-            JieQiData { name: "惊蛰", time: "1987-03-06 10:53:37" },
-            JieQiData { name: "春分", time: "1987-03-21 11:51:58" },
-            JieQiData { name: "清明", time: "1987-04-05 15:44:08" },
-            JieQiData { name: "谷雨", time: "1987-04-20 22:57:32" },
-            JieQiData { name: "立夏", time: "1987-05-06 09:05:35" },
-            JieQiData { name: "小满", time: "1987-05-21 22:10:01" },
-            JieQiData { name: "芒种", time: "1987-06-06 13:18:58" },
-            JieQiData { name: "夏至", time: "1987-06-22 06:10:45" },
-            JieQiData { name: "小暑", time: "1987-07-07 23:38:39" },
-            JieQiData { name: "大暑", time: "1987-07-23 17:06:02" },
-            JieQiData { name: "立秋", time: "1987-08-08 09:29:13" },
-            JieQiData { name: "处暑", time: "1987-08-24 00:09:50" },
-            JieQiData { name: "白露", time: "1987-09-08 12:24:07" },
-            JieQiData { name: "秋分", time: "1987-09-23 21:45:16" },
-            JieQiData { name: "寒露", time: "1987-10-09 03:59:40" },
-            JieQiData { name: "霜降", time: "1987-10-24 07:00:52" },
-            JieQiData { name: "立冬", time: "1987-11-08 07:05:40" },
-            JieQiData { name: "小雪", time: "1987-11-23 04:29:23" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1986-12-07 18:00:56",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1986-12-22 12:02:07",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1987-01-06 05:13:00",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1987-01-20 22:40:23",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1987-02-04 16:51:40",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1987-02-19 12:49:57",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1987-03-06 10:53:37",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1987-03-21 11:51:58",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1987-04-05 15:44:08",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1987-04-20 22:57:32",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1987-05-06 09:05:35",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1987-05-21 22:10:01",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1987-06-06 13:18:58",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1987-06-22 06:10:45",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1987-07-07 23:38:39",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1987-07-23 17:06:02",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1987-08-08 09:29:13",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1987-08-24 00:09:50",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1987-09-08 12:24:07",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1987-09-23 21:45:16",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1987-10-09 03:59:40",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1987-10-24 07:00:52",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1987-11-08 07:05:40",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1987-11-23 04:29:23",
+            },
         ],
     },
     BaziYearData {
@@ -2748,30 +9084,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1988-02-17",
         lichun_time: "1988-02-04 22:42:49",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1987-12-07 23:52:12" },
-            JieQiData { name: "冬至", time: "1987-12-22 17:45:52" },
-            JieQiData { name: "小寒", time: "1988-01-06 11:03:30" },
-            JieQiData { name: "大寒", time: "1988-01-21 04:24:17" },
-            JieQiData { name: "立春", time: "1988-02-04 22:42:49" },
-            JieQiData { name: "雨水", time: "1988-02-19 18:35:07" },
-            JieQiData { name: "惊蛰", time: "1988-03-05 16:46:32" },
-            JieQiData { name: "春分", time: "1988-03-20 17:38:35" },
-            JieQiData { name: "清明", time: "1988-04-04 21:39:04" },
-            JieQiData { name: "谷雨", time: "1988-04-20 04:44:47" },
-            JieQiData { name: "立夏", time: "1988-05-05 15:01:43" },
-            JieQiData { name: "小满", time: "1988-05-21 03:56:40" },
-            JieQiData { name: "芒种", time: "1988-06-05 19:14:53" },
-            JieQiData { name: "夏至", time: "1988-06-21 11:56:31" },
-            JieQiData { name: "小暑", time: "1988-07-07 05:32:54" },
-            JieQiData { name: "大暑", time: "1988-07-22 22:51:05" },
-            JieQiData { name: "立秋", time: "1988-08-07 15:20:15" },
-            JieQiData { name: "处暑", time: "1988-08-23 05:54:00" },
-            JieQiData { name: "白露", time: "1988-09-07 18:11:31" },
-            JieQiData { name: "秋分", time: "1988-09-23 03:28:50" },
-            JieQiData { name: "寒露", time: "1988-10-08 09:44:30" },
-            JieQiData { name: "霜降", time: "1988-10-23 12:44:06" },
-            JieQiData { name: "立冬", time: "1988-11-07 12:48:55" },
-            JieQiData { name: "小雪", time: "1988-11-22 10:11:59" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1987-12-07 23:52:12",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1987-12-22 17:45:52",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1988-01-06 11:03:30",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1988-01-21 04:24:17",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1988-02-04 22:42:49",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1988-02-19 18:35:07",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1988-03-05 16:46:32",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1988-03-20 17:38:35",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1988-04-04 21:39:04",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1988-04-20 04:44:47",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1988-05-05 15:01:43",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1988-05-21 03:56:40",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1988-06-05 19:14:53",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1988-06-21 11:56:31",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1988-07-07 05:32:54",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1988-07-22 22:51:05",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1988-08-07 15:20:15",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1988-08-23 05:54:00",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1988-09-07 18:11:31",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1988-09-23 03:28:50",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1988-10-08 09:44:30",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1988-10-23 12:44:06",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1988-11-07 12:48:55",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1988-11-22 10:11:59",
+            },
         ],
     },
     BaziYearData {
@@ -2779,30 +9187,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1989-02-06",
         lichun_time: "1989-02-04 04:27:09",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1988-12-07 05:34:28" },
-            JieQiData { name: "冬至", time: "1988-12-21 23:27:53" },
-            JieQiData { name: "小寒", time: "1989-01-05 16:45:55" },
-            JieQiData { name: "大寒", time: "1989-01-20 10:06:59" },
-            JieQiData { name: "立春", time: "1989-02-04 04:27:09" },
-            JieQiData { name: "雨水", time: "1989-02-19 00:20:30" },
-            JieQiData { name: "惊蛰", time: "1989-03-05 22:34:08" },
-            JieQiData { name: "春分", time: "1989-03-20 23:28:15" },
-            JieQiData { name: "清明", time: "1989-04-05 03:29:54" },
-            JieQiData { name: "谷雨", time: "1989-04-20 10:38:56" },
-            JieQiData { name: "立夏", time: "1989-05-05 20:53:55" },
-            JieQiData { name: "小满", time: "1989-05-21 09:53:32" },
-            JieQiData { name: "芒种", time: "1989-06-06 01:05:13" },
-            JieQiData { name: "夏至", time: "1989-06-21 17:53:00" },
-            JieQiData { name: "小暑", time: "1989-07-07 11:19:25" },
-            JieQiData { name: "大暑", time: "1989-07-23 04:45:28" },
-            JieQiData { name: "立秋", time: "1989-08-07 21:03:52" },
-            JieQiData { name: "处暑", time: "1989-08-23 11:46:13" },
-            JieQiData { name: "白露", time: "1989-09-07 23:53:53" },
-            JieQiData { name: "秋分", time: "1989-09-23 09:19:37" },
-            JieQiData { name: "寒露", time: "1989-10-08 15:27:19" },
-            JieQiData { name: "霜降", time: "1989-10-23 18:35:08" },
-            JieQiData { name: "立冬", time: "1989-11-07 18:33:32" },
-            JieQiData { name: "小雪", time: "1989-11-22 16:04:37" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1988-12-07 05:34:28",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1988-12-21 23:27:53",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1989-01-05 16:45:55",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1989-01-20 10:06:59",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1989-02-04 04:27:09",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1989-02-19 00:20:30",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1989-03-05 22:34:08",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1989-03-20 23:28:15",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1989-04-05 03:29:54",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1989-04-20 10:38:56",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1989-05-05 20:53:55",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1989-05-21 09:53:32",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1989-06-06 01:05:13",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1989-06-21 17:53:00",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1989-07-07 11:19:25",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1989-07-23 04:45:28",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1989-08-07 21:03:52",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1989-08-23 11:46:13",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1989-09-07 23:53:53",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1989-09-23 09:19:37",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1989-10-08 15:27:19",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1989-10-23 18:35:08",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1989-11-07 18:33:32",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1989-11-22 16:04:37",
+            },
         ],
     },
     BaziYearData {
@@ -2810,30 +9290,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1990-01-27",
         lichun_time: "1990-02-04 10:14:00",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1989-12-07 11:20:57" },
-            JieQiData { name: "冬至", time: "1989-12-22 05:22:00" },
-            JieQiData { name: "小寒", time: "1990-01-05 22:33:14" },
-            JieQiData { name: "大寒", time: "1990-01-20 16:01:33" },
-            JieQiData { name: "立春", time: "1990-02-04 10:14:00" },
-            JieQiData { name: "雨水", time: "1990-02-19 06:14:01" },
-            JieQiData { name: "惊蛰", time: "1990-03-06 04:19:18" },
-            JieQiData { name: "春分", time: "1990-03-21 05:19:15" },
-            JieQiData { name: "清明", time: "1990-04-05 09:12:56" },
-            JieQiData { name: "谷雨", time: "1990-04-20 16:26:32" },
-            JieQiData { name: "立夏", time: "1990-05-06 02:35:26" },
-            JieQiData { name: "小满", time: "1990-05-21 15:37:23" },
-            JieQiData { name: "芒种", time: "1990-06-06 06:46:18" },
-            JieQiData { name: "夏至", time: "1990-06-21 23:32:46" },
-            JieQiData { name: "小暑", time: "1990-07-07 17:00:28" },
-            JieQiData { name: "大暑", time: "1990-07-23 10:21:30" },
-            JieQiData { name: "立秋", time: "1990-08-08 02:45:32" },
-            JieQiData { name: "处暑", time: "1990-08-23 17:20:49" },
-            JieQiData { name: "白露", time: "1990-09-08 05:37:28" },
-            JieQiData { name: "秋分", time: "1990-09-23 14:55:29" },
-            JieQiData { name: "寒露", time: "1990-10-08 21:13:49" },
-            JieQiData { name: "霜降", time: "1990-10-24 00:13:56" },
-            JieQiData { name: "立冬", time: "1990-11-08 00:23:30" },
-            JieQiData { name: "小雪", time: "1990-11-22 21:46:55" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1989-12-07 11:20:57",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1989-12-22 05:22:00",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1990-01-05 22:33:14",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1990-01-20 16:01:33",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1990-02-04 10:14:00",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1990-02-19 06:14:01",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1990-03-06 04:19:18",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1990-03-21 05:19:15",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1990-04-05 09:12:56",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1990-04-20 16:26:32",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1990-05-06 02:35:26",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1990-05-21 15:37:23",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1990-06-06 06:46:18",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1990-06-21 23:32:46",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1990-07-07 17:00:28",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1990-07-23 10:21:30",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1990-08-08 02:45:32",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1990-08-23 17:20:49",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1990-09-08 05:37:28",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1990-09-23 14:55:29",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1990-10-08 21:13:49",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1990-10-24 00:13:56",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1990-11-08 00:23:30",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1990-11-22 21:46:55",
+            },
         ],
     },
     BaziYearData {
@@ -2841,30 +9393,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1991-02-15",
         lichun_time: "1991-02-04 16:08:24",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1990-12-07 17:14:10" },
-            JieQiData { name: "冬至", time: "1990-12-22 11:06:59" },
-            JieQiData { name: "小寒", time: "1991-01-06 04:28:07" },
-            JieQiData { name: "大寒", time: "1991-01-20 21:47:05" },
-            JieQiData { name: "立春", time: "1991-02-04 16:08:24" },
-            JieQiData { name: "雨水", time: "1991-02-19 11:58:20" },
-            JieQiData { name: "惊蛰", time: "1991-03-06 10:12:15" },
-            JieQiData { name: "春分", time: "1991-03-21 11:01:56" },
-            JieQiData { name: "清明", time: "1991-04-05 15:04:42" },
-            JieQiData { name: "谷雨", time: "1991-04-20 22:08:23" },
-            JieQiData { name: "立夏", time: "1991-05-06 08:26:53" },
-            JieQiData { name: "小满", time: "1991-05-21 21:20:14" },
-            JieQiData { name: "芒种", time: "1991-06-06 12:38:17" },
-            JieQiData { name: "夏至", time: "1991-06-22 05:18:47" },
-            JieQiData { name: "小暑", time: "1991-07-07 22:52:59" },
-            JieQiData { name: "大暑", time: "1991-07-23 16:11:08" },
-            JieQiData { name: "立秋", time: "1991-08-08 08:37:15" },
-            JieQiData { name: "处暑", time: "1991-08-23 23:12:51" },
-            JieQiData { name: "白露", time: "1991-09-08 11:27:21" },
-            JieQiData { name: "秋分", time: "1991-09-23 20:48:06" },
-            JieQiData { name: "寒露", time: "1991-10-09 03:01:07" },
-            JieQiData { name: "霜降", time: "1991-10-24 06:05:10" },
-            JieQiData { name: "立冬", time: "1991-11-08 06:07:50" },
-            JieQiData { name: "小雪", time: "1991-11-23 03:35:45" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1990-12-07 17:14:10",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1990-12-22 11:06:59",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1991-01-06 04:28:07",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1991-01-20 21:47:05",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1991-02-04 16:08:24",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1991-02-19 11:58:20",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1991-03-06 10:12:15",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1991-03-21 11:01:56",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1991-04-05 15:04:42",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1991-04-20 22:08:23",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1991-05-06 08:26:53",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1991-05-21 21:20:14",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1991-06-06 12:38:17",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1991-06-22 05:18:47",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1991-07-07 22:52:59",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1991-07-23 16:11:08",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1991-08-08 08:37:15",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1991-08-23 23:12:51",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1991-09-08 11:27:21",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1991-09-23 20:48:06",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1991-10-09 03:01:07",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1991-10-24 06:05:10",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1991-11-08 06:07:50",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1991-11-23 03:35:45",
+            },
         ],
     },
     BaziYearData {
@@ -2872,30 +9496,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1992-02-04",
         lichun_time: "1992-02-04 21:48:17",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1991-12-07 22:56:00" },
-            JieQiData { name: "冬至", time: "1991-12-22 16:53:38" },
-            JieQiData { name: "小寒", time: "1992-01-06 10:08:31" },
-            JieQiData { name: "大寒", time: "1992-01-21 03:32:29" },
-            JieQiData { name: "立春", time: "1992-02-04 21:48:17" },
-            JieQiData { name: "雨水", time: "1992-02-19 17:43:30" },
-            JieQiData { name: "惊蛰", time: "1992-03-05 15:52:08" },
-            JieQiData { name: "春分", time: "1992-03-20 16:48:04" },
-            JieQiData { name: "清明", time: "1992-04-04 20:45:08" },
-            JieQiData { name: "谷雨", time: "1992-04-20 03:56:53" },
-            JieQiData { name: "立夏", time: "1992-05-05 14:08:40" },
-            JieQiData { name: "小满", time: "1992-05-21 03:12:08" },
-            JieQiData { name: "芒种", time: "1992-06-05 18:22:19" },
-            JieQiData { name: "夏至", time: "1992-06-21 11:14:08" },
-            JieQiData { name: "小暑", time: "1992-07-07 04:40:15" },
-            JieQiData { name: "大暑", time: "1992-07-22 22:08:49" },
-            JieQiData { name: "立秋", time: "1992-08-07 14:27:24" },
-            JieQiData { name: "处暑", time: "1992-08-23 05:10:06" },
-            JieQiData { name: "白露", time: "1992-09-07 17:18:20" },
-            JieQiData { name: "秋分", time: "1992-09-23 02:42:46" },
-            JieQiData { name: "寒露", time: "1992-10-08 08:51:29" },
-            JieQiData { name: "霜降", time: "1992-10-23 11:57:07" },
-            JieQiData { name: "立冬", time: "1992-11-07 11:57:02" },
-            JieQiData { name: "小雪", time: "1992-11-22 09:25:51" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1991-12-07 22:56:00",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1991-12-22 16:53:38",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1992-01-06 10:08:31",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1992-01-21 03:32:29",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1992-02-04 21:48:17",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1992-02-19 17:43:30",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1992-03-05 15:52:08",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1992-03-20 16:48:04",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1992-04-04 20:45:08",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1992-04-20 03:56:53",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1992-05-05 14:08:40",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1992-05-21 03:12:08",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1992-06-05 18:22:19",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1992-06-21 11:14:08",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1992-07-07 04:40:15",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1992-07-22 22:08:49",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1992-08-07 14:27:24",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1992-08-23 05:10:06",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1992-09-07 17:18:20",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1992-09-23 02:42:46",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1992-10-08 08:51:29",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1992-10-23 11:57:07",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1992-11-07 11:57:02",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1992-11-22 09:25:51",
+            },
         ],
     },
     BaziYearData {
@@ -2903,30 +9599,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1993-01-23",
         lichun_time: "1993-02-04 03:37:09",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1992-12-07 04:44:12" },
-            JieQiData { name: "冬至", time: "1992-12-21 22:43:13" },
-            JieQiData { name: "小寒", time: "1993-01-05 15:56:31" },
-            JieQiData { name: "大寒", time: "1993-01-20 09:22:49" },
-            JieQiData { name: "立春", time: "1993-02-04 03:37:09" },
-            JieQiData { name: "雨水", time: "1993-02-18 23:35:10" },
-            JieQiData { name: "惊蛰", time: "1993-03-05 21:42:32" },
-            JieQiData { name: "春分", time: "1993-03-20 22:40:39" },
-            JieQiData { name: "清明", time: "1993-04-05 02:37:11" },
-            JieQiData { name: "谷雨", time: "1993-04-20 09:49:01" },
-            JieQiData { name: "立夏", time: "1993-05-05 20:01:43" },
-            JieQiData { name: "小满", time: "1993-05-21 09:01:43" },
-            JieQiData { name: "芒种", time: "1993-06-06 00:15:13" },
-            JieQiData { name: "夏至", time: "1993-06-21 16:59:44" },
-            JieQiData { name: "小暑", time: "1993-07-07 10:32:02" },
-            JieQiData { name: "大暑", time: "1993-07-23 03:50:49" },
-            JieQiData { name: "立秋", time: "1993-08-07 20:17:58" },
-            JieQiData { name: "处暑", time: "1993-08-23 10:50:18" },
-            JieQiData { name: "白露", time: "1993-09-07 23:07:47" },
-            JieQiData { name: "秋分", time: "1993-09-23 08:22:30" },
-            JieQiData { name: "寒露", time: "1993-10-08 14:40:02" },
-            JieQiData { name: "霜降", time: "1993-10-23 17:37:08" },
-            JieQiData { name: "立冬", time: "1993-11-07 17:45:33" },
-            JieQiData { name: "小雪", time: "1993-11-22 15:06:51" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1992-12-07 04:44:12",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1992-12-21 22:43:13",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1993-01-05 15:56:31",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1993-01-20 09:22:49",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1993-02-04 03:37:09",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1993-02-18 23:35:10",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1993-03-05 21:42:32",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1993-03-20 22:40:39",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1993-04-05 02:37:11",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1993-04-20 09:49:01",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1993-05-05 20:01:43",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1993-05-21 09:01:43",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1993-06-06 00:15:13",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1993-06-21 16:59:44",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1993-07-07 10:32:02",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1993-07-23 03:50:49",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1993-08-07 20:17:58",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1993-08-23 10:50:18",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1993-09-07 23:07:47",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1993-09-23 08:22:30",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1993-10-08 14:40:02",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1993-10-23 17:37:08",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1993-11-07 17:45:33",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1993-11-22 15:06:51",
+            },
         ],
     },
     BaziYearData {
@@ -2934,30 +9702,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1994-02-10",
         lichun_time: "1994-02-04 09:30:56",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1993-12-07 10:33:49" },
-            JieQiData { name: "冬至", time: "1993-12-22 04:25:48" },
-            JieQiData { name: "小寒", time: "1994-01-05 21:48:07" },
-            JieQiData { name: "大寒", time: "1994-01-20 15:07:24" },
-            JieQiData { name: "立春", time: "1994-02-04 09:30:56" },
-            JieQiData { name: "雨水", time: "1994-02-19 05:21:38" },
-            JieQiData { name: "惊蛰", time: "1994-03-06 03:37:42" },
-            JieQiData { name: "春分", time: "1994-03-21 04:28:01" },
-            JieQiData { name: "清明", time: "1994-04-05 08:31:48" },
-            JieQiData { name: "谷雨", time: "1994-04-20 15:36:00" },
-            JieQiData { name: "立夏", time: "1994-05-06 01:54:05" },
-            JieQiData { name: "小满", time: "1994-05-21 14:48:28" },
-            JieQiData { name: "芒种", time: "1994-06-06 06:04:52" },
-            JieQiData { name: "夏至", time: "1994-06-21 22:47:32" },
-            JieQiData { name: "小暑", time: "1994-07-07 16:19:22" },
-            JieQiData { name: "大暑", time: "1994-07-23 09:41:00" },
-            JieQiData { name: "立秋", time: "1994-08-08 02:04:22" },
-            JieQiData { name: "处暑", time: "1994-08-23 16:43:45" },
-            JieQiData { name: "白露", time: "1994-09-08 04:55:07" },
-            JieQiData { name: "秋分", time: "1994-09-23 14:19:13" },
-            JieQiData { name: "寒露", time: "1994-10-08 20:29:05" },
-            JieQiData { name: "霜降", time: "1994-10-23 23:36:01" },
-            JieQiData { name: "立冬", time: "1994-11-07 23:35:36" },
-            JieQiData { name: "小雪", time: "1994-11-22 21:05:58" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1993-12-07 10:33:49",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1993-12-22 04:25:48",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1994-01-05 21:48:07",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1994-01-20 15:07:24",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1994-02-04 09:30:56",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1994-02-19 05:21:38",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1994-03-06 03:37:42",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1994-03-21 04:28:01",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1994-04-05 08:31:48",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1994-04-20 15:36:00",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1994-05-06 01:54:05",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1994-05-21 14:48:28",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1994-06-06 06:04:52",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1994-06-21 22:47:32",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1994-07-07 16:19:22",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1994-07-23 09:41:00",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1994-08-08 02:04:22",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1994-08-23 16:43:45",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1994-09-08 04:55:07",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1994-09-23 14:19:13",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1994-10-08 20:29:05",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1994-10-23 23:36:01",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1994-11-07 23:35:36",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1994-11-22 21:05:58",
+            },
         ],
     },
     BaziYearData {
@@ -2965,30 +9805,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1995-01-31",
         lichun_time: "1995-02-04 15:12:51",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1994-12-07 16:22:53" },
-            JieQiData { name: "冬至", time: "1994-12-22 10:22:43" },
-            JieQiData { name: "小寒", time: "1995-01-06 03:34:05" },
-            JieQiData { name: "大寒", time: "1995-01-20 21:00:27" },
-            JieQiData { name: "立春", time: "1995-02-04 15:12:51" },
-            JieQiData { name: "雨水", time: "1995-02-19 11:10:44" },
-            JieQiData { name: "惊蛰", time: "1995-03-06 09:16:04" },
-            JieQiData { name: "春分", time: "1995-03-21 10:14:27" },
-            JieQiData { name: "清明", time: "1995-04-05 14:08:06" },
-            JieQiData { name: "谷雨", time: "1995-04-20 21:21:29" },
-            JieQiData { name: "立夏", time: "1995-05-06 07:30:03" },
-            JieQiData { name: "小满", time: "1995-05-21 20:34:11" },
-            JieQiData { name: "芒种", time: "1995-06-06 11:42:28" },
-            JieQiData { name: "夏至", time: "1995-06-22 04:34:22" },
-            JieQiData { name: "小暑", time: "1995-07-07 22:01:00" },
-            JieQiData { name: "大暑", time: "1995-07-23 15:29:40" },
-            JieQiData { name: "立秋", time: "1995-08-08 07:51:44" },
-            JieQiData { name: "处暑", time: "1995-08-23 22:34:50" },
-            JieQiData { name: "白露", time: "1995-09-08 10:48:34" },
-            JieQiData { name: "秋分", time: "1995-09-23 20:13:00" },
-            JieQiData { name: "寒露", time: "1995-10-09 02:27:12" },
-            JieQiData { name: "霜降", time: "1995-10-24 05:31:31" },
-            JieQiData { name: "立冬", time: "1995-11-08 05:35:35" },
-            JieQiData { name: "小雪", time: "1995-11-23 03:01:23" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1994-12-07 16:22:53",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1994-12-22 10:22:43",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1995-01-06 03:34:05",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1995-01-20 21:00:27",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1995-02-04 15:12:51",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1995-02-19 11:10:44",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1995-03-06 09:16:04",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1995-03-21 10:14:27",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1995-04-05 14:08:06",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1995-04-20 21:21:29",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1995-05-06 07:30:03",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1995-05-21 20:34:11",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1995-06-06 11:42:28",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1995-06-22 04:34:22",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1995-07-07 22:01:00",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1995-07-23 15:29:40",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1995-08-08 07:51:44",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1995-08-23 22:34:50",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1995-09-08 10:48:34",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1995-09-23 20:13:00",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1995-10-09 02:27:12",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1995-10-24 05:31:31",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1995-11-08 05:35:35",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1995-11-23 03:01:23",
+            },
         ],
     },
     BaziYearData {
@@ -2996,30 +9908,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1996-02-19",
         lichun_time: "1996-02-04 21:07:54",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1995-12-07 22:22:15" },
-            JieQiData { name: "冬至", time: "1995-12-22 16:16:47" },
-            JieQiData { name: "小寒", time: "1996-01-06 09:31:27" },
-            JieQiData { name: "大寒", time: "1996-01-21 02:52:30" },
-            JieQiData { name: "立春", time: "1996-02-04 21:07:54" },
-            JieQiData { name: "雨水", time: "1996-02-19 17:00:43" },
-            JieQiData { name: "惊蛰", time: "1996-03-05 15:09:39" },
-            JieQiData { name: "春分", time: "1996-03-20 16:03:04" },
-            JieQiData { name: "清明", time: "1996-04-04 20:02:01" },
-            JieQiData { name: "谷雨", time: "1996-04-20 03:09:53" },
-            JieQiData { name: "立夏", time: "1996-05-05 13:26:02" },
-            JieQiData { name: "小满", time: "1996-05-21 02:23:06" },
-            JieQiData { name: "芒种", time: "1996-06-05 17:40:47" },
-            JieQiData { name: "夏至", time: "1996-06-21 10:23:44" },
-            JieQiData { name: "小暑", time: "1996-07-07 04:00:00" },
-            JieQiData { name: "大暑", time: "1996-07-22 21:18:42" },
-            JieQiData { name: "立秋", time: "1996-08-07 13:48:49" },
-            JieQiData { name: "处暑", time: "1996-08-23 04:22:50" },
-            JieQiData { name: "白露", time: "1996-09-07 16:42:25" },
-            JieQiData { name: "秋分", time: "1996-09-23 02:00:06" },
-            JieQiData { name: "寒露", time: "1996-10-08 08:18:42" },
-            JieQiData { name: "霜降", time: "1996-10-23 11:18:42" },
-            JieQiData { name: "立冬", time: "1996-11-07 11:26:33" },
-            JieQiData { name: "小雪", time: "1996-11-22 08:49:24" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1995-12-07 22:22:15",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1995-12-22 16:16:47",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1996-01-06 09:31:27",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1996-01-21 02:52:30",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1996-02-04 21:07:54",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1996-02-19 17:00:43",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1996-03-05 15:09:39",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1996-03-20 16:03:04",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1996-04-04 20:02:01",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1996-04-20 03:09:53",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1996-05-05 13:26:02",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1996-05-21 02:23:06",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1996-06-05 17:40:47",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1996-06-21 10:23:44",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1996-07-07 04:00:00",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1996-07-22 21:18:42",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1996-08-07 13:48:49",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1996-08-23 04:22:50",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1996-09-07 16:42:25",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1996-09-23 02:00:06",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1996-10-08 08:18:42",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1996-10-23 11:18:42",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1996-11-07 11:26:33",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1996-11-22 08:49:24",
+            },
         ],
     },
     BaziYearData {
@@ -3027,30 +10011,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1997-02-07",
         lichun_time: "1997-02-04 03:01:57",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1996-12-07 04:14:00" },
-            JieQiData { name: "冬至", time: "1996-12-21 22:05:53" },
-            JieQiData { name: "小寒", time: "1997-01-05 15:24:28" },
-            JieQiData { name: "大寒", time: "1997-01-20 08:42:31" },
-            JieQiData { name: "立春", time: "1997-02-04 03:01:57" },
-            JieQiData { name: "雨水", time: "1997-02-18 22:51:29" },
-            JieQiData { name: "惊蛰", time: "1997-03-05 21:04:07" },
-            JieQiData { name: "春分", time: "1997-03-20 21:54:40" },
-            JieQiData { name: "清明", time: "1997-04-05 01:56:16" },
-            JieQiData { name: "谷雨", time: "1997-04-20 09:02:49" },
-            JieQiData { name: "立夏", time: "1997-05-05 19:19:26" },
-            JieQiData { name: "小满", time: "1997-05-21 08:17:53" },
-            JieQiData { name: "芒种", time: "1997-06-05 23:32:31" },
-            JieQiData { name: "夏至", time: "1997-06-21 16:19:56" },
-            JieQiData { name: "小暑", time: "1997-07-07 09:49:23" },
-            JieQiData { name: "大暑", time: "1997-07-23 03:15:26" },
-            JieQiData { name: "立秋", time: "1997-08-07 19:36:18" },
-            JieQiData { name: "处暑", time: "1997-08-23 10:19:11" },
-            JieQiData { name: "白露", time: "1997-09-07 22:28:49" },
-            JieQiData { name: "秋分", time: "1997-09-23 07:55:47" },
-            JieQiData { name: "寒露", time: "1997-10-08 14:05:10" },
-            JieQiData { name: "霜降", time: "1997-10-23 17:14:45" },
-            JieQiData { name: "立冬", time: "1997-11-07 17:14:38" },
-            JieQiData { name: "小雪", time: "1997-11-22 14:47:33" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1996-12-07 04:14:00",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1996-12-21 22:05:53",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1997-01-05 15:24:28",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1997-01-20 08:42:31",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1997-02-04 03:01:57",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1997-02-18 22:51:29",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1997-03-05 21:04:07",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1997-03-20 21:54:40",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1997-04-05 01:56:16",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1997-04-20 09:02:49",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1997-05-05 19:19:26",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1997-05-21 08:17:53",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1997-06-05 23:32:31",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1997-06-21 16:19:56",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1997-07-07 09:49:23",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1997-07-23 03:15:26",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1997-08-07 19:36:18",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1997-08-23 10:19:11",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1997-09-07 22:28:49",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1997-09-23 07:55:47",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1997-10-08 14:05:10",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1997-10-23 17:14:45",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1997-11-07 17:14:38",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1997-11-22 14:47:33",
+            },
         ],
     },
     BaziYearData {
@@ -3058,30 +10114,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1998-01-28",
         lichun_time: "1998-02-04 08:56:52",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1997-12-07 10:04:52" },
-            JieQiData { name: "冬至", time: "1997-12-22 04:07:02" },
-            JieQiData { name: "小寒", time: "1998-01-05 21:18:09" },
-            JieQiData { name: "大寒", time: "1998-01-20 14:46:04" },
-            JieQiData { name: "立春", time: "1998-02-04 08:56:52" },
-            JieQiData { name: "雨水", time: "1998-02-19 04:54:53" },
-            JieQiData { name: "惊蛰", time: "1998-03-06 02:57:15" },
-            JieQiData { name: "春分", time: "1998-03-21 03:54:32" },
-            JieQiData { name: "清明", time: "1998-04-05 07:44:57" },
-            JieQiData { name: "谷雨", time: "1998-04-20 14:56:43" },
-            JieQiData { name: "立夏", time: "1998-05-06 01:03:10" },
-            JieQiData { name: "小满", time: "1998-05-21 14:05:26" },
-            JieQiData { name: "芒种", time: "1998-06-06 05:13:22" },
-            JieQiData { name: "夏至", time: "1998-06-21 22:02:34" },
-            JieQiData { name: "小暑", time: "1998-07-07 15:30:25" },
-            JieQiData { name: "大暑", time: "1998-07-23 08:55:22" },
-            JieQiData { name: "立秋", time: "1998-08-08 01:19:50" },
-            JieQiData { name: "处暑", time: "1998-08-23 15:58:56" },
-            JieQiData { name: "白露", time: "1998-09-08 04:15:55" },
-            JieQiData { name: "秋分", time: "1998-09-23 13:37:11" },
-            JieQiData { name: "寒露", time: "1998-10-08 19:55:45" },
-            JieQiData { name: "霜降", time: "1998-10-23 22:58:35" },
-            JieQiData { name: "立冬", time: "1998-11-07 23:08:23" },
-            JieQiData { name: "小雪", time: "1998-11-22 20:34:12" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1997-12-07 10:04:52",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1997-12-22 04:07:02",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1998-01-05 21:18:09",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1998-01-20 14:46:04",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1998-02-04 08:56:52",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1998-02-19 04:54:53",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1998-03-06 02:57:15",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1998-03-21 03:54:32",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1998-04-05 07:44:57",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1998-04-20 14:56:43",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1998-05-06 01:03:10",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1998-05-21 14:05:26",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1998-06-06 05:13:22",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1998-06-21 22:02:34",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1998-07-07 15:30:25",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1998-07-23 08:55:22",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1998-08-08 01:19:50",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1998-08-23 15:58:56",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1998-09-08 04:15:55",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1998-09-23 13:37:11",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1998-10-08 19:55:45",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1998-10-23 22:58:35",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1998-11-07 23:08:23",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1998-11-22 20:34:12",
+            },
         ],
     },
     BaziYearData {
@@ -3089,30 +10217,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "1999-02-16",
         lichun_time: "1999-02-04 14:57:03",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1998-12-07 16:01:35" },
-            JieQiData { name: "冬至", time: "1998-12-22 09:56:27" },
-            JieQiData { name: "小寒", time: "1999-01-06 03:17:09" },
-            JieQiData { name: "大寒", time: "1999-01-20 20:37:21" },
-            JieQiData { name: "立春", time: "1999-02-04 14:57:03" },
-            JieQiData { name: "雨水", time: "1999-02-19 10:46:50" },
-            JieQiData { name: "惊蛰", time: "1999-03-06 08:57:42" },
-            JieQiData { name: "春分", time: "1999-03-21 09:45:50" },
-            JieQiData { name: "清明", time: "1999-04-05 13:44:37" },
-            JieQiData { name: "谷雨", time: "1999-04-20 20:46:00" },
-            JieQiData { name: "立夏", time: "1999-05-06 07:01:00" },
-            JieQiData { name: "小满", time: "1999-05-21 19:52:25" },
-            JieQiData { name: "芒种", time: "1999-06-06 11:09:07" },
-            JieQiData { name: "夏至", time: "1999-06-22 03:49:07" },
-            JieQiData { name: "小暑", time: "1999-07-07 21:24:59" },
-            JieQiData { name: "大暑", time: "1999-07-23 14:44:06" },
-            JieQiData { name: "立秋", time: "1999-08-08 07:14:06" },
-            JieQiData { name: "处暑", time: "1999-08-23 21:51:05" },
-            JieQiData { name: "白露", time: "1999-09-08 10:09:59" },
-            JieQiData { name: "秋分", time: "1999-09-23 19:31:31" },
-            JieQiData { name: "寒露", time: "1999-10-09 01:48:21" },
-            JieQiData { name: "霜降", time: "1999-10-24 04:52:14" },
-            JieQiData { name: "立冬", time: "1999-11-08 04:57:51" },
-            JieQiData { name: "小雪", time: "1999-11-23 02:24:50" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1998-12-07 16:01:35",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1998-12-22 09:56:27",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "1999-01-06 03:17:09",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "1999-01-20 20:37:21",
+            },
+            JieQiData {
+                name: "立春",
+                time: "1999-02-04 14:57:03",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "1999-02-19 10:46:50",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "1999-03-06 08:57:42",
+            },
+            JieQiData {
+                name: "春分",
+                time: "1999-03-21 09:45:50",
+            },
+            JieQiData {
+                name: "清明",
+                time: "1999-04-05 13:44:37",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "1999-04-20 20:46:00",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "1999-05-06 07:01:00",
+            },
+            JieQiData {
+                name: "小满",
+                time: "1999-05-21 19:52:25",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "1999-06-06 11:09:07",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "1999-06-22 03:49:07",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "1999-07-07 21:24:59",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "1999-07-23 14:44:06",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "1999-08-08 07:14:06",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "1999-08-23 21:51:05",
+            },
+            JieQiData {
+                name: "白露",
+                time: "1999-09-08 10:09:59",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "1999-09-23 19:31:31",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "1999-10-09 01:48:21",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "1999-10-24 04:52:14",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "1999-11-08 04:57:51",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "1999-11-23 02:24:50",
+            },
         ],
     },
     BaziYearData {
@@ -3120,30 +10320,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2000-02-05",
         lichun_time: "2000-02-04 20:40:24",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "1999-12-07 21:47:27" },
-            JieQiData { name: "冬至", time: "1999-12-22 15:43:48" },
-            JieQiData { name: "小寒", time: "2000-01-06 09:00:42" },
-            JieQiData { name: "大寒", time: "2000-01-21 02:23:03" },
-            JieQiData { name: "立春", time: "2000-02-04 20:40:24" },
-            JieQiData { name: "雨水", time: "2000-02-19 16:33:18" },
-            JieQiData { name: "惊蛰", time: "2000-03-05 14:42:40" },
-            JieQiData { name: "春分", time: "2000-03-20 15:35:15" },
-            JieQiData { name: "清明", time: "2000-04-04 19:31:58" },
-            JieQiData { name: "谷雨", time: "2000-04-20 02:39:30" },
-            JieQiData { name: "立夏", time: "2000-05-05 12:50:10" },
-            JieQiData { name: "小满", time: "2000-05-21 01:49:24" },
-            JieQiData { name: "芒种", time: "2000-06-05 16:58:34" },
-            JieQiData { name: "夏至", time: "2000-06-21 09:47:43" },
-            JieQiData { name: "小暑", time: "2000-07-07 03:13:56" },
-            JieQiData { name: "大暑", time: "2000-07-22 20:42:41" },
-            JieQiData { name: "立秋", time: "2000-08-07 13:02:59" },
-            JieQiData { name: "处暑", time: "2000-08-23 03:48:31" },
-            JieQiData { name: "白露", time: "2000-09-07 15:59:10" },
-            JieQiData { name: "秋分", time: "2000-09-23 01:27:35" },
-            JieQiData { name: "寒露", time: "2000-10-08 07:38:13" },
-            JieQiData { name: "霜降", time: "2000-10-23 10:47:28" },
-            JieQiData { name: "立冬", time: "2000-11-07 10:48:04" },
-            JieQiData { name: "小雪", time: "2000-11-22 08:19:20" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "1999-12-07 21:47:27",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "1999-12-22 15:43:48",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2000-01-06 09:00:42",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2000-01-21 02:23:03",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2000-02-04 20:40:24",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2000-02-19 16:33:18",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2000-03-05 14:42:40",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2000-03-20 15:35:15",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2000-04-04 19:31:58",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2000-04-20 02:39:30",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2000-05-05 12:50:10",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2000-05-21 01:49:24",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2000-06-05 16:58:34",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2000-06-21 09:47:43",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2000-07-07 03:13:56",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2000-07-22 20:42:41",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2000-08-07 13:02:59",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2000-08-23 03:48:31",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2000-09-07 15:59:10",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2000-09-23 01:27:35",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2000-10-08 07:38:13",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2000-10-23 10:47:28",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2000-11-07 10:48:04",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2000-11-22 08:19:20",
+            },
         ],
     },
     BaziYearData {
@@ -3151,30 +10423,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2001-01-24",
         lichun_time: "2001-02-04 02:28:49",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2000-12-07 03:37:02" },
-            JieQiData { name: "冬至", time: "2000-12-21 21:37:26" },
-            JieQiData { name: "小寒", time: "2001-01-05 14:49:16" },
-            JieQiData { name: "大寒", time: "2001-01-20 08:16:18" },
-            JieQiData { name: "立春", time: "2001-02-04 02:28:49" },
-            JieQiData { name: "雨水", time: "2001-02-18 22:27:16" },
-            JieQiData { name: "惊蛰", time: "2001-03-05 20:32:28" },
-            JieQiData { name: "春分", time: "2001-03-20 21:30:44" },
-            JieQiData { name: "清明", time: "2001-04-05 01:24:22" },
-            JieQiData { name: "谷雨", time: "2001-04-20 08:35:53" },
-            JieQiData { name: "立夏", time: "2001-05-05 18:44:50" },
-            JieQiData { name: "小满", time: "2001-05-21 07:44:12" },
-            JieQiData { name: "芒种", time: "2001-06-05 22:53:35" },
-            JieQiData { name: "夏至", time: "2001-06-21 15:37:43" },
-            JieQiData { name: "小暑", time: "2001-07-07 09:06:42" },
-            JieQiData { name: "大暑", time: "2001-07-23 02:26:14" },
-            JieQiData { name: "立秋", time: "2001-08-07 18:52:21" },
-            JieQiData { name: "处暑", time: "2001-08-23 09:27:08" },
-            JieQiData { name: "白露", time: "2001-09-07 21:46:11" },
-            JieQiData { name: "秋分", time: "2001-09-23 07:04:28" },
-            JieQiData { name: "寒露", time: "2001-10-08 13:25:01" },
-            JieQiData { name: "霜降", time: "2001-10-23 16:25:36" },
-            JieQiData { name: "立冬", time: "2001-11-07 16:36:52" },
-            JieQiData { name: "小雪", time: "2001-11-22 14:00:28" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2000-12-07 03:37:02",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2000-12-21 21:37:26",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2001-01-05 14:49:16",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2001-01-20 08:16:18",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2001-02-04 02:28:49",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2001-02-18 22:27:16",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2001-03-05 20:32:28",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2001-03-20 21:30:44",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2001-04-05 01:24:22",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2001-04-20 08:35:53",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2001-05-05 18:44:50",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2001-05-21 07:44:12",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2001-06-05 22:53:35",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2001-06-21 15:37:43",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2001-07-07 09:06:42",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2001-07-23 02:26:14",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2001-08-07 18:52:21",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2001-08-23 09:27:08",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2001-09-07 21:46:11",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2001-09-23 07:04:28",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2001-10-08 13:25:01",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2001-10-23 16:25:36",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2001-11-07 16:36:52",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2001-11-22 14:00:28",
+            },
         ],
     },
     BaziYearData {
@@ -3182,30 +10526,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2002-02-12",
         lichun_time: "2002-02-04 08:24:05",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2001-12-07 09:28:53" },
-            JieQiData { name: "冬至", time: "2001-12-22 03:21:30" },
-            JieQiData { name: "小寒", time: "2002-01-05 20:43:30" },
-            JieQiData { name: "大寒", time: "2002-01-20 14:02:01" },
-            JieQiData { name: "立春", time: "2002-02-04 08:24:05" },
-            JieQiData { name: "雨水", time: "2002-02-19 04:13:18" },
-            JieQiData { name: "惊蛰", time: "2002-03-06 02:27:33" },
-            JieQiData { name: "春分", time: "2002-03-21 03:16:07" },
-            JieQiData { name: "清明", time: "2002-04-05 07:18:17" },
-            JieQiData { name: "谷雨", time: "2002-04-20 14:20:28" },
-            JieQiData { name: "立夏", time: "2002-05-06 00:37:18" },
-            JieQiData { name: "小满", time: "2002-05-21 13:29:06" },
-            JieQiData { name: "芒种", time: "2002-06-06 04:44:46" },
-            JieQiData { name: "夏至", time: "2002-06-21 21:24:24" },
-            JieQiData { name: "小暑", time: "2002-07-07 14:56:11" },
-            JieQiData { name: "大暑", time: "2002-07-23 08:14:51" },
-            JieQiData { name: "立秋", time: "2002-08-08 00:39:18" },
-            JieQiData { name: "处暑", time: "2002-08-23 15:16:58" },
-            JieQiData { name: "白露", time: "2002-09-08 03:31:02" },
-            JieQiData { name: "秋分", time: "2002-09-23 12:55:23" },
-            JieQiData { name: "寒露", time: "2002-10-08 19:09:18" },
-            JieQiData { name: "霜降", time: "2002-10-23 22:17:49" },
-            JieQiData { name: "立冬", time: "2002-11-07 22:21:49" },
-            JieQiData { name: "小雪", time: "2002-11-22 19:53:44" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2001-12-07 09:28:53",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2001-12-22 03:21:30",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2002-01-05 20:43:30",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2002-01-20 14:02:01",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2002-02-04 08:24:05",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2002-02-19 04:13:18",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2002-03-06 02:27:33",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2002-03-21 03:16:07",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2002-04-05 07:18:17",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2002-04-20 14:20:28",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2002-05-06 00:37:18",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2002-05-21 13:29:06",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2002-06-06 04:44:46",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2002-06-21 21:24:24",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2002-07-07 14:56:11",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2002-07-23 08:14:51",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2002-08-08 00:39:18",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2002-08-23 15:16:58",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2002-09-08 03:31:02",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2002-09-23 12:55:23",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2002-10-08 19:09:18",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2002-10-23 22:17:49",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2002-11-07 22:21:49",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2002-11-22 19:53:44",
+            },
         ],
     },
     BaziYearData {
@@ -3213,30 +10629,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2003-02-01",
         lichun_time: "2003-02-04 14:05:20",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2002-12-07 15:14:14" },
-            JieQiData { name: "冬至", time: "2002-12-22 09:14:22" },
-            JieQiData { name: "小寒", time: "2003-01-06 02:27:43" },
-            JieQiData { name: "大寒", time: "2003-01-20 19:52:35" },
-            JieQiData { name: "立春", time: "2003-02-04 14:05:20" },
-            JieQiData { name: "雨水", time: "2003-02-19 10:00:13" },
-            JieQiData { name: "惊蛰", time: "2003-03-06 08:04:52" },
-            JieQiData { name: "春分", time: "2003-03-21 08:59:46" },
-            JieQiData { name: "清明", time: "2003-04-05 12:52:29" },
-            JieQiData { name: "谷雨", time: "2003-04-20 20:02:48" },
-            JieQiData { name: "立夏", time: "2003-05-06 06:10:29" },
-            JieQiData { name: "小满", time: "2003-05-21 19:12:25" },
-            JieQiData { name: "芒种", time: "2003-06-06 10:19:43" },
-            JieQiData { name: "夏至", time: "2003-06-22 03:10:28" },
-            JieQiData { name: "小暑", time: "2003-07-07 20:35:39" },
-            JieQiData { name: "大暑", time: "2003-07-23 14:04:08" },
-            JieQiData { name: "立秋", time: "2003-08-08 06:24:18" },
-            JieQiData { name: "处暑", time: "2003-08-23 21:08:10" },
-            JieQiData { name: "白露", time: "2003-09-08 09:20:14" },
-            JieQiData { name: "秋分", time: "2003-09-23 18:46:49" },
-            JieQiData { name: "寒露", time: "2003-10-09 01:00:33" },
-            JieQiData { name: "霜降", time: "2003-10-24 04:08:27" },
-            JieQiData { name: "立冬", time: "2003-11-08 04:13:11" },
-            JieQiData { name: "小雪", time: "2003-11-23 01:43:21" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2002-12-07 15:14:14",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2002-12-22 09:14:22",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2003-01-06 02:27:43",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2003-01-20 19:52:35",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2003-02-04 14:05:20",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2003-02-19 10:00:13",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2003-03-06 08:04:52",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2003-03-21 08:59:46",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2003-04-05 12:52:29",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2003-04-20 20:02:48",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2003-05-06 06:10:29",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2003-05-21 19:12:25",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2003-06-06 10:19:43",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2003-06-22 03:10:28",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2003-07-07 20:35:39",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2003-07-23 14:04:08",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2003-08-08 06:24:18",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2003-08-23 21:08:10",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2003-09-08 09:20:14",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2003-09-23 18:46:49",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2003-10-09 01:00:33",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2003-10-24 04:08:27",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2003-11-08 04:13:11",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2003-11-23 01:43:21",
+            },
         ],
     },
     BaziYearData {
@@ -3244,30 +10732,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2004-01-22",
         lichun_time: "2004-02-04 19:56:13",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2003-12-07 21:05:09" },
-            JieQiData { name: "冬至", time: "2003-12-22 15:03:48" },
-            JieQiData { name: "小寒", time: "2004-01-06 08:18:33" },
-            JieQiData { name: "大寒", time: "2004-01-21 01:42:22" },
-            JieQiData { name: "立春", time: "2004-02-04 19:56:13" },
-            JieQiData { name: "雨水", time: "2004-02-19 15:49:59" },
-            JieQiData { name: "惊蛰", time: "2004-03-05 13:55:38" },
-            JieQiData { name: "春分", time: "2004-03-20 14:48:38" },
-            JieQiData { name: "清明", time: "2004-04-04 18:43:19" },
-            JieQiData { name: "谷雨", time: "2004-04-20 01:50:25" },
-            JieQiData { name: "立夏", time: "2004-05-05 12:02:28" },
-            JieQiData { name: "小满", time: "2004-05-21 00:59:12" },
-            JieQiData { name: "芒种", time: "2004-06-05 16:13:46" },
-            JieQiData { name: "夏至", time: "2004-06-21 08:56:51" },
-            JieQiData { name: "小暑", time: "2004-07-07 02:31:16" },
-            JieQiData { name: "大暑", time: "2004-07-22 19:50:09" },
-            JieQiData { name: "立秋", time: "2004-08-07 12:19:36" },
-            JieQiData { name: "处暑", time: "2004-08-23 02:53:15" },
-            JieQiData { name: "白露", time: "2004-09-07 15:12:55" },
-            JieQiData { name: "秋分", time: "2004-09-23 00:29:50" },
-            JieQiData { name: "寒露", time: "2004-10-08 06:49:18" },
-            JieQiData { name: "霜降", time: "2004-10-23 09:48:49" },
-            JieQiData { name: "立冬", time: "2004-11-07 09:58:33" },
-            JieQiData { name: "小雪", time: "2004-11-22 07:21:40" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2003-12-07 21:05:09",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2003-12-22 15:03:48",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2004-01-06 08:18:33",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2004-01-21 01:42:22",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2004-02-04 19:56:13",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2004-02-19 15:49:59",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2004-03-05 13:55:38",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2004-03-20 14:48:38",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2004-04-04 18:43:19",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2004-04-20 01:50:25",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2004-05-05 12:02:28",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2004-05-21 00:59:12",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2004-06-05 16:13:46",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2004-06-21 08:56:51",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2004-07-07 02:31:16",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2004-07-22 19:50:09",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2004-08-07 12:19:36",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2004-08-23 02:53:15",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2004-09-07 15:12:55",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2004-09-23 00:29:50",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2004-10-08 06:49:18",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2004-10-23 09:48:49",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2004-11-07 09:58:33",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2004-11-22 07:21:40",
+            },
         ],
     },
     BaziYearData {
@@ -3275,30 +10835,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2005-02-09",
         lichun_time: "2005-02-04 01:43:02",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2004-12-07 02:48:57" },
-            JieQiData { name: "冬至", time: "2004-12-21 20:41:36" },
-            JieQiData { name: "小寒", time: "2005-01-05 14:02:59" },
-            JieQiData { name: "大寒", time: "2005-01-20 07:21:34" },
-            JieQiData { name: "立春", time: "2005-02-04 01:43:02" },
-            JieQiData { name: "雨水", time: "2005-02-18 21:31:57" },
-            JieQiData { name: "惊蛰", time: "2005-03-05 19:45:10" },
-            JieQiData { name: "春分", time: "2005-03-20 20:33:26" },
-            JieQiData { name: "清明", time: "2005-04-05 00:34:17" },
-            JieQiData { name: "谷雨", time: "2005-04-20 07:37:15" },
-            JieQiData { name: "立夏", time: "2005-05-05 17:52:50" },
-            JieQiData { name: "小满", time: "2005-05-21 06:47:24" },
-            JieQiData { name: "芒种", time: "2005-06-05 22:01:52" },
-            JieQiData { name: "夏至", time: "2005-06-21 14:46:07" },
-            JieQiData { name: "小暑", time: "2005-07-07 08:16:34" },
-            JieQiData { name: "大暑", time: "2005-07-23 01:40:42" },
-            JieQiData { name: "立秋", time: "2005-08-07 18:03:21" },
-            JieQiData { name: "处暑", time: "2005-08-23 08:45:27" },
-            JieQiData { name: "白露", time: "2005-09-07 20:56:40" },
-            JieQiData { name: "秋分", time: "2005-09-23 06:23:11" },
-            JieQiData { name: "寒露", time: "2005-10-08 12:33:18" },
-            JieQiData { name: "霜降", time: "2005-10-23 15:42:20" },
-            JieQiData { name: "立冬", time: "2005-11-07 15:42:26" },
-            JieQiData { name: "小雪", time: "2005-11-22 13:14:58" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2004-12-07 02:48:57",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2004-12-21 20:41:36",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2005-01-05 14:02:59",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2005-01-20 07:21:34",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2005-02-04 01:43:02",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2005-02-18 21:31:57",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2005-03-05 19:45:10",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2005-03-20 20:33:26",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2005-04-05 00:34:17",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2005-04-20 07:37:15",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2005-05-05 17:52:50",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2005-05-21 06:47:24",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2005-06-05 22:01:52",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2005-06-21 14:46:07",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2005-07-07 08:16:34",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2005-07-23 01:40:42",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2005-08-07 18:03:21",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2005-08-23 08:45:27",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2005-09-07 20:56:40",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2005-09-23 06:23:11",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2005-10-08 12:33:18",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2005-10-23 15:42:20",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2005-11-07 15:42:26",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2005-11-22 13:14:58",
+            },
         ],
     },
     BaziYearData {
@@ -3306,30 +10938,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2006-01-29",
         lichun_time: "2006-02-04 07:27:16",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2005-12-07 08:32:41" },
-            JieQiData { name: "冬至", time: "2005-12-22 02:34:56" },
-            JieQiData { name: "小寒", time: "2006-01-05 19:46:57" },
-            JieQiData { name: "大寒", time: "2006-01-20 13:15:18" },
-            JieQiData { name: "立春", time: "2006-02-04 07:27:16" },
-            JieQiData { name: "雨水", time: "2006-02-19 03:25:34" },
-            JieQiData { name: "惊蛰", time: "2006-03-06 01:28:40" },
-            JieQiData { name: "春分", time: "2006-03-21 02:25:34" },
-            JieQiData { name: "清明", time: "2006-04-05 06:15:31" },
-            JieQiData { name: "谷雨", time: "2006-04-20 13:26:03" },
-            JieQiData { name: "立夏", time: "2006-05-05 23:30:39" },
-            JieQiData { name: "小满", time: "2006-05-21 12:31:33" },
-            JieQiData { name: "芒种", time: "2006-06-06 03:36:59" },
-            JieQiData { name: "夏至", time: "2006-06-21 20:25:52" },
-            JieQiData { name: "小暑", time: "2006-07-07 13:51:27" },
-            JieQiData { name: "大暑", time: "2006-07-23 07:17:42" },
-            JieQiData { name: "立秋", time: "2006-08-07 23:40:47" },
-            JieQiData { name: "处暑", time: "2006-08-23 14:22:35" },
-            JieQiData { name: "白露", time: "2006-09-08 02:39:01" },
-            JieQiData { name: "秋分", time: "2006-09-23 12:03:22" },
-            JieQiData { name: "寒露", time: "2006-10-08 18:21:23" },
-            JieQiData { name: "霜降", time: "2006-10-23 21:26:28" },
-            JieQiData { name: "立冬", time: "2006-11-07 21:34:51" },
-            JieQiData { name: "小雪", time: "2006-11-22 19:01:45" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2005-12-07 08:32:41",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2005-12-22 02:34:56",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2006-01-05 19:46:57",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2006-01-20 13:15:18",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2006-02-04 07:27:16",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2006-02-19 03:25:34",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2006-03-06 01:28:40",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2006-03-21 02:25:34",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2006-04-05 06:15:31",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2006-04-20 13:26:03",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2006-05-05 23:30:39",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2006-05-21 12:31:33",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2006-06-06 03:36:59",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2006-06-21 20:25:52",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2006-07-07 13:51:27",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2006-07-23 07:17:42",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2006-08-07 23:40:47",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2006-08-23 14:22:35",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2006-09-08 02:39:01",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2006-09-23 12:03:22",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2006-10-08 18:21:23",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2006-10-23 21:26:28",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2006-11-07 21:34:51",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2006-11-22 19:01:45",
+            },
         ],
     },
     BaziYearData {
@@ -3337,30 +11041,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2007-02-18",
         lichun_time: "2007-02-04 13:18:12",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2006-12-07 14:26:49" },
-            JieQiData { name: "冬至", time: "2006-12-22 08:22:06" },
-            JieQiData { name: "小寒", time: "2007-01-06 01:40:10" },
-            JieQiData { name: "大寒", time: "2007-01-20 19:00:50" },
-            JieQiData { name: "立春", time: "2007-02-04 13:18:12" },
-            JieQiData { name: "雨水", time: "2007-02-19 09:08:56" },
-            JieQiData { name: "惊蛰", time: "2007-03-06 07:17:59" },
-            JieQiData { name: "春分", time: "2007-03-21 08:07:26" },
-            JieQiData { name: "清明", time: "2007-04-05 12:04:39" },
-            JieQiData { name: "谷雨", time: "2007-04-20 19:07:05" },
-            JieQiData { name: "立夏", time: "2007-05-06 05:20:24" },
-            JieQiData { name: "小满", time: "2007-05-21 18:11:57" },
-            JieQiData { name: "芒种", time: "2007-06-06 09:27:04" },
-            JieQiData { name: "夏至", time: "2007-06-22 02:06:26" },
-            JieQiData { name: "小暑", time: "2007-07-07 19:41:44" },
-            JieQiData { name: "大暑", time: "2007-07-23 13:00:10" },
-            JieQiData { name: "立秋", time: "2007-08-08 05:31:15" },
-            JieQiData { name: "处暑", time: "2007-08-23 20:07:57" },
-            JieQiData { name: "白露", time: "2007-09-08 08:29:29" },
-            JieQiData { name: "秋分", time: "2007-09-23 17:51:14" },
-            JieQiData { name: "寒露", time: "2007-10-09 00:11:29" },
-            JieQiData { name: "霜降", time: "2007-10-24 03:15:24" },
-            JieQiData { name: "立冬", time: "2007-11-08 03:24:01" },
-            JieQiData { name: "小雪", time: "2007-11-23 00:49:53" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2006-12-07 14:26:49",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2006-12-22 08:22:06",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2007-01-06 01:40:10",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2007-01-20 19:00:50",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2007-02-04 13:18:12",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2007-02-19 09:08:56",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2007-03-06 07:17:59",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2007-03-21 08:07:26",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2007-04-05 12:04:39",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2007-04-20 19:07:05",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2007-05-06 05:20:24",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2007-05-21 18:11:57",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2007-06-06 09:27:04",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2007-06-22 02:06:26",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2007-07-07 19:41:44",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2007-07-23 13:00:10",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2007-08-08 05:31:15",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2007-08-23 20:07:57",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2007-09-08 08:29:29",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2007-09-23 17:51:14",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2007-10-09 00:11:29",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2007-10-24 03:15:24",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2007-11-08 03:24:01",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2007-11-23 00:49:53",
+            },
         ],
     },
     BaziYearData {
@@ -3368,30 +11144,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2008-02-07",
         lichun_time: "2008-02-04 19:00:24",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2007-12-07 20:14:05" },
-            JieQiData { name: "冬至", time: "2007-12-22 14:07:48" },
-            JieQiData { name: "小寒", time: "2008-01-06 07:24:50" },
-            JieQiData { name: "大寒", time: "2008-01-21 00:43:32" },
-            JieQiData { name: "立春", time: "2008-02-04 19:00:24" },
-            JieQiData { name: "雨水", time: "2008-02-19 14:49:33" },
-            JieQiData { name: "惊蛰", time: "2008-03-05 12:58:48" },
-            JieQiData { name: "春分", time: "2008-03-20 13:48:17" },
-            JieQiData { name: "清明", time: "2008-04-04 17:45:52" },
-            JieQiData { name: "谷雨", time: "2008-04-20 00:51:08" },
-            JieQiData { name: "立夏", time: "2008-05-05 11:03:26" },
-            JieQiData { name: "小满", time: "2008-05-21 00:00:54" },
-            JieQiData { name: "芒种", time: "2008-06-05 15:11:44" },
-            JieQiData { name: "夏至", time: "2008-06-21 07:59:21" },
-            JieQiData { name: "小暑", time: "2008-07-07 01:26:49" },
-            JieQiData { name: "大暑", time: "2008-07-22 18:54:48" },
-            JieQiData { name: "立秋", time: "2008-08-07 11:16:10" },
-            JieQiData { name: "处暑", time: "2008-08-23 02:02:14" },
-            JieQiData { name: "白露", time: "2008-09-07 14:14:08" },
-            JieQiData { name: "秋分", time: "2008-09-22 23:44:30" },
-            JieQiData { name: "寒露", time: "2008-10-08 05:56:38" },
-            JieQiData { name: "霜降", time: "2008-10-23 09:08:39" },
-            JieQiData { name: "立冬", time: "2008-11-07 09:10:34" },
-            JieQiData { name: "小雪", time: "2008-11-22 06:44:20" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2007-12-07 20:14:05",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2007-12-22 14:07:48",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2008-01-06 07:24:50",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2008-01-21 00:43:32",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2008-02-04 19:00:24",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2008-02-19 14:49:33",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2008-03-05 12:58:48",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2008-03-20 13:48:17",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2008-04-04 17:45:52",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2008-04-20 00:51:08",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2008-05-05 11:03:26",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2008-05-21 00:00:54",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2008-06-05 15:11:44",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2008-06-21 07:59:21",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2008-07-07 01:26:49",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2008-07-22 18:54:48",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2008-08-07 11:16:10",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2008-08-23 02:02:14",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2008-09-07 14:14:08",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2008-09-22 23:44:30",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2008-10-08 05:56:38",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2008-10-23 09:08:39",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2008-11-07 09:10:34",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2008-11-22 06:44:20",
+            },
         ],
     },
     BaziYearData {
@@ -3399,30 +11247,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2009-01-26",
         lichun_time: "2009-02-04 00:49:48",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2008-12-07 02:02:18" },
-            JieQiData { name: "冬至", time: "2008-12-21 20:03:45" },
-            JieQiData { name: "小寒", time: "2009-01-05 13:14:08" },
-            JieQiData { name: "大寒", time: "2009-01-20 06:40:20" },
-            JieQiData { name: "立春", time: "2009-02-04 00:49:48" },
-            JieQiData { name: "雨水", time: "2009-02-18 20:46:07" },
-            JieQiData { name: "惊蛰", time: "2009-03-05 18:47:31" },
-            JieQiData { name: "春分", time: "2009-03-20 19:43:39" },
-            JieQiData { name: "清明", time: "2009-04-04 23:33:47" },
-            JieQiData { name: "谷雨", time: "2009-04-20 06:44:25" },
-            JieQiData { name: "立夏", time: "2009-05-05 16:50:50" },
-            JieQiData { name: "小满", time: "2009-05-21 05:51:10" },
-            JieQiData { name: "芒种", time: "2009-06-05 20:59:04" },
-            JieQiData { name: "夏至", time: "2009-06-21 13:45:30" },
-            JieQiData { name: "小暑", time: "2009-07-07 07:13:29" },
-            JieQiData { name: "大暑", time: "2009-07-23 00:35:42" },
-            JieQiData { name: "立秋", time: "2009-08-07 17:01:09" },
-            JieQiData { name: "处暑", time: "2009-08-23 07:38:34" },
-            JieQiData { name: "白露", time: "2009-09-07 19:57:37" },
-            JieQiData { name: "秋分", time: "2009-09-23 05:18:36" },
-            JieQiData { name: "寒露", time: "2009-10-08 11:40:04" },
-            JieQiData { name: "霜降", time: "2009-10-23 14:43:28" },
-            JieQiData { name: "立冬", time: "2009-11-07 14:56:16" },
-            JieQiData { name: "小雪", time: "2009-11-22 12:22:34" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2008-12-07 02:02:18",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2008-12-21 20:03:45",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2009-01-05 13:14:08",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2009-01-20 06:40:20",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2009-02-04 00:49:48",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2009-02-18 20:46:07",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2009-03-05 18:47:31",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2009-03-20 19:43:39",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2009-04-04 23:33:47",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2009-04-20 06:44:25",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2009-05-05 16:50:50",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2009-05-21 05:51:10",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2009-06-05 20:59:04",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2009-06-21 13:45:30",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2009-07-07 07:13:29",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2009-07-23 00:35:42",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2009-08-07 17:01:09",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2009-08-23 07:38:34",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2009-09-07 19:57:37",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2009-09-23 05:18:36",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2009-10-08 11:40:04",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2009-10-23 14:43:28",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2009-11-07 14:56:16",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2009-11-22 12:22:34",
+            },
         ],
     },
     BaziYearData {
@@ -3430,30 +11350,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2010-02-14",
         lichun_time: "2010-02-04 06:47:51",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2009-12-07 07:52:14" },
-            JieQiData { name: "冬至", time: "2009-12-22 01:46:47" },
-            JieQiData { name: "小寒", time: "2010-01-05 19:08:47" },
-            JieQiData { name: "大寒", time: "2010-01-20 12:27:42" },
-            JieQiData { name: "立春", time: "2010-02-04 06:47:51" },
-            JieQiData { name: "雨水", time: "2010-02-19 02:35:38" },
-            JieQiData { name: "惊蛰", time: "2010-03-06 00:46:22" },
-            JieQiData { name: "春分", time: "2010-03-21 01:32:13" },
-            JieQiData { name: "清明", time: "2010-04-05 05:30:30" },
-            JieQiData { name: "谷雨", time: "2010-04-20 12:29:48" },
-            JieQiData { name: "立夏", time: "2010-05-05 22:44:02" },
-            JieQiData { name: "小满", time: "2010-05-21 11:33:54" },
-            JieQiData { name: "芒种", time: "2010-06-06 02:49:24" },
-            JieQiData { name: "夏至", time: "2010-06-21 19:28:25" },
-            JieQiData { name: "小暑", time: "2010-07-07 13:02:23" },
-            JieQiData { name: "大暑", time: "2010-07-23 06:21:13" },
-            JieQiData { name: "立秋", time: "2010-08-07 22:49:07" },
-            JieQiData { name: "处暑", time: "2010-08-23 13:26:57" },
-            JieQiData { name: "白露", time: "2010-09-08 01:44:41" },
-            JieQiData { name: "秋分", time: "2010-09-23 11:09:03" },
-            JieQiData { name: "寒露", time: "2010-10-08 17:26:29" },
-            JieQiData { name: "霜降", time: "2010-10-23 20:35:04" },
-            JieQiData { name: "立冬", time: "2010-11-07 20:42:30" },
-            JieQiData { name: "小雪", time: "2010-11-22 18:14:34" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2009-12-07 07:52:14",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2009-12-22 01:46:47",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2010-01-05 19:08:47",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2010-01-20 12:27:42",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2010-02-04 06:47:51",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2010-02-19 02:35:38",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2010-03-06 00:46:22",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2010-03-21 01:32:13",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2010-04-05 05:30:30",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2010-04-20 12:29:48",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2010-05-05 22:44:02",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2010-05-21 11:33:54",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2010-06-06 02:49:24",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2010-06-21 19:28:25",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2010-07-07 13:02:23",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2010-07-23 06:21:13",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2010-08-07 22:49:07",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2010-08-23 13:26:57",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2010-09-08 01:44:41",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2010-09-23 11:09:03",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2010-10-08 17:26:29",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2010-10-23 20:35:04",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2010-11-07 20:42:30",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2010-11-22 18:14:34",
+            },
         ],
     },
     BaziYearData {
@@ -3461,30 +11453,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2011-02-03",
         lichun_time: "2011-02-04 12:32:56",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2010-12-07 13:38:23" },
-            JieQiData { name: "冬至", time: "2010-12-22 07:38:27" },
-            JieQiData { name: "小寒", time: "2011-01-06 00:54:37" },
-            JieQiData { name: "大寒", time: "2011-01-20 18:18:32" },
-            JieQiData { name: "立春", time: "2011-02-04 12:32:56" },
-            JieQiData { name: "雨水", time: "2011-02-19 08:25:20" },
-            JieQiData { name: "惊蛰", time: "2011-03-06 06:29:59" },
-            JieQiData { name: "春分", time: "2011-03-21 07:20:44" },
-            JieQiData { name: "清明", time: "2011-04-05 11:11:59" },
-            JieQiData { name: "谷雨", time: "2011-04-20 18:17:26" },
-            JieQiData { name: "立夏", time: "2011-05-06 04:23:13" },
-            JieQiData { name: "小满", time: "2011-05-21 17:21:10" },
-            JieQiData { name: "芒种", time: "2011-06-06 08:27:20" },
-            JieQiData { name: "夏至", time: "2011-06-22 01:16:30" },
-            JieQiData { name: "小暑", time: "2011-07-07 18:42:00" },
-            JieQiData { name: "大暑", time: "2011-07-23 12:11:49" },
-            JieQiData { name: "立秋", time: "2011-08-08 04:33:26" },
-            JieQiData { name: "处暑", time: "2011-08-23 19:20:38" },
-            JieQiData { name: "白露", time: "2011-09-08 07:34:14" },
-            JieQiData { name: "秋分", time: "2011-09-23 17:04:38" },
-            JieQiData { name: "寒露", time: "2011-10-08 23:19:06" },
-            JieQiData { name: "霜降", time: "2011-10-24 02:30:19" },
-            JieQiData { name: "立冬", time: "2011-11-08 02:34:56" },
-            JieQiData { name: "小雪", time: "2011-11-23 00:07:49" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2010-12-07 13:38:23",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2010-12-22 07:38:27",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2011-01-06 00:54:37",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2011-01-20 18:18:32",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2011-02-04 12:32:56",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2011-02-19 08:25:20",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2011-03-06 06:29:59",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2011-03-21 07:20:44",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2011-04-05 11:11:59",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2011-04-20 18:17:26",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2011-05-06 04:23:13",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2011-05-21 17:21:10",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2011-06-06 08:27:20",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2011-06-22 01:16:30",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2011-07-07 18:42:00",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2011-07-23 12:11:49",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2011-08-08 04:33:26",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2011-08-23 19:20:38",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2011-09-08 07:34:14",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2011-09-23 17:04:38",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2011-10-08 23:19:06",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2011-10-24 02:30:19",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2011-11-08 02:34:56",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2011-11-23 00:07:49",
+            },
         ],
     },
     BaziYearData {
@@ -3492,30 +11556,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2012-01-23",
         lichun_time: "2012-02-04 18:22:24",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2011-12-07 19:29:00" },
-            JieQiData { name: "冬至", time: "2011-12-22 13:30:02" },
-            JieQiData { name: "小寒", time: "2012-01-06 06:43:55" },
-            JieQiData { name: "大寒", time: "2012-01-21 00:09:50" },
-            JieQiData { name: "立春", time: "2012-02-04 18:22:24" },
-            JieQiData { name: "雨水", time: "2012-02-19 14:17:36" },
-            JieQiData { name: "惊蛰", time: "2012-03-05 12:21:03" },
-            JieQiData { name: "春分", time: "2012-03-20 13:14:26" },
-            JieQiData { name: "清明", time: "2012-04-04 17:05:37" },
-            JieQiData { name: "谷雨", time: "2012-04-20 00:12:05" },
-            JieQiData { name: "立夏", time: "2012-05-05 10:19:41" },
-            JieQiData { name: "小满", time: "2012-05-20 23:15:31" },
-            JieQiData { name: "芒种", time: "2012-06-05 14:25:54" },
-            JieQiData { name: "夏至", time: "2012-06-21 07:08:48" },
-            JieQiData { name: "小暑", time: "2012-07-07 00:40:43" },
-            JieQiData { name: "大暑", time: "2012-07-22 18:00:52" },
-            JieQiData { name: "立秋", time: "2012-08-07 10:30:33" },
-            JieQiData { name: "处暑", time: "2012-08-23 01:06:50" },
-            JieQiData { name: "白露", time: "2012-09-07 13:29:01" },
-            JieQiData { name: "秋分", time: "2012-09-22 22:48:59" },
-            JieQiData { name: "寒露", time: "2012-10-08 05:11:43" },
-            JieQiData { name: "霜降", time: "2012-10-23 08:13:34" },
-            JieQiData { name: "立冬", time: "2012-11-07 08:25:57" },
-            JieQiData { name: "小雪", time: "2012-11-22 05:50:08" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2011-12-07 19:29:00",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2011-12-22 13:30:02",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2012-01-06 06:43:55",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2012-01-21 00:09:50",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2012-02-04 18:22:24",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2012-02-19 14:17:36",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2012-03-05 12:21:03",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2012-03-20 13:14:26",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2012-04-04 17:05:37",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2012-04-20 00:12:05",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2012-05-05 10:19:41",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2012-05-20 23:15:31",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2012-06-05 14:25:54",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2012-06-21 07:08:48",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2012-07-07 00:40:43",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2012-07-22 18:00:52",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2012-08-07 10:30:33",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2012-08-23 01:06:50",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2012-09-07 13:29:01",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2012-09-22 22:48:59",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2012-10-08 05:11:43",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2012-10-23 08:13:34",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2012-11-07 08:25:57",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2012-11-22 05:50:08",
+            },
         ],
     },
     BaziYearData {
@@ -3523,30 +11659,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2013-02-10",
         lichun_time: "2013-02-04 00:13:25",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2012-12-07 01:18:56" },
-            JieQiData { name: "冬至", time: "2012-12-21 19:11:36" },
-            JieQiData { name: "小寒", time: "2013-01-05 12:33:38" },
-            JieQiData { name: "大寒", time: "2013-01-20 05:51:43" },
-            JieQiData { name: "立春", time: "2013-02-04 00:13:25" },
-            JieQiData { name: "雨水", time: "2013-02-18 20:01:36" },
-            JieQiData { name: "惊蛰", time: "2013-03-05 18:14:51" },
-            JieQiData { name: "春分", time: "2013-03-20 19:01:56" },
-            JieQiData { name: "清明", time: "2013-04-04 23:02:27" },
-            JieQiData { name: "谷雨", time: "2013-04-20 06:03:18" },
-            JieQiData { name: "立夏", time: "2013-05-05 16:18:10" },
-            JieQiData { name: "小满", time: "2013-05-21 05:09:30" },
-            JieQiData { name: "芒种", time: "2013-06-05 20:23:19" },
-            JieQiData { name: "夏至", time: "2013-06-21 13:03:56" },
-            JieQiData { name: "小暑", time: "2013-07-07 06:34:36" },
-            JieQiData { name: "大暑", time: "2013-07-22 23:55:58" },
-            JieQiData { name: "立秋", time: "2013-08-07 16:20:22" },
-            JieQiData { name: "处暑", time: "2013-08-23 07:01:42" },
-            JieQiData { name: "白露", time: "2013-09-07 19:16:16" },
-            JieQiData { name: "秋分", time: "2013-09-23 04:44:08" },
-            JieQiData { name: "寒露", time: "2013-10-08 10:58:30" },
-            JieQiData { name: "霜降", time: "2013-10-23 14:09:48" },
-            JieQiData { name: "立冬", time: "2013-11-07 14:13:53" },
-            JieQiData { name: "小雪", time: "2013-11-22 11:48:07" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2012-12-07 01:18:56",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2012-12-21 19:11:36",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2013-01-05 12:33:38",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2013-01-20 05:51:43",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2013-02-04 00:13:25",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2013-02-18 20:01:36",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2013-03-05 18:14:51",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2013-03-20 19:01:56",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2013-04-04 23:02:27",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2013-04-20 06:03:18",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2013-05-05 16:18:10",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2013-05-21 05:09:30",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2013-06-05 20:23:19",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2013-06-21 13:03:56",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2013-07-07 06:34:36",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2013-07-22 23:55:58",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2013-08-07 16:20:22",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2013-08-23 07:01:42",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2013-09-07 19:16:16",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2013-09-23 04:44:08",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2013-10-08 10:58:30",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2013-10-23 14:09:48",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2013-11-07 14:13:53",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2013-11-22 11:48:07",
+            },
         ],
     },
     BaziYearData {
@@ -3554,30 +11762,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2014-01-31",
         lichun_time: "2014-02-04 06:03:16",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2013-12-07 07:08:32" },
-            JieQiData { name: "冬至", time: "2013-12-22 01:11:00" },
-            JieQiData { name: "小寒", time: "2014-01-05 18:24:11" },
-            JieQiData { name: "大寒", time: "2014-01-20 11:51:15" },
-            JieQiData { name: "立春", time: "2014-02-04 06:03:16" },
-            JieQiData { name: "雨水", time: "2014-02-19 01:59:30" },
-            JieQiData { name: "惊蛰", time: "2014-03-06 00:02:16" },
-            JieQiData { name: "春分", time: "2014-03-21 00:57:06" },
-            JieQiData { name: "清明", time: "2014-04-05 04:46:40" },
-            JieQiData { name: "谷雨", time: "2014-04-20 11:55:33" },
-            JieQiData { name: "立夏", time: "2014-05-05 21:59:26" },
-            JieQiData { name: "小满", time: "2014-05-21 10:59:02" },
-            JieQiData { name: "芒种", time: "2014-06-06 02:03:02" },
-            JieQiData { name: "夏至", time: "2014-06-21 18:51:13" },
-            JieQiData { name: "小暑", time: "2014-07-07 12:14:46" },
-            JieQiData { name: "大暑", time: "2014-07-23 05:41:21" },
-            JieQiData { name: "立秋", time: "2014-08-07 22:02:28" },
-            JieQiData { name: "处暑", time: "2014-08-23 12:45:59" },
-            JieQiData { name: "白露", time: "2014-09-08 01:01:25" },
-            JieQiData { name: "秋分", time: "2014-09-23 10:29:05" },
-            JieQiData { name: "寒露", time: "2014-10-08 16:47:30" },
-            JieQiData { name: "霜降", time: "2014-10-23 19:57:03" },
-            JieQiData { name: "立冬", time: "2014-11-07 20:06:40" },
-            JieQiData { name: "小雪", time: "2014-11-22 17:38:11" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2013-12-07 07:08:32",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2013-12-22 01:11:00",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2014-01-05 18:24:11",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2014-01-20 11:51:15",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2014-02-04 06:03:16",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2014-02-19 01:59:30",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2014-03-06 00:02:16",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2014-03-21 00:57:06",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2014-04-05 04:46:40",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2014-04-20 11:55:33",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2014-05-05 21:59:26",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2014-05-21 10:59:02",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2014-06-06 02:03:02",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2014-06-21 18:51:13",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2014-07-07 12:14:46",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2014-07-23 05:41:21",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2014-08-07 22:02:28",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2014-08-23 12:45:59",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2014-09-08 01:01:25",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2014-09-23 10:29:05",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2014-10-08 16:47:30",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2014-10-23 19:57:03",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2014-11-07 20:06:40",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2014-11-22 17:38:11",
+            },
         ],
     },
     BaziYearData {
@@ -3585,30 +11865,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2015-02-19",
         lichun_time: "2015-02-04 11:58:27",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2014-12-07 13:04:05" },
-            JieQiData { name: "冬至", time: "2014-12-22 07:03:01" },
-            JieQiData { name: "小寒", time: "2015-01-06 00:20:32" },
-            JieQiData { name: "大寒", time: "2015-01-20 17:43:14" },
-            JieQiData { name: "立春", time: "2015-02-04 11:58:27" },
-            JieQiData { name: "雨水", time: "2015-02-19 07:49:48" },
-            JieQiData { name: "惊蛰", time: "2015-03-06 05:55:40" },
-            JieQiData { name: "春分", time: "2015-03-21 06:45:08" },
-            JieQiData { name: "清明", time: "2015-04-05 10:39:07" },
-            JieQiData { name: "谷雨", time: "2015-04-20 17:41:51" },
-            JieQiData { name: "立夏", time: "2015-05-06 03:52:36" },
-            JieQiData { name: "小满", time: "2015-05-21 16:44:46" },
-            JieQiData { name: "芒种", time: "2015-06-06 07:58:10" },
-            JieQiData { name: "夏至", time: "2015-06-22 00:37:54" },
-            JieQiData { name: "小暑", time: "2015-07-07 18:12:15" },
-            JieQiData { name: "大暑", time: "2015-07-23 11:30:26" },
-            JieQiData { name: "立秋", time: "2015-08-08 04:01:24" },
-            JieQiData { name: "处暑", time: "2015-08-23 18:37:17" },
-            JieQiData { name: "白露", time: "2015-09-08 06:59:34" },
-            JieQiData { name: "秋分", time: "2015-09-23 16:20:32" },
-            JieQiData { name: "寒露", time: "2015-10-08 22:42:49" },
-            JieQiData { name: "霜降", time: "2015-10-24 01:46:43" },
-            JieQiData { name: "立冬", time: "2015-11-08 01:58:37" },
-            JieQiData { name: "小雪", time: "2015-11-22 23:25:17" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2014-12-07 13:04:05",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2014-12-22 07:03:01",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2015-01-06 00:20:32",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2015-01-20 17:43:14",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2015-02-04 11:58:27",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2015-02-19 07:49:48",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2015-03-06 05:55:40",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2015-03-21 06:45:08",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2015-04-05 10:39:07",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2015-04-20 17:41:51",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2015-05-06 03:52:36",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2015-05-21 16:44:46",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2015-06-06 07:58:10",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2015-06-22 00:37:54",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2015-07-07 18:12:15",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2015-07-23 11:30:26",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2015-08-08 04:01:24",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2015-08-23 18:37:17",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2015-09-08 06:59:34",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2015-09-23 16:20:32",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2015-10-08 22:42:49",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2015-10-24 01:46:43",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2015-11-08 01:58:37",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2015-11-22 23:25:17",
+            },
         ],
     },
     BaziYearData {
@@ -3616,30 +11968,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2016-02-08",
         lichun_time: "2016-02-04 17:46:03",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2015-12-07 18:53:21" },
-            JieQiData { name: "冬至", time: "2015-12-22 12:47:56" },
-            JieQiData { name: "小寒", time: "2016-01-06 06:08:23" },
-            JieQiData { name: "大寒", time: "2016-01-20 23:27:06" },
-            JieQiData { name: "立春", time: "2016-02-04 17:46:03" },
-            JieQiData { name: "雨水", time: "2016-02-19 13:33:43" },
-            JieQiData { name: "惊蛰", time: "2016-03-05 11:43:33" },
-            JieQiData { name: "春分", time: "2016-03-20 12:30:11" },
-            JieQiData { name: "清明", time: "2016-04-04 16:27:31" },
-            JieQiData { name: "谷雨", time: "2016-04-19 23:29:26" },
-            JieQiData { name: "立夏", time: "2016-05-05 09:41:53" },
-            JieQiData { name: "小满", time: "2016-05-20 22:36:29" },
-            JieQiData { name: "芒种", time: "2016-06-05 13:48:30" },
-            JieQiData { name: "夏至", time: "2016-06-21 06:34:11" },
-            JieQiData { name: "小暑", time: "2016-07-07 00:03:21" },
-            JieQiData { name: "大暑", time: "2016-07-22 17:30:12" },
-            JieQiData { name: "立秋", time: "2016-08-07 09:53:01" },
-            JieQiData { name: "处暑", time: "2016-08-23 00:38:29" },
-            JieQiData { name: "白露", time: "2016-09-07 12:51:05" },
-            JieQiData { name: "秋分", time: "2016-09-22 22:21:08" },
-            JieQiData { name: "寒露", time: "2016-10-08 04:33:23" },
-            JieQiData { name: "霜降", time: "2016-10-23 07:45:33" },
-            JieQiData { name: "立冬", time: "2016-11-07 07:47:41" },
-            JieQiData { name: "小雪", time: "2016-11-22 05:22:23" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2015-12-07 18:53:21",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2015-12-22 12:47:56",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2016-01-06 06:08:23",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2016-01-20 23:27:06",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2016-02-04 17:46:03",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2016-02-19 13:33:43",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2016-03-05 11:43:33",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2016-03-20 12:30:11",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2016-04-04 16:27:31",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2016-04-19 23:29:26",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2016-05-05 09:41:53",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2016-05-20 22:36:29",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2016-06-05 13:48:30",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2016-06-21 06:34:11",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2016-07-07 00:03:21",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2016-07-22 17:30:12",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2016-08-07 09:53:01",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2016-08-23 00:38:29",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2016-09-07 12:51:05",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2016-09-22 22:21:08",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2016-10-08 04:33:23",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2016-10-23 07:45:33",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2016-11-07 07:47:41",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2016-11-22 05:22:23",
+            },
         ],
     },
     BaziYearData {
@@ -3647,30 +12071,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2017-01-28",
         lichun_time: "2017-02-03 23:34:04",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2016-12-07 00:41:07" },
-            JieQiData { name: "冬至", time: "2016-12-21 18:44:10" },
-            JieQiData { name: "小寒", time: "2017-01-05 11:55:45" },
-            JieQiData { name: "大寒", time: "2017-01-20 05:23:36" },
-            JieQiData { name: "立春", time: "2017-02-03 23:34:04" },
-            JieQiData { name: "雨水", time: "2017-02-18 19:31:19" },
-            JieQiData { name: "惊蛰", time: "2017-03-05 17:32:43" },
-            JieQiData { name: "春分", time: "2017-03-20 18:28:38" },
-            JieQiData { name: "清明", time: "2017-04-04 22:17:19" },
-            JieQiData { name: "谷雨", time: "2017-04-20 05:27:01" },
-            JieQiData { name: "立夏", time: "2017-05-05 15:31:02" },
-            JieQiData { name: "小满", time: "2017-05-21 04:30:56" },
-            JieQiData { name: "芒种", time: "2017-06-05 19:36:36" },
-            JieQiData { name: "夏至", time: "2017-06-21 12:24:09" },
-            JieQiData { name: "小暑", time: "2017-07-07 05:50:42" },
-            JieQiData { name: "大暑", time: "2017-07-22 23:15:21" },
-            JieQiData { name: "立秋", time: "2017-08-07 15:40:01" },
-            JieQiData { name: "处暑", time: "2017-08-23 06:20:13" },
-            JieQiData { name: "白露", time: "2017-09-07 18:38:38" },
-            JieQiData { name: "秋分", time: "2017-09-23 04:01:47" },
-            JieQiData { name: "寒露", time: "2017-10-08 10:22:09" },
-            JieQiData { name: "霜降", time: "2017-10-23 13:26:40" },
-            JieQiData { name: "立冬", time: "2017-11-07 13:37:49" },
-            JieQiData { name: "小雪", time: "2017-11-22 11:04:38" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2016-12-07 00:41:07",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2016-12-21 18:44:10",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2017-01-05 11:55:45",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2017-01-20 05:23:36",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2017-02-03 23:34:04",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2017-02-18 19:31:19",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2017-03-05 17:32:43",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2017-03-20 18:28:38",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2017-04-04 22:17:19",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2017-04-20 05:27:01",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2017-05-05 15:31:02",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2017-05-21 04:30:56",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2017-06-05 19:36:36",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2017-06-21 12:24:09",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2017-07-07 05:50:42",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2017-07-22 23:15:21",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2017-08-07 15:40:01",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2017-08-23 06:20:13",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2017-09-07 18:38:38",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2017-09-23 04:01:47",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2017-10-08 10:22:09",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2017-10-23 13:26:40",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2017-11-07 13:37:49",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2017-11-22 11:04:38",
+            },
         ],
     },
     BaziYearData {
@@ -3678,30 +12174,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2018-02-16",
         lichun_time: "2018-02-04 05:28:30",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2017-12-07 06:32:39" },
-            JieQiData { name: "冬至", time: "2017-12-22 00:27:57" },
-            JieQiData { name: "小寒", time: "2018-01-05 17:48:45" },
-            JieQiData { name: "大寒", time: "2018-01-20 11:09:02" },
-            JieQiData { name: "立春", time: "2018-02-04 05:28:30" },
-            JieQiData { name: "雨水", time: "2018-02-19 01:18:01" },
-            JieQiData { name: "惊蛰", time: "2018-03-05 23:28:11" },
-            JieQiData { name: "春分", time: "2018-03-21 00:15:28" },
-            JieQiData { name: "清明", time: "2018-04-05 04:12:47" },
-            JieQiData { name: "谷雨", time: "2018-04-20 11:12:33" },
-            JieQiData { name: "立夏", time: "2018-05-05 21:25:22" },
-            JieQiData { name: "小满", time: "2018-05-21 10:14:38" },
-            JieQiData { name: "芒种", time: "2018-06-06 01:29:09" },
-            JieQiData { name: "夏至", time: "2018-06-21 18:07:18" },
-            JieQiData { name: "小暑", time: "2018-07-07 11:41:53" },
-            JieQiData { name: "大暑", time: "2018-07-23 05:00:21" },
-            JieQiData { name: "立秋", time: "2018-08-07 21:30:40" },
-            JieQiData { name: "处暑", time: "2018-08-23 12:08:35" },
-            JieQiData { name: "白露", time: "2018-09-08 00:29:42" },
-            JieQiData { name: "秋分", time: "2018-09-23 09:54:07" },
-            JieQiData { name: "寒露", time: "2018-10-08 16:14:43" },
-            JieQiData { name: "霜降", time: "2018-10-23 19:22:24" },
-            JieQiData { name: "立冬", time: "2018-11-07 19:31:45" },
-            JieQiData { name: "小雪", time: "2018-11-22 17:01:30" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2017-12-07 06:32:39",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2017-12-22 00:27:57",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2018-01-05 17:48:45",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2018-01-20 11:09:02",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2018-02-04 05:28:30",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2018-02-19 01:18:01",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2018-03-05 23:28:11",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2018-03-21 00:15:28",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2018-04-05 04:12:47",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2018-04-20 11:12:33",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2018-05-05 21:25:22",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2018-05-21 10:14:38",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2018-06-06 01:29:09",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2018-06-21 18:07:18",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2018-07-07 11:41:53",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2018-07-23 05:00:21",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2018-08-07 21:30:40",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2018-08-23 12:08:35",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2018-09-08 00:29:42",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2018-09-23 09:54:07",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2018-10-08 16:14:43",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2018-10-23 19:22:24",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2018-11-07 19:31:45",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2018-11-22 17:01:30",
+            },
         ],
     },
     BaziYearData {
@@ -3709,30 +12277,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2019-02-05",
         lichun_time: "2019-02-04 11:14:21",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2018-12-07 12:25:55" },
-            JieQiData { name: "冬至", time: "2018-12-22 06:22:45" },
-            JieQiData { name: "小寒", time: "2019-01-05 23:38:58" },
-            JieQiData { name: "大寒", time: "2019-01-20 16:59:34" },
-            JieQiData { name: "立春", time: "2019-02-04 11:14:21" },
-            JieQiData { name: "雨水", time: "2019-02-19 07:03:58" },
-            JieQiData { name: "惊蛰", time: "2019-03-06 05:09:46" },
-            JieQiData { name: "春分", time: "2019-03-21 05:58:27" },
-            JieQiData { name: "清明", time: "2019-04-05 09:51:28" },
-            JieQiData { name: "谷雨", time: "2019-04-20 16:55:17" },
-            JieQiData { name: "立夏", time: "2019-05-06 03:02:48" },
-            JieQiData { name: "小满", time: "2019-05-21 15:59:09" },
-            JieQiData { name: "芒种", time: "2019-06-06 07:06:26" },
-            JieQiData { name: "夏至", time: "2019-06-21 23:54:17" },
-            JieQiData { name: "小暑", time: "2019-07-07 17:20:33" },
-            JieQiData { name: "大暑", time: "2019-07-23 10:50:24" },
-            JieQiData { name: "立秋", time: "2019-08-08 03:13:05" },
-            JieQiData { name: "处暑", time: "2019-08-23 18:02:01" },
-            JieQiData { name: "白露", time: "2019-09-08 06:16:54" },
-            JieQiData { name: "秋分", time: "2019-09-23 15:50:11" },
-            JieQiData { name: "寒露", time: "2019-10-08 22:05:40" },
-            JieQiData { name: "霜降", time: "2019-10-24 01:19:46" },
-            JieQiData { name: "立冬", time: "2019-11-08 01:24:24" },
-            JieQiData { name: "小雪", time: "2019-11-22 22:58:57" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2018-12-07 12:25:55",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2018-12-22 06:22:45",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2019-01-05 23:38:58",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2019-01-20 16:59:34",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2019-02-04 11:14:21",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2019-02-19 07:03:58",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2019-03-06 05:09:46",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2019-03-21 05:58:27",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2019-04-05 09:51:28",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2019-04-20 16:55:17",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2019-05-06 03:02:48",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2019-05-21 15:59:09",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2019-06-06 07:06:26",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2019-06-21 23:54:17",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2019-07-07 17:20:33",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2019-07-23 10:50:24",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2019-08-08 03:13:05",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2019-08-23 18:02:01",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2019-09-08 06:16:54",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2019-09-23 15:50:11",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2019-10-08 22:05:40",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2019-10-24 01:19:46",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2019-11-08 01:24:24",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2019-11-22 22:58:57",
+            },
         ],
     },
     BaziYearData {
@@ -3740,30 +12380,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2020-01-25",
         lichun_time: "2020-02-04 17:03:19",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2019-12-07 18:18:30" },
-            JieQiData { name: "冬至", time: "2019-12-22 12:19:28" },
-            JieQiData { name: "小寒", time: "2020-01-06 05:30:06" },
-            JieQiData { name: "大寒", time: "2020-01-20 22:54:40" },
-            JieQiData { name: "立春", time: "2020-02-04 17:03:19" },
-            JieQiData { name: "雨水", time: "2020-02-19 12:57:00" },
-            JieQiData { name: "惊蛰", time: "2020-03-05 10:56:52" },
-            JieQiData { name: "春分", time: "2020-03-20 11:49:37" },
-            JieQiData { name: "清明", time: "2020-04-04 15:38:09" },
-            JieQiData { name: "谷雨", time: "2020-04-19 22:45:29" },
-            JieQiData { name: "立夏", time: "2020-05-05 08:51:23" },
-            JieQiData { name: "小满", time: "2020-05-20 21:49:17" },
-            JieQiData { name: "芒种", time: "2020-06-05 12:58:26" },
-            JieQiData { name: "夏至", time: "2020-06-21 05:43:41" },
-            JieQiData { name: "小暑", time: "2020-07-06 23:14:28" },
-            JieQiData { name: "大暑", time: "2020-07-22 16:36:52" },
-            JieQiData { name: "立秋", time: "2020-08-07 09:06:11" },
-            JieQiData { name: "处暑", time: "2020-08-22 23:44:56" },
-            JieQiData { name: "白露", time: "2020-09-07 12:08:02" },
-            JieQiData { name: "秋分", time: "2020-09-22 21:30:40" },
-            JieQiData { name: "寒露", time: "2020-10-08 03:55:16" },
-            JieQiData { name: "霜降", time: "2020-10-23 06:59:34" },
-            JieQiData { name: "立冬", time: "2020-11-07 07:13:55" },
-            JieQiData { name: "小雪", time: "2020-11-22 04:39:46" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2019-12-07 18:18:30",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2019-12-22 12:19:28",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2020-01-06 05:30:06",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2020-01-20 22:54:40",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2020-02-04 17:03:19",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2020-02-19 12:57:00",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2020-03-05 10:56:52",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2020-03-20 11:49:37",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2020-04-04 15:38:09",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2020-04-19 22:45:29",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2020-05-05 08:51:23",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2020-05-20 21:49:17",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2020-06-05 12:58:26",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2020-06-21 05:43:41",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2020-07-06 23:14:28",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2020-07-22 16:36:52",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2020-08-07 09:06:11",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2020-08-22 23:44:56",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2020-09-07 12:08:02",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2020-09-22 21:30:40",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2020-10-08 03:55:16",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2020-10-23 06:59:34",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2020-11-07 07:13:55",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2020-11-22 04:39:46",
+            },
         ],
     },
     BaziYearData {
@@ -3771,30 +12483,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2021-02-12",
         lichun_time: "2021-02-03 22:58:48",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2020-12-07 00:09:30" },
-            JieQiData { name: "冬至", time: "2020-12-21 18:02:21" },
-            JieQiData { name: "小寒", time: "2021-01-05 11:23:26" },
-            JieQiData { name: "大寒", time: "2021-01-20 04:39:51" },
-            JieQiData { name: "立春", time: "2021-02-03 22:58:48" },
-            JieQiData { name: "雨水", time: "2021-02-18 18:43:58" },
-            JieQiData { name: "惊蛰", time: "2021-03-05 16:53:42" },
-            JieQiData { name: "春分", time: "2021-03-20 17:37:28" },
-            JieQiData { name: "清明", time: "2021-04-04 21:35:07" },
-            JieQiData { name: "谷雨", time: "2021-04-20 04:33:23" },
-            JieQiData { name: "立夏", time: "2021-05-05 14:47:11" },
-            JieQiData { name: "小满", time: "2021-05-21 03:37:07" },
-            JieQiData { name: "芒种", time: "2021-06-05 18:52:06" },
-            JieQiData { name: "夏至", time: "2021-06-21 11:32:10" },
-            JieQiData { name: "小暑", time: "2021-07-07 05:05:29" },
-            JieQiData { name: "大暑", time: "2021-07-22 22:26:25" },
-            JieQiData { name: "立秋", time: "2021-08-07 14:53:58" },
-            JieQiData { name: "处暑", time: "2021-08-23 05:34:58" },
-            JieQiData { name: "白露", time: "2021-09-07 17:52:56" },
-            JieQiData { name: "秋分", time: "2021-09-23 03:21:05" },
-            JieQiData { name: "寒露", time: "2021-10-08 09:39:03" },
-            JieQiData { name: "霜降", time: "2021-10-23 12:51:10" },
-            JieQiData { name: "立冬", time: "2021-11-07 12:58:47" },
-            JieQiData { name: "小雪", time: "2021-11-22 10:33:45" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2020-12-07 00:09:30",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2020-12-21 18:02:21",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2021-01-05 11:23:26",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2021-01-20 04:39:51",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2021-02-03 22:58:48",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2021-02-18 18:43:58",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2021-03-05 16:53:42",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2021-03-20 17:37:28",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2021-04-04 21:35:07",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2021-04-20 04:33:23",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2021-05-05 14:47:11",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2021-05-21 03:37:07",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2021-06-05 18:52:06",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2021-06-21 11:32:10",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2021-07-07 05:05:29",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2021-07-22 22:26:25",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2021-08-07 14:53:58",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2021-08-23 05:34:58",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2021-09-07 17:52:56",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2021-09-23 03:21:05",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2021-10-08 09:39:03",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2021-10-23 12:51:10",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2021-11-07 12:58:47",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2021-11-22 10:33:45",
+            },
         ],
     },
     BaziYearData {
@@ -3802,30 +12586,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2022-02-01",
         lichun_time: "2022-02-04 04:50:47",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2021-12-07 05:57:06" },
-            JieQiData { name: "冬至", time: "2021-12-21 23:59:19" },
-            JieQiData { name: "小寒", time: "2022-01-05 17:14:04" },
-            JieQiData { name: "大寒", time: "2022-01-20 10:39:06" },
-            JieQiData { name: "立春", time: "2022-02-04 04:50:47" },
-            JieQiData { name: "雨水", time: "2022-02-19 00:43:01" },
-            JieQiData { name: "惊蛰", time: "2022-03-05 22:43:45" },
-            JieQiData { name: "春分", time: "2022-03-20 23:33:26" },
-            JieQiData { name: "清明", time: "2022-04-05 03:20:14" },
-            JieQiData { name: "谷雨", time: "2022-04-20 10:24:18" },
-            JieQiData { name: "立夏", time: "2022-05-05 20:25:57" },
-            JieQiData { name: "小满", time: "2022-05-21 09:22:36" },
-            JieQiData { name: "芒种", time: "2022-06-06 00:25:49" },
-            JieQiData { name: "夏至", time: "2022-06-21 17:13:51" },
-            JieQiData { name: "小暑", time: "2022-07-07 10:38:01" },
-            JieQiData { name: "大暑", time: "2022-07-23 04:07:00" },
-            JieQiData { name: "立秋", time: "2022-08-07 20:29:08" },
-            JieQiData { name: "处暑", time: "2022-08-23 11:16:11" },
-            JieQiData { name: "白露", time: "2022-09-07 23:32:18" },
-            JieQiData { name: "秋分", time: "2022-09-23 09:03:43" },
-            JieQiData { name: "寒露", time: "2022-10-08 15:22:28" },
-            JieQiData { name: "霜降", time: "2022-10-23 18:35:43" },
-            JieQiData { name: "立冬", time: "2022-11-07 18:45:30" },
-            JieQiData { name: "小雪", time: "2022-11-22 16:20:30" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2021-12-07 05:57:06",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2021-12-21 23:59:19",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2022-01-05 17:14:04",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2022-01-20 10:39:06",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2022-02-04 04:50:47",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2022-02-19 00:43:01",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2022-03-05 22:43:45",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2022-03-20 23:33:26",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2022-04-05 03:20:14",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2022-04-20 10:24:18",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2022-05-05 20:25:57",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2022-05-21 09:22:36",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2022-06-06 00:25:49",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2022-06-21 17:13:51",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2022-07-07 10:38:01",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2022-07-23 04:07:00",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2022-08-07 20:29:08",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2022-08-23 11:16:11",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2022-09-07 23:32:18",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2022-09-23 09:03:43",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2022-10-08 15:22:28",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2022-10-23 18:35:43",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2022-11-07 18:45:30",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2022-11-22 16:20:30",
+            },
         ],
     },
     BaziYearData {
@@ -3833,30 +12689,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2023-01-22",
         lichun_time: "2023-02-04 10:42:33",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2022-12-07 11:46:16" },
-            JieQiData { name: "冬至", time: "2022-12-22 05:48:12" },
-            JieQiData { name: "小寒", time: "2023-01-05 23:04:51" },
-            JieQiData { name: "大寒", time: "2023-01-20 16:29:32" },
-            JieQiData { name: "立春", time: "2023-02-04 10:42:33" },
-            JieQiData { name: "雨水", time: "2023-02-19 06:34:17" },
-            JieQiData { name: "惊蛰", time: "2023-03-06 04:36:14" },
-            JieQiData { name: "春分", time: "2023-03-21 05:24:26" },
-            JieQiData { name: "清明", time: "2023-04-05 09:13:04" },
-            JieQiData { name: "谷雨", time: "2023-04-20 16:13:37" },
-            JieQiData { name: "立夏", time: "2023-05-06 02:18:46" },
-            JieQiData { name: "小满", time: "2023-05-21 15:09:10" },
-            JieQiData { name: "芒种", time: "2023-06-06 06:18:21" },
-            JieQiData { name: "夏至", time: "2023-06-21 22:57:49" },
-            JieQiData { name: "小暑", time: "2023-07-07 16:30:41" },
-            JieQiData { name: "大暑", time: "2023-07-23 09:50:27" },
-            JieQiData { name: "立秋", time: "2023-08-08 02:22:53" },
-            JieQiData { name: "处暑", time: "2023-08-23 17:01:18" },
-            JieQiData { name: "白露", time: "2023-09-08 05:26:43" },
-            JieQiData { name: "秋分", time: "2023-09-23 14:49:58" },
-            JieQiData { name: "寒露", time: "2023-10-08 21:15:34" },
-            JieQiData { name: "霜降", time: "2023-10-24 00:20:50" },
-            JieQiData { name: "立冬", time: "2023-11-08 00:35:35" },
-            JieQiData { name: "小雪", time: "2023-11-22 22:02:41" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2022-12-07 11:46:16",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2022-12-22 05:48:12",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2023-01-05 23:04:51",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2023-01-20 16:29:32",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2023-02-04 10:42:33",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2023-02-19 06:34:17",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2023-03-06 04:36:14",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2023-03-21 05:24:26",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2023-04-05 09:13:04",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2023-04-20 16:13:37",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2023-05-06 02:18:46",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2023-05-21 15:09:10",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2023-06-06 06:18:21",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2023-06-21 22:57:49",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2023-07-07 16:30:41",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2023-07-23 09:50:27",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2023-08-08 02:22:53",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2023-08-23 17:01:18",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2023-09-08 05:26:43",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2023-09-23 14:49:58",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2023-10-08 21:15:34",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2023-10-24 00:20:50",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2023-11-08 00:35:35",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2023-11-22 22:02:41",
+            },
         ],
     },
     BaziYearData {
@@ -3864,30 +12792,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2024-02-10",
         lichun_time: "2024-02-04 16:27:07",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2023-12-07 17:32:55" },
-            JieQiData { name: "冬至", time: "2023-12-22 11:27:20" },
-            JieQiData { name: "小寒", time: "2024-01-06 04:49:22" },
-            JieQiData { name: "大寒", time: "2024-01-20 22:07:22" },
-            JieQiData { name: "立春", time: "2024-02-04 16:27:07" },
-            JieQiData { name: "雨水", time: "2024-02-19 12:13:12" },
-            JieQiData { name: "惊蛰", time: "2024-03-05 10:22:45" },
-            JieQiData { name: "春分", time: "2024-03-20 11:06:25" },
-            JieQiData { name: "清明", time: "2024-04-04 15:02:17" },
-            JieQiData { name: "谷雨", time: "2024-04-19 21:59:47" },
-            JieQiData { name: "立夏", time: "2024-05-05 08:10:05" },
-            JieQiData { name: "小满", time: "2024-05-20 20:59:31" },
-            JieQiData { name: "芒种", time: "2024-06-05 12:09:54" },
-            JieQiData { name: "夏至", time: "2024-06-21 04:51:00" },
-            JieQiData { name: "小暑", time: "2024-07-06 22:20:03" },
-            JieQiData { name: "大暑", time: "2024-07-22 15:44:26" },
-            JieQiData { name: "立秋", time: "2024-08-07 08:09:16" },
-            JieQiData { name: "处暑", time: "2024-08-22 22:55:03" },
-            JieQiData { name: "白露", time: "2024-09-07 11:11:20" },
-            JieQiData { name: "秋分", time: "2024-09-22 20:43:42" },
-            JieQiData { name: "寒露", time: "2024-10-08 02:59:57" },
-            JieQiData { name: "霜降", time: "2024-10-23 06:14:47" },
-            JieQiData { name: "立冬", time: "2024-11-07 06:20:04" },
-            JieQiData { name: "小雪", time: "2024-11-22 03:56:31" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2023-12-07 17:32:55",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2023-12-22 11:27:20",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2024-01-06 04:49:22",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2024-01-20 22:07:22",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2024-02-04 16:27:07",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2024-02-19 12:13:12",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2024-03-05 10:22:45",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2024-03-20 11:06:25",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2024-04-04 15:02:17",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2024-04-19 21:59:47",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2024-05-05 08:10:05",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2024-05-20 20:59:31",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2024-06-05 12:09:54",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2024-06-21 04:51:00",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2024-07-06 22:20:03",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2024-07-22 15:44:26",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2024-08-07 08:09:16",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2024-08-22 22:55:03",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2024-09-07 11:11:20",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2024-09-22 20:43:42",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2024-10-08 02:59:57",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2024-10-23 06:14:47",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2024-11-07 06:20:04",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2024-11-22 03:56:31",
+            },
         ],
     },
     BaziYearData {
@@ -3895,30 +12895,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2025-01-29",
         lichun_time: "2025-02-03 22:10:28",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2024-12-06 23:17:03" },
-            JieQiData { name: "冬至", time: "2024-12-21 17:20:35" },
-            JieQiData { name: "小寒", time: "2025-01-05 10:32:47" },
-            JieQiData { name: "大寒", time: "2025-01-20 04:00:08" },
-            JieQiData { name: "立春", time: "2025-02-03 22:10:28" },
-            JieQiData { name: "雨水", time: "2025-02-18 18:06:34" },
-            JieQiData { name: "惊蛰", time: "2025-03-05 16:07:18" },
-            JieQiData { name: "春分", time: "2025-03-20 17:01:29" },
-            JieQiData { name: "清明", time: "2025-04-04 20:48:36" },
-            JieQiData { name: "谷雨", time: "2025-04-20 03:56:01" },
-            JieQiData { name: "立夏", time: "2025-05-05 13:57:13" },
-            JieQiData { name: "小满", time: "2025-05-21 02:54:39" },
-            JieQiData { name: "芒种", time: "2025-06-05 17:56:32" },
-            JieQiData { name: "夏至", time: "2025-06-21 10:42:16" },
-            JieQiData { name: "小暑", time: "2025-07-07 04:04:59" },
-            JieQiData { name: "大暑", time: "2025-07-22 21:29:27" },
-            JieQiData { name: "立秋", time: "2025-08-07 13:51:35" },
-            JieQiData { name: "处暑", time: "2025-08-23 04:33:51" },
-            JieQiData { name: "白露", time: "2025-09-07 16:51:57" },
-            JieQiData { name: "秋分", time: "2025-09-23 02:19:20" },
-            JieQiData { name: "寒露", time: "2025-10-08 08:41:13" },
-            JieQiData { name: "霜降", time: "2025-10-23 11:50:56" },
-            JieQiData { name: "立冬", time: "2025-11-07 12:04:04" },
-            JieQiData { name: "小雪", time: "2025-11-22 09:35:35" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2024-12-06 23:17:03",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2024-12-21 17:20:35",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2025-01-05 10:32:47",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2025-01-20 04:00:08",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2025-02-03 22:10:28",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2025-02-18 18:06:34",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2025-03-05 16:07:18",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2025-03-20 17:01:29",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2025-04-04 20:48:36",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2025-04-20 03:56:01",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2025-05-05 13:57:13",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2025-05-21 02:54:39",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2025-06-05 17:56:32",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2025-06-21 10:42:16",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2025-07-07 04:04:59",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2025-07-22 21:29:27",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2025-08-07 13:51:35",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2025-08-23 04:33:51",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2025-09-07 16:51:57",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2025-09-23 02:19:20",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2025-10-08 08:41:13",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2025-10-23 11:50:56",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2025-11-07 12:04:04",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2025-11-22 09:35:35",
+            },
         ],
     },
     BaziYearData {
@@ -3926,30 +12998,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2026-02-17",
         lichun_time: "2026-02-04 04:02:08",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2025-12-07 05:04:37" },
-            JieQiData { name: "冬至", time: "2025-12-21 23:03:05" },
-            JieQiData { name: "小寒", time: "2026-01-05 16:23:10" },
-            JieQiData { name: "大寒", time: "2026-01-20 09:44:56" },
-            JieQiData { name: "立春", time: "2026-02-04 04:02:08" },
-            JieQiData { name: "雨水", time: "2026-02-18 23:51:56" },
-            JieQiData { name: "惊蛰", time: "2026-03-05 21:59:00" },
-            JieQiData { name: "春分", time: "2026-03-20 22:45:59" },
-            JieQiData { name: "清明", time: "2026-04-05 02:40:00" },
-            JieQiData { name: "谷雨", time: "2026-04-20 09:39:08" },
-            JieQiData { name: "立夏", time: "2026-05-05 19:48:44" },
-            JieQiData { name: "小满", time: "2026-05-21 08:36:45" },
-            JieQiData { name: "芒种", time: "2026-06-05 23:48:21" },
-            JieQiData { name: "夏至", time: "2026-06-21 16:24:30" },
-            JieQiData { name: "小暑", time: "2026-07-07 09:56:57" },
-            JieQiData { name: "大暑", time: "2026-07-23 03:13:05" },
-            JieQiData { name: "立秋", time: "2026-08-07 19:42:43" },
-            JieQiData { name: "处暑", time: "2026-08-23 10:18:49" },
-            JieQiData { name: "白露", time: "2026-09-07 22:41:16" },
-            JieQiData { name: "秋分", time: "2026-09-23 08:05:14" },
-            JieQiData { name: "寒露", time: "2026-10-08 14:29:17" },
-            JieQiData { name: "霜降", time: "2026-10-23 17:37:57" },
-            JieQiData { name: "立冬", time: "2026-11-07 17:52:05" },
-            JieQiData { name: "小雪", time: "2026-11-22 15:23:21" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2025-12-07 05:04:37",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2025-12-21 23:03:05",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2026-01-05 16:23:10",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2026-01-20 09:44:56",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2026-02-04 04:02:08",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2026-02-18 23:51:56",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2026-03-05 21:59:00",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2026-03-20 22:45:59",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2026-04-05 02:40:00",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2026-04-20 09:39:08",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2026-05-05 19:48:44",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2026-05-21 08:36:45",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2026-06-05 23:48:21",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2026-06-21 16:24:30",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2026-07-07 09:56:57",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2026-07-23 03:13:05",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2026-08-07 19:42:43",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2026-08-23 10:18:49",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2026-09-07 22:41:16",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2026-09-23 08:05:14",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2026-10-08 14:29:17",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2026-10-23 17:37:57",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2026-11-07 17:52:05",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2026-11-22 15:23:21",
+            },
         ],
     },
     BaziYearData {
@@ -3957,30 +13101,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2027-02-06",
         lichun_time: "2027-02-04 09:46:18",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2026-12-07 10:52:32" },
-            JieQiData { name: "冬至", time: "2026-12-22 04:50:14" },
-            JieQiData { name: "小寒", time: "2027-01-05 22:09:58" },
-            JieQiData { name: "大寒", time: "2027-01-20 15:29:50" },
-            JieQiData { name: "立春", time: "2027-02-04 09:46:18" },
-            JieQiData { name: "雨水", time: "2027-02-19 05:33:29" },
-            JieQiData { name: "惊蛰", time: "2027-03-06 03:39:33" },
-            JieQiData { name: "春分", time: "2027-03-21 04:24:42" },
-            JieQiData { name: "清明", time: "2027-04-05 08:17:31" },
-            JieQiData { name: "谷雨", time: "2027-04-20 15:17:38" },
-            JieQiData { name: "立夏", time: "2027-05-06 01:25:12" },
-            JieQiData { name: "小满", time: "2027-05-21 14:18:14" },
-            JieQiData { name: "芒种", time: "2027-06-06 05:25:48" },
-            JieQiData { name: "夏至", time: "2027-06-21 22:10:50" },
-            JieQiData { name: "小暑", time: "2027-07-07 15:37:03" },
-            JieQiData { name: "大暑", time: "2027-07-23 09:04:39" },
-            JieQiData { name: "立秋", time: "2027-08-08 01:26:46" },
-            JieQiData { name: "处暑", time: "2027-08-23 16:14:19" },
-            JieQiData { name: "白露", time: "2027-09-08 04:28:28" },
-            JieQiData { name: "秋分", time: "2027-09-23 14:01:43" },
-            JieQiData { name: "寒露", time: "2027-10-08 20:17:06" },
-            JieQiData { name: "霜降", time: "2027-10-23 23:32:52" },
-            JieQiData { name: "立冬", time: "2027-11-07 23:38:35" },
-            JieQiData { name: "小雪", time: "2027-11-22 21:16:14" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2026-12-07 10:52:32",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2026-12-22 04:50:14",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2027-01-05 22:09:58",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2027-01-20 15:29:50",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2027-02-04 09:46:18",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2027-02-19 05:33:29",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2027-03-06 03:39:33",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2027-03-21 04:24:42",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2027-04-05 08:17:31",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2027-04-20 15:17:38",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2027-05-06 01:25:12",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2027-05-21 14:18:14",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2027-06-06 05:25:48",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2027-06-21 22:10:50",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2027-07-07 15:37:03",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2027-07-23 09:04:39",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2027-08-08 01:26:46",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2027-08-23 16:14:19",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2027-09-08 04:28:28",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2027-09-23 14:01:43",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2027-10-08 20:17:06",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2027-10-23 23:32:52",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2027-11-07 23:38:35",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2027-11-22 21:16:14",
+            },
         ],
     },
     BaziYearData {
@@ -3988,30 +13204,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2028-01-26",
         lichun_time: "2028-02-04 15:31:13",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2027-12-07 16:37:41" },
-            JieQiData { name: "冬至", time: "2027-12-22 10:42:10" },
-            JieQiData { name: "小寒", time: "2028-01-06 03:54:39" },
-            JieQiData { name: "大寒", time: "2028-01-20 21:21:57" },
-            JieQiData { name: "立春", time: "2028-02-04 15:31:13" },
-            JieQiData { name: "雨水", time: "2028-02-19 11:26:02" },
-            JieQiData { name: "惊蛰", time: "2028-03-05 09:24:47" },
-            JieQiData { name: "春分", time: "2028-03-20 10:17:10" },
-            JieQiData { name: "清明", time: "2028-04-04 14:03:06" },
-            JieQiData { name: "谷雨", time: "2028-04-19 21:09:31" },
-            JieQiData { name: "立夏", time: "2028-05-05 07:12:12" },
-            JieQiData { name: "小满", time: "2028-05-20 20:09:49" },
-            JieQiData { name: "芒种", time: "2028-06-05 11:16:00" },
-            JieQiData { name: "夏至", time: "2028-06-21 04:02:00" },
-            JieQiData { name: "小暑", time: "2028-07-06 21:30:18" },
-            JieQiData { name: "大暑", time: "2028-07-22 14:53:59" },
-            JieQiData { name: "立秋", time: "2028-08-07 07:21:11" },
-            JieQiData { name: "处暑", time: "2028-08-22 22:00:56" },
-            JieQiData { name: "白露", time: "2028-09-07 10:22:10" },
-            JieQiData { name: "秋分", time: "2028-09-22 19:45:20" },
-            JieQiData { name: "寒露", time: "2028-10-08 02:08:31" },
-            JieQiData { name: "霜降", time: "2028-10-23 05:13:24" },
-            JieQiData { name: "立冬", time: "2028-11-07 05:27:16" },
-            JieQiData { name: "小雪", time: "2028-11-22 02:54:24" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2027-12-07 16:37:41",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2027-12-22 10:42:10",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2028-01-06 03:54:39",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2028-01-20 21:21:57",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2028-02-04 15:31:13",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2028-02-19 11:26:02",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2028-03-05 09:24:47",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2028-03-20 10:17:10",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2028-04-04 14:03:06",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2028-04-19 21:09:31",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2028-05-05 07:12:12",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2028-05-20 20:09:49",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2028-06-05 11:16:00",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2028-06-21 04:02:00",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2028-07-06 21:30:18",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2028-07-22 14:53:59",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2028-08-07 07:21:11",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2028-08-22 22:00:56",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2028-09-07 10:22:10",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2028-09-22 19:45:20",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2028-10-08 02:08:31",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2028-10-23 05:13:24",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2028-11-07 05:27:16",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2028-11-22 02:54:24",
+            },
         ],
     },
     BaziYearData {
@@ -4019,30 +13307,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2029-02-13",
         lichun_time: "2029-02-03 21:20:47",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2028-12-06 22:24:41" },
-            JieQiData { name: "冬至", time: "2028-12-21 16:19:41" },
-            JieQiData { name: "小寒", time: "2029-01-05 09:41:55" },
-            JieQiData { name: "大寒", time: "2029-01-20 03:00:53" },
-            JieQiData { name: "立春", time: "2029-02-03 21:20:47" },
-            JieQiData { name: "雨水", time: "2029-02-18 17:07:56" },
-            JieQiData { name: "惊蛰", time: "2029-03-05 15:17:37" },
-            JieQiData { name: "春分", time: "2029-03-20 16:01:59" },
-            JieQiData { name: "清明", time: "2029-04-04 19:58:24" },
-            JieQiData { name: "谷雨", time: "2029-04-20 02:55:42" },
-            JieQiData { name: "立夏", time: "2029-05-05 13:07:46" },
-            JieQiData { name: "小满", time: "2029-05-21 01:55:52" },
-            JieQiData { name: "芒种", time: "2029-06-05 17:09:58" },
-            JieQiData { name: "夏至", time: "2029-06-21 09:48:17" },
-            JieQiData { name: "小暑", time: "2029-07-07 03:22:23" },
-            JieQiData { name: "大暑", time: "2029-07-22 20:42:05" },
-            JieQiData { name: "立秋", time: "2029-08-07 13:11:44" },
-            JieQiData { name: "处暑", time: "2029-08-23 03:51:37" },
-            JieQiData { name: "白露", time: "2029-09-07 16:11:54" },
-            JieQiData { name: "秋分", time: "2029-09-23 01:38:31" },
-            JieQiData { name: "寒露", time: "2029-10-08 07:58:08" },
-            JieQiData { name: "霜降", time: "2029-10-23 11:08:08" },
-            JieQiData { name: "立冬", time: "2029-11-07 11:16:46" },
-            JieQiData { name: "小雪", time: "2029-11-22 08:49:24" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2028-12-06 22:24:41",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2028-12-21 16:19:41",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2029-01-05 09:41:55",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2029-01-20 03:00:53",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2029-02-03 21:20:47",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2029-02-18 17:07:56",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2029-03-05 15:17:37",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2029-03-20 16:01:59",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2029-04-04 19:58:24",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2029-04-20 02:55:42",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2029-05-05 13:07:46",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2029-05-21 01:55:52",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2029-06-05 17:09:58",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2029-06-21 09:48:17",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2029-07-07 03:22:23",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2029-07-22 20:42:05",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2029-08-07 13:11:44",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2029-08-23 03:51:37",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2029-09-07 16:11:54",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2029-09-23 01:38:31",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2029-10-08 07:58:08",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2029-10-23 11:08:08",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2029-11-07 11:16:46",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2029-11-22 08:49:24",
+            },
         ],
     },
     BaziYearData {
@@ -4050,30 +13410,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2030-02-03",
         lichun_time: "2030-02-04 03:08:28",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2029-12-07 04:13:48" },
-            JieQiData { name: "冬至", time: "2029-12-21 22:14:08" },
-            JieQiData { name: "小寒", time: "2030-01-05 15:30:34" },
-            JieQiData { name: "大寒", time: "2030-01-20 08:54:24" },
-            JieQiData { name: "立春", time: "2030-02-04 03:08:28" },
-            JieQiData { name: "雨水", time: "2030-02-18 22:59:57" },
-            JieQiData { name: "惊蛰", time: "2030-03-05 21:03:18" },
-            JieQiData { name: "春分", time: "2030-03-20 21:52:07" },
-            JieQiData { name: "清明", time: "2030-04-05 01:41:01" },
-            JieQiData { name: "谷雨", time: "2030-04-20 08:43:36" },
-            JieQiData { name: "立夏", time: "2030-05-05 18:46:18" },
-            JieQiData { name: "小满", time: "2030-05-21 07:41:06" },
-            JieQiData { name: "芒种", time: "2030-06-05 22:44:30" },
-            JieQiData { name: "夏至", time: "2030-06-21 15:31:18" },
-            JieQiData { name: "小暑", time: "2030-07-07 08:55:29" },
-            JieQiData { name: "大暑", time: "2030-07-23 02:24:53" },
-            JieQiData { name: "立秋", time: "2030-08-07 18:47:20" },
-            JieQiData { name: "处暑", time: "2030-08-23 09:36:24" },
-            JieQiData { name: "白露", time: "2030-09-07 21:52:50" },
-            JieQiData { name: "秋分", time: "2030-09-23 07:26:55" },
-            JieQiData { name: "寒露", time: "2030-10-08 13:45:17" },
-            JieQiData { name: "霜降", time: "2030-10-23 17:00:35" },
-            JieQiData { name: "立冬", time: "2030-11-07 17:08:44" },
-            JieQiData { name: "小雪", time: "2030-11-22 14:44:36" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2029-12-07 04:13:48",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2029-12-21 22:14:08",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2030-01-05 15:30:34",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2030-01-20 08:54:24",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2030-02-04 03:08:28",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2030-02-18 22:59:57",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2030-03-05 21:03:18",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2030-03-20 21:52:07",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2030-04-05 01:41:01",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2030-04-20 08:43:36",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2030-05-05 18:46:18",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2030-05-21 07:41:06",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2030-06-05 22:44:30",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2030-06-21 15:31:18",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2030-07-07 08:55:29",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2030-07-23 02:24:53",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2030-08-07 18:47:20",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2030-08-23 09:36:24",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2030-09-07 21:52:50",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2030-09-23 07:26:55",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2030-10-08 13:45:17",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2030-10-23 17:00:35",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2030-11-07 17:08:44",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2030-11-22 14:44:36",
+            },
         ],
     },
     BaziYearData {
@@ -4081,30 +13513,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2031-01-23",
         lichun_time: "2031-02-04 08:58:19",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2030-12-07 10:07:37" },
-            JieQiData { name: "冬至", time: "2030-12-22 04:09:37" },
-            JieQiData { name: "小寒", time: "2031-01-05 21:23:09" },
-            JieQiData { name: "大寒", time: "2031-01-20 14:47:58" },
-            JieQiData { name: "立春", time: "2031-02-04 08:58:19" },
-            JieQiData { name: "雨水", time: "2031-02-19 04:50:55" },
-            JieQiData { name: "惊蛰", time: "2031-03-06 02:51:03" },
-            JieQiData { name: "春分", time: "2031-03-21 03:40:58" },
-            JieQiData { name: "清明", time: "2031-04-05 07:28:24" },
-            JieQiData { name: "谷雨", time: "2031-04-20 14:31:14" },
-            JieQiData { name: "立夏", time: "2031-05-06 00:35:12" },
-            JieQiData { name: "小满", time: "2031-05-21 13:27:55" },
-            JieQiData { name: "芒种", time: "2031-06-06 04:35:42" },
-            JieQiData { name: "夏至", time: "2031-06-21 21:17:08" },
-            JieQiData { name: "小暑", time: "2031-07-07 14:48:51" },
-            JieQiData { name: "大暑", time: "2031-07-23 08:10:28" },
-            JieQiData { name: "立秋", time: "2031-08-08 00:42:56" },
-            JieQiData { name: "处暑", time: "2031-08-23 15:23:20" },
-            JieQiData { name: "白露", time: "2031-09-08 03:50:11" },
-            JieQiData { name: "秋分", time: "2031-09-23 13:15:19" },
-            JieQiData { name: "寒露", time: "2031-10-08 19:42:59" },
-            JieQiData { name: "霜降", time: "2031-10-23 22:49:27" },
-            JieQiData { name: "立冬", time: "2031-11-07 23:05:40" },
-            JieQiData { name: "小雪", time: "2031-11-22 20:32:36" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2030-12-07 10:07:37",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2030-12-22 04:09:37",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2031-01-05 21:23:09",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2031-01-20 14:47:58",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2031-02-04 08:58:19",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2031-02-19 04:50:55",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2031-03-06 02:51:03",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2031-03-21 03:40:58",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2031-04-05 07:28:24",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2031-04-20 14:31:14",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2031-05-06 00:35:12",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2031-05-21 13:27:55",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2031-06-06 04:35:42",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2031-06-21 21:17:08",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2031-07-07 14:48:51",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2031-07-23 08:10:28",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2031-08-08 00:42:56",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2031-08-23 15:23:20",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2031-09-08 03:50:11",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2031-09-23 13:15:19",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2031-10-08 19:42:59",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2031-10-23 22:49:27",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2031-11-07 23:05:40",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2031-11-22 20:32:36",
+            },
         ],
     },
     BaziYearData {
@@ -4112,30 +13616,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2032-02-11",
         lichun_time: "2032-02-04 14:48:59",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2031-12-07 16:02:53" },
-            JieQiData { name: "冬至", time: "2031-12-22 09:55:33" },
-            JieQiData { name: "小寒", time: "2032-01-06 03:16:07" },
-            JieQiData { name: "大寒", time: "2032-01-20 20:31:19" },
-            JieQiData { name: "立春", time: "2032-02-04 14:48:59" },
-            JieQiData { name: "雨水", time: "2032-02-19 10:32:15" },
-            JieQiData { name: "惊蛰", time: "2032-03-05 08:40:15" },
-            JieQiData { name: "春分", time: "2032-03-20 09:21:55" },
-            JieQiData { name: "清明", time: "2032-04-04 13:17:36" },
-            JieQiData { name: "谷雨", time: "2032-04-19 20:14:10" },
-            JieQiData { name: "立夏", time: "2032-05-05 06:25:52" },
-            JieQiData { name: "小满", time: "2032-05-20 19:15:00" },
-            JieQiData { name: "芒种", time: "2032-06-05 10:27:59" },
-            JieQiData { name: "夏至", time: "2032-06-21 03:08:46" },
-            JieQiData { name: "小暑", time: "2032-07-06 20:40:54" },
-            JieQiData { name: "大暑", time: "2032-07-22 14:04:45" },
-            JieQiData { name: "立秋", time: "2032-08-07 06:32:44" },
-            JieQiData { name: "处暑", time: "2032-08-22 21:18:21" },
-            JieQiData { name: "白露", time: "2032-09-07 09:37:55" },
-            JieQiData { name: "秋分", time: "2032-09-22 19:10:55" },
-            JieQiData { name: "寒露", time: "2032-10-08 01:30:25" },
-            JieQiData { name: "霜降", time: "2032-10-23 04:46:15" },
-            JieQiData { name: "立冬", time: "2032-11-07 04:54:17" },
-            JieQiData { name: "小雪", time: "2032-11-22 02:31:12" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2031-12-07 16:02:53",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2031-12-22 09:55:33",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2032-01-06 03:16:07",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2032-01-20 20:31:19",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2032-02-04 14:48:59",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2032-02-19 10:32:15",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2032-03-05 08:40:15",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2032-03-20 09:21:55",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2032-04-04 13:17:36",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2032-04-19 20:14:10",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2032-05-05 06:25:52",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2032-05-20 19:15:00",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2032-06-05 10:27:59",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2032-06-21 03:08:46",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2032-07-06 20:40:54",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2032-07-22 14:04:45",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2032-08-07 06:32:44",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2032-08-22 21:18:21",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2032-09-07 09:37:55",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2032-09-22 19:10:55",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2032-10-08 01:30:25",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2032-10-23 04:46:15",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2032-11-07 04:54:17",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2032-11-22 02:31:12",
+            },
         ],
     },
     BaziYearData {
@@ -4143,30 +13719,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2033-01-31",
         lichun_time: "2033-02-03 20:41:36",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2032-12-06 21:53:20" },
-            JieQiData { name: "冬至", time: "2032-12-21 15:55:57" },
-            JieQiData { name: "小寒", time: "2033-01-05 09:08:07" },
-            JieQiData { name: "大寒", time: "2033-01-20 02:32:48" },
-            JieQiData { name: "立春", time: "2033-02-03 20:41:36" },
-            JieQiData { name: "雨水", time: "2033-02-18 16:33:50" },
-            JieQiData { name: "惊蛰", time: "2033-03-05 14:32:22" },
-            JieQiData { name: "春分", time: "2033-03-20 15:22:45" },
-            JieQiData { name: "清明", time: "2033-04-04 19:08:09" },
-            JieQiData { name: "谷雨", time: "2033-04-20 02:13:08" },
-            JieQiData { name: "立夏", time: "2033-05-05 12:13:47" },
-            JieQiData { name: "小满", time: "2033-05-21 01:10:59" },
-            JieQiData { name: "芒种", time: "2033-06-05 16:13:27" },
-            JieQiData { name: "夏至", time: "2033-06-21 09:01:09" },
-            JieQiData { name: "小暑", time: "2033-07-07 02:24:57" },
-            JieQiData { name: "大暑", time: "2033-07-22 19:52:49" },
-            JieQiData { name: "立秋", time: "2033-08-07 12:15:46" },
-            JieQiData { name: "处暑", time: "2033-08-23 03:01:51" },
-            JieQiData { name: "白露", time: "2033-09-07 15:20:22" },
-            JieQiData { name: "秋分", time: "2033-09-23 00:51:41" },
-            JieQiData { name: "寒露", time: "2033-10-08 07:13:57" },
-            JieQiData { name: "霜降", time: "2033-10-23 10:27:37" },
-            JieQiData { name: "立冬", time: "2033-11-07 10:41:05" },
-            JieQiData { name: "小雪", time: "2033-11-22 08:16:11" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2032-12-06 21:53:20",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2032-12-21 15:55:57",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2033-01-05 09:08:07",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2033-01-20 02:32:48",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2033-02-03 20:41:36",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2033-02-18 16:33:50",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2033-03-05 14:32:22",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2033-03-20 15:22:45",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2033-04-04 19:08:09",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2033-04-20 02:13:08",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2033-05-05 12:13:47",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2033-05-21 01:10:59",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2033-06-05 16:13:27",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2033-06-21 09:01:09",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2033-07-07 02:24:57",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2033-07-22 19:52:49",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2033-08-07 12:15:46",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2033-08-23 03:01:51",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2033-09-07 15:20:22",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2033-09-23 00:51:41",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2033-10-08 07:13:57",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2033-10-23 10:27:37",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2033-11-07 10:41:05",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2033-11-22 08:16:11",
+            },
         ],
     },
     BaziYearData {
@@ -4174,30 +13822,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2034-02-19",
         lichun_time: "2034-02-04 02:41:10",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2033-12-07 03:44:56" },
-            JieQiData { name: "冬至", time: "2033-12-21 21:46:01" },
-            JieQiData { name: "小寒", time: "2034-01-05 15:04:31" },
-            JieQiData { name: "大寒", time: "2034-01-20 08:27:19" },
-            JieQiData { name: "立春", time: "2034-02-04 02:41:10" },
-            JieQiData { name: "雨水", time: "2034-02-18 22:30:13" },
-            JieQiData { name: "惊蛰", time: "2034-03-05 20:32:24" },
-            JieQiData { name: "春分", time: "2034-03-20 21:17:30" },
-            JieQiData { name: "清明", time: "2034-04-05 01:06:15" },
-            JieQiData { name: "谷雨", time: "2034-04-20 08:03:44" },
-            JieQiData { name: "立夏", time: "2034-05-05 18:09:10" },
-            JieQiData { name: "小满", time: "2034-05-21 06:56:54" },
-            JieQiData { name: "芒种", time: "2034-06-05 22:06:41" },
-            JieQiData { name: "夏至", time: "2034-06-21 14:44:12" },
-            JieQiData { name: "小暑", time: "2034-07-07 08:17:39" },
-            JieQiData { name: "大暑", time: "2034-07-23 01:36:21" },
-            JieQiData { name: "立秋", time: "2034-08-07 18:09:07" },
-            JieQiData { name: "处暑", time: "2034-08-23 08:47:46" },
-            JieQiData { name: "白露", time: "2034-09-07 21:13:59" },
-            JieQiData { name: "秋分", time: "2034-09-23 06:39:35" },
-            JieQiData { name: "寒露", time: "2034-10-08 13:07:07" },
-            JieQiData { name: "霜降", time: "2034-10-23 16:16:28" },
-            JieQiData { name: "立冬", time: "2034-11-07 16:33:40" },
-            JieQiData { name: "小雪", time: "2034-11-22 14:04:58" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2033-12-07 03:44:56",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2033-12-21 21:46:01",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2034-01-05 15:04:31",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2034-01-20 08:27:19",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2034-02-04 02:41:10",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2034-02-18 22:30:13",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2034-03-05 20:32:24",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2034-03-20 21:17:30",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2034-04-05 01:06:15",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2034-04-20 08:03:44",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2034-05-05 18:09:10",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2034-05-21 06:56:54",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2034-06-05 22:06:41",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2034-06-21 14:44:12",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2034-07-07 08:17:39",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2034-07-23 01:36:21",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2034-08-07 18:09:07",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2034-08-23 08:47:46",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2034-09-07 21:13:59",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2034-09-23 06:39:35",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2034-10-08 13:07:07",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2034-10-23 16:16:28",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2034-11-07 16:33:40",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2034-11-22 14:04:58",
+            },
         ],
     },
     BaziYearData {
@@ -4205,30 +13925,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2035-02-08",
         lichun_time: "2035-02-04 08:31:35",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2034-12-07 09:36:49" },
-            JieQiData { name: "冬至", time: "2034-12-22 03:34:01" },
-            JieQiData { name: "小寒", time: "2035-01-05 20:55:43" },
-            JieQiData { name: "大寒", time: "2035-01-20 14:14:16" },
-            JieQiData { name: "立春", time: "2035-02-04 08:31:35" },
-            JieQiData { name: "雨水", time: "2035-02-19 04:16:10" },
-            JieQiData { name: "惊蛰", time: "2035-03-06 02:21:39" },
-            JieQiData { name: "春分", time: "2035-03-21 03:02:43" },
-            JieQiData { name: "清明", time: "2035-04-05 06:53:52" },
-            JieQiData { name: "谷雨", time: "2035-04-20 13:48:59" },
-            JieQiData { name: "立夏", time: "2035-05-05 23:54:57" },
-            JieQiData { name: "小满", time: "2035-05-21 12:43:27" },
-            JieQiData { name: "芒种", time: "2035-06-06 03:50:50" },
-            JieQiData { name: "夏至", time: "2035-06-21 20:33:09" },
-            JieQiData { name: "小暑", time: "2035-07-07 14:01:11" },
-            JieQiData { name: "大暑", time: "2035-07-23 07:28:42" },
-            JieQiData { name: "立秋", time: "2035-08-07 23:54:21" },
-            JieQiData { name: "处暑", time: "2035-08-23 14:44:11" },
-            JieQiData { name: "白露", time: "2035-09-08 03:02:30" },
-            JieQiData { name: "秋分", time: "2035-09-23 12:38:58" },
-            JieQiData { name: "寒露", time: "2035-10-08 18:57:42" },
-            JieQiData { name: "霜降", time: "2035-10-23 22:16:11" },
-            JieQiData { name: "立冬", time: "2035-11-07 22:23:52" },
-            JieQiData { name: "小雪", time: "2035-11-22 20:03:13" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2034-12-07 09:36:49",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2034-12-22 03:34:01",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2035-01-05 20:55:43",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2035-01-20 14:14:16",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2035-02-04 08:31:35",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2035-02-19 04:16:10",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2035-03-06 02:21:39",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2035-03-21 03:02:43",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2035-04-05 06:53:52",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2035-04-20 13:48:59",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2035-05-05 23:54:57",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2035-05-21 12:43:27",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2035-06-06 03:50:50",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2035-06-21 20:33:09",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2035-07-07 14:01:11",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2035-07-23 07:28:42",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2035-08-07 23:54:21",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2035-08-23 14:44:11",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2035-09-08 03:02:30",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2035-09-23 12:38:58",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2035-10-08 18:57:42",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2035-10-23 22:16:11",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2035-11-07 22:23:52",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2035-11-22 20:03:13",
+            },
         ],
     },
     BaziYearData {
@@ -4236,30 +14028,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2036-01-28",
         lichun_time: "2036-02-04 14:19:57",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2035-12-07 15:25:32" },
-            JieQiData { name: "冬至", time: "2035-12-22 09:30:53" },
-            JieQiData { name: "小寒", time: "2036-01-06 02:43:32" },
-            JieQiData { name: "大寒", time: "2036-01-20 20:11:04" },
-            JieQiData { name: "立春", time: "2036-02-04 14:19:57" },
-            JieQiData { name: "雨水", time: "2036-02-19 10:14:19" },
-            JieQiData { name: "惊蛰", time: "2036-03-05 08:11:51" },
-            JieQiData { name: "春分", time: "2036-03-20 09:02:52" },
-            JieQiData { name: "清明", time: "2036-04-04 12:46:17" },
-            JieQiData { name: "谷雨", time: "2036-04-19 19:50:31" },
-            JieQiData { name: "立夏", time: "2036-05-05 05:49:24" },
-            JieQiData { name: "小满", time: "2036-05-20 18:44:54" },
-            JieQiData { name: "芒种", time: "2036-06-05 09:47:01" },
-            JieQiData { name: "夏至", time: "2036-06-21 02:32:15" },
-            JieQiData { name: "小暑", time: "2036-07-06 19:57:34" },
-            JieQiData { name: "大暑", time: "2036-07-22 13:22:41" },
-            JieQiData { name: "立秋", time: "2036-08-07 05:48:57" },
-            JieQiData { name: "处暑", time: "2036-08-22 20:32:25" },
-            JieQiData { name: "白露", time: "2036-09-07 08:55:00" },
-            JieQiData { name: "秋分", time: "2036-09-22 18:23:20" },
-            JieQiData { name: "寒露", time: "2036-10-08 00:49:00" },
-            JieQiData { name: "霜降", time: "2036-10-23 03:58:51" },
-            JieQiData { name: "立冬", time: "2036-11-07 04:14:41" },
-            JieQiData { name: "小雪", time: "2036-11-22 01:45:19" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2035-12-07 15:25:32",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2035-12-22 09:30:53",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2036-01-06 02:43:32",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2036-01-20 20:11:04",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2036-02-04 14:19:57",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2036-02-19 10:14:19",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2036-03-05 08:11:51",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2036-03-20 09:02:52",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2036-04-04 12:46:17",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2036-04-19 19:50:31",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2036-05-05 05:49:24",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2036-05-20 18:44:54",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2036-06-05 09:47:01",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2036-06-21 02:32:15",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2036-07-06 19:57:34",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2036-07-22 13:22:41",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2036-08-07 05:48:57",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2036-08-22 20:32:25",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2036-09-07 08:55:00",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2036-09-22 18:23:20",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2036-10-08 00:49:00",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2036-10-23 03:58:51",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2036-11-07 04:14:41",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2036-11-22 01:45:19",
+            },
         ],
     },
     BaziYearData {
@@ -4267,30 +14131,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2037-02-15",
         lichun_time: "2037-02-03 20:11:39",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2036-12-06 21:16:03" },
-            JieQiData { name: "冬至", time: "2036-12-21 15:12:54" },
-            JieQiData { name: "小寒", time: "2037-01-05 08:34:05" },
-            JieQiData { name: "大寒", time: "2037-01-20 01:53:45" },
-            JieQiData { name: "立春", time: "2037-02-03 20:11:39" },
-            JieQiData { name: "雨水", time: "2037-02-18 15:58:56" },
-            JieQiData { name: "惊蛰", time: "2037-03-05 14:06:13" },
-            JieQiData { name: "春分", time: "2037-03-20 14:50:18" },
-            JieQiData { name: "清明", time: "2037-04-04 18:44:04" },
-            JieQiData { name: "谷雨", time: "2037-04-20 01:40:21" },
-            JieQiData { name: "立夏", time: "2037-05-05 11:49:29" },
-            JieQiData { name: "小满", time: "2037-05-21 00:35:29" },
-            JieQiData { name: "芒种", time: "2037-06-05 15:46:52" },
-            JieQiData { name: "夏至", time: "2037-06-21 08:22:27" },
-            JieQiData { name: "小暑", time: "2037-07-07 01:55:09" },
-            JieQiData { name: "大暑", time: "2037-07-22 19:12:37" },
-            JieQiData { name: "立秋", time: "2037-08-07 11:43:03" },
-            JieQiData { name: "处暑", time: "2037-08-23 02:22:03" },
-            JieQiData { name: "白露", time: "2037-09-07 14:45:35" },
-            JieQiData { name: "秋分", time: "2037-09-23 00:13:07" },
-            JieQiData { name: "寒露", time: "2037-10-08 06:37:51" },
-            JieQiData { name: "霜降", time: "2037-10-23 09:49:54" },
-            JieQiData { name: "立冬", time: "2037-11-07 10:04:06" },
-            JieQiData { name: "小雪", time: "2037-11-22 07:38:25" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2036-12-06 21:16:03",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2036-12-21 15:12:54",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2037-01-05 08:34:05",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2037-01-20 01:53:45",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2037-02-03 20:11:39",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2037-02-18 15:58:56",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2037-03-05 14:06:13",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2037-03-20 14:50:18",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2037-04-04 18:44:04",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2037-04-20 01:40:21",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2037-05-05 11:49:29",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2037-05-21 00:35:29",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2037-06-05 15:46:52",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2037-06-21 08:22:27",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2037-07-07 01:55:09",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2037-07-22 19:12:37",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2037-08-07 11:43:03",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2037-08-23 02:22:03",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2037-09-07 14:45:35",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2037-09-23 00:13:07",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2037-10-08 06:37:51",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2037-10-23 09:49:54",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2037-11-07 10:04:06",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2037-11-22 07:38:25",
+            },
         ],
     },
     BaziYearData {
@@ -4298,30 +14234,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2038-02-04",
         lichun_time: "2038-02-04 02:03:48",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2037-12-07 03:07:19" },
-            JieQiData { name: "冬至", time: "2037-12-21 21:07:47" },
-            JieQiData { name: "小寒", time: "2038-01-05 14:26:49" },
-            JieQiData { name: "大寒", time: "2038-01-20 07:48:52" },
-            JieQiData { name: "立春", time: "2038-02-04 02:03:48" },
-            JieQiData { name: "雨水", time: "2038-02-18 21:52:09" },
-            JieQiData { name: "惊蛰", time: "2038-03-05 19:55:30" },
-            JieQiData { name: "春分", time: "2038-03-20 20:40:40" },
-            JieQiData { name: "清明", time: "2038-04-05 00:29:29" },
-            JieQiData { name: "谷雨", time: "2038-04-20 07:28:34" },
-            JieQiData { name: "立夏", time: "2038-05-05 17:31:13" },
-            JieQiData { name: "小满", time: "2038-05-21 06:22:44" },
-            JieQiData { name: "芒种", time: "2038-06-05 21:25:39" },
-            JieQiData { name: "夏至", time: "2038-06-21 14:09:25" },
-            JieQiData { name: "小暑", time: "2038-07-07 07:32:33" },
-            JieQiData { name: "大暑", time: "2038-07-23 00:59:55" },
-            JieQiData { name: "立秋", time: "2038-08-07 17:21:20" },
-            JieQiData { name: "处暑", time: "2038-08-23 08:10:09" },
-            JieQiData { name: "白露", time: "2038-09-07 20:26:18" },
-            JieQiData { name: "秋分", time: "2038-09-23 06:02:16" },
-            JieQiData { name: "寒露", time: "2038-10-08 12:21:36" },
-            JieQiData { name: "霜降", time: "2038-10-23 15:40:42" },
-            JieQiData { name: "立冬", time: "2038-11-07 15:50:53" },
-            JieQiData { name: "小雪", time: "2038-11-22 13:31:21" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2037-12-07 03:07:19",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2037-12-21 21:07:47",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2038-01-05 14:26:49",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2038-01-20 07:48:52",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2038-02-04 02:03:48",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2038-02-18 21:52:09",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2038-03-05 19:55:30",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2038-03-20 20:40:40",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2038-04-05 00:29:29",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2038-04-20 07:28:34",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2038-05-05 17:31:13",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2038-05-21 06:22:44",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2038-06-05 21:25:39",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2038-06-21 14:09:25",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2038-07-07 07:32:33",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2038-07-23 00:59:55",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2038-08-07 17:21:20",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2038-08-23 08:10:09",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2038-09-07 20:26:18",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2038-09-23 06:02:16",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2038-10-08 12:21:36",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2038-10-23 15:40:42",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2038-11-07 15:50:53",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2038-11-22 13:31:21",
+            },
         ],
     },
     BaziYearData {
@@ -4329,30 +14337,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2039-01-24",
         lichun_time: "2039-02-04 07:52:56",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2038-12-07 08:56:24" },
-            JieQiData { name: "冬至", time: "2038-12-22 03:02:21" },
-            JieQiData { name: "小寒", time: "2039-01-05 20:16:41" },
-            JieQiData { name: "大寒", time: "2039-01-20 13:43:41" },
-            JieQiData { name: "立春", time: "2039-02-04 07:52:56" },
-            JieQiData { name: "雨水", time: "2039-02-19 03:45:46" },
-            JieQiData { name: "惊蛰", time: "2039-03-06 01:43:04" },
-            JieQiData { name: "春分", time: "2039-03-21 02:32:03" },
-            JieQiData { name: "清明", time: "2039-04-05 06:15:48" },
-            JieQiData { name: "谷雨", time: "2039-04-20 13:17:48" },
-            JieQiData { name: "立夏", time: "2039-05-05 23:18:11" },
-            JieQiData { name: "小满", time: "2039-05-21 12:10:54" },
-            JieQiData { name: "芒种", time: "2039-06-06 03:15:31" },
-            JieQiData { name: "夏至", time: "2039-06-21 19:57:27" },
-            JieQiData { name: "小暑", time: "2039-07-07 13:26:11" },
-            JieQiData { name: "大暑", time: "2039-07-23 06:48:11" },
-            JieQiData { name: "立秋", time: "2039-08-07 23:18:07" },
-            JieQiData { name: "处暑", time: "2039-08-23 13:58:41" },
-            JieQiData { name: "白露", time: "2039-09-08 02:24:04" },
-            JieQiData { name: "秋分", time: "2039-09-23 11:49:38" },
-            JieQiData { name: "寒露", time: "2039-10-08 18:17:18" },
-            JieQiData { name: "霜降", time: "2039-10-23 21:25:05" },
-            JieQiData { name: "立冬", time: "2039-11-07 21:42:55" },
-            JieQiData { name: "小雪", time: "2039-11-22 19:12:13" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2038-12-07 08:56:24",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2038-12-22 03:02:21",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2039-01-05 20:16:41",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2039-01-20 13:43:41",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2039-02-04 07:52:56",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2039-02-19 03:45:46",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2039-03-06 01:43:04",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2039-03-21 02:32:03",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2039-04-05 06:15:48",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2039-04-20 13:17:48",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2039-05-05 23:18:11",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2039-05-21 12:10:54",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2039-06-06 03:15:31",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2039-06-21 19:57:27",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2039-07-07 13:26:11",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2039-07-23 06:48:11",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2039-08-07 23:18:07",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2039-08-23 13:58:41",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2039-09-08 02:24:04",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2039-09-23 11:49:38",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2039-10-08 18:17:18",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2039-10-23 21:25:05",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2039-11-07 21:42:55",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2039-11-22 19:12:13",
+            },
         ],
     },
     BaziYearData {
@@ -4360,30 +14440,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2040-02-12",
         lichun_time: "2040-02-04 13:39:56",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2039-12-07 14:45:06" },
-            JieQiData { name: "冬至", time: "2039-12-22 08:40:37" },
-            JieQiData { name: "小寒", time: "2040-01-06 02:03:39" },
-            JieQiData { name: "大寒", time: "2040-01-20 19:21:05" },
-            JieQiData { name: "立春", time: "2040-02-04 13:39:56" },
-            JieQiData { name: "雨水", time: "2040-02-19 09:23:51" },
-            JieQiData { name: "惊蛰", time: "2040-03-05 07:31:16" },
-            JieQiData { name: "春分", time: "2040-03-20 08:11:44" },
-            JieQiData { name: "清明", time: "2040-04-04 12:05:33" },
-            JieQiData { name: "谷雨", time: "2040-04-19 18:59:36" },
-            JieQiData { name: "立夏", time: "2040-05-05 05:09:23" },
-            JieQiData { name: "小满", time: "2040-05-20 17:55:46" },
-            JieQiData { name: "芒种", time: "2040-06-05 09:08:04" },
-            JieQiData { name: "夏至", time: "2040-06-21 01:46:25" },
-            JieQiData { name: "小暑", time: "2040-07-06 19:19:16" },
-            JieQiData { name: "大暑", time: "2040-07-22 12:40:50" },
-            JieQiData { name: "立秋", time: "2040-08-07 05:10:05" },
-            JieQiData { name: "处暑", time: "2040-08-22 19:53:21" },
-            JieQiData { name: "白露", time: "2040-09-07 08:14:08" },
-            JieQiData { name: "秋分", time: "2040-09-22 17:44:57" },
-            JieQiData { name: "寒露", time: "2040-10-08 00:05:34" },
-            JieQiData { name: "霜降", time: "2040-10-23 03:19:47" },
-            JieQiData { name: "立冬", time: "2040-11-07 03:29:20" },
-            JieQiData { name: "小雪", time: "2040-11-22 01:05:33" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2039-12-07 14:45:06",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2039-12-22 08:40:37",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2040-01-06 02:03:39",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2040-01-20 19:21:05",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2040-02-04 13:39:56",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2040-02-19 09:23:51",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2040-03-05 07:31:16",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2040-03-20 08:11:44",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2040-04-04 12:05:33",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2040-04-19 18:59:36",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2040-05-05 05:09:23",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2040-05-20 17:55:46",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2040-06-05 09:08:04",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2040-06-21 01:46:25",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2040-07-06 19:19:16",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2040-07-22 12:40:50",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2040-08-07 05:10:05",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2040-08-22 19:53:21",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2040-09-07 08:14:08",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2040-09-22 17:44:57",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2040-10-08 00:05:34",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2040-10-23 03:19:47",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2040-11-07 03:29:20",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2040-11-22 01:05:33",
+            },
         ],
     },
     BaziYearData {
@@ -4391,30 +14543,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2041-02-01",
         lichun_time: "2041-02-03 19:25:11",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2040-12-06 20:30:05" },
-            JieQiData { name: "冬至", time: "2040-12-21 14:32:53" },
-            JieQiData { name: "小寒", time: "2041-01-05 07:48:10" },
-            JieQiData { name: "大寒", time: "2041-01-20 01:13:20" },
-            JieQiData { name: "立春", time: "2041-02-03 19:25:11" },
-            JieQiData { name: "雨水", time: "2041-02-18 15:17:19" },
-            JieQiData { name: "惊蛰", time: "2041-03-05 13:17:52" },
-            JieQiData { name: "春分", time: "2041-03-20 14:06:51" },
-            JieQiData { name: "清明", time: "2041-04-04 17:52:38" },
-            JieQiData { name: "谷雨", time: "2041-04-20 00:54:58" },
-            JieQiData { name: "立夏", time: "2041-05-05 10:54:33" },
-            JieQiData { name: "小满", time: "2041-05-20 23:48:53" },
-            JieQiData { name: "芒种", time: "2041-06-05 14:49:48" },
-            JieQiData { name: "夏至", time: "2041-06-21 07:35:53" },
-            JieQiData { name: "小暑", time: "2041-07-07 00:58:31" },
-            JieQiData { name: "大暑", time: "2041-07-22 18:26:43" },
-            JieQiData { name: "立秋", time: "2041-08-07 10:48:43" },
-            JieQiData { name: "处暑", time: "2041-08-23 01:36:19" },
-            JieQiData { name: "白露", time: "2041-09-07 13:53:36" },
-            JieQiData { name: "秋分", time: "2041-09-22 23:26:36" },
-            JieQiData { name: "寒露", time: "2041-10-08 05:47:00" },
-            JieQiData { name: "霜降", time: "2041-10-23 09:02:00" },
-            JieQiData { name: "立冬", time: "2041-11-07 09:13:08" },
-            JieQiData { name: "小雪", time: "2041-11-22 06:49:20" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2040-12-06 20:30:05",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2040-12-21 14:32:53",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2041-01-05 07:48:10",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2041-01-20 01:13:20",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2041-02-03 19:25:11",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2041-02-18 15:17:19",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2041-03-05 13:17:52",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2041-03-20 14:06:51",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2041-04-04 17:52:38",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2041-04-20 00:54:58",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2041-05-05 10:54:33",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2041-05-20 23:48:53",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2041-06-05 14:49:48",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2041-06-21 07:35:53",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2041-07-07 00:58:31",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2041-07-22 18:26:43",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2041-08-07 10:48:43",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2041-08-23 01:36:19",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2041-09-07 13:53:36",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2041-09-22 23:26:36",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2041-10-08 05:47:00",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2041-10-23 09:02:00",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2041-11-07 09:13:08",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2041-11-22 06:49:20",
+            },
         ],
     },
     BaziYearData {
@@ -4422,30 +14646,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2042-01-22",
         lichun_time: "2042-02-04 01:12:53",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2041-12-07 02:15:50" },
-            JieQiData { name: "冬至", time: "2041-12-21 20:18:21" },
-            JieQiData { name: "小寒", time: "2042-01-05 13:35:10" },
-            JieQiData { name: "大寒", time: "2042-01-20 07:00:05" },
-            JieQiData { name: "立春", time: "2042-02-04 01:12:53" },
-            JieQiData { name: "雨水", time: "2042-02-18 21:04:30" },
-            JieQiData { name: "惊蛰", time: "2042-03-05 19:05:50" },
-            JieQiData { name: "春分", time: "2042-03-20 19:53:21" },
-            JieQiData { name: "清明", time: "2042-04-04 23:40:41" },
-            JieQiData { name: "谷雨", time: "2042-04-20 06:39:49" },
-            JieQiData { name: "立夏", time: "2042-05-05 16:42:53" },
-            JieQiData { name: "小满", time: "2042-05-21 05:31:18" },
-            JieQiData { name: "芒种", time: "2042-06-05 20:38:15" },
-            JieQiData { name: "夏至", time: "2042-06-21 13:15:52" },
-            JieQiData { name: "小暑", time: "2042-07-07 06:47:18" },
-            JieQiData { name: "大暑", time: "2042-07-23 00:06:21" },
-            JieQiData { name: "立秋", time: "2042-08-07 16:38:50" },
-            JieQiData { name: "处暑", time: "2042-08-23 07:18:09" },
-            JieQiData { name: "白露", time: "2042-09-07 19:45:31" },
-            JieQiData { name: "秋分", time: "2042-09-23 05:11:34" },
-            JieQiData { name: "寒露", time: "2042-10-08 11:40:37" },
-            JieQiData { name: "霜降", time: "2042-10-23 14:49:35" },
-            JieQiData { name: "立冬", time: "2042-11-07 15:07:41" },
-            JieQiData { name: "小雪", time: "2042-11-22 12:37:25" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2041-12-07 02:15:50",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2041-12-21 20:18:21",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2042-01-05 13:35:10",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2042-01-20 07:00:05",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2042-02-04 01:12:53",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2042-02-18 21:04:30",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2042-03-05 19:05:50",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2042-03-20 19:53:21",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2042-04-04 23:40:41",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2042-04-20 06:39:49",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2042-05-05 16:42:53",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2042-05-21 05:31:18",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2042-06-05 20:38:15",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2042-06-21 13:15:52",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2042-07-07 06:47:18",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2042-07-23 00:06:21",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2042-08-07 16:38:50",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2042-08-23 07:18:09",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2042-09-07 19:45:31",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2042-09-23 05:11:34",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2042-10-08 11:40:37",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2042-10-23 14:49:35",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2042-11-07 15:07:41",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2042-11-22 12:37:25",
+            },
         ],
     },
     BaziYearData {
@@ -4453,30 +14749,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2043-02-10",
         lichun_time: "2043-02-04 06:58:48",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2042-12-07 08:09:16" },
-            JieQiData { name: "冬至", time: "2042-12-22 02:04:06" },
-            JieQiData { name: "小寒", time: "2043-01-05 19:25:23" },
-            JieQiData { name: "大寒", time: "2043-01-20 12:41:38" },
-            JieQiData { name: "立春", time: "2043-02-04 06:58:48" },
-            JieQiData { name: "雨水", time: "2043-02-19 02:41:43" },
-            JieQiData { name: "惊蛰", time: "2043-03-06 00:47:48" },
-            JieQiData { name: "春分", time: "2043-03-21 01:27:50" },
-            JieQiData { name: "清明", time: "2043-04-05 05:20:18" },
-            JieQiData { name: "谷雨", time: "2043-04-20 12:14:30" },
-            JieQiData { name: "立夏", time: "2043-05-05 22:22:07" },
-            JieQiData { name: "小满", time: "2043-05-21 11:09:12" },
-            JieQiData { name: "芒种", time: "2043-06-06 02:18:11" },
-            JieQiData { name: "夏至", time: "2043-06-21 18:58:25" },
-            JieQiData { name: "小暑", time: "2043-07-07 12:27:53" },
-            JieQiData { name: "大暑", time: "2043-07-23 05:53:30" },
-            JieQiData { name: "立秋", time: "2043-08-07 22:20:48" },
-            JieQiData { name: "处暑", time: "2043-08-23 13:09:50" },
-            JieQiData { name: "白露", time: "2043-09-08 01:30:13" },
-            JieQiData { name: "秋分", time: "2043-09-23 11:07:00" },
-            JieQiData { name: "寒露", time: "2043-10-08 17:27:45" },
-            JieQiData { name: "霜降", time: "2043-10-23 20:46:53" },
-            JieQiData { name: "立冬", time: "2043-11-07 20:55:52" },
-            JieQiData { name: "小雪", time: "2043-11-22 18:35:07" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2042-12-07 08:09:16",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2042-12-22 02:04:06",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2043-01-05 19:25:23",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2043-01-20 12:41:38",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2043-02-04 06:58:48",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2043-02-19 02:41:43",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2043-03-06 00:47:48",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2043-03-21 01:27:50",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2043-04-05 05:20:18",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2043-04-20 12:14:30",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2043-05-05 22:22:07",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2043-05-21 11:09:12",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2043-06-06 02:18:11",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2043-06-21 18:58:25",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2043-07-07 12:27:53",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2043-07-23 05:53:30",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2043-08-07 22:20:48",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2043-08-23 13:09:50",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2043-09-08 01:30:13",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2043-09-23 11:07:00",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2043-10-08 17:27:45",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2043-10-23 20:46:53",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2043-11-07 20:55:52",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2043-11-22 18:35:07",
+            },
         ],
     },
     BaziYearData {
@@ -4484,30 +14852,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2044-01-30",
         lichun_time: "2044-02-04 12:44:21",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2043-12-07 13:57:24" },
-            JieQiData { name: "冬至", time: "2043-12-22 08:01:17" },
-            JieQiData { name: "小寒", time: "2044-01-06 01:12:34" },
-            JieQiData { name: "大寒", time: "2044-01-20 18:37:29" },
-            JieQiData { name: "立春", time: "2044-02-04 12:44:21" },
-            JieQiData { name: "雨水", time: "2044-02-19 08:35:52" },
-            JieQiData { name: "惊蛰", time: "2044-03-05 06:31:39" },
-            JieQiData { name: "春分", time: "2044-03-20 07:20:37" },
-            JieQiData { name: "清明", time: "2044-04-04 11:03:09" },
-            JieQiData { name: "谷雨", time: "2044-04-19 18:06:47" },
-            JieQiData { name: "立夏", time: "2044-05-05 04:05:32" },
-            JieQiData { name: "小满", time: "2044-05-20 17:01:57" },
-            JieQiData { name: "芒种", time: "2044-06-05 08:04:04" },
-            JieQiData { name: "夏至", time: "2044-06-21 00:51:11" },
-            JieQiData { name: "小暑", time: "2044-07-06 18:15:59" },
-            JieQiData { name: "大暑", time: "2044-07-22 11:43:24" },
-            JieQiData { name: "立秋", time: "2044-08-07 04:08:40" },
-            JieQiData { name: "处暑", time: "2044-08-22 18:54:44" },
-            JieQiData { name: "白露", time: "2044-09-07 07:16:35" },
-            JieQiData { name: "秋分", time: "2044-09-22 16:47:55" },
-            JieQiData { name: "寒露", time: "2044-10-07 23:13:22" },
-            JieQiData { name: "霜降", time: "2044-10-23 02:26:22" },
-            JieQiData { name: "立冬", time: "2044-11-07 02:42:03" },
-            JieQiData { name: "小雪", time: "2044-11-22 00:15:22" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2043-12-07 13:57:24",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2043-12-22 08:01:17",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2044-01-06 01:12:34",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2044-01-20 18:37:29",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2044-02-04 12:44:21",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2044-02-19 08:35:52",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2044-03-05 06:31:39",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2044-03-20 07:20:37",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2044-04-04 11:03:09",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2044-04-19 18:06:47",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2044-05-05 04:05:32",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2044-05-20 17:01:57",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2044-06-05 08:04:04",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2044-06-21 00:51:11",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2044-07-06 18:15:59",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2044-07-22 11:43:24",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2044-08-07 04:08:40",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2044-08-22 18:54:44",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2044-09-07 07:16:35",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2044-09-22 16:47:55",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2044-10-07 23:13:22",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2044-10-23 02:26:22",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2044-11-07 02:42:03",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2044-11-22 00:15:22",
+            },
         ],
     },
     BaziYearData {
@@ -4515,30 +14955,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2045-02-17",
         lichun_time: "2045-02-03 18:36:22",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2044-12-06 19:45:16" },
-            JieQiData { name: "冬至", time: "2044-12-21 13:43:39" },
-            JieQiData { name: "小寒", time: "2045-01-05 07:02:35" },
-            JieQiData { name: "大寒", time: "2045-01-20 00:22:17" },
-            JieQiData { name: "立春", time: "2045-02-03 18:36:22" },
-            JieQiData { name: "雨水", time: "2045-02-18 14:22:26" },
-            JieQiData { name: "惊蛰", time: "2045-03-05 12:25:06" },
-            JieQiData { name: "春分", time: "2045-03-20 13:07:42" },
-            JieQiData { name: "清明", time: "2045-04-04 16:57:22" },
-            JieQiData { name: "谷雨", time: "2045-04-19 23:52:56" },
-            JieQiData { name: "立夏", time: "2045-05-05 09:59:35" },
-            JieQiData { name: "小满", time: "2045-05-20 22:46:04" },
-            JieQiData { name: "芒种", time: "2045-06-05 13:57:05" },
-            JieQiData { name: "夏至", time: "2045-06-21 06:33:58" },
-            JieQiData { name: "小暑", time: "2045-07-07 00:08:08" },
-            JieQiData { name: "大暑", time: "2045-07-22 17:26:52" },
-            JieQiData { name: "立秋", time: "2045-08-07 09:59:43" },
-            JieQiData { name: "处暑", time: "2045-08-23 00:39:14" },
-            JieQiData { name: "白露", time: "2045-09-07 13:05:31" },
-            JieQiData { name: "秋分", time: "2045-09-22 22:33:01" },
-            JieQiData { name: "寒露", time: "2045-10-08 05:00:43" },
-            JieQiData { name: "霜降", time: "2045-10-23 08:12:36" },
-            JieQiData { name: "立冬", time: "2045-11-07 08:29:55" },
-            JieQiData { name: "小雪", time: "2045-11-22 06:03:55" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2044-12-06 19:45:16",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2044-12-21 13:43:39",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2045-01-05 07:02:35",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2045-01-20 00:22:17",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2045-02-03 18:36:22",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2045-02-18 14:22:26",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2045-03-05 12:25:06",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2045-03-20 13:07:42",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2045-04-04 16:57:22",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2045-04-19 23:52:56",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2045-05-05 09:59:35",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2045-05-20 22:46:04",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2045-06-05 13:57:05",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2045-06-21 06:33:58",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2045-07-07 00:08:08",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2045-07-22 17:26:52",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2045-08-07 09:59:43",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2045-08-23 00:39:14",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2045-09-07 13:05:31",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2045-09-22 22:33:01",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2045-10-08 05:00:43",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2045-10-23 08:12:36",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2045-11-07 08:29:55",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2045-11-22 06:03:55",
+            },
         ],
     },
     BaziYearData {
@@ -4546,30 +15058,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2046-02-06",
         lichun_time: "2046-02-04 00:31:09",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2045-12-07 01:35:38" },
-            JieQiData { name: "冬至", time: "2045-12-21 19:35:11" },
-            JieQiData { name: "小寒", time: "2046-01-05 12:56:04" },
-            JieQiData { name: "大寒", time: "2046-01-20 06:15:56" },
-            JieQiData { name: "立春", time: "2046-02-04 00:31:09" },
-            JieQiData { name: "雨水", time: "2046-02-18 20:15:42" },
-            JieQiData { name: "惊蛰", time: "2046-03-05 18:17:52" },
-            JieQiData { name: "春分", time: "2046-03-20 18:57:57" },
-            JieQiData { name: "清明", time: "2046-04-04 22:45:03" },
-            JieQiData { name: "谷雨", time: "2046-04-20 05:39:01" },
-            JieQiData { name: "立夏", time: "2046-05-05 15:40:46" },
-            JieQiData { name: "小满", time: "2046-05-21 04:28:35" },
-            JieQiData { name: "芒种", time: "2046-06-05 19:32:19" },
-            JieQiData { name: "夏至", time: "2046-06-21 12:14:43" },
-            JieQiData { name: "小暑", time: "2046-07-07 05:40:21" },
-            JieQiData { name: "大暑", time: "2046-07-22 23:08:46" },
-            JieQiData { name: "立秋", time: "2046-08-07 15:33:24" },
-            JieQiData { name: "处暑", time: "2046-08-23 06:24:36" },
-            JieQiData { name: "白露", time: "2046-09-07 18:43:23" },
-            JieQiData { name: "秋分", time: "2046-09-23 04:21:48" },
-            JieQiData { name: "寒露", time: "2046-10-08 10:42:30" },
-            JieQiData { name: "霜降", time: "2046-10-23 14:03:38" },
-            JieQiData { name: "立冬", time: "2046-11-07 14:14:15" },
-            JieQiData { name: "小雪", time: "2046-11-22 11:56:21" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2045-12-07 01:35:38",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2045-12-21 19:35:11",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2046-01-05 12:56:04",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2046-01-20 06:15:56",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2046-02-04 00:31:09",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2046-02-18 20:15:42",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2046-03-05 18:17:52",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2046-03-20 18:57:57",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2046-04-04 22:45:03",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2046-04-20 05:39:01",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2046-05-05 15:40:46",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2046-05-21 04:28:35",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2046-06-05 19:32:19",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2046-06-21 12:14:43",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2046-07-07 05:40:21",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2046-07-22 23:08:46",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2046-08-07 15:33:24",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2046-08-23 06:24:36",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2046-09-07 18:43:23",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2046-09-23 04:21:48",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2046-10-08 10:42:30",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2046-10-23 14:03:38",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2046-11-07 14:14:15",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2046-11-22 11:56:21",
+            },
         ],
     },
     BaziYearData {
@@ -4577,30 +15161,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2047-01-26",
         lichun_time: "2047-02-04 06:18:05",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2046-12-07 07:21:22" },
-            JieQiData { name: "冬至", time: "2046-12-22 01:28:33" },
-            JieQiData { name: "小寒", time: "2047-01-05 18:42:27" },
-            JieQiData { name: "大寒", time: "2047-01-20 12:10:02" },
-            JieQiData { name: "立春", time: "2047-02-04 06:18:05" },
-            JieQiData { name: "雨水", time: "2047-02-19 02:10:28" },
-            JieQiData { name: "惊蛰", time: "2047-03-06 00:05:22" },
-            JieQiData { name: "春分", time: "2047-03-21 00:52:45" },
-            JieQiData { name: "清明", time: "2047-04-05 04:32:46" },
-            JieQiData { name: "谷雨", time: "2047-04-20 11:32:38" },
-            JieQiData { name: "立夏", time: "2047-05-05 21:28:37" },
-            JieQiData { name: "小满", time: "2047-05-21 10:20:00" },
-            JieQiData { name: "芒种", time: "2047-06-06 01:20:57" },
-            JieQiData { name: "夏至", time: "2047-06-21 18:03:34" },
-            JieQiData { name: "小暑", time: "2047-07-07 11:30:34" },
-            JieQiData { name: "大暑", time: "2047-07-23 04:55:33" },
-            JieQiData { name: "立秋", time: "2047-08-07 21:25:57" },
-            JieQiData { name: "处暑", time: "2047-08-23 12:10:57" },
-            JieQiData { name: "白露", time: "2047-09-08 00:38:15" },
-            JieQiData { name: "秋分", time: "2047-09-23 10:08:11" },
-            JieQiData { name: "寒露", time: "2047-10-08 16:37:46" },
-            JieQiData { name: "霜降", time: "2047-10-23 19:48:40" },
-            JieQiData { name: "立冬", time: "2047-11-07 20:07:25" },
-            JieQiData { name: "小雪", time: "2047-11-22 17:38:21" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2046-12-07 07:21:22",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2046-12-22 01:28:33",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2047-01-05 18:42:27",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2047-01-20 12:10:02",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2047-02-04 06:18:05",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2047-02-19 02:10:28",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2047-03-06 00:05:22",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2047-03-21 00:52:45",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2047-04-05 04:32:46",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2047-04-20 11:32:38",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2047-05-05 21:28:37",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2047-05-21 10:20:00",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2047-06-06 01:20:57",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2047-06-21 18:03:34",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2047-07-07 11:30:34",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2047-07-23 04:55:33",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2047-08-07 21:25:57",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2047-08-23 12:10:57",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2047-09-08 00:38:15",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2047-09-23 10:08:11",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2047-10-08 16:37:46",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2047-10-23 19:48:40",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2047-11-07 20:07:25",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2047-11-22 17:38:21",
+            },
         ],
     },
     BaziYearData {
@@ -4608,30 +15264,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2048-02-14",
         lichun_time: "2048-02-04 12:04:44",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2047-12-07 13:11:06" },
-            JieQiData { name: "冬至", time: "2047-12-22 07:07:19" },
-            JieQiData { name: "小寒", time: "2048-01-06 00:29:29" },
-            JieQiData { name: "大寒", time: "2048-01-20 17:47:13" },
-            JieQiData { name: "立春", time: "2048-02-04 12:04:44" },
-            JieQiData { name: "雨水", time: "2048-02-19 07:48:36" },
-            JieQiData { name: "惊蛰", time: "2048-03-05 05:54:14" },
-            JieQiData { name: "春分", time: "2048-03-20 06:33:56" },
-            JieQiData { name: "清明", time: "2048-04-04 10:25:24" },
-            JieQiData { name: "谷雨", time: "2048-04-19 17:17:33" },
-            JieQiData { name: "立夏", time: "2048-05-05 03:24:36" },
-            JieQiData { name: "小满", time: "2048-05-20 16:08:09" },
-            JieQiData { name: "芒种", time: "2048-06-05 07:18:24" },
-            JieQiData { name: "夏至", time: "2048-06-20 23:54:02" },
-            JieQiData { name: "小暑", time: "2048-07-06 17:26:54" },
-            JieQiData { name: "大暑", time: "2048-07-22 10:47:02" },
-            JieQiData { name: "立秋", time: "2048-08-07 03:18:58" },
-            JieQiData { name: "处暑", time: "2048-08-22 18:02:36" },
-            JieQiData { name: "白露", time: "2048-09-07 06:28:12" },
-            JieQiData { name: "秋分", time: "2048-09-22 16:00:45" },
-            JieQiData { name: "寒露", time: "2048-10-07 22:26:50" },
-            JieQiData { name: "霜降", time: "2048-10-23 01:42:50" },
-            JieQiData { name: "立冬", time: "2048-11-07 01:56:56" },
-            JieQiData { name: "小雪", time: "2048-11-21 23:33:36" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2047-12-07 13:11:06",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2047-12-22 07:07:19",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2048-01-06 00:29:29",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2048-01-20 17:47:13",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2048-02-04 12:04:44",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2048-02-19 07:48:36",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2048-03-05 05:54:14",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2048-03-20 06:33:56",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2048-04-04 10:25:24",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2048-04-19 17:17:33",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2048-05-05 03:24:36",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2048-05-20 16:08:09",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2048-06-05 07:18:24",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2048-06-20 23:54:02",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2048-07-06 17:26:54",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2048-07-22 10:47:02",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2048-08-07 03:18:58",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2048-08-22 18:02:36",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2048-09-07 06:28:12",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2048-09-22 16:00:45",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2048-10-07 22:26:50",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2048-10-23 01:42:50",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2048-11-07 01:56:56",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2048-11-21 23:33:36",
+            },
         ],
     },
     BaziYearData {
@@ -4639,30 +15367,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2049-02-02",
         lichun_time: "2049-02-03 17:53:27",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2048-12-06 19:00:55" },
-            JieQiData { name: "冬至", time: "2048-12-21 13:02:21" },
-            JieQiData { name: "小寒", time: "2049-01-05 06:18:48" },
-            JieQiData { name: "大寒", time: "2049-01-19 23:41:19" },
-            JieQiData { name: "立春", time: "2049-02-03 17:53:27" },
-            JieQiData { name: "雨水", time: "2049-02-18 13:42:23" },
-            JieQiData { name: "惊蛰", time: "2049-03-05 11:43:01" },
-            JieQiData { name: "春分", time: "2049-03-20 12:28:44" },
-            JieQiData { name: "清明", time: "2049-04-04 16:14:29" },
-            JieQiData { name: "谷雨", time: "2049-04-19 23:13:35" },
-            JieQiData { name: "立夏", time: "2049-05-05 09:12:44" },
-            JieQiData { name: "小满", time: "2049-05-20 22:03:55" },
-            JieQiData { name: "芒种", time: "2049-06-05 13:03:50" },
-            JieQiData { name: "夏至", time: "2049-06-21 05:47:24" },
-            JieQiData { name: "小暑", time: "2049-07-06 23:08:55" },
-            JieQiData { name: "大暑", time: "2049-07-22 16:36:24" },
-            JieQiData { name: "立秋", time: "2049-08-07 08:58:01" },
-            JieQiData { name: "处暑", time: "2049-08-22 23:47:27" },
-            JieQiData { name: "白露", time: "2049-09-07 12:05:38" },
-            JieQiData { name: "秋分", time: "2049-09-22 21:42:44" },
-            JieQiData { name: "寒露", time: "2049-10-08 04:05:07" },
-            JieQiData { name: "霜降", time: "2049-10-23 07:25:18" },
-            JieQiData { name: "立冬", time: "2049-11-07 07:38:30" },
-            JieQiData { name: "小雪", time: "2049-11-22 05:19:23" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2048-12-06 19:00:55",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2048-12-21 13:02:21",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2049-01-05 06:18:48",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2049-01-19 23:41:19",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2049-02-03 17:53:27",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2049-02-18 13:42:23",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2049-03-05 11:43:01",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2049-03-20 12:28:44",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2049-04-04 16:14:29",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2049-04-19 23:13:35",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2049-05-05 09:12:44",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2049-05-20 22:03:55",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2049-06-05 13:03:50",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2049-06-21 05:47:24",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2049-07-06 23:08:55",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2049-07-22 16:36:24",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2049-08-07 08:58:01",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2049-08-22 23:47:27",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2049-09-07 12:05:38",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2049-09-22 21:42:44",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2049-10-08 04:05:07",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2049-10-23 07:25:18",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2049-11-07 07:38:30",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2049-11-22 05:19:23",
+            },
         ],
     },
     BaziYearData {
@@ -4670,30 +15470,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2050-01-23",
         lichun_time: "2050-02-03 23:43:54",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2049-12-07 00:46:44" },
-            JieQiData { name: "冬至", time: "2049-12-21 18:52:15" },
-            JieQiData { name: "小寒", time: "2050-01-05 12:08:00" },
-            JieQiData { name: "大寒", time: "2050-01-20 05:33:56" },
-            JieQiData { name: "立春", time: "2050-02-03 23:43:54" },
-            JieQiData { name: "雨水", time: "2050-02-18 19:35:13" },
-            JieQiData { name: "惊蛰", time: "2050-03-05 17:32:50" },
-            JieQiData { name: "春分", time: "2050-03-20 18:19:43" },
-            JieQiData { name: "清明", time: "2050-04-04 22:03:21" },
-            JieQiData { name: "谷雨", time: "2050-04-20 05:02:19" },
-            JieQiData { name: "立夏", time: "2050-05-05 15:02:06" },
-            JieQiData { name: "小满", time: "2050-05-21 03:50:57" },
-            JieQiData { name: "芒种", time: "2050-06-05 18:54:57" },
-            JieQiData { name: "夏至", time: "2050-06-21 11:33:08" },
-            JieQiData { name: "小暑", time: "2050-07-07 05:02:00" },
-            JieQiData { name: "大暑", time: "2050-07-22 22:21:30" },
-            JieQiData { name: "立秋", time: "2050-08-07 14:52:37" },
-            JieQiData { name: "处暑", time: "2050-08-23 05:32:48" },
-            JieQiData { name: "白露", time: "2050-09-07 18:00:47" },
-            JieQiData { name: "秋分", time: "2050-09-23 03:28:39" },
-            JieQiData { name: "寒露", time: "2050-10-08 10:00:17" },
-            JieQiData { name: "霜降", time: "2050-10-23 13:11:57" },
-            JieQiData { name: "立冬", time: "2050-11-07 13:33:47" },
-            JieQiData { name: "小雪", time: "2050-11-22 11:06:26" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2049-12-07 00:46:44",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2049-12-21 18:52:15",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2050-01-05 12:08:00",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2050-01-20 05:33:56",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2050-02-03 23:43:54",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2050-02-18 19:35:13",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2050-03-05 17:32:50",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2050-03-20 18:19:43",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2050-04-04 22:03:21",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2050-04-20 05:02:19",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2050-05-05 15:02:06",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2050-05-21 03:50:57",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2050-06-05 18:54:57",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2050-06-21 11:33:08",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2050-07-07 05:02:00",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2050-07-22 22:21:30",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2050-08-07 14:52:37",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2050-08-23 05:32:48",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2050-09-07 18:00:47",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2050-09-23 03:28:39",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2050-10-08 10:00:17",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2050-10-23 13:11:57",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2050-11-07 13:33:47",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2050-11-22 11:06:26",
+            },
         ],
     },
     BaziYearData {
@@ -4701,30 +15573,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2051-02-11",
         lichun_time: "2051-02-04 05:36:14",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2050-12-07 06:41:54" },
-            JieQiData { name: "冬至", time: "2050-12-22 00:38:48" },
-            JieQiData { name: "小寒", time: "2051-01-05 18:02:18" },
-            JieQiData { name: "大寒", time: "2051-01-20 11:18:54" },
-            JieQiData { name: "立春", time: "2051-02-04 05:36:14" },
-            JieQiData { name: "雨水", time: "2051-02-19 01:17:35" },
-            JieQiData { name: "惊蛰", time: "2051-03-05 23:22:10" },
-            JieQiData { name: "春分", time: "2051-03-20 23:59:19" },
-            JieQiData { name: "清明", time: "2051-04-05 03:49:48" },
-            JieQiData { name: "谷雨", time: "2051-04-20 10:40:47" },
-            JieQiData { name: "立夏", time: "2051-05-05 20:47:14" },
-            JieQiData { name: "小满", time: "2051-05-21 09:31:32" },
-            JieQiData { name: "芒种", time: "2051-06-06 00:40:50" },
-            JieQiData { name: "夏至", time: "2051-06-21 17:18:47" },
-            JieQiData { name: "小暑", time: "2051-07-07 10:49:34" },
-            JieQiData { name: "大暑", time: "2051-07-23 04:13:05" },
-            JieQiData { name: "立秋", time: "2051-08-07 20:41:57" },
-            JieQiData { name: "处暑", time: "2051-08-23 11:29:17" },
-            JieQiData { name: "白露", time: "2051-09-07 23:51:26" },
-            JieQiData { name: "秋分", time: "2051-09-23 09:27:30" },
-            JieQiData { name: "寒露", time: "2051-10-08 15:50:35" },
-            JieQiData { name: "霜降", time: "2051-10-23 19:10:14" },
-            JieQiData { name: "立冬", time: "2051-11-07 19:22:15" },
-            JieQiData { name: "小雪", time: "2051-11-22 17:02:58" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2050-12-07 06:41:54",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2050-12-22 00:38:48",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2051-01-05 18:02:18",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2051-01-20 11:18:54",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2051-02-04 05:36:14",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2051-02-19 01:17:35",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2051-03-05 23:22:10",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2051-03-20 23:59:19",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2051-04-05 03:49:48",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2051-04-20 10:40:47",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2051-05-05 20:47:14",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2051-05-21 09:31:32",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2051-06-06 00:40:50",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2051-06-21 17:18:47",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2051-07-07 10:49:34",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2051-07-23 04:13:05",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2051-08-07 20:41:57",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2051-08-23 11:29:17",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2051-09-07 23:51:26",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2051-09-23 09:27:30",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2051-10-08 15:50:35",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2051-10-23 19:10:14",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2051-11-07 19:22:15",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2051-11-22 17:02:58",
+            },
         ],
     },
     BaziYearData {
@@ -4732,30 +15676,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2052-02-01",
         lichun_time: "2052-02-04 11:23:05",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2051-12-07 12:28:45" },
-            JieQiData { name: "冬至", time: "2051-12-22 06:34:14" },
-            JieQiData { name: "小寒", time: "2052-01-05 23:48:40" },
-            JieQiData { name: "大寒", time: "2052-01-20 17:14:20" },
-            JieQiData { name: "立春", time: "2052-02-04 11:23:05" },
-            JieQiData { name: "雨水", time: "2052-02-19 07:13:45" },
-            JieQiData { name: "惊蛰", time: "2052-03-05 05:09:40" },
-            JieQiData { name: "春分", time: "2052-03-20 05:56:13" },
-            JieQiData { name: "清明", time: "2052-04-04 09:37:27" },
-            JieQiData { name: "谷雨", time: "2052-04-19 16:38:03" },
-            JieQiData { name: "立夏", time: "2052-05-05 02:34:54" },
-            JieQiData { name: "小满", time: "2052-05-20 15:29:06" },
-            JieQiData { name: "芒种", time: "2052-06-05 06:29:34" },
-            JieQiData { name: "夏至", time: "2052-06-20 23:16:20" },
-            JieQiData { name: "小暑", time: "2052-07-06 16:40:06" },
-            JieQiData { name: "大暑", time: "2052-07-22 10:08:58" },
-            JieQiData { name: "立秋", time: "2052-08-07 02:33:22" },
-            JieQiData { name: "处暑", time: "2052-08-22 17:21:36" },
-            JieQiData { name: "白露", time: "2052-09-07 05:42:16" },
-            JieQiData { name: "秋分", time: "2052-09-22 15:15:48" },
-            JieQiData { name: "寒露", time: "2052-10-07 21:39:56" },
-            JieQiData { name: "霜降", time: "2052-10-23 00:55:17" },
-            JieQiData { name: "立冬", time: "2052-11-07 01:09:59" },
-            JieQiData { name: "小雪", time: "2052-11-21 22:46:06" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2051-12-07 12:28:45",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2051-12-22 06:34:14",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2052-01-05 23:48:40",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2052-01-20 17:14:20",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2052-02-04 11:23:05",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2052-02-19 07:13:45",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2052-03-05 05:09:40",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2052-03-20 05:56:13",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2052-04-04 09:37:27",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2052-04-19 16:38:03",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2052-05-05 02:34:54",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2052-05-20 15:29:06",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2052-06-05 06:29:34",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2052-06-20 23:16:20",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2052-07-06 16:40:06",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2052-07-22 10:08:58",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2052-08-07 02:33:22",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2052-08-22 17:21:36",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2052-09-07 05:42:16",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2052-09-22 15:15:48",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2052-10-07 21:39:56",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2052-10-23 00:55:17",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2052-11-07 01:09:59",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2052-11-21 22:46:06",
+            },
         ],
     },
     BaziYearData {
@@ -4763,30 +15779,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2053-02-19",
         lichun_time: "2053-02-03 17:13:09",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2052-12-06 18:15:36" },
-            JieQiData { name: "冬至", time: "2052-12-21 12:17:19" },
-            JieQiData { name: "小寒", time: "2053-01-05 05:36:14" },
-            JieQiData { name: "大寒", time: "2053-01-19 22:59:21" },
-            JieQiData { name: "立春", time: "2053-02-03 17:13:09" },
-            JieQiData { name: "雨水", time: "2053-02-18 13:02:01" },
-            JieQiData { name: "惊蛰", time: "2053-03-05 11:03:24" },
-            JieQiData { name: "春分", time: "2053-03-20 11:47:30" },
-            JieQiData { name: "清明", time: "2053-04-04 15:34:36" },
-            JieQiData { name: "谷雨", time: "2053-04-19 22:30:22" },
-            JieQiData { name: "立夏", time: "2053-05-05 08:33:40" },
-            JieQiData { name: "小满", time: "2053-05-20 21:19:40" },
-            JieQiData { name: "芒种", time: "2053-06-05 12:27:45" },
-            JieQiData { name: "夏至", time: "2053-06-21 05:04:15" },
-            JieQiData { name: "小暑", time: "2053-07-06 22:37:15" },
-            JieQiData { name: "大暑", time: "2053-07-22 15:56:19" },
-            JieQiData { name: "立秋", time: "2053-08-07 08:30:07" },
-            JieQiData { name: "处暑", time: "2053-08-22 23:10:21" },
-            JieQiData { name: "白露", time: "2053-09-07 11:38:44" },
-            JieQiData { name: "秋分", time: "2053-09-22 21:06:25" },
-            JieQiData { name: "寒露", time: "2053-10-08 03:36:10" },
-            JieQiData { name: "霜降", time: "2053-10-23 06:47:21" },
-            JieQiData { name: "立冬", time: "2053-11-07 07:06:15" },
-            JieQiData { name: "小雪", time: "2053-11-22 04:38:53" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2052-12-06 18:15:36",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2052-12-21 12:17:19",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2053-01-05 05:36:14",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2053-01-19 22:59:21",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2053-02-03 17:13:09",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2053-02-18 13:02:01",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2053-03-05 11:03:24",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2053-03-20 11:47:30",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2053-04-04 15:34:36",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2053-04-19 22:30:22",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2053-05-05 08:33:40",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2053-05-20 21:19:40",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2053-06-05 12:27:45",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2053-06-21 05:04:15",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2053-07-06 22:37:15",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2053-07-22 15:56:19",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2053-08-07 08:30:07",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2053-08-22 23:10:21",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2053-09-07 11:38:44",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2053-09-22 21:06:25",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2053-10-08 03:36:10",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2053-10-23 06:47:21",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2053-11-07 07:06:15",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2053-11-22 04:38:53",
+            },
         ],
     },
     BaziYearData {
@@ -4794,30 +15882,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2054-02-08",
         lichun_time: "2054-02-03 23:08:01",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2053-12-07 00:11:58" },
-            JieQiData { name: "冬至", time: "2053-12-21 18:10:03" },
-            JieQiData { name: "小寒", time: "2054-01-05 11:32:23" },
-            JieQiData { name: "大寒", time: "2054-01-20 04:51:06" },
-            JieQiData { name: "立春", time: "2054-02-03 23:08:01" },
-            JieQiData { name: "雨水", time: "2054-02-18 18:51:40" },
-            JieQiData { name: "惊蛰", time: "2054-03-05 16:55:37" },
-            JieQiData { name: "春分", time: "2054-03-20 17:34:34" },
-            JieQiData { name: "清明", time: "2054-04-04 21:23:10" },
-            JieQiData { name: "谷雨", time: "2054-04-20 04:15:11" },
-            JieQiData { name: "立夏", time: "2054-05-05 14:17:57" },
-            JieQiData { name: "小满", time: "2054-05-21 03:03:05" },
-            JieQiData { name: "芒种", time: "2054-06-05 18:07:35" },
-            JieQiData { name: "夏至", time: "2054-06-21 10:47:18" },
-            JieQiData { name: "小暑", time: "2054-07-07 04:13:53" },
-            JieQiData { name: "大暑", time: "2054-07-22 21:40:45" },
-            JieQiData { name: "立秋", time: "2054-08-07 14:07:04" },
-            JieQiData { name: "处暑", time: "2054-08-23 04:58:33" },
-            JieQiData { name: "白露", time: "2054-09-07 17:19:40" },
-            JieQiData { name: "秋分", time: "2054-09-23 02:59:36" },
-            JieQiData { name: "寒露", time: "2054-10-08 09:22:19" },
-            JieQiData { name: "霜降", time: "2054-10-23 12:44:56" },
-            JieQiData { name: "立冬", time: "2054-11-07 12:56:23" },
-            JieQiData { name: "小雪", time: "2054-11-22 10:38:58" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2053-12-07 00:11:58",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2053-12-21 18:10:03",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2054-01-05 11:32:23",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2054-01-20 04:51:06",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2054-02-03 23:08:01",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2054-02-18 18:51:40",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2054-03-05 16:55:37",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2054-03-20 17:34:34",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2054-04-04 21:23:10",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2054-04-20 04:15:11",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2054-05-05 14:17:57",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2054-05-21 03:03:05",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2054-06-05 18:07:35",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2054-06-21 10:47:18",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2054-07-07 04:13:53",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2054-07-22 21:40:45",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2054-08-07 14:07:04",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2054-08-23 04:58:33",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2054-09-07 17:19:40",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2054-09-23 02:59:36",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2054-10-08 09:22:19",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2054-10-23 12:44:56",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2054-11-07 12:56:23",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2054-11-22 10:38:58",
+            },
         ],
     },
     BaziYearData {
@@ -4825,30 +15985,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2055-01-28",
         lichun_time: "2055-02-04 04:55:54",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2054-12-07 06:03:30" },
-            JieQiData { name: "冬至", time: "2054-12-22 00:10:03" },
-            JieQiData { name: "小寒", time: "2055-01-05 17:22:40" },
-            JieQiData { name: "大寒", time: "2055-01-20 10:49:07" },
-            JieQiData { name: "立春", time: "2055-02-04 04:55:54" },
-            JieQiData { name: "雨水", time: "2055-02-19 00:47:25" },
-            JieQiData { name: "惊蛰", time: "2055-03-05 22:41:32" },
-            JieQiData { name: "春分", time: "2055-03-20 23:28:44" },
-            JieQiData { name: "清明", time: "2055-04-05 03:08:19" },
-            JieQiData { name: "谷雨", time: "2055-04-20 10:08:39" },
-            JieQiData { name: "立夏", time: "2055-05-05 20:03:57" },
-            JieQiData { name: "小满", time: "2055-05-21 08:56:19" },
-            JieQiData { name: "芒种", time: "2055-06-05 23:55:59" },
-            JieQiData { name: "夏至", time: "2055-06-21 16:39:59" },
-            JieQiData { name: "小暑", time: "2055-07-07 10:05:19" },
-            JieQiData { name: "大暑", time: "2055-07-23 03:32:08" },
-            JieQiData { name: "立秋", time: "2055-08-07 20:01:08" },
-            JieQiData { name: "处暑", time: "2055-08-23 10:48:40" },
-            JieQiData { name: "白露", time: "2055-09-07 23:15:38" },
-            JieQiData { name: "秋分", time: "2055-09-23 08:48:52" },
-            JieQiData { name: "寒露", time: "2055-10-08 15:19:08" },
-            JieQiData { name: "霜降", time: "2055-10-23 18:33:25" },
-            JieQiData { name: "立冬", time: "2055-11-07 18:52:50" },
-            JieQiData { name: "小雪", time: "2055-11-22 16:26:16" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2054-12-07 06:03:30",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2054-12-22 00:10:03",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2055-01-05 17:22:40",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2055-01-20 10:49:07",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2055-02-04 04:55:54",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2055-02-19 00:47:25",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2055-03-05 22:41:32",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2055-03-20 23:28:44",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2055-04-05 03:08:19",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2055-04-20 10:08:39",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2055-05-05 20:03:57",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2055-05-21 08:56:19",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2055-06-05 23:55:59",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2055-06-21 16:39:59",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2055-07-07 10:05:19",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2055-07-23 03:32:08",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2055-08-07 20:01:08",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2055-08-23 10:48:40",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2055-09-07 23:15:38",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2055-09-23 08:48:52",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2055-10-08 15:19:08",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2055-10-23 18:33:25",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2055-11-07 18:52:50",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2055-11-22 16:26:16",
+            },
         ],
     },
     BaziYearData {
@@ -4856,30 +16088,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2056-02-15",
         lichun_time: "2056-02-04 10:47:14",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2055-12-07 11:58:34" },
-            JieQiData { name: "冬至", time: "2055-12-22 05:55:42" },
-            JieQiData { name: "小寒", time: "2056-01-05 23:15:46" },
-            JieQiData { name: "大寒", time: "2056-01-20 16:33:01" },
-            JieQiData { name: "立春", time: "2056-02-04 10:47:14" },
-            JieQiData { name: "雨水", time: "2056-02-19 06:30:02" },
-            JieQiData { name: "惊蛰", time: "2056-03-05 04:32:13" },
-            JieQiData { name: "春分", time: "2056-03-20 05:11:10" },
-            JieQiData { name: "清明", time: "2056-04-04 09:00:04" },
-            JieQiData { name: "谷雨", time: "2056-04-19 15:52:12" },
-            JieQiData { name: "立夏", time: "2056-05-05 01:58:04" },
-            JieQiData { name: "小满", time: "2056-05-20 14:42:02" },
-            JieQiData { name: "芒种", time: "2056-06-05 05:52:25" },
-            JieQiData { name: "夏至", time: "2056-06-20 22:28:20" },
-            JieQiData { name: "小暑", time: "2056-07-06 16:02:26" },
-            JieQiData { name: "大暑", time: "2056-07-22 09:22:20" },
-            JieQiData { name: "立秋", time: "2056-08-07 01:56:09" },
-            JieQiData { name: "处暑", time: "2056-08-22 16:39:09" },
-            JieQiData { name: "白露", time: "2056-09-07 05:07:23" },
-            JieQiData { name: "秋分", time: "2056-09-22 14:39:36" },
-            JieQiData { name: "寒露", time: "2056-10-07 21:09:11" },
-            JieQiData { name: "霜降", time: "2056-10-23 00:25:27" },
-            JieQiData { name: "立冬", time: "2056-11-07 00:43:25" },
-            JieQiData { name: "小雪", time: "2056-11-21 22:20:20" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2055-12-07 11:58:34",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2055-12-22 05:55:42",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2056-01-05 23:15:46",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2056-01-20 16:33:01",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2056-02-04 10:47:14",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2056-02-19 06:30:02",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2056-03-05 04:32:13",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2056-03-20 05:11:10",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2056-04-04 09:00:04",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2056-04-19 15:52:12",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2056-05-05 01:58:04",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2056-05-20 14:42:02",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2056-06-05 05:52:25",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2056-06-20 22:28:20",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2056-07-06 16:02:26",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2056-07-22 09:22:20",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2056-08-07 01:56:09",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2056-08-22 16:39:09",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2056-09-07 05:07:23",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2056-09-22 14:39:36",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2056-10-07 21:09:11",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2056-10-23 00:25:27",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2056-11-07 00:43:25",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2056-11-21 22:20:20",
+            },
         ],
     },
     BaziYearData {
@@ -4887,30 +16191,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2057-02-04",
         lichun_time: "2057-02-03 16:42:35",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2056-12-06 17:51:00" },
-            JieQiData { name: "冬至", time: "2056-12-21 11:51:44" },
-            JieQiData { name: "小寒", time: "2057-01-05 05:10:08" },
-            JieQiData { name: "大寒", time: "2057-01-19 22:30:16" },
-            JieQiData { name: "立春", time: "2057-02-03 16:42:35" },
-            JieQiData { name: "雨水", time: "2057-02-18 12:27:30" },
-            JieQiData { name: "惊蛰", time: "2057-03-05 10:27:05" },
-            JieQiData { name: "春分", time: "2057-03-20 11:08:02" },
-            JieQiData { name: "清明", time: "2057-04-04 14:52:41" },
-            JieQiData { name: "谷雨", time: "2057-04-19 21:47:37" },
-            JieQiData { name: "立夏", time: "2057-05-05 07:46:43" },
-            JieQiData { name: "小满", time: "2057-05-20 20:35:20" },
-            JieQiData { name: "芒种", time: "2057-06-05 11:36:23" },
-            JieQiData { name: "夏至", time: "2057-06-21 04:19:11" },
-            JieQiData { name: "小暑", time: "2057-07-06 21:42:31" },
-            JieQiData { name: "大暑", time: "2057-07-22 15:10:48" },
-            JieQiData { name: "立秋", time: "2057-08-07 07:34:00" },
-            JieQiData { name: "处暑", time: "2057-08-22 22:25:07" },
-            JieQiData { name: "白露", time: "2057-09-07 10:44:10" },
-            JieQiData { name: "秋分", time: "2057-09-22 20:23:23" },
-            JieQiData { name: "寒露", time: "2057-10-08 02:46:14" },
-            JieQiData { name: "霜降", time: "2057-10-23 06:09:06" },
-            JieQiData { name: "立冬", time: "2057-11-07 06:22:52" },
-            JieQiData { name: "小雪", time: "2057-11-22 04:06:47" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2056-12-06 17:51:00",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2056-12-21 11:51:44",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2057-01-05 05:10:08",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2057-01-19 22:30:16",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2057-02-03 16:42:35",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2057-02-18 12:27:30",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2057-03-05 10:27:05",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2057-03-20 11:08:02",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2057-04-04 14:52:41",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2057-04-19 21:47:37",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2057-05-05 07:46:43",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2057-05-20 20:35:20",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2057-06-05 11:36:23",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2057-06-21 04:19:11",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2057-07-06 21:42:31",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2057-07-22 15:10:48",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2057-08-07 07:34:00",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2057-08-22 22:25:07",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2057-09-07 10:44:10",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2057-09-22 20:23:23",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2057-10-08 02:46:14",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2057-10-23 06:09:06",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2057-11-07 06:22:52",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2057-11-22 04:06:47",
+            },
         ],
     },
     BaziYearData {
@@ -4918,30 +16294,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2058-01-24",
         lichun_time: "2058-02-03 22:34:35",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2057-12-06 23:34:43" },
-            JieQiData { name: "冬至", time: "2057-12-21 17:42:57" },
-            JieQiData { name: "小寒", time: "2058-01-05 10:58:37" },
-            JieQiData { name: "大寒", time: "2058-01-20 04:26:07" },
-            JieQiData { name: "立春", time: "2058-02-03 22:34:35" },
-            JieQiData { name: "雨水", time: "2058-02-18 18:25:43" },
-            JieQiData { name: "惊蛰", time: "2058-03-05 16:19:58" },
-            JieQiData { name: "春分", time: "2058-03-20 17:05:07" },
-            JieQiData { name: "清明", time: "2058-04-04 20:44:03" },
-            JieQiData { name: "谷雨", time: "2058-04-20 03:40:58" },
-            JieQiData { name: "立夏", time: "2058-05-05 13:36:04" },
-            JieQiData { name: "小满", time: "2058-05-21 02:24:09" },
-            JieQiData { name: "芒种", time: "2058-06-05 17:24:49" },
-            JieQiData { name: "夏至", time: "2058-06-21 10:04:09" },
-            JieQiData { name: "小暑", time: "2058-07-07 03:31:36" },
-            JieQiData { name: "大暑", time: "2058-07-22 20:53:53" },
-            JieQiData { name: "立秋", time: "2058-08-07 13:25:20" },
-            JieQiData { name: "处暑", time: "2058-08-23 04:08:50" },
-            JieQiData { name: "白露", time: "2058-09-07 16:38:05" },
-            JieQiData { name: "秋分", time: "2058-09-23 02:08:30" },
-            JieQiData { name: "寒露", time: "2058-10-08 08:41:18" },
-            JieQiData { name: "霜降", time: "2058-10-23 11:54:29" },
-            JieQiData { name: "立冬", time: "2058-11-07 12:17:12" },
-            JieQiData { name: "小雪", time: "2058-11-22 09:50:52" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2057-12-06 23:34:43",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2057-12-21 17:42:57",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2058-01-05 10:58:37",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2058-01-20 04:26:07",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2058-02-03 22:34:35",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2058-02-18 18:25:43",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2058-03-05 16:19:58",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2058-03-20 17:05:07",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2058-04-04 20:44:03",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2058-04-20 03:40:58",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2058-05-05 13:36:04",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2058-05-21 02:24:09",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2058-06-05 17:24:49",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2058-06-21 10:04:09",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2058-07-07 03:31:36",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2058-07-22 20:53:53",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2058-08-07 13:25:20",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2058-08-23 04:08:50",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2058-09-07 16:38:05",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2058-09-23 02:08:30",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2058-10-08 08:41:18",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2058-10-23 11:54:29",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2058-11-07 12:17:12",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2058-11-22 09:50:52",
+            },
         ],
     },
     BaziYearData {
@@ -4949,30 +16397,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2059-02-12",
         lichun_time: "2059-02-04 04:24:01",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2058-12-07 05:27:10" },
-            JieQiData { name: "冬至", time: "2058-12-21 23:25:03" },
-            JieQiData { name: "小寒", time: "2059-01-05 16:49:15" },
-            JieQiData { name: "大寒", time: "2059-01-20 10:06:37" },
-            JieQiData { name: "立春", time: "2059-02-04 04:24:01" },
-            JieQiData { name: "雨水", time: "2059-02-19 00:05:18" },
-            JieQiData { name: "惊蛰", time: "2059-03-05 22:08:48" },
-            JieQiData { name: "春分", time: "2059-03-20 22:44:22" },
-            JieQiData { name: "清明", time: "2059-04-05 02:32:30" },
-            JieQiData { name: "谷雨", time: "2059-04-20 09:20:21" },
-            JieQiData { name: "立夏", time: "2059-05-05 19:24:02" },
-            JieQiData { name: "小满", time: "2059-05-21 08:04:39" },
-            JieQiData { name: "芒种", time: "2059-06-05 23:12:20" },
-            JieQiData { name: "夏至", time: "2059-06-21 15:47:22" },
-            JieQiData { name: "小暑", time: "2059-07-07 09:18:53" },
-            JieQiData { name: "大暑", time: "2059-07-23 02:40:58" },
-            JieQiData { name: "立秋", time: "2059-08-07 19:12:47" },
-            JieQiData { name: "处暑", time: "2059-08-23 10:00:15" },
-            JieQiData { name: "白露", time: "2059-09-07 22:26:38" },
-            JieQiData { name: "秋分", time: "2059-09-23 08:03:37" },
-            JieQiData { name: "寒露", time: "2059-10-08 14:30:41" },
-            JieQiData { name: "霜降", time: "2059-10-23 17:50:52" },
-            JieQiData { name: "立冬", time: "2059-11-07 18:05:44" },
-            JieQiData { name: "小雪", time: "2059-11-22 15:46:02" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2058-12-07 05:27:10",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2058-12-21 23:25:03",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2059-01-05 16:49:15",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2059-01-20 10:06:37",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2059-02-04 04:24:01",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2059-02-19 00:05:18",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2059-03-05 22:08:48",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2059-03-20 22:44:22",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2059-04-05 02:32:30",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2059-04-20 09:20:21",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2059-05-05 19:24:02",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2059-05-21 08:04:39",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2059-06-05 23:12:20",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2059-06-21 15:47:22",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2059-07-07 09:18:53",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2059-07-23 02:40:58",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2059-08-07 19:12:47",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2059-08-23 10:00:15",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2059-09-07 22:26:38",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2059-09-23 08:03:37",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2059-10-08 14:30:41",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2059-10-23 17:50:52",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2059-11-07 18:05:44",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2059-11-22 15:46:02",
+            },
         ],
     },
     BaziYearData {
@@ -4980,30 +16500,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2060-02-02",
         lichun_time: "2060-02-04 10:08:14",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2059-12-07 11:13:40" },
-            JieQiData { name: "冬至", time: "2059-12-22 05:18:03" },
-            JieQiData { name: "小寒", time: "2060-01-05 22:33:55" },
-            JieQiData { name: "大寒", time: "2060-01-20 15:58:12" },
-            JieQiData { name: "立春", time: "2060-02-04 10:08:14" },
-            JieQiData { name: "雨水", time: "2060-02-19 05:57:19" },
-            JieQiData { name: "惊蛰", time: "2060-03-05 03:54:09" },
-            JieQiData { name: "春分", time: "2060-03-20 04:38:35" },
-            JieQiData { name: "清明", time: "2060-04-04 08:19:48" },
-            JieQiData { name: "谷雨", time: "2060-04-19 15:17:26" },
-            JieQiData { name: "立夏", time: "2060-05-05 01:12:52" },
-            JieQiData { name: "小满", time: "2060-05-20 14:03:34" },
-            JieQiData { name: "芒种", time: "2060-06-05 05:01:37" },
-            JieQiData { name: "夏至", time: "2060-06-20 21:45:43" },
-            JieQiData { name: "小暑", time: "2060-07-06 15:07:19" },
-            JieQiData { name: "大暑", time: "2060-07-22 08:35:49" },
-            JieQiData { name: "立秋", time: "2060-08-07 00:59:12" },
-            JieQiData { name: "处暑", time: "2060-08-22 15:49:37" },
-            JieQiData { name: "白露", time: "2060-09-07 04:10:40" },
-            JieQiData { name: "秋分", time: "2060-09-22 13:48:16" },
-            JieQiData { name: "寒露", time: "2060-10-07 20:13:34" },
-            JieQiData { name: "霜降", time: "2060-10-22 23:33:28" },
-            JieQiData { name: "立冬", time: "2060-11-06 23:48:56" },
-            JieQiData { name: "小雪", time: "2060-11-21 21:28:41" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2059-12-07 11:13:40",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2059-12-22 05:18:03",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2060-01-05 22:33:55",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2060-01-20 15:58:12",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2060-02-04 10:08:14",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2060-02-19 05:57:19",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2060-03-05 03:54:09",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2060-03-20 04:38:35",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2060-04-04 08:19:48",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2060-04-19 15:17:26",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2060-05-05 01:12:52",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2060-05-20 14:03:34",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2060-06-05 05:01:37",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2060-06-20 21:45:43",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2060-07-06 15:07:19",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2060-07-22 08:35:49",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2060-08-07 00:59:12",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2060-08-22 15:49:37",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2060-09-07 04:10:40",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2060-09-22 13:48:16",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2060-10-07 20:13:34",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2060-10-22 23:33:28",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2060-11-06 23:48:56",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2060-11-21 21:28:41",
+            },
         ],
     },
     BaziYearData {
@@ -5011,30 +16603,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2061-01-21",
         lichun_time: "2061-02-03 15:53:47",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2060-12-06 16:57:37" },
-            JieQiData { name: "冬至", time: "2060-12-21 11:01:31" },
-            JieQiData { name: "小寒", time: "2061-01-05 04:18:30" },
-            JieQiData { name: "大寒", time: "2061-01-19 21:42:41" },
-            JieQiData { name: "立春", time: "2061-02-03 15:53:47" },
-            JieQiData { name: "雨水", time: "2061-02-18 11:43:14" },
-            JieQiData { name: "惊蛰", time: "2061-03-05 09:41:42" },
-            JieQiData { name: "春分", time: "2061-03-20 10:26:20" },
-            JieQiData { name: "清明", time: "2061-04-04 14:10:26" },
-            JieQiData { name: "谷雨", time: "2061-04-19 21:06:35" },
-            JieQiData { name: "立夏", time: "2061-05-05 07:06:33" },
-            JieQiData { name: "小满", time: "2061-05-20 19:52:21" },
-            JieQiData { name: "芒种", time: "2061-06-05 10:56:41" },
-            JieQiData { name: "夏至", time: "2061-06-21 03:32:18" },
-            JieQiData { name: "小暑", time: "2061-07-06 21:02:08" },
-            JieQiData { name: "大暑", time: "2061-07-22 14:20:24" },
-            JieQiData { name: "立秋", time: "2061-08-07 06:52:53" },
-            JieQiData { name: "处暑", time: "2061-08-22 21:33:11" },
-            JieQiData { name: "白露", time: "2061-09-07 10:02:36" },
-            JieQiData { name: "秋分", time: "2061-09-22 19:31:27" },
-            JieQiData { name: "寒露", time: "2061-10-08 02:04:10" },
-            JieQiData { name: "霜降", time: "2061-10-23 05:17:17" },
-            JieQiData { name: "立冬", time: "2061-11-07 05:39:55" },
-            JieQiData { name: "小雪", time: "2061-11-22 03:14:15" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2060-12-06 16:57:37",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2060-12-21 11:01:31",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2061-01-05 04:18:30",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2061-01-19 21:42:41",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2061-02-03 15:53:47",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2061-02-18 11:43:14",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2061-03-05 09:41:42",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2061-03-20 10:26:20",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2061-04-04 14:10:26",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2061-04-19 21:06:35",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2061-05-05 07:06:33",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2061-05-20 19:52:21",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2061-06-05 10:56:41",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2061-06-21 03:32:18",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2061-07-06 21:02:08",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2061-07-22 14:20:24",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2061-08-07 06:52:53",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2061-08-22 21:33:11",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2061-09-07 10:02:36",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2061-09-22 19:31:27",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2061-10-08 02:04:10",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2061-10-23 05:17:17",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2061-11-07 05:39:55",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2061-11-22 03:14:15",
+            },
         ],
     },
     BaziYearData {
@@ -5042,30 +16706,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2062-02-09",
         lichun_time: "2062-02-03 21:47:05",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2061-12-06 22:50:26" },
-            JieQiData { name: "冬至", time: "2061-12-21 16:48:55" },
-            JieQiData { name: "小寒", time: "2062-01-05 10:12:45" },
-            JieQiData { name: "大寒", time: "2062-01-20 03:30:14" },
-            JieQiData { name: "立春", time: "2062-02-03 21:47:05" },
-            JieQiData { name: "雨水", time: "2062-02-18 17:28:19" },
-            JieQiData { name: "惊蛰", time: "2062-03-05 15:31:27" },
-            JieQiData { name: "春分", time: "2062-03-20 16:07:33" },
-            JieQiData { name: "清明", time: "2062-04-04 19:55:29" },
-            JieQiData { name: "谷雨", time: "2062-04-20 02:44:42" },
-            JieQiData { name: "立夏", time: "2062-05-05 12:47:29" },
-            JieQiData { name: "小满", time: "2062-05-21 01:29:50" },
-            JieQiData { name: "芒种", time: "2062-06-05 16:34:49" },
-            JieQiData { name: "夏至", time: "2062-06-21 09:11:27" },
-            JieQiData { name: "小暑", time: "2062-07-07 02:38:28" },
-            JieQiData { name: "大暑", time: "2062-07-22 20:02:14" },
-            JieQiData { name: "立秋", time: "2062-08-07 12:28:58" },
-            JieQiData { name: "处暑", time: "2062-08-23 03:18:22" },
-            JieQiData { name: "白露", time: "2062-09-07 15:40:28" },
-            JieQiData { name: "秋分", time: "2062-09-23 01:19:59" },
-            JieQiData { name: "寒露", time: "2062-10-08 07:44:36" },
-            JieQiData { name: "霜降", time: "2062-10-23 11:08:25" },
-            JieQiData { name: "立冬", time: "2062-11-07 11:22:34" },
-            JieQiData { name: "小雪", time: "2062-11-22 09:07:11" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2061-12-06 22:50:26",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2061-12-21 16:48:55",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2062-01-05 10:12:45",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2062-01-20 03:30:14",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2062-02-03 21:47:05",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2062-02-18 17:28:19",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2062-03-05 15:31:27",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2062-03-20 16:07:33",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2062-04-04 19:55:29",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2062-04-20 02:44:42",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2062-05-05 12:47:29",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2062-05-21 01:29:50",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2062-06-05 16:34:49",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2062-06-21 09:11:27",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2062-07-07 02:38:28",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2062-07-22 20:02:14",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2062-08-07 12:28:58",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2062-08-23 03:18:22",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2062-09-07 15:40:28",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2062-09-23 01:19:59",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2062-10-08 07:44:36",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2062-10-23 11:08:25",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2062-11-07 11:22:34",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2062-11-22 09:07:11",
+            },
         ],
     },
     BaziYearData {
@@ -5073,30 +16809,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2063-01-29",
         lichun_time: "2063-02-04 03:31:12",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2062-12-07 04:34:31" },
-            JieQiData { name: "冬至", time: "2062-12-21 22:42:44" },
-            JieQiData { name: "小寒", time: "2063-01-05 15:57:16" },
-            JieQiData { name: "大寒", time: "2063-01-20 09:24:01" },
-            JieQiData { name: "立春", time: "2063-02-04 03:31:12" },
-            JieQiData { name: "雨水", time: "2063-02-18 23:21:23" },
-            JieQiData { name: "惊蛰", time: "2063-03-05 21:14:26" },
-            JieQiData { name: "春分", time: "2063-03-20 21:59:16" },
-            JieQiData { name: "清明", time: "2063-04-05 01:36:57" },
-            JieQiData { name: "谷雨", time: "2063-04-20 08:35:03" },
-            JieQiData { name: "立夏", time: "2063-05-05 18:28:21" },
-            JieQiData { name: "小满", time: "2063-05-21 07:19:41" },
-            JieQiData { name: "芒种", time: "2063-06-05 22:17:37" },
-            JieQiData { name: "夏至", time: "2063-06-21 15:01:58" },
-            JieQiData { name: "小暑", time: "2063-07-07 08:25:30" },
-            JieQiData { name: "大暑", time: "2063-07-23 01:53:23" },
-            JieQiData { name: "立秋", time: "2063-08-07 18:20:08" },
-            JieQiData { name: "处暑", time: "2063-08-23 09:08:52" },
-            JieQiData { name: "白露", time: "2063-09-07 21:33:35" },
-            JieQiData { name: "秋分", time: "2063-09-23 07:08:18" },
-            JieQiData { name: "寒露", time: "2063-10-08 13:36:57" },
-            JieQiData { name: "霜降", time: "2063-10-23 16:53:22" },
-            JieQiData { name: "立冬", time: "2063-11-07 17:12:08" },
-            JieQiData { name: "小雪", time: "2063-11-22 14:48:25" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2062-12-07 04:34:31",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2062-12-21 22:42:44",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2063-01-05 15:57:16",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2063-01-20 09:24:01",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2063-02-04 03:31:12",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2063-02-18 23:21:23",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2063-03-05 21:14:26",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2063-03-20 21:59:16",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2063-04-05 01:36:57",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2063-04-20 08:35:03",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2063-05-05 18:28:21",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2063-05-21 07:19:41",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2063-06-05 22:17:37",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2063-06-21 15:01:58",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2063-07-07 08:25:30",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2063-07-23 01:53:23",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2063-08-07 18:20:08",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2063-08-23 09:08:52",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2063-09-07 21:33:35",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2063-09-23 07:08:18",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2063-10-08 13:36:57",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2063-10-23 16:53:22",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2063-11-07 17:12:08",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2063-11-22 14:48:25",
+            },
         ],
     },
     BaziYearData {
@@ -5104,30 +16912,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2064-02-17",
         lichun_time: "2064-02-04 09:14:52",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2063-12-07 10:20:47" },
-            JieQiData { name: "冬至", time: "2063-12-22 04:21:09" },
-            JieQiData { name: "小寒", time: "2064-01-05 21:41:18" },
-            JieQiData { name: "大寒", time: "2064-01-20 15:01:25" },
-            JieQiData { name: "立春", time: "2064-02-04 09:14:52" },
-            JieQiData { name: "雨水", time: "2064-02-19 04:59:23" },
-            JieQiData { name: "惊蛰", time: "2064-03-05 02:59:25" },
-            JieQiData { name: "春分", time: "2064-03-20 03:38:42" },
-            JieQiData { name: "清明", time: "2064-04-04 07:24:24" },
-            JieQiData { name: "谷雨", time: "2064-04-19 14:15:55" },
-            JieQiData { name: "立夏", time: "2064-05-05 00:18:34" },
-            JieQiData { name: "小满", time: "2064-05-20 13:01:48" },
-            JieQiData { name: "芒种", time: "2064-06-05 04:10:10" },
-            JieQiData { name: "夏至", time: "2064-06-20 20:45:43" },
-            JieQiData { name: "小暑", time: "2064-07-06 14:19:39" },
-            JieQiData { name: "大暑", time: "2064-07-22 07:39:26" },
-            JieQiData { name: "立秋", time: "2064-08-07 00:14:22" },
-            JieQiData { name: "处暑", time: "2064-08-22 14:56:44" },
-            JieQiData { name: "白露", time: "2064-09-07 03:26:24" },
-            JieQiData { name: "秋分", time: "2064-09-22 12:57:08" },
-            JieQiData { name: "寒露", time: "2064-10-07 19:28:01" },
-            JieQiData { name: "霜降", time: "2064-10-22 22:42:20" },
-            JieQiData { name: "立冬", time: "2064-11-06 23:01:41" },
-            JieQiData { name: "小雪", time: "2064-11-21 20:36:49" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2063-12-07 10:20:47",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2063-12-22 04:21:09",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2064-01-05 21:41:18",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2064-01-20 15:01:25",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2064-02-04 09:14:52",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2064-02-19 04:59:23",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2064-03-05 02:59:25",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2064-03-20 03:38:42",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2064-04-04 07:24:24",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2064-04-19 14:15:55",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2064-05-05 00:18:34",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2064-05-20 13:01:48",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2064-06-05 04:10:10",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2064-06-20 20:45:43",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2064-07-06 14:19:39",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2064-07-22 07:39:26",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2064-08-07 00:14:22",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2064-08-22 14:56:44",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2064-09-07 03:26:24",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2064-09-22 12:57:08",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2064-10-07 19:28:01",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2064-10-22 22:42:20",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2064-11-06 23:01:41",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2064-11-21 20:36:49",
+            },
         ],
     },
     BaziYearData {
@@ -5135,30 +17015,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2065-02-05",
         lichun_time: "2065-02-03 15:03:41",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2064-12-06 16:09:19" },
-            JieQiData { name: "冬至", time: "2064-12-21 10:08:50" },
-            JieQiData { name: "小寒", time: "2065-01-05 03:29:34" },
-            JieQiData { name: "大寒", time: "2065-01-19 20:48:54" },
-            JieQiData { name: "立春", time: "2065-02-03 15:03:41" },
-            JieQiData { name: "雨水", time: "2065-02-18 10:47:38" },
-            JieQiData { name: "惊蛰", time: "2065-03-05 08:49:10" },
-            JieQiData { name: "春分", time: "2065-03-20 09:28:15" },
-            JieQiData { name: "清明", time: "2065-04-04 13:13:58" },
-            JieQiData { name: "谷雨", time: "2065-04-19 20:05:57" },
-            JieQiData { name: "立夏", time: "2065-05-05 06:05:27" },
-            JieQiData { name: "小满", time: "2065-05-20 18:50:46" },
-            JieQiData { name: "芒种", time: "2065-06-05 09:52:13" },
-            JieQiData { name: "夏至", time: "2065-06-21 02:32:32" },
-            JieQiData { name: "小暑", time: "2065-07-06 19:56:52" },
-            JieQiData { name: "大暑", time: "2065-07-22 13:24:28" },
-            JieQiData { name: "立秋", time: "2065-08-07 05:49:19" },
-            JieQiData { name: "处暑", time: "2065-08-22 20:41:24" },
-            JieQiData { name: "白露", time: "2065-09-07 09:01:59" },
-            JieQiData { name: "秋分", time: "2065-09-22 18:42:39" },
-            JieQiData { name: "寒露", time: "2065-10-08 01:05:57" },
-            JieQiData { name: "霜降", time: "2065-10-23 04:29:43" },
-            JieQiData { name: "立冬", time: "2065-11-07 04:42:37" },
-            JieQiData { name: "小雪", time: "2065-11-22 02:26:37" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2064-12-06 16:09:19",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2064-12-21 10:08:50",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2065-01-05 03:29:34",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2065-01-19 20:48:54",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2065-02-03 15:03:41",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2065-02-18 10:47:38",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2065-03-05 08:49:10",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2065-03-20 09:28:15",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2065-04-04 13:13:58",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2065-04-19 20:05:57",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2065-05-05 06:05:27",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2065-05-20 18:50:46",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2065-06-05 09:52:13",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2065-06-21 02:32:32",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2065-07-06 19:56:52",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2065-07-22 13:24:28",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2065-08-07 05:49:19",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2065-08-22 20:41:24",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2065-09-07 09:01:59",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2065-09-22 18:42:39",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2065-10-08 01:05:57",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2065-10-23 04:29:43",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2065-11-07 04:42:37",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2065-11-22 02:26:37",
+            },
         ],
     },
     BaziYearData {
@@ -5166,30 +17118,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2066-01-26",
         lichun_time: "2066-02-03 20:49:22",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2065-12-06 21:52:54" },
-            JieQiData { name: "冬至", time: "2065-12-21 16:00:49" },
-            JieQiData { name: "小寒", time: "2066-01-05 09:14:49" },
-            JieQiData { name: "大寒", time: "2066-01-20 02:42:08" },
-            JieQiData { name: "立春", time: "2066-02-03 20:49:22" },
-            JieQiData { name: "雨水", time: "2066-02-18 16:40:45" },
-            JieQiData { name: "惊蛰", time: "2066-03-05 14:34:08" },
-            JieQiData { name: "春分", time: "2066-03-20 15:19:52" },
-            JieQiData { name: "清明", time: "2066-04-04 18:57:46" },
-            JieQiData { name: "谷雨", time: "2066-04-20 01:55:18" },
-            JieQiData { name: "立夏", time: "2066-05-05 11:48:42" },
-            JieQiData { name: "小满", time: "2066-05-21 00:37:30" },
-            JieQiData { name: "芒种", time: "2066-06-05 15:35:54" },
-            JieQiData { name: "夏至", time: "2066-06-21 08:16:27" },
-            JieQiData { name: "小暑", time: "2066-07-07 01:41:55" },
-            JieQiData { name: "大暑", time: "2066-07-22 19:06:20" },
-            JieQiData { name: "立秋", time: "2066-08-07 11:36:57" },
-            JieQiData { name: "处暑", time: "2066-08-23 02:23:32" },
-            JieQiData { name: "白露", time: "2066-09-07 14:53:21" },
-            JieQiData { name: "秋分", time: "2066-09-23 00:27:03" },
-            JieQiData { name: "寒露", time: "2066-10-08 07:00:52" },
-            JieQiData { name: "霜降", time: "2066-10-23 10:16:26" },
-            JieQiData { name: "立冬", time: "2066-11-07 10:39:16" },
-            JieQiData { name: "小雪", time: "2066-11-22 08:13:38" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2065-12-06 21:52:54",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2065-12-21 16:00:49",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2066-01-05 09:14:49",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2066-01-20 02:42:08",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2066-02-03 20:49:22",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2066-02-18 16:40:45",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2066-03-05 14:34:08",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2066-03-20 15:19:52",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2066-04-04 18:57:46",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2066-04-20 01:55:18",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2066-05-05 11:48:42",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2066-05-21 00:37:30",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2066-06-05 15:35:54",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2066-06-21 08:16:27",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2066-07-07 01:41:55",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2066-07-22 19:06:20",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2066-08-07 11:36:57",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2066-08-23 02:23:32",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2066-09-07 14:53:21",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2066-09-23 00:27:03",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2066-10-08 07:00:52",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2066-10-23 10:16:26",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2066-11-07 10:39:16",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2066-11-22 08:13:38",
+            },
         ],
     },
     BaziYearData {
@@ -5197,30 +17221,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2067-02-14",
         lichun_time: "2067-02-04 02:37:20",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2066-12-07 03:48:30" },
-            JieQiData { name: "冬至", time: "2066-12-21 21:45:34" },
-            JieQiData { name: "小寒", time: "2067-01-05 15:07:05" },
-            JieQiData { name: "大寒", time: "2067-01-20 08:22:56" },
-            JieQiData { name: "立春", time: "2067-02-04 02:37:20" },
-            JieQiData { name: "雨水", time: "2067-02-18 22:17:23" },
-            JieQiData { name: "惊蛰", time: "2067-03-05 20:18:32" },
-            JieQiData { name: "春分", time: "2067-03-20 20:53:40" },
-            JieQiData { name: "清明", time: "2067-04-05 00:40:37" },
-            JieQiData { name: "谷雨", time: "2067-04-20 07:28:38" },
-            JieQiData { name: "立夏", time: "2067-05-05 17:32:12" },
-            JieQiData { name: "小满", time: "2067-05-21 06:12:57" },
-            JieQiData { name: "芒种", time: "2067-06-05 21:21:21" },
-            JieQiData { name: "夏至", time: "2067-06-21 13:56:03" },
-            JieQiData { name: "小暑", time: "2067-07-07 07:29:10" },
-            JieQiData { name: "大暑", time: "2067-07-23 00:50:39" },
-            JieQiData { name: "立秋", time: "2067-08-07 17:25:06" },
-            JieQiData { name: "处暑", time: "2067-08-23 08:12:16" },
-            JieQiData { name: "白露", time: "2067-09-07 20:42:19" },
-            JieQiData { name: "秋分", time: "2067-09-23 06:19:41" },
-            JieQiData { name: "寒露", time: "2067-10-08 12:50:58" },
-            JieQiData { name: "霜降", time: "2067-10-23 16:11:49" },
-            JieQiData { name: "立冬", time: "2067-11-07 16:30:28" },
-            JieQiData { name: "小雪", time: "2067-11-22 14:10:38" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2066-12-07 03:48:30",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2066-12-21 21:45:34",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2067-01-05 15:07:05",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2067-01-20 08:22:56",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2067-02-04 02:37:20",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2067-02-18 22:17:23",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2067-03-05 20:18:32",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2067-03-20 20:53:40",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2067-04-05 00:40:37",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2067-04-20 07:28:38",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2067-05-05 17:32:12",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2067-05-21 06:12:57",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2067-06-05 21:21:21",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2067-06-21 13:56:03",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2067-07-07 07:29:10",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2067-07-23 00:50:39",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2067-08-07 17:25:06",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2067-08-23 08:12:16",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2067-09-07 20:42:19",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2067-09-23 06:19:41",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2067-10-08 12:50:58",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2067-10-23 16:11:49",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2067-11-07 16:30:28",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2067-11-22 14:10:38",
+            },
         ],
     },
     BaziYearData {
@@ -5228,30 +17324,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2068-02-03",
         lichun_time: "2068-02-04 08:29:03",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2067-12-07 09:40:38" },
-            JieQiData { name: "冬至", time: "2067-12-22 03:43:08" },
-            JieQiData { name: "小寒", time: "2068-01-05 20:59:27" },
-            JieQiData { name: "大寒", time: "2068-01-20 14:20:00" },
-            JieQiData { name: "立春", time: "2068-02-04 08:29:03" },
-            JieQiData { name: "雨水", time: "2068-02-19 04:13:26" },
-            JieQiData { name: "惊蛰", time: "2068-03-05 02:08:56" },
-            JieQiData { name: "春分", time: "2068-03-20 02:49:03" },
-            JieQiData { name: "清明", time: "2068-04-04 06:29:44" },
-            JieQiData { name: "谷雨", time: "2068-04-19 13:24:25" },
-            JieQiData { name: "立夏", time: "2068-05-04 23:20:36" },
-            JieQiData { name: "小满", time: "2068-05-20 12:10:02" },
-            JieQiData { name: "芒种", time: "2068-06-05 03:09:34" },
-            JieQiData { name: "夏至", time: "2068-06-20 19:53:48" },
-            JieQiData { name: "小暑", time: "2068-07-06 13:16:53" },
-            JieQiData { name: "大暑", time: "2068-07-22 06:46:42" },
-            JieQiData { name: "立秋", time: "2068-08-06 23:11:09" },
-            JieQiData { name: "处暑", time: "2068-08-22 14:03:57" },
-            JieQiData { name: "白露", time: "2068-09-07 02:25:51" },
-            JieQiData { name: "秋分", time: "2068-09-22 12:06:48" },
-            JieQiData { name: "寒露", time: "2068-10-07 18:33:05" },
-            JieQiData { name: "霜降", time: "2068-10-22 21:56:59" },
-            JieQiData { name: "立冬", time: "2068-11-06 22:13:25" },
-            JieQiData { name: "小雪", time: "2068-11-21 19:57:01" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2067-12-07 09:40:38",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2067-12-22 03:43:08",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2068-01-05 20:59:27",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2068-01-20 14:20:00",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2068-02-04 08:29:03",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2068-02-19 04:13:26",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2068-03-05 02:08:56",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2068-03-20 02:49:03",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2068-04-04 06:29:44",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2068-04-19 13:24:25",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2068-05-04 23:20:36",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2068-05-20 12:10:02",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2068-06-05 03:09:34",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2068-06-20 19:53:48",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2068-07-06 13:16:53",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2068-07-22 06:46:42",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2068-08-06 23:11:09",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2068-08-22 14:03:57",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2068-09-07 02:25:51",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2068-09-22 12:06:48",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2068-10-07 18:33:05",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2068-10-22 21:56:59",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2068-11-06 22:13:25",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2068-11-21 19:57:01",
+            },
         ],
     },
     BaziYearData {
@@ -5259,30 +17427,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2069-01-23",
         lichun_time: "2069-02-03 14:20:50",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2068-12-06 15:26:11" },
-            JieQiData { name: "冬至", time: "2068-12-21 09:32:42" },
-            JieQiData { name: "小寒", time: "2069-01-05 02:48:18" },
-            JieQiData { name: "大寒", time: "2069-01-19 20:13:09" },
-            JieQiData { name: "立春", time: "2069-02-03 14:20:50" },
-            JieQiData { name: "雨水", time: "2069-02-18 10:09:02" },
-            JieQiData { name: "惊蛰", time: "2069-03-05 08:02:34" },
-            JieQiData { name: "春分", time: "2069-03-20 08:45:05" },
-            JieQiData { name: "清明", time: "2069-04-04 12:24:00" },
-            JieQiData { name: "谷雨", time: "2069-04-19 19:18:45" },
-            JieQiData { name: "立夏", time: "2069-05-05 05:14:43" },
-            JieQiData { name: "小满", time: "2069-05-20 18:01:02" },
-            JieQiData { name: "芒种", time: "2069-06-05 09:03:20" },
-            JieQiData { name: "夏至", time: "2069-06-21 01:41:18" },
-            JieQiData { name: "小暑", time: "2069-07-06 19:10:58" },
-            JieQiData { name: "大暑", time: "2069-07-22 12:32:22" },
-            JieQiData { name: "立秋", time: "2069-08-07 05:06:01" },
-            JieQiData { name: "处暑", time: "2069-08-22 19:49:17" },
-            JieQiData { name: "白露", time: "2069-09-07 08:20:39" },
-            JieQiData { name: "秋分", time: "2069-09-22 17:51:54" },
-            JieQiData { name: "寒露", time: "2069-10-08 00:27:01" },
-            JieQiData { name: "霜降", time: "2069-10-23 03:42:11" },
-            JieQiData { name: "立冬", time: "2069-11-07 04:07:28" },
-            JieQiData { name: "小雪", time: "2069-11-22 01:43:38" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2068-12-06 15:26:11",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2068-12-21 09:32:42",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2069-01-05 02:48:18",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2069-01-19 20:13:09",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2069-02-03 14:20:50",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2069-02-18 10:09:02",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2069-03-05 08:02:34",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2069-03-20 08:45:05",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2069-04-04 12:24:00",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2069-04-19 19:18:45",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2069-05-05 05:14:43",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2069-05-20 18:01:02",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2069-06-05 09:03:20",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2069-06-21 01:41:18",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2069-07-06 19:10:58",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2069-07-22 12:32:22",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2069-08-07 05:06:01",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2069-08-22 19:49:17",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2069-09-07 08:20:39",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2069-09-22 17:51:54",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2069-10-08 00:27:01",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2069-10-23 03:42:11",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2069-11-07 04:07:28",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2069-11-22 01:43:38",
+            },
         ],
     },
     BaziYearData {
@@ -5290,30 +17530,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2070-02-11",
         lichun_time: "2070-02-03 20:21:48",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2069-12-06 21:22:20" },
-            JieQiData { name: "冬至", time: "2069-12-21 15:22:04" },
-            JieQiData { name: "小寒", time: "2070-01-05 08:47:32" },
-            JieQiData { name: "大寒", time: "2070-01-20 02:05:01" },
-            JieQiData { name: "立春", time: "2070-02-03 20:21:48" },
-            JieQiData { name: "雨水", time: "2070-02-18 16:01:14" },
-            JieQiData { name: "惊蛰", time: "2070-03-05 14:02:25" },
-            JieQiData { name: "春分", time: "2070-03-20 14:34:55" },
-            JieQiData { name: "清明", time: "2070-04-04 18:19:47" },
-            JieQiData { name: "谷雨", time: "2070-04-20 01:04:31" },
-            JieQiData { name: "立夏", time: "2070-05-05 11:04:47" },
-            JieQiData { name: "小满", time: "2070-05-20 23:43:18" },
-            JieQiData { name: "芒种", time: "2070-06-05 14:48:01" },
-            JieQiData { name: "夏至", time: "2070-06-21 07:22:36" },
-            JieQiData { name: "小暑", time: "2070-07-07 00:52:04" },
-            JieQiData { name: "大暑", time: "2070-07-22 18:15:42" },
-            JieQiData { name: "立秋", time: "2070-08-07 10:46:36" },
-            JieQiData { name: "处暑", time: "2070-08-23 01:37:10" },
-            JieQiData { name: "白露", time: "2070-09-07 14:03:48" },
-            JieQiData { name: "秋分", time: "2070-09-22 23:44:51" },
-            JieQiData { name: "寒露", time: "2070-10-08 06:13:21" },
-            JieQiData { name: "霜降", time: "2070-10-23 09:38:23" },
-            JieQiData { name: "立冬", time: "2070-11-07 09:55:33" },
-            JieQiData { name: "小雪", time: "2070-11-22 07:40:56" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2069-12-06 21:22:20",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2069-12-21 15:22:04",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2070-01-05 08:47:32",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2070-01-20 02:05:01",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2070-02-03 20:21:48",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2070-02-18 16:01:14",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2070-03-05 14:02:25",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2070-03-20 14:34:55",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2070-04-04 18:19:47",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2070-04-20 01:04:31",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2070-05-05 11:04:47",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2070-05-20 23:43:18",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2070-06-05 14:48:01",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2070-06-21 07:22:36",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2070-07-07 00:52:04",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2070-07-22 18:15:42",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2070-08-07 10:46:36",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2070-08-23 01:37:10",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2070-09-07 14:03:48",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2070-09-22 23:44:51",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2070-10-08 06:13:21",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2070-10-23 09:38:23",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2070-11-07 09:55:33",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2070-11-22 07:40:56",
+            },
         ],
     },
     BaziYearData {
@@ -5321,30 +17633,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2071-01-31",
         lichun_time: "2071-02-04 02:10:50",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2070-12-07 03:10:45" },
-            JieQiData { name: "冬至", time: "2070-12-21 21:19:20" },
-            JieQiData { name: "小寒", time: "2071-01-05 14:35:55" },
-            JieQiData { name: "大寒", time: "2071-01-20 08:02:25" },
-            JieQiData { name: "立春", time: "2071-02-04 02:10:50" },
-            JieQiData { name: "雨水", time: "2071-02-18 21:59:41" },
-            JieQiData { name: "惊蛰", time: "2071-03-05 19:52:35" },
-            JieQiData { name: "春分", time: "2071-03-20 20:34:41" },
-            JieQiData { name: "清明", time: "2071-04-05 00:10:36" },
-            JieQiData { name: "谷雨", time: "2071-04-20 07:04:52" },
-            JieQiData { name: "立夏", time: "2071-05-05 16:55:13" },
-            JieQiData { name: "小满", time: "2071-05-21 05:42:59" },
-            JieQiData { name: "芒种", time: "2071-06-05 20:37:57" },
-            JieQiData { name: "夏至", time: "2071-06-21 13:20:50" },
-            JieQiData { name: "小暑", time: "2071-07-07 06:42:47" },
-            JieQiData { name: "大暑", time: "2071-07-23 00:12:15" },
-            JieQiData { name: "立秋", time: "2071-08-07 16:39:09" },
-            JieQiData { name: "处暑", time: "2071-08-23 07:31:53" },
-            JieQiData { name: "白露", time: "2071-09-07 19:57:57" },
-            JieQiData { name: "秋分", time: "2071-09-23 05:37:44" },
-            JieQiData { name: "寒露", time: "2071-10-08 12:07:58" },
-            JieQiData { name: "霜降", time: "2071-10-23 15:29:10" },
-            JieQiData { name: "立冬", time: "2071-11-07 15:48:42" },
-            JieQiData { name: "小雪", time: "2071-11-22 13:28:42" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2070-12-07 03:10:45",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2070-12-21 21:19:20",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2071-01-05 14:35:55",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2071-01-20 08:02:25",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2071-02-04 02:10:50",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2071-02-18 21:59:41",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2071-03-05 19:52:35",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2071-03-20 20:34:41",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2071-04-05 00:10:36",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2071-04-20 07:04:52",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2071-05-05 16:55:13",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2071-05-21 05:42:59",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2071-06-05 20:37:57",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2071-06-21 13:20:50",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2071-07-07 06:42:47",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2071-07-23 00:12:15",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2071-08-07 16:39:09",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2071-08-23 07:31:53",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2071-09-07 19:57:57",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2071-09-23 05:37:44",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2071-10-08 12:07:58",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2071-10-23 15:29:10",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2071-11-07 15:48:42",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2071-11-22 13:28:42",
+            },
         ],
     },
     BaziYearData {
@@ -5352,30 +17736,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2072-02-19",
         lichun_time: "2072-02-04 07:57:00",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2071-12-07 09:00:47" },
-            JieQiData { name: "冬至", time: "2071-12-22 03:03:52" },
-            JieQiData { name: "小寒", time: "2072-01-05 20:22:57" },
-            JieQiData { name: "大寒", time: "2072-01-20 13:45:09" },
-            JieQiData { name: "立春", time: "2072-02-04 07:57:00" },
-            JieQiData { name: "雨水", time: "2072-02-19 03:43:07" },
-            JieQiData { name: "惊蛰", time: "2072-03-05 01:40:56" },
-            JieQiData { name: "春分", time: "2072-03-20 02:21:04" },
-            JieQiData { name: "清明", time: "2072-04-04 06:03:41" },
-            JieQiData { name: "谷雨", time: "2072-04-19 12:55:00" },
-            JieQiData { name: "立夏", time: "2072-05-04 22:53:42" },
-            JieQiData { name: "小满", time: "2072-05-20 11:35:39" },
-            JieQiData { name: "芒种", time: "2072-06-05 02:39:56" },
-            JieQiData { name: "夏至", time: "2072-06-20 19:13:48" },
-            JieQiData { name: "小暑", time: "2072-07-06 12:45:10" },
-            JieQiData { name: "大暑", time: "2072-07-22 06:04:08" },
-            JieQiData { name: "立秋", time: "2072-08-06 22:39:20" },
-            JieQiData { name: "处暑", time: "2072-08-22 13:22:30" },
-            JieQiData { name: "白露", time: "2072-09-07 01:55:08" },
-            JieQiData { name: "秋分", time: "2072-09-22 11:27:50" },
-            JieQiData { name: "寒露", time: "2072-10-07 18:03:16" },
-            JieQiData { name: "霜降", time: "2072-10-22 21:19:52" },
-            JieQiData { name: "立冬", time: "2072-11-06 21:43:50" },
-            JieQiData { name: "小雪", time: "2072-11-21 19:20:26" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2071-12-07 09:00:47",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2071-12-22 03:03:52",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2072-01-05 20:22:57",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2072-01-20 13:45:09",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2072-02-04 07:57:00",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2072-02-19 03:43:07",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2072-03-05 01:40:56",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2072-03-20 02:21:04",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2072-04-04 06:03:41",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2072-04-19 12:55:00",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2072-05-04 22:53:42",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2072-05-20 11:35:39",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2072-06-05 02:39:56",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2072-06-20 19:13:48",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2072-07-06 12:45:10",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2072-07-22 06:04:08",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2072-08-06 22:39:20",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2072-08-22 13:22:30",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2072-09-07 01:55:08",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2072-09-22 11:27:50",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2072-10-07 18:03:16",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2072-10-22 21:19:52",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2072-11-06 21:43:50",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2072-11-21 19:20:26",
+            },
         ],
     },
     BaziYearData {
@@ -5383,30 +17839,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2073-02-07",
         lichun_time: "2073-02-03 13:52:44",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2072-12-06 14:56:27" },
-            JieQiData { name: "冬至", time: "2072-12-21 08:56:01" },
-            JieQiData { name: "小寒", time: "2073-01-05 02:18:50" },
-            JieQiData { name: "大寒", time: "2073-01-19 19:36:58" },
-            JieQiData { name: "立春", time: "2073-02-03 13:52:44" },
-            JieQiData { name: "雨水", time: "2073-02-18 09:34:45" },
-            JieQiData { name: "惊蛰", time: "2073-03-05 07:36:42" },
-            JieQiData { name: "春分", time: "2073-03-20 08:13:20" },
-            JieQiData { name: "清明", time: "2073-04-04 11:59:16" },
-            JieQiData { name: "谷雨", time: "2073-04-19 18:48:13" },
-            JieQiData { name: "立夏", time: "2073-05-05 04:47:47" },
-            JieQiData { name: "小满", time: "2073-05-20 17:29:28" },
-            JieQiData { name: "芒种", time: "2073-06-05 08:30:39" },
-            JieQiData { name: "夏至", time: "2073-06-21 01:07:00" },
-            JieQiData { name: "小暑", time: "2073-07-06 18:30:50" },
-            JieQiData { name: "大暑", time: "2073-07-22 11:55:13" },
-            JieQiData { name: "立秋", time: "2073-08-07 04:20:13" },
-            JieQiData { name: "处暑", time: "2073-08-22 19:11:13" },
-            JieQiData { name: "白露", time: "2073-09-07 07:33:18" },
-            JieQiData { name: "秋分", time: "2073-09-22 17:15:17" },
-            JieQiData { name: "寒露", time: "2073-10-07 23:41:16" },
-            JieQiData { name: "霜降", time: "2073-10-23 03:08:01" },
-            JieQiData { name: "立冬", time: "2073-11-07 03:24:05" },
-            JieQiData { name: "小雪", time: "2073-11-22 01:11:27" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2072-12-06 14:56:27",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2072-12-21 08:56:01",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2073-01-05 02:18:50",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2073-01-19 19:36:58",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2073-02-03 13:52:44",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2073-02-18 09:34:45",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2073-03-05 07:36:42",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2073-03-20 08:13:20",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2073-04-04 11:59:16",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2073-04-19 18:48:13",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2073-05-05 04:47:47",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2073-05-20 17:29:28",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2073-06-05 08:30:39",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2073-06-21 01:07:00",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2073-07-06 18:30:50",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2073-07-22 11:55:13",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2073-08-07 04:20:13",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2073-08-22 19:11:13",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2073-09-07 07:33:18",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2073-09-22 17:15:17",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2073-10-07 23:41:16",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2073-10-23 03:08:01",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2073-11-07 03:24:05",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2073-11-22 01:11:27",
+            },
         ],
     },
     BaziYearData {
@@ -5414,30 +17942,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2074-01-27",
         lichun_time: "2074-02-03 19:41:15",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2073-12-06 20:40:24" },
-            JieQiData { name: "冬至", time: "2073-12-21 14:50:42" },
-            JieQiData { name: "小寒", time: "2074-01-05 08:06:03" },
-            JieQiData { name: "大寒", time: "2074-01-20 01:34:08" },
-            JieQiData { name: "立春", time: "2074-02-03 19:41:15" },
-            JieQiData { name: "雨水", time: "2074-02-18 15:32:03" },
-            JieQiData { name: "惊蛰", time: "2074-03-05 13:24:17" },
-            JieQiData { name: "春分", time: "2074-03-20 14:08:52" },
-            JieQiData { name: "清明", time: "2074-04-04 17:45:07" },
-            JieQiData { name: "谷雨", time: "2074-04-20 00:41:43" },
-            JieQiData { name: "立夏", time: "2074-05-05 10:33:09" },
-            JieQiData { name: "小满", time: "2074-05-20 23:21:38" },
-            JieQiData { name: "芒种", time: "2074-06-05 14:17:40" },
-            JieQiData { name: "夏至", time: "2074-06-21 06:58:26" },
-            JieQiData { name: "小暑", time: "2074-07-07 00:20:58" },
-            JieQiData { name: "大暑", time: "2074-07-22 17:45:43" },
-            JieQiData { name: "立秋", time: "2074-08-07 10:13:13" },
-            JieQiData { name: "处暑", time: "2074-08-23 01:00:33" },
-            JieQiData { name: "白露", time: "2074-09-07 13:28:16" },
-            JieQiData { name: "秋分", time: "2074-09-22 23:03:47" },
-            JieQiData { name: "寒露", time: "2074-10-08 05:37:13" },
-            JieQiData { name: "霜降", time: "2074-10-23 08:55:48" },
-            JieQiData { name: "立冬", time: "2074-11-07 09:19:42" },
-            JieQiData { name: "小雪", time: "2074-11-22 06:57:53" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2073-12-06 20:40:24",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2073-12-21 14:50:42",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2074-01-05 08:06:03",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2074-01-20 01:34:08",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2074-02-03 19:41:15",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2074-02-18 15:32:03",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2074-03-05 13:24:17",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2074-03-20 14:08:52",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2074-04-04 17:45:07",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2074-04-20 00:41:43",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2074-05-05 10:33:09",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2074-05-20 23:21:38",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2074-06-05 14:17:40",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2074-06-21 06:58:26",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2074-07-07 00:20:58",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2074-07-22 17:45:43",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2074-08-07 10:13:13",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2074-08-23 01:00:33",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2074-09-07 13:28:16",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2074-09-22 23:03:47",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2074-10-08 05:37:13",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2074-10-23 08:55:48",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2074-11-07 09:19:42",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2074-11-22 06:57:53",
+            },
         ],
     },
     BaziYearData {
@@ -5445,30 +18045,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2075-02-15",
         lichun_time: "2075-02-04 01:30:36",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2074-12-07 02:34:25" },
-            JieQiData { name: "冬至", time: "2074-12-21 20:35:14" },
-            JieQiData { name: "小寒", time: "2075-01-05 13:57:51" },
-            JieQiData { name: "大寒", time: "2075-01-20 07:16:30" },
-            JieQiData { name: "立春", time: "2075-02-04 01:30:36" },
-            JieQiData { name: "雨水", time: "2075-02-18 21:11:59" },
-            JieQiData { name: "惊蛰", time: "2075-03-05 19:11:21" },
-            JieQiData { name: "春分", time: "2075-03-20 19:46:33" },
-            JieQiData { name: "清明", time: "2075-04-04 23:31:00" },
-            JieQiData { name: "谷雨", time: "2075-04-20 06:18:23" },
-            JieQiData { name: "立夏", time: "2075-05-05 16:19:41" },
-            JieQiData { name: "小满", time: "2075-05-21 04:59:35" },
-            JieQiData { name: "芒种", time: "2075-06-05 20:06:41" },
-            JieQiData { name: "夏至", time: "2075-06-21 12:40:26" },
-            JieQiData { name: "小暑", time: "2075-07-07 06:13:28" },
-            JieQiData { name: "大暑", time: "2075-07-22 23:33:28" },
-            JieQiData { name: "立秋", time: "2075-08-07 16:08:22" },
-            JieQiData { name: "处暑", time: "2075-08-23 06:53:13" },
-            JieQiData { name: "白露", time: "2075-09-07 19:23:56" },
-            JieQiData { name: "秋分", time: "2075-09-23 04:58:49" },
-            JieQiData { name: "寒露", time: "2075-10-08 11:31:26" },
-            JieQiData { name: "霜降", time: "2075-10-23 14:50:36" },
-            JieQiData { name: "立冬", time: "2075-11-07 15:11:36" },
-            JieQiData { name: "小雪", time: "2075-11-22 12:51:10" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2074-12-07 02:34:25",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2074-12-21 20:35:14",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2075-01-05 13:57:51",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2075-01-20 07:16:30",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2075-02-04 01:30:36",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2075-02-18 21:11:59",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2075-03-05 19:11:21",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2075-03-20 19:46:33",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2075-04-04 23:31:00",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2075-04-20 06:18:23",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2075-05-05 16:19:41",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2075-05-21 04:59:35",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2075-06-05 20:06:41",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2075-06-21 12:40:26",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2075-07-07 06:13:28",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2075-07-22 23:33:28",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2075-08-07 16:08:22",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2075-08-23 06:53:13",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2075-09-07 19:23:56",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2075-09-23 04:58:49",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2075-10-08 11:31:26",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2075-10-23 14:50:36",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2075-11-07 15:11:36",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2075-11-22 12:51:10",
+            },
         ],
     },
     BaziYearData {
@@ -5476,30 +18148,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2076-02-05",
         lichun_time: "2076-02-04 07:19:52",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2075-12-07 08:24:27" },
-            JieQiData { name: "冬至", time: "2075-12-22 02:27:04" },
-            JieQiData { name: "小寒", time: "2076-01-05 19:47:03" },
-            JieQiData { name: "大寒", time: "2076-01-20 13:07:40" },
-            JieQiData { name: "立春", time: "2076-02-04 07:19:52" },
-            JieQiData { name: "雨水", time: "2076-02-19 03:03:25" },
-            JieQiData { name: "惊蛰", time: "2076-03-05 01:00:54" },
-            JieQiData { name: "春分", time: "2076-03-20 01:38:51" },
-            JieQiData { name: "清明", time: "2076-04-04 05:20:20" },
-            JieQiData { name: "谷雨", time: "2076-04-19 12:11:57" },
-            JieQiData { name: "立夏", time: "2076-05-04 22:08:22" },
-            JieQiData { name: "小满", time: "2076-05-20 10:54:48" },
-            JieQiData { name: "芒种", time: "2076-06-05 01:54:33" },
-            JieQiData { name: "夏至", time: "2076-06-20 18:36:46" },
-            JieQiData { name: "小暑", time: "2076-07-06 12:00:23" },
-            JieQiData { name: "大暑", time: "2076-07-22 05:29:40" },
-            JieQiData { name: "立秋", time: "2076-08-06 21:54:33" },
-            JieQiData { name: "处暑", time: "2076-08-22 12:47:41" },
-            JieQiData { name: "白露", time: "2076-09-07 01:09:00" },
-            JieQiData { name: "秋分", time: "2076-09-22 10:50:15" },
-            JieQiData { name: "寒露", time: "2076-10-07 17:14:52" },
-            JieQiData { name: "霜降", time: "2076-10-22 20:39:00" },
-            JieQiData { name: "立冬", time: "2076-11-06 20:53:28" },
-            JieQiData { name: "小雪", time: "2076-11-21 18:37:42" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2075-12-07 08:24:27",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2075-12-22 02:27:04",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2076-01-05 19:47:03",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2076-01-20 13:07:40",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2076-02-04 07:19:52",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2076-02-19 03:03:25",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2076-03-05 01:00:54",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2076-03-20 01:38:51",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2076-04-04 05:20:20",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2076-04-19 12:11:57",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2076-05-04 22:08:22",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2076-05-20 10:54:48",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2076-06-05 01:54:33",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2076-06-20 18:36:46",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2076-07-06 12:00:23",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2076-07-22 05:29:40",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2076-08-06 21:54:33",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2076-08-22 12:47:41",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2076-09-07 01:09:00",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2076-09-22 10:50:15",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2076-10-07 17:14:52",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2076-10-22 20:39:00",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2076-11-06 20:53:28",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2076-11-21 18:37:42",
+            },
         ],
     },
     BaziYearData {
@@ -5507,30 +18251,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2077-01-24",
         lichun_time: "2077-02-03 13:03:06",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2076-12-06 14:05:29" },
-            JieQiData { name: "冬至", time: "2076-12-21 08:13:22" },
-            JieQiData { name: "小寒", time: "2077-01-05 01:28:28" },
-            JieQiData { name: "大寒", time: "2077-01-19 18:55:23" },
-            JieQiData { name: "立春", time: "2077-02-03 13:03:06" },
-            JieQiData { name: "雨水", time: "2077-02-18 08:53:32" },
-            JieQiData { name: "惊蛰", time: "2077-03-05 06:46:50" },
-            JieQiData { name: "春分", time: "2077-03-20 07:31:04" },
-            JieQiData { name: "清明", time: "2077-04-04 11:08:43" },
-            JieQiData { name: "谷雨", time: "2077-04-19 18:04:25" },
-            JieQiData { name: "立夏", time: "2077-05-05 03:58:03" },
-            JieQiData { name: "小满", time: "2077-05-20 16:45:00" },
-            JieQiData { name: "芒种", time: "2077-06-05 07:44:33" },
-            JieQiData { name: "夏至", time: "2077-06-21 00:23:27" },
-            JieQiData { name: "小暑", time: "2077-07-06 17:50:51" },
-            JieQiData { name: "大暑", time: "2077-07-22 11:13:50" },
-            JieQiData { name: "立秋", time: "2077-08-07 03:46:29" },
-            JieQiData { name: "处暑", time: "2077-08-22 18:31:47" },
-            JieQiData { name: "白露", time: "2077-09-07 07:03:09" },
-            JieQiData { name: "秋分", time: "2077-09-22 16:35:50" },
-            JieQiData { name: "寒露", time: "2077-10-07 23:10:47" },
-            JieQiData { name: "霜降", time: "2077-10-23 02:25:59" },
-            JieQiData { name: "立冬", time: "2077-11-07 02:50:15" },
-            JieQiData { name: "小雪", time: "2077-11-22 00:25:20" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2076-12-06 14:05:29",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2076-12-21 08:13:22",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2077-01-05 01:28:28",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2077-01-19 18:55:23",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2077-02-03 13:03:06",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2077-02-18 08:53:32",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2077-03-05 06:46:50",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2077-03-20 07:31:04",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2077-04-04 11:08:43",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2077-04-19 18:04:25",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2077-05-05 03:58:03",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2077-05-20 16:45:00",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2077-06-05 07:44:33",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2077-06-21 00:23:27",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2077-07-06 17:50:51",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2077-07-22 11:13:50",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2077-08-07 03:46:29",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2077-08-22 18:31:47",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2077-09-07 07:03:09",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2077-09-22 16:35:50",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2077-10-07 23:10:47",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2077-10-23 02:25:59",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2077-11-07 02:50:15",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2077-11-22 00:25:20",
+            },
         ],
     },
     BaziYearData {
@@ -5538,30 +18354,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2078-02-12",
         lichun_time: "2078-02-03 18:57:21",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2077-12-06 20:02:26" },
-            JieQiData { name: "冬至", time: "2077-12-21 14:00:48" },
-            JieQiData { name: "小寒", time: "2078-01-05 07:24:46" },
-            JieQiData { name: "大寒", time: "2078-01-20 00:41:23" },
-            JieQiData { name: "立春", time: "2078-02-03 18:57:21" },
-            JieQiData { name: "雨水", time: "2078-02-18 14:36:46" },
-            JieQiData { name: "惊蛰", time: "2078-03-05 12:37:53" },
-            JieQiData { name: "春分", time: "2078-03-20 13:10:51" },
-            JieQiData { name: "清明", time: "2078-04-04 16:56:05" },
-            JieQiData { name: "谷雨", time: "2078-04-19 23:40:54" },
-            JieQiData { name: "立夏", time: "2078-05-05 09:41:37" },
-            JieQiData { name: "小满", time: "2078-05-20 22:19:22" },
-            JieQiData { name: "芒种", time: "2078-06-05 13:24:45" },
-            JieQiData { name: "夏至", time: "2078-06-21 05:57:56" },
-            JieQiData { name: "小暑", time: "2078-07-06 23:28:47" },
-            JieQiData { name: "大暑", time: "2078-07-22 16:50:56" },
-            JieQiData { name: "立秋", time: "2078-08-07 09:24:08" },
-            JieQiData { name: "处暑", time: "2078-08-23 00:13:54" },
-            JieQiData { name: "白露", time: "2078-09-07 12:43:38" },
-            JieQiData { name: "秋分", time: "2078-09-22 22:24:31" },
-            JieQiData { name: "寒露", time: "2078-10-08 04:55:59" },
-            JieQiData { name: "霜降", time: "2078-10-23 08:20:30" },
-            JieQiData { name: "立冬", time: "2078-11-07 08:39:22" },
-            JieQiData { name: "小雪", time: "2078-11-22 06:22:53" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2077-12-06 20:02:26",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2077-12-21 14:00:48",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2078-01-05 07:24:46",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2078-01-20 00:41:23",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2078-02-03 18:57:21",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2078-02-18 14:36:46",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2078-03-05 12:37:53",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2078-03-20 13:10:51",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2078-04-04 16:56:05",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2078-04-19 23:40:54",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2078-05-05 09:41:37",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2078-05-20 22:19:22",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2078-06-05 13:24:45",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2078-06-21 05:57:56",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2078-07-06 23:28:47",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2078-07-22 16:50:56",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2078-08-07 09:24:08",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2078-08-23 00:13:54",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2078-09-07 12:43:38",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2078-09-22 22:24:31",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2078-10-08 04:55:59",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2078-10-23 08:20:30",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2078-11-07 08:39:22",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2078-11-22 06:22:53",
+            },
         ],
     },
     BaziYearData {
@@ -5569,30 +18457,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2079-02-02",
         lichun_time: "2079-02-04 00:43:11",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2078-12-07 01:52:45" },
-            JieQiData { name: "冬至", time: "2078-12-21 19:57:57" },
-            JieQiData { name: "小寒", time: "2079-01-05 13:13:29" },
-            JieQiData { name: "大寒", time: "2079-01-20 06:35:54" },
-            JieQiData { name: "立春", time: "2079-02-04 00:43:11" },
-            JieQiData { name: "雨水", time: "2079-02-18 20:28:23" },
-            JieQiData { name: "惊蛰", time: "2079-03-05 18:20:59" },
-            JieQiData { name: "春分", time: "2079-03-20 19:00:40" },
-            JieQiData { name: "清明", time: "2079-04-04 22:37:24" },
-            JieQiData { name: "谷雨", time: "2079-04-20 05:30:34" },
-            JieQiData { name: "立夏", time: "2079-05-05 15:22:18" },
-            JieQiData { name: "小满", time: "2079-05-21 04:09:51" },
-            JieQiData { name: "芒种", time: "2079-06-05 19:05:55" },
-            JieQiData { name: "夏至", time: "2079-06-21 11:49:18" },
-            JieQiData { name: "小暑", time: "2079-07-07 05:11:43" },
-            JieQiData { name: "大暑", time: "2079-07-22 22:42:31" },
-            JieQiData { name: "立秋", time: "2079-08-07 15:09:21" },
-            JieQiData { name: "处暑", time: "2079-08-23 06:04:20" },
-            JieQiData { name: "白露", time: "2079-09-07 18:30:17" },
-            JieQiData { name: "秋分", time: "2079-09-23 04:13:09" },
-            JieQiData { name: "寒露", time: "2079-10-08 10:43:26" },
-            JieQiData { name: "霜降", time: "2079-10-23 14:07:57" },
-            JieQiData { name: "立冬", time: "2079-11-07 14:27:06" },
-            JieQiData { name: "小雪", time: "2079-11-22 12:09:39" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2078-12-07 01:52:45",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2078-12-21 19:57:57",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2079-01-05 13:13:29",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2079-01-20 06:35:54",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2079-02-04 00:43:11",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2079-02-18 20:28:23",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2079-03-05 18:20:59",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2079-03-20 19:00:40",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2079-04-04 22:37:24",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2079-04-20 05:30:34",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2079-05-05 15:22:18",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2079-05-21 04:09:51",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2079-06-05 19:05:55",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2079-06-21 11:49:18",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2079-07-07 05:11:43",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2079-07-22 22:42:31",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2079-08-07 15:09:21",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2079-08-23 06:04:20",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2079-09-07 18:30:17",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2079-09-23 04:13:09",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2079-10-08 10:43:26",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2079-10-23 14:07:57",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2079-11-07 14:27:06",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2079-11-22 12:09:39",
+            },
         ],
     },
     BaziYearData {
@@ -5600,30 +18560,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2080-01-22",
         lichun_time: "2080-02-04 06:27:57",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2079-12-07 07:40:01" },
-            JieQiData { name: "冬至", time: "2079-12-22 01:44:00" },
-            JieQiData { name: "小寒", time: "2080-01-05 18:59:35" },
-            JieQiData { name: "大寒", time: "2080-01-20 12:20:58" },
-            JieQiData { name: "立春", time: "2080-02-04 06:27:57" },
-            JieQiData { name: "雨水", time: "2080-02-19 02:12:24" },
-            JieQiData { name: "惊蛰", time: "2080-03-05 00:05:09" },
-            JieQiData { name: "春分", time: "2080-03-20 00:44:07" },
-            JieQiData { name: "清明", time: "2080-04-04 04:22:42" },
-            JieQiData { name: "谷雨", time: "2080-04-19 11:14:21" },
-            JieQiData { name: "立夏", time: "2080-05-04 21:10:39" },
-            JieQiData { name: "小满", time: "2080-05-20 09:54:25" },
-            JieQiData { name: "芒种", time: "2080-06-05 00:57:47" },
-            JieQiData { name: "夏至", time: "2080-06-20 17:34:06" },
-            JieQiData { name: "小暑", time: "2080-07-06 11:05:38" },
-            JieQiData { name: "大暑", time: "2080-07-22 04:26:51" },
-            JieQiData { name: "立秋", time: "2080-08-06 21:03:06" },
-            JieQiData { name: "处暑", time: "2080-08-22 11:47:58" },
-            JieQiData { name: "白露", time: "2080-09-07 00:22:26" },
-            JieQiData { name: "秋分", time: "2080-09-22 09:56:26" },
-            JieQiData { name: "寒露", time: "2080-10-07 16:34:20" },
-            JieQiData { name: "霜降", time: "2080-10-22 19:52:01" },
-            JieQiData { name: "立冬", time: "2080-11-06 20:18:39" },
-            JieQiData { name: "小雪", time: "2080-11-21 17:55:51" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2079-12-07 07:40:01",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2079-12-22 01:44:00",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2080-01-05 18:59:35",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2080-01-20 12:20:58",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2080-02-04 06:27:57",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2080-02-19 02:12:24",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2080-03-05 00:05:09",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2080-03-20 00:44:07",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2080-04-04 04:22:42",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2080-04-19 11:14:21",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2080-05-04 21:10:39",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2080-05-20 09:54:25",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2080-06-05 00:57:47",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2080-06-20 17:34:06",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2080-07-06 11:05:38",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2080-07-22 04:26:51",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2080-08-06 21:03:06",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2080-08-22 11:47:58",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2080-09-07 00:22:26",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2080-09-22 09:56:26",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2080-10-07 16:34:20",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2080-10-22 19:52:01",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2080-11-06 20:18:39",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2080-11-21 17:55:51",
+            },
         ],
     },
     BaziYearData {
@@ -5631,30 +18663,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2081-02-09",
         lichun_time: "2081-02-03 12:25:55",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2080-12-06 13:33:51" },
-            JieQiData { name: "冬至", time: "2080-12-21 07:32:48" },
-            JieQiData { name: "小寒", time: "2081-01-05 00:56:01" },
-            JieQiData { name: "大寒", time: "2081-01-19 18:11:44" },
-            JieQiData { name: "立春", time: "2081-02-03 12:25:55" },
-            JieQiData { name: "雨水", time: "2081-02-18 08:03:45" },
-            JieQiData { name: "惊蛰", time: "2081-03-05 06:02:43" },
-            JieQiData { name: "春分", time: "2081-03-20 06:34:14" },
-            JieQiData { name: "清明", time: "2081-04-04 10:17:14" },
-            JieQiData { name: "谷雨", time: "2081-04-19 17:01:33" },
-            JieQiData { name: "立夏", time: "2081-05-05 02:59:57" },
-            JieQiData { name: "小满", time: "2081-05-20 15:38:38" },
-            JieQiData { name: "芒种", time: "2081-06-05 06:41:10" },
-            JieQiData { name: "夏至", time: "2081-06-20 23:16:24" },
-            JieQiData { name: "小暑", time: "2081-07-06 16:43:31" },
-            JieQiData { name: "大暑", time: "2081-07-22 10:08:09" },
-            JieQiData { name: "立秋", time: "2081-08-07 02:37:02" },
-            JieQiData { name: "处暑", time: "2081-08-22 17:29:04" },
-            JieQiData { name: "白露", time: "2081-09-07 05:54:37" },
-            JieQiData { name: "秋分", time: "2081-09-22 15:37:49" },
-            JieQiData { name: "寒露", time: "2081-10-07 22:06:34" },
-            JieQiData { name: "霜降", time: "2081-10-23 01:34:32" },
-            JieQiData { name: "立冬", time: "2081-11-07 01:52:47" },
-            JieQiData { name: "小雪", time: "2081-11-21 23:41:13" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2080-12-06 13:33:51",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2080-12-21 07:32:48",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2081-01-05 00:56:01",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2081-01-19 18:11:44",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2081-02-03 12:25:55",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2081-02-18 08:03:45",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2081-03-05 06:02:43",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2081-03-20 06:34:14",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2081-04-04 10:17:14",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2081-04-19 17:01:33",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2081-05-05 02:59:57",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2081-05-20 15:38:38",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2081-06-05 06:41:10",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2081-06-20 23:16:24",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2081-07-06 16:43:31",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2081-07-22 10:08:09",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2081-08-07 02:37:02",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2081-08-22 17:29:04",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2081-09-07 05:54:37",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2081-09-22 15:37:49",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2081-10-07 22:06:34",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2081-10-23 01:34:32",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2081-11-07 01:52:47",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2081-11-21 23:41:13",
+            },
         ],
     },
     BaziYearData {
@@ -5662,30 +18766,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2082-01-29",
         lichun_time: "2082-02-03 18:12:12",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2081-12-06 19:11:47" },
-            JieQiData { name: "冬至", time: "2081-12-21 13:22:31" },
-            JieQiData { name: "小寒", time: "2082-01-05 06:38:36" },
-            JieQiData { name: "大寒", time: "2082-01-20 00:05:48" },
-            JieQiData { name: "立春", time: "2082-02-03 18:12:12" },
-            JieQiData { name: "雨水", time: "2082-02-18 14:00:22" },
-            JieQiData { name: "惊蛰", time: "2082-03-05 11:50:09" },
-            JieQiData { name: "春分", time: "2082-03-20 12:30:39" },
-            JieQiData { name: "清明", time: "2082-04-04 16:03:08" },
-            JieQiData { name: "谷雨", time: "2082-04-19 22:55:24" },
-            JieQiData { name: "立夏", time: "2082-05-05 08:42:57" },
-            JieQiData { name: "小满", time: "2082-05-20 21:28:47" },
-            JieQiData { name: "芒种", time: "2082-06-05 12:22:10" },
-            JieQiData { name: "夏至", time: "2082-06-21 05:03:18" },
-            JieQiData { name: "小暑", time: "2082-07-06 22:25:06" },
-            JieQiData { name: "大暑", time: "2082-07-22 15:53:02" },
-            JieQiData { name: "立秋", time: "2082-08-07 08:21:19" },
-            JieQiData { name: "处暑", time: "2082-08-22 23:13:26" },
-            JieQiData { name: "白露", time: "2082-09-07 11:42:35" },
-            JieQiData { name: "秋分", time: "2082-09-22 21:22:58" },
-            JieQiData { name: "寒露", time: "2082-10-08 03:57:31" },
-            JieQiData { name: "霜降", time: "2082-10-23 07:20:05" },
-            JieQiData { name: "立冬", time: "2082-11-07 07:44:16" },
-            JieQiData { name: "小雪", time: "2082-11-22 05:25:28" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2081-12-06 19:11:47",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2081-12-21 13:22:31",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2082-01-05 06:38:36",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2082-01-20 00:05:48",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2082-02-03 18:12:12",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2082-02-18 14:00:22",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2082-03-05 11:50:09",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2082-03-20 12:30:39",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2082-04-04 16:03:08",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2082-04-19 22:55:24",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2082-05-05 08:42:57",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2082-05-20 21:28:47",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2082-06-05 12:22:10",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2082-06-21 05:03:18",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2082-07-06 22:25:06",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2082-07-22 15:53:02",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2082-08-07 08:21:19",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2082-08-22 23:13:26",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2082-09-07 11:42:35",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2082-09-22 21:22:58",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2082-10-08 03:57:31",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2082-10-23 07:20:05",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2082-11-07 07:44:16",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2082-11-22 05:25:28",
+            },
         ],
     },
     BaziYearData {
@@ -5693,30 +18869,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2083-02-17",
         lichun_time: "2083-02-03 23:58:22",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2082-12-07 01:01:34" },
-            JieQiData { name: "冬至", time: "2082-12-21 19:04:40" },
-            JieQiData { name: "小寒", time: "2083-01-05 12:26:10" },
-            JieQiData { name: "大寒", time: "2083-01-20 05:46:20" },
-            JieQiData { name: "立春", time: "2083-02-03 23:58:22" },
-            JieQiData { name: "雨水", time: "2083-02-18 19:40:14" },
-            JieQiData { name: "惊蛰", time: "2083-03-05 17:36:14" },
-            JieQiData { name: "春分", time: "2083-03-20 18:10:31" },
-            JieQiData { name: "清明", time: "2083-04-04 21:50:18" },
-            JieQiData { name: "谷雨", time: "2083-04-20 04:35:27" },
-            JieQiData { name: "立夏", time: "2083-05-05 14:31:37" },
-            JieQiData { name: "小满", time: "2083-05-21 03:08:50" },
-            JieQiData { name: "芒种", time: "2083-06-05 18:11:58" },
-            JieQiData { name: "夏至", time: "2083-06-21 10:43:54" },
-            JieQiData { name: "小暑", time: "2083-07-07 04:15:50" },
-            JieQiData { name: "大暑", time: "2083-07-22 21:35:45" },
-            JieQiData { name: "立秋", time: "2083-08-07 14:12:50" },
-            JieQiData { name: "处暑", time: "2083-08-23 04:59:15" },
-            JieQiData { name: "白露", time: "2083-09-07 17:34:30" },
-            JieQiData { name: "秋分", time: "2083-09-23 03:11:38" },
-            JieQiData { name: "寒露", time: "2083-10-08 09:49:29" },
-            JieQiData { name: "霜降", time: "2083-10-23 13:10:21" },
-            JieQiData { name: "立冬", time: "2083-11-07 13:35:42" },
-            JieQiData { name: "小雪", time: "2083-11-22 11:15:37" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2082-12-07 01:01:34",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2082-12-21 19:04:40",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2083-01-05 12:26:10",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2083-01-20 05:46:20",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2083-02-03 23:58:22",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2083-02-18 19:40:14",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2083-03-05 17:36:14",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2083-03-20 18:10:31",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2083-04-04 21:50:18",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2083-04-20 04:35:27",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2083-05-05 14:31:37",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2083-05-21 03:08:50",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2083-06-05 18:11:58",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2083-06-21 10:43:54",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2083-07-07 04:15:50",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2083-07-22 21:35:45",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2083-08-07 14:12:50",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2083-08-23 04:59:15",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2083-09-07 17:34:30",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2083-09-23 03:11:38",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2083-10-08 09:49:29",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2083-10-23 13:10:21",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2083-11-07 13:35:42",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2083-11-22 11:15:37",
+            },
         ],
     },
     BaziYearData {
@@ -5724,30 +18972,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2084-02-06",
         lichun_time: "2084-02-04 05:46:37",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2083-12-07 06:51:48" },
-            JieQiData { name: "冬至", time: "2083-12-22 00:53:22" },
-            JieQiData { name: "小寒", time: "2084-01-05 18:15:01" },
-            JieQiData { name: "大寒", time: "2084-01-20 11:33:36" },
-            JieQiData { name: "立春", time: "2084-02-04 05:46:37" },
-            JieQiData { name: "雨水", time: "2084-02-19 01:27:26" },
-            JieQiData { name: "惊蛰", time: "2084-03-04 23:25:04" },
-            JieQiData { name: "春分", time: "2084-03-19 23:59:30" },
-            JieQiData { name: "清明", time: "2084-04-04 03:40:28" },
-            JieQiData { name: "谷雨", time: "2084-04-19 10:27:41" },
-            JieQiData { name: "立夏", time: "2084-05-04 20:22:57" },
-            JieQiData { name: "小满", time: "2084-05-20 09:04:25" },
-            JieQiData { name: "芒种", time: "2084-06-05 00:02:44" },
-            JieQiData { name: "夏至", time: "2084-06-20 16:40:35" },
-            JieQiData { name: "小暑", time: "2084-07-06 10:03:29" },
-            JieQiData { name: "大暑", time: "2084-07-22 03:30:35" },
-            JieQiData { name: "立秋", time: "2084-08-06 19:56:22" },
-            JieQiData { name: "处暑", time: "2084-08-22 10:50:28" },
-            JieQiData { name: "白露", time: "2084-09-06 23:14:22" },
-            JieQiData { name: "秋分", time: "2084-09-22 08:59:08" },
-            JieQiData { name: "寒露", time: "2084-10-07 15:27:15" },
-            JieQiData { name: "霜降", time: "2084-10-22 18:55:57" },
-            JieQiData { name: "立冬", time: "2084-11-06 19:13:33" },
-            JieQiData { name: "小雪", time: "2084-11-21 17:01:42" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2083-12-07 06:51:48",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2083-12-22 00:53:22",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2084-01-05 18:15:01",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2084-01-20 11:33:36",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2084-02-04 05:46:37",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2084-02-19 01:27:26",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2084-03-04 23:25:04",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2084-03-19 23:59:30",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2084-04-04 03:40:28",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2084-04-19 10:27:41",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2084-05-04 20:22:57",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2084-05-20 09:04:25",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2084-06-05 00:02:44",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2084-06-20 16:40:35",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2084-07-06 10:03:29",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2084-07-22 03:30:35",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2084-08-06 19:56:22",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2084-08-22 10:50:28",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2084-09-06 23:14:22",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2084-09-22 08:59:08",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2084-10-07 15:27:15",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2084-10-22 18:55:57",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2084-11-06 19:13:33",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2084-11-21 17:01:42",
+            },
         ],
     },
     BaziYearData {
@@ -5755,30 +19075,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2085-01-26",
         lichun_time: "2085-02-03 11:29:53",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2084-12-06 12:31:11" },
-            JieQiData { name: "冬至", time: "2084-12-21 06:41:17" },
-            JieQiData { name: "小寒", time: "2085-01-04 23:56:19" },
-            JieQiData { name: "大寒", time: "2085-01-19 17:23:38" },
-            JieQiData { name: "立春", time: "2085-02-03 11:29:53" },
-            JieQiData { name: "雨水", time: "2085-02-18 07:19:34" },
-            JieQiData { name: "惊蛰", time: "2085-03-05 05:10:31" },
-            JieQiData { name: "春分", time: "2085-03-20 05:53:33" },
-            JieQiData { name: "清明", time: "2085-04-04 09:28:20" },
-            JieQiData { name: "谷雨", time: "2085-04-19 16:22:49" },
-            JieQiData { name: "立夏", time: "2085-05-05 02:13:03" },
-            JieQiData { name: "小满", time: "2085-05-20 14:58:59" },
-            JieQiData { name: "芒种", time: "2085-06-05 05:54:36" },
-            JieQiData { name: "夏至", time: "2085-06-20 22:32:50" },
-            JieQiData { name: "小暑", time: "2085-07-06 15:56:20" },
-            JieQiData { name: "大暑", time: "2085-07-22 09:19:28" },
-            JieQiData { name: "立秋", time: "2085-08-07 01:49:27" },
-            JieQiData { name: "处暑", time: "2085-08-22 16:36:26" },
-            JieQiData { name: "白露", time: "2085-09-07 05:07:29" },
-            JieQiData { name: "秋分", time: "2085-09-22 14:43:31" },
-            JieQiData { name: "寒露", time: "2085-10-07 21:20:28" },
-            JieQiData { name: "霜降", time: "2085-10-23 00:40:11" },
-            JieQiData { name: "立冬", time: "2085-11-07 01:07:38" },
-            JieQiData { name: "小雪", time: "2085-11-21 22:47:15" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2084-12-06 12:31:11",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2084-12-21 06:41:17",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2085-01-04 23:56:19",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2085-01-19 17:23:38",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2085-02-03 11:29:53",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2085-02-18 07:19:34",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2085-03-05 05:10:31",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2085-03-20 05:53:33",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2085-04-04 09:28:20",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2085-04-19 16:22:49",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2085-05-05 02:13:03",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2085-05-20 14:58:59",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2085-06-05 05:54:36",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2085-06-20 22:32:50",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2085-07-06 15:56:20",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2085-07-22 09:19:28",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2085-08-07 01:49:27",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2085-08-22 16:36:26",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2085-09-07 05:07:29",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2085-09-22 14:43:31",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2085-10-07 21:20:28",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2085-10-23 00:40:11",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2085-11-07 01:07:38",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2085-11-21 22:47:15",
+            },
         ],
     },
     BaziYearData {
@@ -5786,30 +19178,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2086-02-14",
         lichun_time: "2086-02-03 17:26:26",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2085-12-06 18:27:05" },
-            JieQiData { name: "冬至", time: "2085-12-21 12:28:45" },
-            JieQiData { name: "小寒", time: "2086-01-05 05:53:41" },
-            JieQiData { name: "大寒", time: "2086-01-19 23:11:37" },
-            JieQiData { name: "立春", time: "2086-02-03 17:26:26" },
-            JieQiData { name: "雨水", time: "2086-02-18 13:05:23" },
-            JieQiData { name: "惊蛰", time: "2086-03-05 11:03:54" },
-            JieQiData { name: "春分", time: "2086-03-20 11:35:20" },
-            JieQiData { name: "清明", time: "2086-04-04 15:17:38" },
-            JieQiData { name: "谷雨", time: "2086-04-19 22:00:34" },
-            JieQiData { name: "立夏", time: "2086-05-05 07:58:56" },
-            JieQiData { name: "小满", time: "2086-05-20 20:34:41" },
-            JieQiData { name: "芒种", time: "2086-06-05 11:38:40" },
-            JieQiData { name: "夏至", time: "2086-06-21 04:09:37" },
-            JieQiData { name: "小暑", time: "2086-07-06 21:40:05" },
-            JieQiData { name: "大暑", time: "2086-07-22 14:59:41" },
-            JieQiData { name: "立秋", time: "2086-08-07 07:33:27" },
-            JieQiData { name: "处暑", time: "2086-08-22 22:20:55" },
-            JieQiData { name: "白露", time: "2086-09-07 10:52:27" },
-            JieQiData { name: "秋分", time: "2086-09-22 20:32:15" },
-            JieQiData { name: "寒露", time: "2086-10-08 03:07:05" },
-            JieQiData { name: "霜降", time: "2086-10-23 06:32:11" },
-            JieQiData { name: "立冬", time: "2086-11-07 06:55:43" },
-            JieQiData { name: "小雪", time: "2086-11-22 04:40:55" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2085-12-06 18:27:05",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2085-12-21 12:28:45",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2086-01-05 05:53:41",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2086-01-19 23:11:37",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2086-02-03 17:26:26",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2086-02-18 13:05:23",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2086-03-05 11:03:54",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2086-03-20 11:35:20",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2086-04-04 15:17:38",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2086-04-19 22:00:34",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2086-05-05 07:58:56",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2086-05-20 20:34:41",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2086-06-05 11:38:40",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2086-06-21 04:09:37",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2086-07-06 21:40:05",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2086-07-22 14:59:41",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2086-08-07 07:33:27",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2086-08-22 22:20:55",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2086-09-07 10:52:27",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2086-09-22 20:32:15",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2086-10-08 03:07:05",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2086-10-23 06:32:11",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2086-11-07 06:55:43",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2086-11-22 04:40:55",
+            },
         ],
     },
     BaziYearData {
@@ -5817,30 +19281,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2087-02-03",
         lichun_time: "2087-02-03 23:15:12",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2086-12-07 00:15:54" },
-            JieQiData { name: "冬至", time: "2086-12-21 18:22:41" },
-            JieQiData { name: "小寒", time: "2087-01-05 11:42:35" },
-            JieQiData { name: "大寒", time: "2087-01-20 05:05:15" },
-            JieQiData { name: "立春", time: "2087-02-03 23:15:12" },
-            JieQiData { name: "雨水", time: "2087-02-18 18:58:41" },
-            JieQiData { name: "惊蛰", time: "2087-03-05 16:52:00" },
-            JieQiData { name: "春分", time: "2087-03-20 17:28:22" },
-            JieQiData { name: "清明", time: "2087-04-04 21:04:32" },
-            JieQiData { name: "谷雨", time: "2087-04-20 03:53:49" },
-            JieQiData { name: "立夏", time: "2087-05-05 13:44:44" },
-            JieQiData { name: "小满", time: "2087-05-21 02:29:03" },
-            JieQiData { name: "芒种", time: "2087-06-05 17:24:31" },
-            JieQiData { name: "夏至", time: "2087-06-21 10:06:00" },
-            JieQiData { name: "小暑", time: "2087-07-07 03:27:59" },
-            JieQiData { name: "大暑", time: "2087-07-22 20:58:17" },
-            JieQiData { name: "立秋", time: "2087-08-07 13:24:20" },
-            JieQiData { name: "处暑", time: "2087-08-23 04:19:42" },
-            JieQiData { name: "白露", time: "2087-09-07 16:44:23" },
-            JieQiData { name: "秋分", time: "2087-09-23 02:28:21" },
-            JieQiData { name: "寒露", time: "2087-10-08 08:57:32" },
-            JieQiData { name: "霜降", time: "2087-10-23 12:24:15" },
-            JieQiData { name: "立冬", time: "2087-11-07 12:43:13" },
-            JieQiData { name: "小雪", time: "2087-11-22 10:29:11" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2086-12-07 00:15:54",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2086-12-21 18:22:41",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2087-01-05 11:42:35",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2087-01-20 05:05:15",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2087-02-03 23:15:12",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2087-02-18 18:58:41",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2087-03-05 16:52:00",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2087-03-20 17:28:22",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2087-04-04 21:04:32",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2087-04-20 03:53:49",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2087-05-05 13:44:44",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2087-05-21 02:29:03",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2087-06-05 17:24:31",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2087-06-21 10:06:00",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2087-07-07 03:27:59",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2087-07-22 20:58:17",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2087-08-07 13:24:20",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2087-08-23 04:19:42",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2087-09-07 16:44:23",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2087-09-23 02:28:21",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2087-10-08 08:57:32",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2087-10-23 12:24:15",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2087-11-07 12:43:13",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2087-11-22 10:29:11",
+            },
         ],
     },
     BaziYearData {
@@ -5848,30 +19384,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2088-01-24",
         lichun_time: "2088-02-04 04:58:09",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2087-12-07 06:00:21" },
-            JieQiData { name: "冬至", time: "2087-12-22 00:08:32" },
-            JieQiData { name: "小寒", time: "2088-01-05 17:25:17" },
-            JieQiData { name: "大寒", time: "2088-01-20 10:50:40" },
-            JieQiData { name: "立春", time: "2088-02-04 04:58:09" },
-            JieQiData { name: "雨水", time: "2088-02-19 00:45:24" },
-            JieQiData { name: "惊蛰", time: "2088-03-04 22:37:02" },
-            JieQiData { name: "春分", time: "2088-03-19 23:17:06" },
-            JieQiData { name: "清明", time: "2088-04-04 02:52:48" },
-            JieQiData { name: "谷雨", time: "2088-04-19 09:44:15" },
-            JieQiData { name: "立夏", time: "2088-05-04 19:36:44" },
-            JieQiData { name: "小满", time: "2088-05-20 08:20:13" },
-            JieQiData { name: "芒种", time: "2088-06-04 23:20:01" },
-            JieQiData { name: "夏至", time: "2088-06-20 15:56:44" },
-            JieQiData { name: "小暑", time: "2088-07-06 09:25:58" },
-            JieQiData { name: "大暑", time: "2088-07-22 02:48:14" },
-            JieQiData { name: "立秋", time: "2088-08-06 19:23:37" },
-            JieQiData { name: "处暑", time: "2088-08-22 10:09:33" },
-            JieQiData { name: "白露", time: "2088-09-06 22:43:59" },
-            JieQiData { name: "秋分", time: "2088-09-22 08:18:20" },
-            JieQiData { name: "寒露", time: "2088-10-07 14:56:21" },
-            JieQiData { name: "霜降", time: "2088-10-22 18:13:46" },
-            JieQiData { name: "立冬", time: "2088-11-06 18:40:42" },
-            JieQiData { name: "小雪", time: "2088-11-21 16:17:45" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2087-12-07 06:00:21",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2087-12-22 00:08:32",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2088-01-05 17:25:17",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2088-01-20 10:50:40",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2088-02-04 04:58:09",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2088-02-19 00:45:24",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2088-03-04 22:37:02",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2088-03-19 23:17:06",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2088-04-04 02:52:48",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2088-04-19 09:44:15",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2088-05-04 19:36:44",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2088-05-20 08:20:13",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2088-06-04 23:20:01",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2088-06-20 15:56:44",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2088-07-06 09:25:58",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2088-07-22 02:48:14",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2088-08-06 19:23:37",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2088-08-22 10:09:33",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2088-09-06 22:43:59",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2088-09-22 08:18:20",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2088-10-07 14:56:21",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2088-10-22 18:13:46",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2088-11-06 18:40:42",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2088-11-21 16:17:45",
+            },
         ],
     },
     BaziYearData {
@@ -5879,30 +19487,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2089-02-10",
         lichun_time: "2089-02-03 10:54:39",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2088-12-06 11:56:43" },
-            JieQiData { name: "冬至", time: "2088-12-21 05:56:15" },
-            JieQiData { name: "小寒", time: "2089-01-04 23:21:14" },
-            JieQiData { name: "大寒", time: "2089-01-19 16:38:15" },
-            JieQiData { name: "立春", time: "2089-02-03 10:54:39" },
-            JieQiData { name: "雨水", time: "2089-02-18 06:33:52" },
-            JieQiData { name: "惊蛰", time: "2089-03-05 04:34:40" },
-            JieQiData { name: "春分", time: "2089-03-20 05:06:39" },
-            JieQiData { name: "清明", time: "2089-04-04 08:50:26" },
-            JieQiData { name: "谷雨", time: "2089-04-19 15:33:34" },
-            JieQiData { name: "立夏", time: "2089-05-05 01:31:51" },
-            JieQiData { name: "小满", time: "2089-05-20 14:08:01" },
-            JieQiData { name: "芒种", time: "2089-06-05 05:10:31" },
-            JieQiData { name: "夏至", time: "2089-06-20 21:43:01" },
-            JieQiData { name: "小暑", time: "2089-07-06 15:11:07" },
-            JieQiData { name: "大暑", time: "2089-07-22 08:33:43" },
-            JieQiData { name: "立秋", time: "2089-08-07 01:04:40" },
-            JieQiData { name: "处暑", time: "2089-08-22 15:55:50" },
-            JieQiData { name: "白露", time: "2089-09-07 04:24:01" },
-            JieQiData { name: "秋分", time: "2089-09-22 14:07:00" },
-            JieQiData { name: "寒露", time: "2089-10-07 20:37:58" },
-            JieQiData { name: "霜降", time: "2089-10-23 00:05:24" },
-            JieQiData { name: "立冬", time: "2089-11-07 00:24:48" },
-            JieQiData { name: "小雪", time: "2089-11-21 22:11:58" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2088-12-06 11:56:43",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2088-12-21 05:56:15",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2089-01-04 23:21:14",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2089-01-19 16:38:15",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2089-02-03 10:54:39",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2089-02-18 06:33:52",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2089-03-05 04:34:40",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2089-03-20 05:06:39",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2089-04-04 08:50:26",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2089-04-19 15:33:34",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2089-05-05 01:31:51",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2089-05-20 14:08:01",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2089-06-05 05:10:31",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2089-06-20 21:43:01",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2089-07-06 15:11:07",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2089-07-22 08:33:43",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2089-08-07 01:04:40",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2089-08-22 15:55:50",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2089-09-07 04:24:01",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2089-09-22 14:07:00",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2089-10-07 20:37:58",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2089-10-23 00:05:24",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2089-11-07 00:24:48",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2089-11-21 22:11:58",
+            },
         ],
     },
     BaziYearData {
@@ -5910,30 +19590,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2090-01-30",
         lichun_time: "2090-02-03 16:42:17",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2089-12-06 17:42:57" },
-            JieQiData { name: "冬至", time: "2089-12-21 11:52:06" },
-            JieQiData { name: "小寒", time: "2090-01-05 05:08:42" },
-            JieQiData { name: "大寒", time: "2090-01-19 22:34:41" },
-            JieQiData { name: "立春", time: "2090-02-03 16:42:17" },
-            JieQiData { name: "雨水", time: "2090-02-18 12:29:56" },
-            JieQiData { name: "惊蛰", time: "2090-03-05 10:21:31" },
-            JieQiData { name: "春分", time: "2090-03-20 11:02:00" },
-            JieQiData { name: "清明", time: "2090-04-04 14:36:13" },
-            JieQiData { name: "谷雨", time: "2090-04-19 21:28:25" },
-            JieQiData { name: "立夏", time: "2090-05-05 07:16:43" },
-            JieQiData { name: "小满", time: "2090-05-20 20:02:08" },
-            JieQiData { name: "芒种", time: "2090-06-05 10:54:58" },
-            JieQiData { name: "夏至", time: "2090-06-21 03:35:58" },
-            JieQiData { name: "小暑", time: "2090-07-06 20:56:35" },
-            JieQiData { name: "大暑", time: "2090-07-22 14:25:32" },
-            JieQiData { name: "立秋", time: "2090-08-07 06:52:47" },
-            JieQiData { name: "处暑", time: "2090-08-22 21:47:13" },
-            JieQiData { name: "白露", time: "2090-09-07 10:15:51" },
-            JieQiData { name: "秋分", time: "2090-09-22 19:59:25" },
-            JieQiData { name: "寒露", time: "2090-10-08 02:33:44" },
-            JieQiData { name: "霜降", time: "2090-10-23 05:59:23" },
-            JieQiData { name: "立冬", time: "2090-11-07 06:22:42" },
-            JieQiData { name: "小雪", time: "2090-11-22 04:05:53" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2089-12-06 17:42:57",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2089-12-21 11:52:06",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2090-01-05 05:08:42",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2090-01-19 22:34:41",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2090-02-03 16:42:17",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2090-02-18 12:29:56",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2090-03-05 10:21:31",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2090-03-20 11:02:00",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2090-04-04 14:36:13",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2090-04-19 21:28:25",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2090-05-05 07:16:43",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2090-05-20 20:02:08",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2090-06-05 10:54:58",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2090-06-21 03:35:58",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2090-07-06 20:56:35",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2090-07-22 14:25:32",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2090-08-07 06:52:47",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2090-08-22 21:47:13",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2090-09-07 10:15:51",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2090-09-22 19:59:25",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2090-10-08 02:33:44",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2090-10-23 05:59:23",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2090-11-07 06:22:42",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2090-11-22 04:05:53",
+            },
         ],
     },
     BaziYearData {
@@ -5941,30 +19693,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2091-02-18",
         lichun_time: "2091-02-03 22:30:49",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2090-12-06 23:39:50" },
-            JieQiData { name: "冬至", time: "2090-12-21 17:43:38" },
-            JieQiData { name: "小寒", time: "2091-01-05 11:01:57" },
-            JieQiData { name: "大寒", time: "2091-01-20 04:22:09" },
-            JieQiData { name: "立春", time: "2091-02-03 22:30:49" },
-            JieQiData { name: "雨水", time: "2091-02-18 18:13:01" },
-            JieQiData { name: "惊蛰", time: "2091-03-05 16:06:20" },
-            JieQiData { name: "春分", time: "2091-03-20 16:41:58" },
-            JieQiData { name: "清明", time: "2091-04-04 20:20:09" },
-            JieQiData { name: "谷雨", time: "2091-04-20 03:07:38" },
-            JieQiData { name: "立夏", time: "2091-05-05 13:03:05" },
-            JieQiData { name: "小满", time: "2091-05-21 01:42:45" },
-            JieQiData { name: "芒种", time: "2091-06-05 16:45:29" },
-            JieQiData { name: "夏至", time: "2091-06-21 09:19:02" },
-            JieQiData { name: "小暑", time: "2091-07-07 02:50:53" },
-            JieQiData { name: "大暑", time: "2091-07-22 20:11:36" },
-            JieQiData { name: "立秋", time: "2091-08-07 12:49:28" },
-            JieQiData { name: "处暑", time: "2091-08-23 03:36:21" },
-            JieQiData { name: "白露", time: "2091-09-07 16:13:25" },
-            JieQiData { name: "秋分", time: "2091-09-23 01:50:57" },
-            JieQiData { name: "寒露", time: "2091-10-08 08:31:24" },
-            JieQiData { name: "霜降", time: "2091-10-23 11:52:35" },
-            JieQiData { name: "立冬", time: "2091-11-07 12:20:42" },
-            JieQiData { name: "小雪", time: "2091-11-22 10:00:22" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2090-12-06 23:39:50",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2090-12-21 17:43:38",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2091-01-05 11:01:57",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2091-01-20 04:22:09",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2091-02-03 22:30:49",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2091-02-18 18:13:01",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2091-03-05 16:06:20",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2091-03-20 16:41:58",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2091-04-04 20:20:09",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2091-04-20 03:07:38",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2091-05-05 13:03:05",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2091-05-21 01:42:45",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2091-06-05 16:45:29",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2091-06-21 09:19:02",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2091-07-07 02:50:53",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2091-07-22 20:11:36",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2091-08-07 12:49:28",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2091-08-23 03:36:21",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2091-09-07 16:13:25",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2091-09-23 01:50:57",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2091-10-08 08:31:24",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2091-10-23 11:52:35",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2091-11-07 12:20:42",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2091-11-22 10:00:22",
+            },
         ],
     },
     BaziYearData {
@@ -5972,30 +19796,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2092-02-07",
         lichun_time: "2092-02-04 04:28:49",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2091-12-07 05:38:30" },
-            JieQiData { name: "冬至", time: "2091-12-21 23:38:37" },
-            JieQiData { name: "小寒", time: "2092-01-05 17:00:46" },
-            JieQiData { name: "大寒", time: "2092-01-20 10:16:32" },
-            JieQiData { name: "立春", time: "2092-02-04 04:28:49" },
-            JieQiData { name: "雨水", time: "2092-02-19 00:06:01" },
-            JieQiData { name: "惊蛰", time: "2092-03-04 22:02:37" },
-            JieQiData { name: "春分", time: "2092-03-19 22:33:40" },
-            JieQiData { name: "清明", time: "2092-04-04 02:14:34" },
-            JieQiData { name: "谷雨", time: "2092-04-19 08:59:24" },
-            JieQiData { name: "立夏", time: "2092-05-04 18:56:16" },
-            JieQiData { name: "小满", time: "2092-05-20 07:36:33" },
-            JieQiData { name: "芒种", time: "2092-06-04 22:37:44" },
-            JieQiData { name: "夏至", time: "2092-06-20 15:15:04" },
-            JieQiData { name: "小暑", time: "2092-07-06 08:40:56" },
-            JieQiData { name: "大暑", time: "2092-07-22 02:07:47" },
-            JieQiData { name: "立秋", time: "2092-08-06 18:36:00" },
-            JieQiData { name: "处暑", time: "2092-08-22 09:30:22" },
-            JieQiData { name: "白露", time: "2092-09-06 21:56:13" },
-            JieQiData { name: "秋分", time: "2092-09-22 07:41:53" },
-            JieQiData { name: "寒露", time: "2092-10-07 14:11:39" },
-            JieQiData { name: "霜降", time: "2092-10-22 17:41:49" },
-            JieQiData { name: "立冬", time: "2092-11-06 18:00:52" },
-            JieQiData { name: "小雪", time: "2092-11-21 15:50:34" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2091-12-07 05:38:30",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2091-12-21 23:38:37",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2092-01-05 17:00:46",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2092-01-20 10:16:32",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2092-02-04 04:28:49",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2092-02-19 00:06:01",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2092-03-04 22:02:37",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2092-03-19 22:33:40",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2092-04-04 02:14:34",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2092-04-19 08:59:24",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2092-05-04 18:56:16",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2092-05-20 07:36:33",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2092-06-04 22:37:44",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2092-06-20 15:15:04",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2092-07-06 08:40:56",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2092-07-22 02:07:47",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2092-08-06 18:36:00",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2092-08-22 09:30:22",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2092-09-06 21:56:13",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2092-09-22 07:41:53",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2092-10-07 14:11:39",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2092-10-22 17:41:49",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2092-11-06 18:00:52",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2092-11-21 15:50:34",
+            },
         ],
     },
     BaziYearData {
@@ -6003,30 +19899,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2093-01-27",
         lichun_time: "2093-02-03 10:18:35",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2092-12-06 11:21:03" },
-            JieQiData { name: "冬至", time: "2092-12-21 05:32:00" },
-            JieQiData { name: "小寒", time: "2093-01-04 22:47:02" },
-            JieQiData { name: "大寒", time: "2093-01-19 16:13:46" },
-            JieQiData { name: "立春", time: "2093-02-03 10:18:35" },
-            JieQiData { name: "雨水", time: "2093-02-18 06:06:10" },
-            JieQiData { name: "惊蛰", time: "2093-03-05 03:54:24" },
-            JieQiData { name: "春分", time: "2093-03-20 04:34:37" },
-            JieQiData { name: "清明", time: "2093-04-04 08:06:14" },
-            JieQiData { name: "谷雨", time: "2093-04-19 14:58:35" },
-            JieQiData { name: "立夏", time: "2093-05-05 00:46:19" },
-            JieQiData { name: "小满", time: "2093-05-20 13:32:08" },
-            JieQiData { name: "芒种", time: "2093-06-05 04:26:36" },
-            JieQiData { name: "夏至", time: "2093-06-20 21:07:09" },
-            JieQiData { name: "小暑", time: "2093-07-06 14:30:37" },
-            JieQiData { name: "大暑", time: "2093-07-22 07:57:26" },
-            JieQiData { name: "立秋", time: "2093-08-07 00:27:42" },
-            JieQiData { name: "处暑", time: "2093-08-22 15:18:29" },
-            JieQiData { name: "白露", time: "2093-09-07 03:49:42" },
-            JieQiData { name: "秋分", time: "2093-09-22 13:29:00" },
-            JieQiData { name: "寒露", time: "2093-10-07 20:06:00" },
-            JieQiData { name: "霜降", time: "2093-10-22 23:28:21" },
-            JieQiData { name: "立冬", time: "2093-11-06 23:55:46" },
-            JieQiData { name: "小雪", time: "2093-11-21 21:37:39" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2092-12-06 11:21:03",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2092-12-21 05:32:00",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2093-01-04 22:47:02",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2093-01-19 16:13:46",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2093-02-03 10:18:35",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2093-02-18 06:06:10",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2093-03-05 03:54:24",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2093-03-20 04:34:37",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2093-04-04 08:06:14",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2093-04-19 14:58:35",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2093-05-05 00:46:19",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2093-05-20 13:32:08",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2093-06-05 04:26:36",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2093-06-20 21:07:09",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2093-07-06 14:30:37",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2093-07-22 07:57:26",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2093-08-07 00:27:42",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2093-08-22 15:18:29",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2093-09-07 03:49:42",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2093-09-22 13:29:00",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2093-10-07 20:06:00",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2093-10-22 23:28:21",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2093-11-06 23:55:46",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2093-11-21 21:37:39",
+            },
         ],
     },
     BaziYearData {
@@ -6034,30 +20002,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2094-02-15",
         lichun_time: "2094-02-03 16:17:03",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2093-12-06 17:17:17" },
-            JieQiData { name: "冬至", time: "2093-12-21 11:20:50" },
-            JieQiData { name: "小寒", time: "2094-01-05 04:44:59" },
-            JieQiData { name: "大寒", time: "2094-01-19 22:04:04" },
-            JieQiData { name: "立春", time: "2094-02-03 16:17:03" },
-            JieQiData { name: "雨水", time: "2094-02-18 11:56:01" },
-            JieQiData { name: "惊蛰", time: "2094-03-05 09:51:26" },
-            JieQiData { name: "春分", time: "2094-03-20 10:21:38" },
-            JieQiData { name: "清明", time: "2094-04-04 14:00:01" },
-            JieQiData { name: "谷雨", time: "2094-04-19 20:40:56" },
-            JieQiData { name: "立夏", time: "2094-05-05 06:35:43" },
-            JieQiData { name: "小满", time: "2094-05-20 19:09:40" },
-            JieQiData { name: "芒种", time: "2094-06-05 10:11:58" },
-            JieQiData { name: "夏至", time: "2094-06-21 02:42:24" },
-            JieQiData { name: "小暑", time: "2094-07-06 20:14:00" },
-            JieQiData { name: "大暑", time: "2094-07-22 13:34:25" },
-            JieQiData { name: "立秋", time: "2094-08-07 06:11:37" },
-            JieQiData { name: "处暑", time: "2094-08-22 21:00:18" },
-            JieQiData { name: "白露", time: "2094-09-07 09:36:04" },
-            JieQiData { name: "秋分", time: "2094-09-22 19:16:37" },
-            JieQiData { name: "寒露", time: "2094-10-08 01:55:18" },
-            JieQiData { name: "霜降", time: "2094-10-23 05:20:15" },
-            JieQiData { name: "立冬", time: "2094-11-07 05:46:43" },
-            JieQiData { name: "小雪", time: "2094-11-22 03:30:56" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2093-12-06 17:17:17",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2093-12-21 11:20:50",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2094-01-05 04:44:59",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2094-01-19 22:04:04",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2094-02-03 16:17:03",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2094-02-18 11:56:01",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2094-03-05 09:51:26",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2094-03-20 10:21:38",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2094-04-04 14:00:01",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2094-04-19 20:40:56",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2094-05-05 06:35:43",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2094-05-20 19:09:40",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2094-06-05 10:11:58",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2094-06-21 02:42:24",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2094-07-06 20:14:00",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2094-07-22 13:34:25",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2094-08-07 06:11:37",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2094-08-22 21:00:18",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2094-09-07 09:36:04",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2094-09-22 19:16:37",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2094-10-08 01:55:18",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2094-10-23 05:20:15",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2094-11-07 05:46:43",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2094-11-22 03:30:56",
+            },
         ],
     },
     BaziYearData {
@@ -6065,30 +20105,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2095-02-05",
         lichun_time: "2095-02-03 22:07:04",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2094-12-06 23:08:06" },
-            JieQiData { name: "冬至", time: "2094-12-21 17:13:23" },
-            JieQiData { name: "小寒", time: "2095-01-05 10:35:02" },
-            JieQiData { name: "大寒", time: "2095-01-20 03:55:48" },
-            JieQiData { name: "立春", time: "2095-02-03 22:07:04" },
-            JieQiData { name: "雨水", time: "2095-02-18 17:48:04" },
-            JieQiData { name: "惊蛰", time: "2095-03-05 15:42:00" },
-            JieQiData { name: "春分", time: "2095-03-20 16:15:01" },
-            JieQiData { name: "清明", time: "2095-04-04 19:50:53" },
-            JieQiData { name: "谷雨", time: "2095-04-20 02:35:59" },
-            JieQiData { name: "立夏", time: "2095-05-05 12:25:54" },
-            JieQiData { name: "小满", time: "2095-05-21 01:05:54" },
-            JieQiData { name: "芒种", time: "2095-06-05 16:00:24" },
-            JieQiData { name: "夏至", time: "2095-06-21 08:38:55" },
-            JieQiData { name: "小暑", time: "2095-07-07 02:01:00" },
-            JieQiData { name: "大暑", time: "2095-07-22 19:30:58" },
-            JieQiData { name: "立秋", time: "2095-08-07 11:58:38" },
-            JieQiData { name: "处暑", time: "2095-08-23 02:56:23" },
-            JieQiData { name: "白露", time: "2095-09-07 15:23:27" },
-            JieQiData { name: "秋分", time: "2095-09-23 01:11:11" },
-            JieQiData { name: "寒露", time: "2095-10-08 07:42:28" },
-            JieQiData { name: "霜降", time: "2095-10-23 11:12:48" },
-            JieQiData { name: "立冬", time: "2095-11-07 11:32:39" },
-            JieQiData { name: "小雪", time: "2095-11-22 09:21:03" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2094-12-06 23:08:06",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2094-12-21 17:13:23",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2095-01-05 10:35:02",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2095-01-20 03:55:48",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2095-02-03 22:07:04",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2095-02-18 17:48:04",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2095-03-05 15:42:00",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2095-03-20 16:15:01",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2095-04-04 19:50:53",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2095-04-20 02:35:59",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2095-05-05 12:25:54",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2095-05-21 01:05:54",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2095-06-05 16:00:24",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2095-06-21 08:38:55",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2095-07-07 02:01:00",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2095-07-22 19:30:58",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2095-08-07 11:58:38",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2095-08-23 02:56:23",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2095-09-07 15:23:27",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2095-09-23 01:11:11",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2095-10-08 07:42:28",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2095-10-23 11:12:48",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2095-11-07 11:32:39",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2095-11-22 09:21:03",
+            },
         ],
     },
     BaziYearData {
@@ -6096,30 +20208,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2096-01-25",
         lichun_time: "2096-02-04 03:46:51",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2095-12-07 04:51:36" },
-            JieQiData { name: "冬至", time: "2095-12-21 23:00:52" },
-            JieQiData { name: "小寒", time: "2096-01-05 16:15:56" },
-            JieQiData { name: "大寒", time: "2096-01-20 09:41:33" },
-            JieQiData { name: "立春", time: "2096-02-04 03:46:51" },
-            JieQiData { name: "雨水", time: "2096-02-18 23:33:59" },
-            JieQiData { name: "惊蛰", time: "2096-03-04 21:23:11" },
-            JieQiData { name: "春分", time: "2096-03-19 22:02:57" },
-            JieQiData { name: "清明", time: "2096-04-04 01:35:44" },
-            JieQiData { name: "谷雨", time: "2096-04-19 08:26:43" },
-            JieQiData { name: "立夏", time: "2096-05-04 18:15:40" },
-            JieQiData { name: "小满", time: "2096-05-20 06:58:34" },
-            JieQiData { name: "芒种", time: "2096-06-04 21:54:25" },
-            JieQiData { name: "夏至", time: "2096-06-20 14:30:50" },
-            JieQiData { name: "小暑", time: "2096-07-06 07:56:36" },
-            JieQiData { name: "大暑", time: "2096-07-22 01:19:31" },
-            JieQiData { name: "立秋", time: "2096-08-06 17:53:25" },
-            JieQiData { name: "处暑", time: "2096-08-22 08:41:35" },
-            JieQiData { name: "白露", time: "2096-09-06 21:17:00" },
-            JieQiData { name: "秋分", time: "2096-09-22 06:54:46" },
-            JieQiData { name: "寒露", time: "2096-10-07 13:35:23" },
-            JieQiData { name: "霜降", time: "2096-10-22 16:56:19" },
-            JieQiData { name: "立冬", time: "2096-11-06 17:25:54" },
-            JieQiData { name: "小雪", time: "2096-11-21 15:05:30" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2095-12-07 04:51:36",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2095-12-21 23:00:52",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2096-01-05 16:15:56",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2096-01-20 09:41:33",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2096-02-04 03:46:51",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2096-02-18 23:33:59",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2096-03-04 21:23:11",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2096-03-19 22:02:57",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2096-04-04 01:35:44",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2096-04-19 08:26:43",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2096-05-04 18:15:40",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2096-05-20 06:58:34",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2096-06-04 21:54:25",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2096-06-20 14:30:50",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2096-07-06 07:56:36",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2096-07-22 01:19:31",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2096-08-06 17:53:25",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2096-08-22 08:41:35",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2096-09-06 21:17:00",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2096-09-22 06:54:46",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2096-10-07 13:35:23",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2096-10-22 16:56:19",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2096-11-06 17:25:54",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2096-11-21 15:05:30",
+            },
         ],
     },
     BaziYearData {
@@ -6127,30 +20311,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2097-02-12",
         lichun_time: "2097-02-03 09:41:59",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2096-12-06 10:45:50" },
-            JieQiData { name: "冬至", time: "2096-12-21 04:46:14" },
-            JieQiData { name: "小寒", time: "2097-01-04 22:10:53" },
-            JieQiData { name: "大寒", time: "2097-01-19 15:27:14" },
-            JieQiData { name: "立春", time: "2097-02-03 09:41:59" },
-            JieQiData { name: "雨水", time: "2097-02-18 05:19:39" },
-            JieQiData { name: "惊蛰", time: "2097-03-05 03:18:19" },
-            JieQiData { name: "春分", time: "2097-03-20 03:48:27" },
-            JieQiData { name: "清明", time: "2097-04-04 07:30:15" },
-            JieQiData { name: "谷雨", time: "2097-04-19 14:11:22" },
-            JieQiData { name: "立夏", time: "2097-05-05 00:08:12" },
-            JieQiData { name: "小满", time: "2097-05-20 12:42:02" },
-            JieQiData { name: "芒种", time: "2097-06-05 03:43:43" },
-            JieQiData { name: "夏至", time: "2097-06-20 20:13:24" },
-            JieQiData { name: "小暑", time: "2097-07-06 13:41:23" },
-            JieQiData { name: "大暑", time: "2097-07-22 07:01:01" },
-            JieQiData { name: "立秋", time: "2097-08-06 23:32:54" },
-            JieQiData { name: "处暑", time: "2097-08-22 14:22:09" },
-            JieQiData { name: "白露", time: "2097-09-07 02:52:52" },
-            JieQiData { name: "秋分", time: "2097-09-22 12:35:52" },
-            JieQiData { name: "寒露", time: "2097-10-07 19:10:54" },
-            JieQiData { name: "霜降", time: "2097-10-22 22:39:49" },
-            JieQiData { name: "立冬", time: "2097-11-06 23:03:52" },
-            JieQiData { name: "小雪", time: "2097-11-21 20:52:44" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2096-12-06 10:45:50",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2096-12-21 04:46:14",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2097-01-04 22:10:53",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2097-01-19 15:27:14",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2097-02-03 09:41:59",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2097-02-18 05:19:39",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2097-03-05 03:18:19",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2097-03-20 03:48:27",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2097-04-04 07:30:15",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2097-04-19 14:11:22",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2097-05-05 00:08:12",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2097-05-20 12:42:02",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2097-06-05 03:43:43",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2097-06-20 20:13:24",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2097-07-06 13:41:23",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2097-07-22 07:01:01",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2097-08-06 23:32:54",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2097-08-22 14:22:09",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2097-09-07 02:52:52",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2097-09-22 12:35:52",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2097-10-07 19:10:54",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2097-10-22 22:39:49",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2097-11-06 23:03:52",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2097-11-21 20:52:44",
+            },
         ],
     },
     BaziYearData {
@@ -6158,30 +20414,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2098-02-01",
         lichun_time: "2098-02-03 15:29:00",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2097-12-06 16:27:46" },
-            JieQiData { name: "冬至", time: "2097-12-21 10:37:26" },
-            JieQiData { name: "小寒", time: "2098-01-05 03:56:26" },
-            JieQiData { name: "大寒", time: "2098-01-19 21:20:57" },
-            JieQiData { name: "立春", time: "2098-02-03 15:29:00" },
-            JieQiData { name: "雨水", time: "2098-02-18 11:13:24" },
-            JieQiData { name: "惊蛰", time: "2098-03-05 09:04:01" },
-            JieQiData { name: "春分", time: "2098-03-20 09:40:27" },
-            JieQiData { name: "清明", time: "2098-04-04 13:13:17" },
-            JieQiData { name: "谷雨", time: "2098-04-19 20:01:46" },
-            JieQiData { name: "立夏", time: "2098-05-05 05:48:53" },
-            JieQiData { name: "小满", time: "2098-05-20 18:31:37" },
-            JieQiData { name: "芒种", time: "2098-06-05 09:23:23" },
-            JieQiData { name: "夏至", time: "2098-06-21 02:02:59" },
-            JieQiData { name: "小暑", time: "2098-07-06 19:22:21" },
-            JieQiData { name: "大暑", time: "2098-07-22 12:50:58" },
-            JieQiData { name: "立秋", time: "2098-08-07 05:16:32" },
-            JieQiData { name: "处暑", time: "2098-08-22 20:11:38" },
-            JieQiData { name: "白露", time: "2098-09-07 08:38:41" },
-            JieQiData { name: "秋分", time: "2098-09-22 18:24:12" },
-            JieQiData { name: "寒露", time: "2098-10-08 00:57:56" },
-            JieQiData { name: "霜降", time: "2098-10-23 04:26:54" },
-            JieQiData { name: "立冬", time: "2098-11-07 04:50:40" },
-            JieQiData { name: "小雪", time: "2098-11-22 02:38:06" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2097-12-06 16:27:46",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2097-12-21 10:37:26",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2098-01-05 03:56:26",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2098-01-19 21:20:57",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2098-02-03 15:29:00",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2098-02-18 11:13:24",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2098-03-05 09:04:01",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2098-03-20 09:40:27",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2098-04-04 13:13:17",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2098-04-19 20:01:46",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2098-05-05 05:48:53",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2098-05-20 18:31:37",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2098-06-05 09:23:23",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2098-06-21 02:02:59",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2098-07-06 19:22:21",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2098-07-22 12:50:58",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2098-08-07 05:16:32",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2098-08-22 20:11:38",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2098-09-07 08:38:41",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2098-09-22 18:24:12",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2098-10-08 00:57:56",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2098-10-23 04:26:54",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2098-11-07 04:50:40",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2098-11-22 02:38:06",
+            },
         ],
     },
     BaziYearData {
@@ -6189,30 +20517,102 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lunar_new_year: "2099-01-21",
         lichun_time: "2099-02-03 21:09:29",
         jieqi: [
-            JieQiData { name: "DA_XUE", time: "2098-12-06 22:12:54" },
-            JieQiData { name: "冬至", time: "2098-12-21 16:20:48" },
-            JieQiData { name: "小寒", time: "2099-01-05 09:39:16" },
-            JieQiData { name: "大寒", time: "2099-01-20 03:02:18" },
-            JieQiData { name: "立春", time: "2099-02-03 21:09:29" },
-            JieQiData { name: "雨水", time: "2099-02-18 16:52:39" },
-            JieQiData { name: "惊蛰", time: "2099-03-05 14:42:37" },
-            JieQiData { name: "春分", time: "2099-03-20 15:17:42" },
-            JieQiData { name: "清明", time: "2099-04-04 18:51:26" },
-            JieQiData { name: "谷雨", time: "2099-04-20 01:37:57" },
-            JieQiData { name: "立夏", time: "2099-05-05 11:29:04" },
-            JieQiData { name: "小满", time: "2099-05-21 00:08:18" },
-            JieQiData { name: "芒种", time: "2099-06-05 15:07:46" },
-            JieQiData { name: "夏至", time: "2099-06-21 07:41:38" },
-            JieQiData { name: "小暑", time: "2099-07-07 01:11:41" },
-            JieQiData { name: "大暑", time: "2099-07-22 18:32:56" },
-            JieQiData { name: "立秋", time: "2099-08-07 11:10:12" },
-            JieQiData { name: "处暑", time: "2099-08-23 01:57:06" },
-            JieQiData { name: "白露", time: "2099-09-07 14:34:09" },
-            JieQiData { name: "秋分", time: "2099-09-23 00:11:05" },
-            JieQiData { name: "寒露", time: "2099-10-08 06:52:10" },
-            JieQiData { name: "霜降", time: "2099-10-23 10:12:54" },
-            JieQiData { name: "立冬", time: "2099-11-07 10:42:38" },
-            JieQiData { name: "小雪", time: "2099-11-22 08:22:36" },
+            JieQiData {
+                name: "DA_XUE",
+                time: "2098-12-06 22:12:54",
+            },
+            JieQiData {
+                name: "冬至",
+                time: "2098-12-21 16:20:48",
+            },
+            JieQiData {
+                name: "小寒",
+                time: "2099-01-05 09:39:16",
+            },
+            JieQiData {
+                name: "大寒",
+                time: "2099-01-20 03:02:18",
+            },
+            JieQiData {
+                name: "立春",
+                time: "2099-02-03 21:09:29",
+            },
+            JieQiData {
+                name: "雨水",
+                time: "2099-02-18 16:52:39",
+            },
+            JieQiData {
+                name: "惊蛰",
+                time: "2099-03-05 14:42:37",
+            },
+            JieQiData {
+                name: "春分",
+                time: "2099-03-20 15:17:42",
+            },
+            JieQiData {
+                name: "清明",
+                time: "2099-04-04 18:51:26",
+            },
+            JieQiData {
+                name: "谷雨",
+                time: "2099-04-20 01:37:57",
+            },
+            JieQiData {
+                name: "立夏",
+                time: "2099-05-05 11:29:04",
+            },
+            JieQiData {
+                name: "小满",
+                time: "2099-05-21 00:08:18",
+            },
+            JieQiData {
+                name: "芒种",
+                time: "2099-06-05 15:07:46",
+            },
+            JieQiData {
+                name: "夏至",
+                time: "2099-06-21 07:41:38",
+            },
+            JieQiData {
+                name: "小暑",
+                time: "2099-07-07 01:11:41",
+            },
+            JieQiData {
+                name: "大暑",
+                time: "2099-07-22 18:32:56",
+            },
+            JieQiData {
+                name: "立秋",
+                time: "2099-08-07 11:10:12",
+            },
+            JieQiData {
+                name: "处暑",
+                time: "2099-08-23 01:57:06",
+            },
+            JieQiData {
+                name: "白露",
+                time: "2099-09-07 14:34:09",
+            },
+            JieQiData {
+                name: "秋分",
+                time: "2099-09-23 00:11:05",
+            },
+            JieQiData {
+                name: "寒露",
+                time: "2099-10-08 06:52:10",
+            },
+            JieQiData {
+                name: "霜降",
+                time: "2099-10-23 10:12:54",
+            },
+            JieQiData {
+                name: "立冬",
+                time: "2099-11-07 10:42:38",
+            },
+            JieQiData {
+                name: "小雪",
+                time: "2099-11-22 08:22:36",
+            },
         ],
     },
 ];

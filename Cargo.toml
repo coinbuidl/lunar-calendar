@@ -2,6 +2,7 @@
 name = "lunar-calendar"
 version = "0.1.0"
 edition = "2024"
+default-run = "lunar-calendar"
 
 [lib]
 path = "src/lunar-calendar-algo.rs"

@@ -6,7 +6,10 @@ fn main() {
     
     // Check Today
     let now = Local::now();
-    let solar_date = NaiveDate::from_ymd_opt(now.year(), now.month(), now.day()).unwrap();
+    let Some(solar_date) = NaiveDate::from_ymd_opt(now.year(), now.month(), now.day()) else {
+        println!("Failed to build current date.");
+        return;
+    };
     
     if let Some(lunar_date) = LunisolarDate::from_solar_date(solar_date) {
         println!("Solar Date: {}", solar_date);
