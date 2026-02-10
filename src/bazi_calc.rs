@@ -188,7 +188,7 @@ pub fn get_pillars(dt: NaiveDateTime) -> Option<BaziPillars> {
 
     // 2. Month pillar based on latest "Jie" before the input.
     let mut current_jie: Option<(&'static str, NaiveDateTime)> = None;
-    for y in [dt.year() - 1, dt.year()] {
+    for y in [dt.year() - 1, dt.year(), dt.year() + 1] {
         if let Some(data) = parsed_year_data(y) {
             for term in &data.jieqi {
                 let name = normalize_jie_name(term.name);
@@ -239,18 +239,49 @@ pub fn get_pillars(dt: NaiveDateTime) -> Option<BaziPillars> {
 mod tests {
     use super::*;
 
+    fn parse_dt(s: &str) -> NaiveDateTime {
+        NaiveDateTime::parse_from_str(s, "%Y-%m-%d %H:%M:%S").unwrap()
+    }
+
     #[test]
     fn known_pillars_case() {
-        let dt = NaiveDateTime::parse_from_str("1985-04-21 08:00:00", "%Y-%m-%d %H:%M:%S").unwrap();
+        let dt = parse_dt("1985-04-21 08:00:00");
         let pillars = get_pillars(dt).unwrap();
         assert_eq!(pillars.to_string(), "乙丑年 庚辰月 庚寅日 庚辰时");
     }
 
     #[test]
     fn known_jieqi_context_case() {
-        let dt = NaiveDateTime::parse_from_str("1985-04-21 08:00:00", "%Y-%m-%d %H:%M:%S").unwrap();
+        let dt = parse_dt("1985-04-21 08:00:00");
         let ctx = get_jieqi_context(dt).unwrap();
         assert_eq!(ctx.prev_name, "谷雨");
         assert_eq!(ctx.next_name, "立夏");
+    }
+
+    #[test]
+    fn regression_user_verified_pillars() {
+        let cases = [
+            ("2024-01-28 12:00:00", "癸卯年 乙丑月 辛卯日 甲午时"),
+            ("1992-01-08 08:00:00", "辛未年 辛丑月 癸未日 丙辰时"),
+            ("1992-01-02 08:00:00", "辛未年 庚子月 丁丑日 甲辰时"),
+            ("1958-12-10 00:00:00", "戊戌年 甲子月 辛酉日 戊子时"),
+            ("1996-11-22 12:00:00", "丙子年 己亥月 癸亥日 戊午时"),
+            ("1990-12-30 08:00:00", "庚午年 戊子月 己巳日 戊辰时"),
+        ];
+
+        for (input, expected) in cases {
+            let dt = parse_dt(input);
+            let got = get_pillars(dt).unwrap().to_string();
+            assert_eq!(got, expected, "failed for input {input}");
+        }
+    }
+
+    #[test]
+    fn regression_december_daxue_switches_to_zi_month() {
+        let dt = parse_dt("1958-12-10 00:00:00");
+        let ctx = get_jieqi_context(dt).unwrap();
+        let pillars = get_pillars(dt).unwrap();
+        assert_eq!(ctx.prev_name, "大雪");
+        assert_eq!(pillars.month, "甲子");
     }
 }

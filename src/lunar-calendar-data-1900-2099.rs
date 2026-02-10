@@ -21,7 +21,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1900-02-04 13:51:31",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1899-12-07 15:04:33",
             },
             JieQiData {
@@ -124,7 +124,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1901-02-04 19:39:52",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1900-12-07 20:55:50",
             },
             JieQiData {
@@ -227,7 +227,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1902-02-05 01:38:10",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1901-12-08 02:52:37",
             },
             JieQiData {
@@ -330,7 +330,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1903-02-05 07:31:17",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1902-12-08 08:41:01",
             },
             JieQiData {
@@ -433,7 +433,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1904-02-05 13:24:07",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1903-12-08 14:35:19",
             },
             JieQiData {
@@ -536,7 +536,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1905-02-04 19:15:49",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1904-12-07 20:25:20",
             },
             JieQiData {
@@ -639,7 +639,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1906-02-05 01:03:54",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1905-12-08 02:10:47",
             },
             JieQiData {
@@ -742,7 +742,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1907-02-05 06:58:49",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1906-12-08 08:09:25",
             },
             JieQiData {
@@ -845,7 +845,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1908-02-05 12:47:13",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1907-12-08 13:59:26",
             },
             JieQiData {
@@ -948,7 +948,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1909-02-04 18:32:31",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1908-12-07 19:43:37",
             },
             JieQiData {
@@ -1051,7 +1051,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1910-02-05 00:27:22",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1909-12-08 01:34:49",
             },
             JieQiData {
@@ -1154,7 +1154,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1911-02-05 06:10:16",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1910-12-08 07:16:53",
             },
             JieQiData {
@@ -1257,7 +1257,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1912-02-05 11:53:31",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1911-12-08 13:07:34",
             },
             JieQiData {
@@ -1360,7 +1360,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1913-02-04 17:42:38",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1912-12-07 18:58:53",
             },
             JieQiData {
@@ -1463,7 +1463,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1914-02-04 23:29:16",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1913-12-08 00:41:01",
             },
             JieQiData {
@@ -1566,7 +1566,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1915-02-05 05:25:26",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1914-12-08 06:37:05",
             },
             JieQiData {
@@ -1669,7 +1669,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1916-02-05 11:13:58",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1915-12-08 12:23:53",
             },
             JieQiData {
@@ -1772,7 +1772,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1917-02-04 16:57:32",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1916-12-07 18:06:09",
             },
             JieQiData {
@@ -1875,7 +1875,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1918-02-04 22:53:05",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1917-12-08 00:00:59",
             },
             JieQiData {
@@ -1978,7 +1978,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1919-02-05 04:39:23",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1918-12-08 05:46:29",
             },
             JieQiData {
@@ -2081,7 +2081,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1920-02-05 10:26:26",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1919-12-08 11:37:47",
             },
             JieQiData {
@@ -2184,7 +2184,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1921-02-04 16:20:12",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1920-12-07 17:30:16",
             },
             JieQiData {
@@ -2287,7 +2287,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1922-02-04 22:06:24",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1921-12-07 23:11:25",
             },
             JieQiData {
@@ -2390,7 +2390,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1923-02-05 04:00:17",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1922-12-08 05:10:38",
             },
             JieQiData {
@@ -2493,7 +2493,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1924-02-05 09:49:32",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1923-12-08 11:04:33",
             },
             JieQiData {
@@ -2596,7 +2596,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1925-02-04 15:36:45",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1924-12-07 16:52:59",
             },
             JieQiData {
@@ -2699,7 +2699,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1926-02-04 21:38:16",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1925-12-07 22:52:17",
             },
             JieQiData {
@@ -2802,7 +2802,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1927-02-05 03:30:02",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1926-12-08 04:38:39",
             },
             JieQiData {
@@ -2905,7 +2905,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1928-02-05 09:16:22",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1927-12-08 10:26:18",
             },
             JieQiData {
@@ -3008,7 +3008,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1929-02-04 15:08:43",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1928-12-07 16:17:16",
             },
             JieQiData {
@@ -3111,7 +3111,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1930-02-04 20:51:07",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1929-12-07 21:56:24",
             },
             JieQiData {
@@ -3214,7 +3214,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1931-02-05 02:40:38",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1930-12-08 03:50:37",
             },
             JieQiData {
@@ -3317,7 +3317,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1932-02-05 08:29:20",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1931-12-08 09:40:15",
             },
             JieQiData {
@@ -3420,7 +3420,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1933-02-04 14:09:16",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1932-12-07 15:18:22",
             },
             JieQiData {
@@ -3523,7 +3523,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1934-02-04 20:03:37",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1933-12-07 21:11:05",
             },
             JieQiData {
@@ -3626,7 +3626,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1935-02-05 01:48:41",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1934-12-08 02:56:31",
             },
             JieQiData {
@@ -3729,7 +3729,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1936-02-05 07:29:16",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1935-12-08 08:44:50",
             },
             JieQiData {
@@ -3832,7 +3832,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1937-02-04 13:25:33",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1936-12-07 14:42:13",
             },
             JieQiData {
@@ -3935,7 +3935,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1938-02-04 19:14:58",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1937-12-07 20:26:16",
             },
             JieQiData {
@@ -4038,7 +4038,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1939-02-05 01:10:26",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1938-12-08 02:21:58",
             },
             JieQiData {
@@ -4141,7 +4141,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1940-02-05 07:07:32",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1939-12-08 08:17:00",
             },
             JieQiData {
@@ -4244,7 +4244,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1941-02-04 12:49:44",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1940-12-07 13:57:51",
             },
             JieQiData {
@@ -4347,7 +4347,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1942-02-04 18:48:34",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1941-12-07 19:55:58",
             },
             JieQiData {
@@ -4450,7 +4450,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1943-02-05 00:40:04",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1942-12-08 01:46:47",
             },
             JieQiData {
@@ -4553,7 +4553,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1944-02-05 06:22:55",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1943-12-08 07:32:50",
             },
             JieQiData {
@@ -4656,7 +4656,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1945-02-04 12:19:22",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1944-12-07 13:27:38",
             },
             JieQiData {
@@ -4759,7 +4759,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1946-02-04 18:03:53",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1945-12-07 19:07:39",
             },
             JieQiData {
@@ -4862,7 +4862,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1947-02-04 23:50:21",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1946-12-08 01:00:11",
             },
             JieQiData {
@@ -4965,7 +4965,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1948-02-05 05:42:00",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1947-12-08 06:56:11",
             },
             JieQiData {
@@ -5068,7 +5068,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1949-02-04 11:22:49",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1948-12-07 12:37:37",
             },
             JieQiData {
@@ -5171,7 +5171,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1950-02-04 17:20:46",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1949-12-07 18:33:24",
             },
             JieQiData {
@@ -5274,7 +5274,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1951-02-04 23:13:26",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1950-12-08 00:21:40",
             },
             JieQiData {
@@ -5377,7 +5377,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1952-02-05 04:52:54",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1951-12-08 06:02:18",
             },
             JieQiData {
@@ -5480,7 +5480,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1953-02-04 10:45:53",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1952-12-07 11:55:33",
             },
             JieQiData {
@@ -5583,7 +5583,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1954-02-04 16:30:41",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1953-12-07 17:36:59",
             },
             JieQiData {
@@ -5686,7 +5686,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1955-02-04 22:17:36",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1954-12-07 23:28:29",
             },
             JieQiData {
@@ -5789,7 +5789,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1956-02-05 04:11:55",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1955-12-08 05:22:46",
             },
             JieQiData {
@@ -5892,7 +5892,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1957-02-04 09:54:37",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1956-12-07 11:02:06",
             },
             JieQiData {
@@ -5995,7 +5995,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1958-02-04 15:49:11",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1957-12-07 16:55:56",
             },
             JieQiData {
@@ -6098,7 +6098,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1959-02-04 21:42:10",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1958-12-07 22:49:35",
             },
             JieQiData {
@@ -6201,7 +6201,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1960-02-05 03:23:09",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1959-12-08 04:37:16",
             },
             JieQiData {
@@ -6304,7 +6304,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1961-02-04 09:22:26",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1960-12-07 10:37:44",
             },
             JieQiData {
@@ -6407,7 +6407,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1962-02-04 15:17:20",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1961-12-07 16:25:54",
             },
             JieQiData {
@@ -6510,7 +6510,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1963-02-04 21:07:44",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1962-12-07 22:16:39",
             },
             JieQiData {
@@ -6613,7 +6613,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1964-02-05 03:04:55",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1963-12-08 04:12:36",
             },
             JieQiData {
@@ -6716,7 +6716,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1965-02-04 08:46:06",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1964-12-07 09:53:03",
             },
             JieQiData {
@@ -6819,7 +6819,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1966-02-04 14:37:48",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1965-12-07 15:45:32",
             },
             JieQiData {
@@ -6922,7 +6922,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1967-02-04 20:30:49",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1966-12-07 21:37:45",
             },
             JieQiData {
@@ -7025,7 +7025,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1968-02-05 02:07:23",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1967-12-08 03:17:28",
             },
             JieQiData {
@@ -7128,7 +7128,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1969-02-04 07:58:52",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1968-12-07 09:08:15",
             },
             JieQiData {
@@ -7231,7 +7231,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1970-02-04 13:45:42",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1969-12-07 14:51:18",
             },
             JieQiData {
@@ -7334,7 +7334,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1971-02-04 19:25:25",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1970-12-07 20:37:19",
             },
             JieQiData {
@@ -7437,7 +7437,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1972-02-05 01:20:13",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1971-12-08 02:35:42",
             },
             JieQiData {
@@ -7540,7 +7540,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1973-02-04 07:04:12",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1972-12-07 08:18:42",
             },
             JieQiData {
@@ -7643,7 +7643,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1974-02-04 13:00:05",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1973-12-07 14:10:23",
             },
             JieQiData {
@@ -7746,7 +7746,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1975-02-04 18:59:12",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1974-12-07 20:04:37",
             },
             JieQiData {
@@ -7849,7 +7849,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1976-02-05 00:39:28",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1975-12-08 01:46:09",
             },
             JieQiData {
@@ -7952,7 +7952,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1977-02-04 06:33:25",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1976-12-07 07:40:56",
             },
             JieQiData {
@@ -8055,7 +8055,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1978-02-04 12:26:57",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1977-12-07 13:30:49",
             },
             JieQiData {
@@ -8158,7 +8158,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1979-02-04 18:12:18",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1978-12-07 19:20:01",
             },
             JieQiData {
@@ -8261,7 +8261,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1980-02-05 00:09:28",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1979-12-08 01:17:48",
             },
             JieQiData {
@@ -8364,7 +8364,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1981-02-04 05:55:23",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1980-12-07 07:01:15",
             },
             JieQiData {
@@ -8467,7 +8467,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1982-02-04 11:45:28",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1981-12-07 12:51:15",
             },
             JieQiData {
@@ -8570,7 +8570,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1983-02-04 17:39:42",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1982-12-07 18:48:05",
             },
             JieQiData {
@@ -8673,7 +8673,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1984-02-04 23:18:44",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1983-12-08 00:33:40",
             },
             JieQiData {
@@ -8776,7 +8776,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1985-02-04 05:11:47",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1984-12-07 06:28:03",
             },
             JieQiData {
@@ -8879,7 +8879,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1986-02-04 11:07:42",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1985-12-07 12:16:21",
             },
             JieQiData {
@@ -8982,7 +8982,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1987-02-04 16:51:40",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1986-12-07 18:00:56",
             },
             JieQiData {
@@ -9085,7 +9085,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1988-02-04 22:42:49",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1987-12-07 23:52:12",
             },
             JieQiData {
@@ -9188,7 +9188,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1989-02-04 04:27:09",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1988-12-07 05:34:28",
             },
             JieQiData {
@@ -9291,7 +9291,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1990-02-04 10:14:00",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1989-12-07 11:20:57",
             },
             JieQiData {
@@ -9394,7 +9394,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1991-02-04 16:08:24",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1990-12-07 17:14:10",
             },
             JieQiData {
@@ -9497,7 +9497,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1992-02-04 21:48:17",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1991-12-07 22:56:00",
             },
             JieQiData {
@@ -9600,7 +9600,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1993-02-04 03:37:09",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1992-12-07 04:44:12",
             },
             JieQiData {
@@ -9703,7 +9703,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1994-02-04 09:30:56",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1993-12-07 10:33:49",
             },
             JieQiData {
@@ -9806,7 +9806,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1995-02-04 15:12:51",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1994-12-07 16:22:53",
             },
             JieQiData {
@@ -9909,7 +9909,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1996-02-04 21:07:54",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1995-12-07 22:22:15",
             },
             JieQiData {
@@ -10012,7 +10012,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1997-02-04 03:01:57",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1996-12-07 04:14:00",
             },
             JieQiData {
@@ -10115,7 +10115,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1998-02-04 08:56:52",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1997-12-07 10:04:52",
             },
             JieQiData {
@@ -10218,7 +10218,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "1999-02-04 14:57:03",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1998-12-07 16:01:35",
             },
             JieQiData {
@@ -10321,7 +10321,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2000-02-04 20:40:24",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "1999-12-07 21:47:27",
             },
             JieQiData {
@@ -10424,7 +10424,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2001-02-04 02:28:49",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2000-12-07 03:37:02",
             },
             JieQiData {
@@ -10527,7 +10527,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2002-02-04 08:24:05",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2001-12-07 09:28:53",
             },
             JieQiData {
@@ -10630,7 +10630,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2003-02-04 14:05:20",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2002-12-07 15:14:14",
             },
             JieQiData {
@@ -10733,7 +10733,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2004-02-04 19:56:13",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2003-12-07 21:05:09",
             },
             JieQiData {
@@ -10836,7 +10836,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2005-02-04 01:43:02",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2004-12-07 02:48:57",
             },
             JieQiData {
@@ -10939,7 +10939,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2006-02-04 07:27:16",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2005-12-07 08:32:41",
             },
             JieQiData {
@@ -11042,7 +11042,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2007-02-04 13:18:12",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2006-12-07 14:26:49",
             },
             JieQiData {
@@ -11145,7 +11145,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2008-02-04 19:00:24",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2007-12-07 20:14:05",
             },
             JieQiData {
@@ -11248,7 +11248,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2009-02-04 00:49:48",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2008-12-07 02:02:18",
             },
             JieQiData {
@@ -11351,7 +11351,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2010-02-04 06:47:51",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2009-12-07 07:52:14",
             },
             JieQiData {
@@ -11454,7 +11454,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2011-02-04 12:32:56",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2010-12-07 13:38:23",
             },
             JieQiData {
@@ -11557,7 +11557,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2012-02-04 18:22:24",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2011-12-07 19:29:00",
             },
             JieQiData {
@@ -11660,7 +11660,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2013-02-04 00:13:25",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2012-12-07 01:18:56",
             },
             JieQiData {
@@ -11763,7 +11763,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2014-02-04 06:03:16",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2013-12-07 07:08:32",
             },
             JieQiData {
@@ -11866,7 +11866,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2015-02-04 11:58:27",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2014-12-07 13:04:05",
             },
             JieQiData {
@@ -11969,7 +11969,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2016-02-04 17:46:03",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2015-12-07 18:53:21",
             },
             JieQiData {
@@ -12072,7 +12072,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2017-02-03 23:34:04",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2016-12-07 00:41:07",
             },
             JieQiData {
@@ -12175,7 +12175,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2018-02-04 05:28:30",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2017-12-07 06:32:39",
             },
             JieQiData {
@@ -12278,7 +12278,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2019-02-04 11:14:21",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2018-12-07 12:25:55",
             },
             JieQiData {
@@ -12381,7 +12381,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2020-02-04 17:03:19",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2019-12-07 18:18:30",
             },
             JieQiData {
@@ -12484,7 +12484,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2021-02-03 22:58:48",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2020-12-07 00:09:30",
             },
             JieQiData {
@@ -12587,7 +12587,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2022-02-04 04:50:47",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2021-12-07 05:57:06",
             },
             JieQiData {
@@ -12690,7 +12690,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2023-02-04 10:42:33",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2022-12-07 11:46:16",
             },
             JieQiData {
@@ -12793,7 +12793,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2024-02-04 16:27:07",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2023-12-07 17:32:55",
             },
             JieQiData {
@@ -12896,7 +12896,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2025-02-03 22:10:28",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2024-12-06 23:17:03",
             },
             JieQiData {
@@ -12999,7 +12999,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2026-02-04 04:02:08",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2025-12-07 05:04:37",
             },
             JieQiData {
@@ -13102,7 +13102,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2027-02-04 09:46:18",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2026-12-07 10:52:32",
             },
             JieQiData {
@@ -13205,7 +13205,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2028-02-04 15:31:13",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2027-12-07 16:37:41",
             },
             JieQiData {
@@ -13308,7 +13308,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2029-02-03 21:20:47",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2028-12-06 22:24:41",
             },
             JieQiData {
@@ -13411,7 +13411,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2030-02-04 03:08:28",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2029-12-07 04:13:48",
             },
             JieQiData {
@@ -13514,7 +13514,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2031-02-04 08:58:19",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2030-12-07 10:07:37",
             },
             JieQiData {
@@ -13617,7 +13617,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2032-02-04 14:48:59",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2031-12-07 16:02:53",
             },
             JieQiData {
@@ -13720,7 +13720,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2033-02-03 20:41:36",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2032-12-06 21:53:20",
             },
             JieQiData {
@@ -13823,7 +13823,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2034-02-04 02:41:10",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2033-12-07 03:44:56",
             },
             JieQiData {
@@ -13926,7 +13926,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2035-02-04 08:31:35",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2034-12-07 09:36:49",
             },
             JieQiData {
@@ -14029,7 +14029,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2036-02-04 14:19:57",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2035-12-07 15:25:32",
             },
             JieQiData {
@@ -14132,7 +14132,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2037-02-03 20:11:39",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2036-12-06 21:16:03",
             },
             JieQiData {
@@ -14235,7 +14235,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2038-02-04 02:03:48",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2037-12-07 03:07:19",
             },
             JieQiData {
@@ -14338,7 +14338,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2039-02-04 07:52:56",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2038-12-07 08:56:24",
             },
             JieQiData {
@@ -14441,7 +14441,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2040-02-04 13:39:56",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2039-12-07 14:45:06",
             },
             JieQiData {
@@ -14544,7 +14544,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2041-02-03 19:25:11",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2040-12-06 20:30:05",
             },
             JieQiData {
@@ -14647,7 +14647,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2042-02-04 01:12:53",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2041-12-07 02:15:50",
             },
             JieQiData {
@@ -14750,7 +14750,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2043-02-04 06:58:48",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2042-12-07 08:09:16",
             },
             JieQiData {
@@ -14853,7 +14853,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2044-02-04 12:44:21",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2043-12-07 13:57:24",
             },
             JieQiData {
@@ -14956,7 +14956,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2045-02-03 18:36:22",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2044-12-06 19:45:16",
             },
             JieQiData {
@@ -15059,7 +15059,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2046-02-04 00:31:09",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2045-12-07 01:35:38",
             },
             JieQiData {
@@ -15162,7 +15162,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2047-02-04 06:18:05",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2046-12-07 07:21:22",
             },
             JieQiData {
@@ -15265,7 +15265,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2048-02-04 12:04:44",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2047-12-07 13:11:06",
             },
             JieQiData {
@@ -15368,7 +15368,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2049-02-03 17:53:27",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2048-12-06 19:00:55",
             },
             JieQiData {
@@ -15471,7 +15471,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2050-02-03 23:43:54",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2049-12-07 00:46:44",
             },
             JieQiData {
@@ -15574,7 +15574,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2051-02-04 05:36:14",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2050-12-07 06:41:54",
             },
             JieQiData {
@@ -15677,7 +15677,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2052-02-04 11:23:05",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2051-12-07 12:28:45",
             },
             JieQiData {
@@ -15780,7 +15780,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2053-02-03 17:13:09",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2052-12-06 18:15:36",
             },
             JieQiData {
@@ -15883,7 +15883,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2054-02-03 23:08:01",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2053-12-07 00:11:58",
             },
             JieQiData {
@@ -15986,7 +15986,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2055-02-04 04:55:54",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2054-12-07 06:03:30",
             },
             JieQiData {
@@ -16089,7 +16089,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2056-02-04 10:47:14",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2055-12-07 11:58:34",
             },
             JieQiData {
@@ -16192,7 +16192,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2057-02-03 16:42:35",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2056-12-06 17:51:00",
             },
             JieQiData {
@@ -16295,7 +16295,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2058-02-03 22:34:35",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2057-12-06 23:34:43",
             },
             JieQiData {
@@ -16398,7 +16398,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2059-02-04 04:24:01",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2058-12-07 05:27:10",
             },
             JieQiData {
@@ -16501,7 +16501,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2060-02-04 10:08:14",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2059-12-07 11:13:40",
             },
             JieQiData {
@@ -16604,7 +16604,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2061-02-03 15:53:47",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2060-12-06 16:57:37",
             },
             JieQiData {
@@ -16707,7 +16707,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2062-02-03 21:47:05",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2061-12-06 22:50:26",
             },
             JieQiData {
@@ -16810,7 +16810,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2063-02-04 03:31:12",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2062-12-07 04:34:31",
             },
             JieQiData {
@@ -16913,7 +16913,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2064-02-04 09:14:52",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2063-12-07 10:20:47",
             },
             JieQiData {
@@ -17016,7 +17016,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2065-02-03 15:03:41",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2064-12-06 16:09:19",
             },
             JieQiData {
@@ -17119,7 +17119,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2066-02-03 20:49:22",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2065-12-06 21:52:54",
             },
             JieQiData {
@@ -17222,7 +17222,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2067-02-04 02:37:20",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2066-12-07 03:48:30",
             },
             JieQiData {
@@ -17325,7 +17325,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2068-02-04 08:29:03",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2067-12-07 09:40:38",
             },
             JieQiData {
@@ -17428,7 +17428,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2069-02-03 14:20:50",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2068-12-06 15:26:11",
             },
             JieQiData {
@@ -17531,7 +17531,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2070-02-03 20:21:48",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2069-12-06 21:22:20",
             },
             JieQiData {
@@ -17634,7 +17634,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2071-02-04 02:10:50",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2070-12-07 03:10:45",
             },
             JieQiData {
@@ -17737,7 +17737,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2072-02-04 07:57:00",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2071-12-07 09:00:47",
             },
             JieQiData {
@@ -17840,7 +17840,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2073-02-03 13:52:44",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2072-12-06 14:56:27",
             },
             JieQiData {
@@ -17943,7 +17943,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2074-02-03 19:41:15",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2073-12-06 20:40:24",
             },
             JieQiData {
@@ -18046,7 +18046,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2075-02-04 01:30:36",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2074-12-07 02:34:25",
             },
             JieQiData {
@@ -18149,7 +18149,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2076-02-04 07:19:52",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2075-12-07 08:24:27",
             },
             JieQiData {
@@ -18252,7 +18252,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2077-02-03 13:03:06",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2076-12-06 14:05:29",
             },
             JieQiData {
@@ -18355,7 +18355,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2078-02-03 18:57:21",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2077-12-06 20:02:26",
             },
             JieQiData {
@@ -18458,7 +18458,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2079-02-04 00:43:11",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2078-12-07 01:52:45",
             },
             JieQiData {
@@ -18561,7 +18561,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2080-02-04 06:27:57",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2079-12-07 07:40:01",
             },
             JieQiData {
@@ -18664,7 +18664,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2081-02-03 12:25:55",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2080-12-06 13:33:51",
             },
             JieQiData {
@@ -18767,7 +18767,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2082-02-03 18:12:12",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2081-12-06 19:11:47",
             },
             JieQiData {
@@ -18870,7 +18870,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2083-02-03 23:58:22",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2082-12-07 01:01:34",
             },
             JieQiData {
@@ -18973,7 +18973,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2084-02-04 05:46:37",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2083-12-07 06:51:48",
             },
             JieQiData {
@@ -19076,7 +19076,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2085-02-03 11:29:53",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2084-12-06 12:31:11",
             },
             JieQiData {
@@ -19179,7 +19179,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2086-02-03 17:26:26",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2085-12-06 18:27:05",
             },
             JieQiData {
@@ -19282,7 +19282,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2087-02-03 23:15:12",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2086-12-07 00:15:54",
             },
             JieQiData {
@@ -19385,7 +19385,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2088-02-04 04:58:09",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2087-12-07 06:00:21",
             },
             JieQiData {
@@ -19488,7 +19488,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2089-02-03 10:54:39",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2088-12-06 11:56:43",
             },
             JieQiData {
@@ -19591,7 +19591,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2090-02-03 16:42:17",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2089-12-06 17:42:57",
             },
             JieQiData {
@@ -19694,7 +19694,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2091-02-03 22:30:49",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2090-12-06 23:39:50",
             },
             JieQiData {
@@ -19797,7 +19797,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2092-02-04 04:28:49",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2091-12-07 05:38:30",
             },
             JieQiData {
@@ -19900,7 +19900,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2093-02-03 10:18:35",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2092-12-06 11:21:03",
             },
             JieQiData {
@@ -20003,7 +20003,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2094-02-03 16:17:03",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2093-12-06 17:17:17",
             },
             JieQiData {
@@ -20106,7 +20106,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2095-02-03 22:07:04",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2094-12-06 23:08:06",
             },
             JieQiData {
@@ -20209,7 +20209,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2096-02-04 03:46:51",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2095-12-07 04:51:36",
             },
             JieQiData {
@@ -20312,7 +20312,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2097-02-03 09:41:59",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2096-12-06 10:45:50",
             },
             JieQiData {
@@ -20415,7 +20415,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2098-02-03 15:29:00",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2097-12-06 16:27:46",
             },
             JieQiData {
@@ -20518,7 +20518,7 @@ pub const BAZI_YEAR_DATA: [BaziYearData; 200] = [
         lichun_time: "2099-02-03 21:09:29",
         jieqi: [
             JieQiData {
-                name: "DA_XUE",
+                name: "大雪",
                 time: "2098-12-06 22:12:54",
             },
             JieQiData {
